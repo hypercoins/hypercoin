@@ -38,9 +38,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("HOT");
-    case mBTC: return QString("mHOT");
-    case uBTC: return QString::fromUtf8("μHOT");
+    case BTC: return QString("BTC");
+    case mBTC: return QString("mBTC");
+    case uBTC: return QString::fromUtf8("μBTC");
     default: return QString("???");
     }
 }
@@ -49,9 +49,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Hypercoins");
-    case mBTC: return QString("Milli-Hypercoins (1 / 1,000)");
-    case uBTC: return QString("Micro-Hypercoins (1 / 1,000,000)");
+    case BTC: return QString("Bitcoins");
+    case mBTC: return QString("Milli-Bitcoins (1 / 1,000)");
+    case uBTC: return QString("Micro-Bitcoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }
@@ -64,6 +64,17 @@ qint64 BitcoinUnits::factor(int unit)
     case mBTC: return 100000;
     case uBTC: return 100;
     default:   return 100000000;
+    }
+}
+
+qint64 BitcoinUnits::maxAmount(int unit)
+{
+    switch(unit)
+    {
+    case BTC:  return Q_INT64_C(21000000);
+    case mBTC: return Q_INT64_C(21000000000);
+    case uBTC: return Q_INT64_C(21000000000000);
+    default:   return 0;
     }
 }
 

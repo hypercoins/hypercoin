@@ -1,9 +1,5 @@
-Building Hypercoin
+Building Bitcoin
 
-See doc/readme-qt.rst for instructions on building Hypercoin-Qt,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Hypercoin.
-
-See doc/build-*.txt for instructions on building hypercoind,
+See doc/build-*.md for instructions on building bitcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Hypercoin.
+implementation of Bitcoin.
