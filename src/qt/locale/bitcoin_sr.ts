@@ -108,8 +108,8 @@
         <translation>Новчаник је шифрован</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje litecoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
+        <source>Hypercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your hypercoins from being stolen by malware infecting your computer.</source>
+        <translation>Hypercoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje hypercoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -195,12 +195,12 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Пошаљите новац на litecoin адресу</translation>
+        <source>Send coins to a Hypercoin address</source>
+        <translation>Пошаљите новац на hypercoin адресу</translation>
     </message>
     <message>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Изаберите могућности litecoin-а</translation>
+        <source>Modify configuration options for Hypercoin</source>
+        <translation>Изаберите могућности hypercoin-а</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -334,8 +334,8 @@ Address: %4
         <translation>верзија</translation>
     </message>
     <message>
-        <source>About Litecoin Core</source>
-        <translation>O Litecoin Coru</translation>
+        <source>About Hypercoin Core</source>
+        <translation>O Hypercoin Coru</translation>
     </message>
     <message>
         <source>Usage:</source>

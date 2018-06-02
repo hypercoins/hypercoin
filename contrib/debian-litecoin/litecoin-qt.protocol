@@ -1,6 +1,6 @@
 [Protocol]
-exec=litecoin-qt '%u'
-protocol=litecoin
+exec=hypercoin-qt '%u'
+protocol=hypercoin
 input=none
 output=none
 helper=true
