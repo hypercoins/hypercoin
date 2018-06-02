@@ -63,6 +63,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Ovo su vaše Litecoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
@@ -72,6 +73,13 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopiraj adresu</translation>
+=======
+        <translation>Ovo su vaše Litecoin adrese za slanje uplate. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su vaše Litecoin adrese za primanje isplate. Preporučamo da koristite novu primateljsku adresu za svaku transakciju.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -169,7 +177,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE LITECOINE!&lt;/b&gt;</translation>
+=======
+        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE LITECOINSE!&lt;/b&gt;</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +192,17 @@
         <translation>Novčanik šifriran</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>VAŽNO: Sve prethodne pričuve vašeg novčanika trebale bi biti zamijenjene novo stvorenom, šifriranom datotekom novčanika. Zbog sigurnosnih razloga, prethodne pričuve nešifriranog novčanika će postati beskorisne čim počnete koristiti novi, šifrirani novčanik.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Unesite novu lozinku za novčanik. &lt;br/&gt;Molimo Vas da koristite zaporku od &lt;b&gt;deset ili više slučajnih znakova&lt;/b&gt;, ili &lt;b&gt;osam ili više riječi.&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše litecoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -298,12 +319,30 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core klijent</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Importiranje blokova sa diska...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Reindexing blocks on disk...</source>
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Slanje novca na litecoin adresu</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Promijeni postavke konfiguracije za litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -339,7 +378,15 @@
     </message>
     <message>
         <source>&amp;Receive</source>
+<<<<<<< HEAD
         <translation>Pri&amp;mi</translation>
+=======
+        <translation>Pri&amp;miti</translation>
+    </message>
+    <message>
+        <source>Show information about Litecoin Core</source>
+        <translation>Prikaži informacije o Litecoin Coreu</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,11 +402,19 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation>Poruku potpišemo s litecoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom litecoin adresom</translation>
+=======
+        <translation>Potpiši poruke svojim Litecoin adresama kako bi dokazao da si njihov vlasnik</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Provjerite porkue kako bi se uvjerili da su potpisane navedenim Litecoin adresama</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;File</source>
@@ -378,6 +433,7 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Zatraži uplatu (stvara QR kod i litecoin: URI adresu)</translation>
     </message>
@@ -388,6 +444,18 @@
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezgra</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Zatraži uplate (Stvara QR kodove i litecoin: URIje)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;O Litecoin Jezgri</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
@@ -409,9 +477,30 @@
         <source>Processing blocks on disk...</source>
         <translation>Procesiram blokove na disku...</translation>
     </message>
+    <message>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Otvori litecoin: URI adresu ili zahtjev za uplatu</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>Opcije &amp;naredbene linije</translation>
+    </message>
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Ispis svih opcija naredbene linije programa sa kratkim opisom</translation>
+    </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>Obrađen %n blok povijesti transakcije.</numerusform><numerusform>Obrađeno %n bloka povijesti transakcije.</numerusform><numerusform>Obrađeno %n blokova povijesti transakcije.</numerusform></translation>
+=======
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n aktivna veza na Litecoin mrežu</numerusform><numerusform>%n aktivne veze na Litecoin mrežu</numerusform><numerusform>%n aktivnih veza na Litecoin mrežu</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 i %2</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -419,7 +508,11 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
+<<<<<<< HEAD
         <translation>Transakcije izvršene za tim blokom nisu još prikazane.</translation>
+=======
+        <translation>Transakcije izvršene za tim blokom nisu jop prikazane.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -511,6 +604,13 @@
         <translation>Iznos:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Priority:</source>
+        <translation>Prioriteta:</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Fee:</source>
         <translation>Naknada:</translation>
     </message>
@@ -551,6 +651,10 @@
         <translation>Potvrđeno</translation>
     </message>
     <message>
+        <source>Priority</source>
+        <translation>Prioriteta</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Kopiraj adresu</translation>
     </message>
@@ -567,6 +671,45 @@
         <translation>Kopiraj ID transakcije</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>highest</source>
+        <translation>najviša</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>viša</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>visoka</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>srednje visoka</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>srednja</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>srednje niska</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>niska</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>niža</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>najniža</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>yes</source>
         <translation>da</translation>
     </message>
@@ -575,6 +718,13 @@
         <translation>ne</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Transakcije više prioritete imaju veću vjerojatnost da budu prije dodane u novi blok.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>(no label)</source>
         <translation>(nema oznake)</translation>
     </message>
@@ -591,7 +741,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
+<<<<<<< HEAD
         <translation>Oznaka litecoin adrese</translation>
+=======
+        <translation>Oznaka adrese</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -622,8 +776,13 @@
         <translation>Upisana adresa "%1" nije valjana litecoin adresa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Upisana adresa "%1" je već u adresaru.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Upisana adresa "%1" nije valjana litecoin adresa.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -644,9 +803,22 @@
         <source>name</source>
         <translation>ime</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Cannot create data directory here.</source>
         <translation>Nije moguće stvoriti direktorij za podatke na tom mjestu.</translation>
+=======
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Nije moguće stvoriti direktorij za podatke na tom mjestu.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezgra</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -660,6 +832,13 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>About Litecoin Core</source>
+        <translation>O Litecoin Jezrgu</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Command-line options</source>
         <translation>Opcije programa u naredbenoj liniji</translation>
     </message>
@@ -670,6 +849,13 @@
     <message>
         <source>command-line options</source>
         <translation>opcije programa u naredbenoj liniji</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>UI postavke</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Start minimized</source>
@@ -683,8 +869,17 @@
         <translation>Dobrodošli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Dobrodošli u programu Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezgra</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -692,6 +887,7 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
@@ -702,6 +898,30 @@
         <translation>Posljednje vrijeme bloka</translation>
     </message>
     </context>
+=======
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Otvori URI adresu</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Otvori zahtjev za plaćanje iz URI adrese ili datoteke</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Izaberi datoteku zahtjeva za plaćanje</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Izaberi datoteku zahtjeva za plaćanje</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -736,6 +956,17 @@
         <translation>&amp;Glavno</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Automatski pokreni Litecoin kad se uključi računalo</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Pokreni Litecoin kod pokretanja sustava</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Size of &amp;database cache</source>
         <translation>Veličina predmemorije baze podataka</translation>
     </message>
@@ -748,6 +979,7 @@
         <translation>Broj CPU niti za verifikaciju transakcija</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>IP adresa proxy servera (npr. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
@@ -760,6 +992,20 @@
         <translation>Nastavi sve postavke programa na početne vrijednosti.</translation>
     </message>
     <message>
+=======
+        <source>Allow incoming connections</source>
+        <translation>Dozvoli povezivanje izvana</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP adresa proxy servera (npr. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Nastavi sve postavke programa na početne vrijednosti.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Reset Options</source>
         <translation>Po&amp;nastavi postavke</translation>
     </message>
@@ -817,7 +1063,11 @@
     </message>
     <message>
         <source>User Interface &amp;language:</source>
+<<<<<<< HEAD
         <translation>Jezi&amp;k sučelja:</translation>
+=======
+        <translation>Jezik:</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -973,6 +1223,17 @@
         <translation>Trajanje veze</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bytes Sent</source>
+        <translation>Bajtova poslano</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Bajtova primljeno</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Last block time</source>
         <translation>Posljednje vrijeme bloka</translation>
     </message>
@@ -997,15 +1258,34 @@
         <translation>Očisti konzolu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unknown</source>
         <translation>Nepoznato</translation>
     </message>
 </context>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Dobrodošli u Litecoin RPC konzolu.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Kako bi navigirali kroz povijest koristite strelice gore i dolje. &lt;b&gt;Ctrl-L&lt;/b&gt; kako bi očistili ekran.</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nepoznato</translation>
+    </message>
+    </context>
+>>>>>>> 0.10
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
+<<<<<<< HEAD
         <translation>&amp;Iznos:</translation>
+=======
+        <translation>Iznos:</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1080,7 +1360,11 @@
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
+<<<<<<< HEAD
         <translation>Greška kod kodiranja URI adrese u QR kod.</translation>
+=======
+        <translation>Greška pri kodiranju URI adrese u QR kod.</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -1105,7 +1389,15 @@
         <source>(no message)</source>
         <translation>(bez poruke)</translation>
     </message>
-    </context>
+    <message>
+        <source>(no message)</source>
+        <translation>(bez poruke)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(bez iznosa)</translation>
+    </message>
+</context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -1113,10 +1405,13 @@
         <translation>Slanje novca</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Insufficient funds!</source>
         <translation>Nedovoljna sredstva</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Quantity:</source>
         <translation>Količina:</translation>
     </message>
@@ -1129,6 +1424,13 @@
         <translation>Iznos:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Priority:</source>
+        <translation>Prioriteta:</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Fee:</source>
         <translation>Naknada:</translation>
     </message>
@@ -1137,10 +1439,13 @@
         <translation>Vraćeno:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transaction Fee:</source>
         <translation>Naknada za transakciju:</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Send to multiple recipients at once</source>
         <translation>Pošalji novce većem broju primatelja u jednoj transakciji</translation>
     </message>
@@ -1300,6 +1605,13 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezgra</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -1707,7 +2019,31 @@
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+<<<<<<< HEAD
         <translation>Dozvoli DNS upite za -addnode, -seednode i -connect</translation>
+=======
+        <translation>Dozvoli DNS upite za dodavanje nodova i povezivanje</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Učitavanje adresa...</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Greška kod učitavanja wallet.dat: Novčanik pokvaren</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Greška kod učitavanja wallet.dat</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Nevaljala -proxy adresa: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nevaljali iznos za opciju -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Insufficient funds</source>

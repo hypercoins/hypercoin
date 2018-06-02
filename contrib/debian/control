@@ -23,10 +23,16 @@ Build-Depends: debhelper,
  qttools5-dev-tools, qttools5-dev,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler,
+<<<<<<< HEAD
  python,
  libzmq3-dev
 Standards-Version: 3.9.2
 Homepage: https://bitcoincore.org/
+=======
+ python
+Standards-Version: 3.9.2
+Homepage: https://www.bitcoin.org/
+>>>>>>> 0.10
 Vcs-Git: git://github.com/bitcoin/bitcoin.git
 Vcs-Browser: https://github.com/bitcoin/bitcoin
 

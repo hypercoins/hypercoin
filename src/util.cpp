@@ -577,10 +577,18 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
+<<<<<<< HEAD
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Bitcoin
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Bitcoin
     // Mac: ~/Library/Application Support/Bitcoin
     // Unix: ~/.bitcoin
+=======
+    namespace fs = boost::filesystem;
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Litecoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Litecoin
+    // Mac: ~/Library/Application Support/Litecoin
+    // Unix: ~/.litecoin
+>>>>>>> 0.10
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Litecoin";
@@ -593,7 +601,13 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
+<<<<<<< HEAD
     return pathRet / "Library/Application Support/Litecoin";
+=======
+    pathRet /= "Library/Application Support";
+    TryCreateDirectory(pathRet);
+    return pathRet / "Litecoin";
+>>>>>>> 0.10
 #else
     // Unix
     return pathRet / ".litecoin";
@@ -647,7 +661,11 @@ void ClearDatadirCache()
 
 fs::path GetConfigFile(const std::string& confPath)
 {
+<<<<<<< HEAD
     fs::path pathConfigFile(confPath);
+=======
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "litecoin.conf"));
+>>>>>>> 0.10
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -658,14 +676,20 @@ void ArgsManager::ReadConfigFile(const std::string& confPath)
 {
     fs::ifstream streamConfig(GetConfigFile(confPath));
     if (!streamConfig.good())
-        return; // No bitcoin.conf file is OK
+        return; // No litecoin.conf file is OK
 
     {
+<<<<<<< HEAD
         LOCK(cs_args);
         std::set<std::string> setOptions;
         setOptions.insert("*");
 
         for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
+=======
+        // Don't overwrite existing settings so command line settings override litecoin.conf
+        string strKey = string("-") + it->string_key;
+        if (mapSettingsRet.count(strKey) == 0)
+>>>>>>> 0.10
         {
             // Don't overwrite existing settings so command line settings override bitcoin.conf
             std::string strKey = std::string("-") + it->string_key;
@@ -686,7 +710,11 @@ void ArgsManager::ReadConfigFile(const std::string& confPath)
 #ifndef WIN32
 fs::path GetPidFile()
 {
+<<<<<<< HEAD
     fs::path pathPidFile(gArgs.GetArg("-pid", BITCOIN_PID_FILENAME));
+=======
+    boost::filesystem::path pathPidFile(GetArg("-pid", "litecoind.pid"));
+>>>>>>> 0.10
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -895,6 +923,7 @@ void RenameThread(const char* name)
 
 void SetupEnvironment()
 {
+<<<<<<< HEAD
 #ifdef HAVE_MALLOPT_ARENA_MAX
     // glibc-specific: On 32-bit systems set the number of arenas to 1.
     // By default, since glibc 2.10, the C library will create up to two heap
@@ -905,6 +934,8 @@ void SetupEnvironment()
         mallopt(M_ARENA_MAX, 1);
     }
 #endif
+=======
+>>>>>>> 0.10
     // On most POSIX systems (e.g. Linux, but not BSD) the environment's locale
     // may be invalid, in which case the "C" locale is used as fallback.
 #if !defined(WIN32) && !defined(MAC_OSX) && !defined(__FreeBSD__) && !defined(__OpenBSD__)
@@ -917,9 +948,15 @@ void SetupEnvironment()
     // The path locale is lazy initialized and to avoid deinitialization errors
     // in multithreading environments, it is set explicitly by the main thread.
     // A dummy locale is used to extract the internal default locale, used by
+<<<<<<< HEAD
     // fs::path, which is then used to explicitly imbue the path.
     std::locale loc = fs::path::imbue(std::locale::classic());
     fs::path::imbue(loc);
+=======
+    // boost::filesystem::path, which is then used to explicitly imbue the path.
+    std::locale loc = boost::filesystem::path::imbue(std::locale::classic());
+    boost::filesystem::path::imbue(loc);
+>>>>>>> 0.10
 }
 
 bool SetupNetworking()

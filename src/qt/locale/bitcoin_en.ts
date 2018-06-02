@@ -81,7 +81,11 @@
     <message>
         <location line="+7"/>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
+=======
+        <translation>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+4"/>
@@ -217,7 +221,11 @@
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
+=======
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+0"/>
@@ -236,9 +244,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="+80"/>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+9"/>
@@ -309,12 +323,20 @@
         <translation>Sign &amp;message...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+430"/>
+=======
+        <location line="+340"/>
+>>>>>>> 0.10
         <source>Synchronizing with network...</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-508"/>
+=======
+        <location line="-408"/>
+>>>>>>> 0.10
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
@@ -409,8 +431,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+360"/>
         <source>Click to disable network activity.</source>
+=======
+        <location line="+173"/>
+        <source>Litecoin Core client</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -424,6 +451,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+27"/>
         <source>Syncing Headers (%1%)...</source>
         <translation type="unfinished"></translation>
@@ -432,6 +460,16 @@
         <location line="+37"/>
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexing blocks on disk...</translation>
+=======
+        <location line="-406"/>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Send coins to a Litecoin address</translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Modify configuration options for Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="-511"/>
@@ -464,12 +502,20 @@
         <translation>&amp;Verify message...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+517"/>
+=======
+        <location line="+438"/>
+>>>>>>> 0.10
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-743"/>
+=======
+        <location line="-639"/>
+>>>>>>> 0.10
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
@@ -484,7 +530,16 @@
         <translation>&amp;Receive</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+50"/>
+=======
+        <location line="+32"/>
+        <source>Show information about Litecoin Core</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>&amp;Show / Hide</translation>
     </message>
@@ -509,7 +564,11 @@
         <translation>Verify messages to ensure they were signed with specified Litecoin addresses</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+58"/>
+=======
+        <location line="+49"/>
+>>>>>>> 0.10
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
@@ -529,8 +588,23 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-158"/>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
+=======
+        <location line="-298"/>
+        <source>Litecoin Core</source>
+        <translation type="unfinished">Litecoin Core</translation>
+    </message>
+    <message>
+        <location line="+155"/>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>&amp;About Litecoin Core</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -553,8 +627,18 @@
         <source>&amp;Command-line options</source>
         <translation type="unfinished"></translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <location line="+357"/>
+=======
+    <message>
+        <location line="+2"/>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message numerus="yes">
+        <location line="+307"/>
+>>>>>>> 0.10
         <source>%n active connection(s) to Litecoin network</source>
         <translation>
             <numerusform>%n active connection to Litecoin network</numerusform>
@@ -849,8 +933,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+325"/>
         <source>(%1 locked)</source>
+=======
+        <location line="+351"/>
+        <source>highest</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -943,9 +1032,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+5"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="-5"/>
+        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Litecoin address.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+5"/>
@@ -989,7 +1084,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <location filename="../utilitydialog.cpp" line="+40"/>
+=======
+        <location filename="../utilitydialog.cpp" line="+31"/>
+        <source>Litecoin Core</source>
+        <translation type="unfinished">Litecoin Core</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+>>>>>>> 0.10
         <source>version</source>
         <translation type="unfinished">version</translation>
     </message>
@@ -1001,7 +1105,11 @@
     </message>
     <message>
         <location line="+5"/>
+<<<<<<< HEAD
         <source>About %1</source>
+=======
+        <source>About Litecoin Core</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1064,22 +1172,34 @@
     </message>
     <message>
         <location line="+9"/>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
+=======
+        <source>Welcome to Litecoin Core.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
+<<<<<<< HEAD
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+157"/>
         <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+=======
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
+<<<<<<< HEAD
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
+=======
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1098,9 +1218,15 @@
         <translation>Use a custom data directory:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../intro.cpp" line="+20"/>
         <source>Litecoin</source>
         <translation type="unfinished">Litecoin</translation>
+=======
+        <location filename="../intro.cpp" line="+82"/>
+        <source>Litecoin Core</source>
+        <translation type="unfinished">Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+6"/>
@@ -1257,6 +1383,7 @@
     </message>
     <message>
         <location line="+6"/>
+<<<<<<< HEAD
         <source>Automatically start %1 after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1264,6 +1391,15 @@
         <location line="+3"/>
         <source>&amp;Start %1 on system login</source>
         <translation type="unfinished"></translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Automatically start Litecoin after logging in to the system.</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Start Litecoin on system login</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+9"/>
@@ -1390,6 +1526,7 @@
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Accept connections from outside.</source>
         <translation type="unfinished"></translation>
@@ -1401,6 +1538,9 @@
     </message>
     <message>
         <location line="+7"/>
+=======
+        <location line="+17"/>
+>>>>>>> 0.10
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1484,8 +1624,13 @@
     </message>
     <message>
         <location line="+13"/>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation type="unfinished"></translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+11"/>
@@ -1582,8 +1727,13 @@
         <translation>Form</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+62"/>
         <location line="+386"/>
+=======
+        <location line="+53"/>
+        <location line="+372"/>
+>>>>>>> 0.10
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
@@ -1671,10 +1821,14 @@
 <context>
     <name>PaymentServer</name>
     <message>
+<<<<<<< HEAD
         <location filename="../paymentserver.cpp" line="+326"/>
         <location line="+214"/>
         <location line="+42"/>
         <location line="+111"/>
+=======
+        <location filename="../paymentserver.cpp" line="+422"/>
+>>>>>>> 0.10
         <location line="+14"/>
         <location line="+18"/>
         <source>Payment request error</source>
@@ -1698,8 +1852,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+12"/>
         <source>Invalid payment address %1</source>
+=======
+        <location line="+91"/>
+        <location line="+9"/>
+        <location line="+32"/>
+        <source>Payment request rejected</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1728,6 +1889,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-153"/>
         <source>Payment request network doesn&apos;t match client network.</source>
         <translation type="unfinished"></translation>
@@ -1735,6 +1897,20 @@
     <message>
         <location line="+9"/>
         <source>Payment request expired.</source>
+=======
+        <location line="-260"/>
+        <location line="+226"/>
+        <location line="+34"/>
+        <location line="+109"/>
+        <location line="+14"/>
+        <location line="+18"/>
+        <source>Payment request error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-400"/>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1743,8 +1919,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+26"/>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+=======
+        <location line="+21"/>
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1759,8 +1940,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+55"/>
         <source>Refund from %1</source>
+=======
+        <location line="+111"/>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1769,7 +1955,21 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
+=======
+        <location line="+43"/>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Payment request DoS protection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+>>>>>>> 0.10
         <source>Error communicating with %1: %2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1830,17 +2030,29 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <location filename="../bitcoinunits.cpp" line="+185"/>
+=======
+        <location filename="../litecoinunits.cpp" line="+194"/>
+>>>>>>> 0.10
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../guiutil.cpp" line="+130"/>
+=======
+        <location filename="../guiutil.cpp" line="+109"/>
+>>>>>>> 0.10
         <source>Enter a Litecoin address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+760"/>
+=======
+        <location line="+714"/>
+>>>>>>> 0.10
         <source>%1 d</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2287,11 +2499,21 @@
         <translation>Debug log file</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+136"/>
+=======
+        <location line="+7"/>
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+    </message>
+    <message>
+        <location line="+76"/>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>Clear console</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../rpcconsole.cpp" line="-225"/>
         <source>1 &amp;hour</source>
         <translation type="unfinished"></translation>
@@ -2300,6 +2522,11 @@
         <location line="+1"/>
         <source>1 &amp;day</source>
         <translation type="unfinished"></translation>
+=======
+        <location filename="../rpcconsole.cpp" line="-35"/>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Welcome to the Litecoin RPC console.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+1"/>
@@ -2428,6 +2655,16 @@
     <message>
         <location line="-30"/>
         <location line="+14"/>
+<<<<<<< HEAD
+=======
+        <location line="+23"/>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-7"/>
+        <location line="+21"/>
+>>>>>>> 0.10
         <source>An optional label to associate with the new receiving address.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2623,7 +2860,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
+<<<<<<< HEAD
         <location filename="../sendcoinsdialog.cpp" line="+578"/>
+=======
+        <location filename="../sendcoinsdialog.cpp" line="+533"/>
+>>>>>>> 0.10
         <source>Send Coins</source>
         <translation>Send Coins</translation>
     </message>
@@ -2809,7 +3050,24 @@
         <translation>S&amp;end</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../sendcoinsdialog.cpp" line="-494"/>
+=======
+        <location filename="../sendcoinsdialog.cpp" line="-221"/>
+        <source>Confirm send coins</source>
+        <translation>Confirm send coins</translation>
+    </message>
+    <message>
+        <location line="-77"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+4"/>
+        <source>%1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-193"/>
+>>>>>>> 0.10
         <source>Copy quantity</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2844,8 +3102,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+76"/>
         <source>%1 (%2 blocks)</source>
+=======
+        <location line="+245"/>
+        <source>Total Amount %1&lt;span style=&apos;font-size:10pt;font-weight:normal;&apos;&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2941,6 +3204,7 @@
         <source>Pay only the required fee of %1</source>
         <translation type="unfinished"></translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <location line="+42"/>
         <source>Estimated to begin confirmation within %n block(s).</source>
@@ -2948,6 +3212,12 @@
             <numerusform>Estimated to begin confirmation within %n block.</numerusform>
             <numerusform>Estimated to begin confirmation within %n blocks.</numerusform>
         </translation>
+=======
+    <message>
+        <location line="+107"/>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation type="unfinished"></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+101"/>
@@ -2960,6 +3230,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Confirm custom change address</source>
         <translation type="unfinished"></translation>
@@ -2967,6 +3238,15 @@
     <message>
         <location line="+0"/>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+=======
+        <location line="-688"/>
+        <source>Copy dust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+222"/>
+        <source>Are you sure you want to send?</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3005,7 +3285,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+39"/>
+=======
+        <location line="+33"/>
+>>>>>>> 0.10
         <source>The Litecoin address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3062,8 +3346,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-1016"/>
         <source>Enter a label for this address to add it to the list of used addresses</source>
+=======
+        <location line="+33"/>
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3101,8 +3390,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <location filename="../utilitydialog.cpp" line="+78"/>
         <source>%1 is shutting down...</source>
+=======
+        <location filename="../utilitydialog.cpp" line="+47"/>
+        <source>Litecoin Core is shutting down...</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3296,6 +3590,19 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <location filename="../splashscreen.cpp" line="+35"/>
+        <source>Litecoin Core</source>
+        <translation type="unfinished">Litecoin Core</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>The Bitcoin Core developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <location filename="../networkstyle.cpp" line="+19"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
@@ -4025,7 +4332,11 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <location filename="../bitcoinstrings.cpp" line="+351"/>
+=======
+        <location filename="../bitcoinstrings.cpp" line="+244"/>
+>>>>>>> 0.10
         <source>Options:</source>
         <translation>Options:</translation>
     </message>
@@ -4035,12 +4346,20 @@
         <translation>Specify data directory</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-99"/>
+=======
+        <location line="-90"/>
+>>>>>>> 0.10
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Connect to a node to retrieve peer addresses, and disconnect</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+102"/>
+=======
+        <location line="+93"/>
+>>>>>>> 0.10
         <source>Specify your own public address</source>
         <translation>Specify your own public address</translation>
     </message>
@@ -4065,6 +4384,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+2"/>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
         <translation type="unfinished"></translation>
@@ -4073,6 +4393,11 @@
         <location line="+18"/>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="-148"/>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+151"/>
@@ -4091,6 +4416,7 @@
     </message>
     <message>
         <location line="+11"/>
+<<<<<<< HEAD
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Run in the background as a daemon and accept commands</translation>
     </message>
@@ -4103,6 +4429,10 @@
         <location line="-397"/>
         <source>Litecoin Core</source>
         <translation type="unfinished">Litecoin Core</translation>
+=======
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+1"/>
@@ -4110,6 +4440,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
         <translation type="unfinished"></translation>
@@ -4123,6 +4454,26 @@
         <location line="+3"/>
         <source>Add a node to connect to and attempt to keep the connection open (see the `addnode` RPC command help for more info)</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="+28"/>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+7"/>
@@ -4160,6 +4511,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+7"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
@@ -4298,6 +4650,11 @@
         <location line="+4"/>
         <source>Append comment to the user agent string</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="+8"/>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Attempt to recover private keys from a corrupt wallet.dat</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+1"/>
@@ -4420,12 +4777,20 @@
         <translation>Error opening block database</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+5"/>
+=======
+        <location line="+4"/>
+>>>>>>> 0.10
         <source>Error: Disk space is low!</source>
         <translation>Error: Disk space is low!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
+=======
+        <location line="+2"/>
+>>>>>>> 0.10
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
     </message>
@@ -4455,6 +4820,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Invalid amount for -discardfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation type="unfinished"></translation>
@@ -4486,6 +4852,9 @@
     </message>
     <message>
         <location line="+7"/>
+=======
+        <location line="+20"/>
+>>>>>>> 0.10
         <source>Not enough file descriptors available.</source>
         <translation>Not enough file descriptors available.</translation>
     </message>
@@ -4495,6 +4864,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Print this help message and exit</source>
         <translation type="unfinished"></translation>
@@ -4502,6 +4872,15 @@
     <message>
         <location line="+1"/>
         <source>Print version and exit</source>
+=======
+        <location line="+9"/>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Rebuild block chain index from current blk000??.dat files</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4550,6 +4929,7 @@
         <translation>Specify wallet file (within data directory)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>The source code is available from %s.</source>
         <translation type="unfinished"></translation>
@@ -4562,6 +4942,15 @@
     <message>
         <location line="+6"/>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
+=======
+        <location line="-91"/>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Imports blocks from external blk000??.dat file</translation>
+    </message>
+    <message>
+        <location line="-200"/>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4580,8 +4969,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Unsupported logging category %s=%s.</source>
+=======
+        <location line="+4"/>
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4600,8 +4994,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>User Agent comment (%s) contains unsafe characters.</source>
+=======
+        <location line="+2"/>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4615,6 +5014,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
         <translation type="unfinished"></translation>
@@ -4627,6 +5027,35 @@
     <message>
         <location line="-397"/>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+=======
+        <location line="+9"/>
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+>>>>>>> 0.10
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4635,8 +5064,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+17"/>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+=======
+        <location line="+3"/>
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4660,8 +5099,33 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+=======
+        <location line="+4"/>
+        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4670,8 +5134,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+10"/>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+=======
+        <location line="+8"/>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Cannot resolve -whitebind address: &apos;%s&apos;</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4690,6 +5164,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation type="unfinished"></translation>
@@ -4707,6 +5182,30 @@
     <message>
         <location line="+5"/>
         <source>Automatically create Tor hidden service (default: %d)</source>
+=======
+        <location line="+12"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error reading from database, shutting down.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4715,6 +5214,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+20"/>
         <source>Error loading %s: You can&apos;t disable HD on an already existing HD wallet</source>
         <translation type="unfinished"></translation>
@@ -4723,6 +5223,21 @@
         <location line="+6"/>
         <source>Error reading from database, shutting down.</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="+1"/>
+        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+1"/>
@@ -4735,6 +5250,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Information</source>
         <translation>Information</translation>
@@ -4742,16 +5258,24 @@
     <message>
         <location line="+3"/>
         <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+=======
+        <location line="+2"/>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Invalid -proxy address or hostname: &apos;%s&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+=======
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4765,18 +5289,32 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+=======
+        <location line="+7"/>
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Node relay options:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
         <source>RPC server options:</source>
+=======
+        <source>RPC server options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4790,7 +5328,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
+=======
+        <location line="+2"/>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+>>>>>>> 0.10
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Send trace/debug info to console instead of debug.log file</translation>
     </message>
@@ -4835,6 +5382,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Tor control port password (default: empty)</source>
         <translation type="unfinished"></translation>
@@ -4846,11 +5394,19 @@
     </message>
     <message>
         <location line="+1"/>
+=======
+        <location line="+3"/>
+>>>>>>> 0.10
         <source>Transaction amount too small</source>
         <translation>Transaction amount too small</translation>
     </message>
     <message>
         <location line="+5"/>
+        <source>Transaction too large for fee policy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Transaction too large for fee policy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4880,8 +5436,13 @@
         <translation>Username for JSON-RPC connections</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+2"/>
         <source>Verifying wallet(s)...</source>
+=======
+        <location line="+4"/>
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4925,14 +5486,29 @@
         <translation>Password for JSON-RPC connections</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-263"/>
+=======
+        <location line="-184"/>
+>>>>>>> 0.10
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+185"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
+=======
+        <location line="+230"/>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Upgrade wallet to latest format</translation>
+    </message>
+    <message>
+        <location line="-35"/>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Rescan the block chain for missing wallet transactions</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="-260"/>
@@ -4945,6 +5521,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+22"/>
         <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
         <translation type="unfinished"></translation>
@@ -4967,6 +5544,30 @@
     <message>
         <location line="+2"/>
         <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
+=======
+        <location line="-107"/>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
+    </message>
+    <message>
+        <location line="+59"/>
+        <source>Loading addresses...</source>
+        <translation>Loading addresses...</translation>
+    </message>
+    <message>
+        <location line="-33"/>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Error loading wallet.dat: Wallet corrupted</translation>
+    </message>
+    <message>
+        <location line="-188"/>
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+58"/>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4975,6 +5576,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+3"/>
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
         <translation type="unfinished"></translation>
@@ -4982,6 +5584,10 @@
     <message>
         <location line="+3"/>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+=======
+        <location line="+11"/>
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4990,7 +5596,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+13"/>
+=======
+        <location line="+9"/>
+>>>>>>> 0.10
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5000,6 +5610,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+34"/>
         <source>Set maximum BIP141 block weight to this * 4. Deprecated, use blockmaxweight</source>
         <translation type="unfinished"></translation>
@@ -5012,6 +5623,20 @@
     <message>
         <location line="+3"/>
         <source>Specify directory to hold wallets (default: &lt;datadir&gt;/wallets if it exists, otherwise &lt;datadir&gt;)</source>
+=======
+        <location line="+38"/>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>(default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Acceptable ciphers (default: %s)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5075,8 +5700,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+9"/>
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
+=======
+        <location line="+8"/>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5120,6 +5750,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+14"/>
         <source>Keypool ran out, please call keypoolrefill first</source>
         <translation type="unfinished"></translation>
@@ -5127,6 +5758,10 @@
     <message>
         <location line="+1"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+=======
+        <location line="+8"/>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+>>>>>>> 0.10
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5220,9 +5855,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
         <translation type="unfinished"></translation>
+=======
+        <location line="-111"/>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation>Cannot resolve -bind address: &apos;%s&apos;</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <location line="+1"/>
@@ -5230,6 +5871,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+4"/>
         <source>Transaction amounts must not be negative</source>
         <translation type="unfinished"></translation>
@@ -5251,36 +5893,74 @@
     </message>
     <message>
         <location line="-85"/>
+=======
+        <location line="+47"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+    </message>
+    <message>
+        <location line="-7"/>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Insufficient funds</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+14"/>
         <source>Loading block index...</source>
         <translation>Loading block index...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+1"/>
+=======
+        <location line="-61"/>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>Add a node to connect to and attempt to keep the connection open</translation>
+    </message>
+    <message>
+        <location line="+62"/>
+>>>>>>> 0.10
         <source>Loading wallet...</source>
         <translation>Loading wallet...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-61"/>
+=======
+        <location line="-57"/>
+>>>>>>> 0.10
         <source>Cannot downgrade wallet</source>
         <translation>Cannot downgrade wallet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+87"/>
+=======
+        <location line="+4"/>
+        <source>Cannot write default address</source>
+        <translation>Cannot write default address</translation>
+    </message>
+    <message>
+        <location line="+75"/>
+>>>>>>> 0.10
         <source>Rescanning...</source>
         <translation>Rescanning...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-75"/>
+=======
+        <location line="-62"/>
+>>>>>>> 0.10
         <source>Done loading</source>
         <translation>Done loading</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+20"/>
+=======
+        <location line="+9"/>
+>>>>>>> 0.10
         <source>Error</source>
         <translation>Error</translation>
     </message>

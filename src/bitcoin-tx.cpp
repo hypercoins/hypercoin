@@ -51,10 +51,17 @@ static int AppInitRawTx(int argc, char* argv[])
 
     fCreateBlank = gArgs.GetBoolArg("-create", false);
 
+<<<<<<< HEAD
     if (argc<2 || gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help"))
     {
         // First part of help message is specific to this utility
         std::string strUsage = strprintf(_("%s litecoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
+=======
+    if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
+    {
+        // First part of help message is specific to this utility
+        std::string strUsage = _("Litecoin Core litecoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+>>>>>>> 0.10
             _("Usage:") + "\n" +
               "  litecoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded litecoin transaction") + "\n" +
               "  litecoin-tx [options] -create [commands]   " + _("Create hex-encoded litecoin transaction") + "\n" +
@@ -169,8 +176,13 @@ static void RegisterLoad(const std::string& strInput)
     fclose(f);
 
     if (error) {
+<<<<<<< HEAD
         std::string strErr = "Error reading file " + filename;
         throw std::runtime_error(strErr);
+=======
+        string strErr = "Error reading file " + filename;
+        throw runtime_error(strErr);
+>>>>>>> 0.10
     }
 
     // evaluate as JSON buffer register
@@ -574,7 +586,11 @@ static void MutateTxSign(CMutableTransaction& tx, const std::string& flagStr)
 
     // Add previous txouts given in the RPC call:
     if (!registers.count("prevtxs"))
+<<<<<<< HEAD
         throw std::runtime_error("prevtxs register variable must be set.");
+=======
+        throw runtime_error("prevtxs register variable must be set.");
+>>>>>>> 0.10
     UniValue prevtxsObj = registers["prevtxs"];
     {
         for (unsigned int previdx = 0; previdx < prevtxsObj.size(); previdx++) {
@@ -596,8 +612,12 @@ static void MutateTxSign(CMutableTransaction& tx, const std::string& flagStr)
             if (nOut < 0)
                 throw std::runtime_error("vout must be positive");
 
+<<<<<<< HEAD
             COutPoint out(txid, nOut);
             std::vector<unsigned char> pkData(ParseHexUV(prevOut["scriptPubKey"], "scriptPubKey"));
+=======
+            vector<unsigned char> pkData(ParseHexUV(prevOut["scriptPubKey"], "scriptPubKey"));
+>>>>>>> 0.10
             CScript scriptPubKey(pkData.begin(), pkData.end());
 
             {
@@ -651,11 +671,18 @@ static void MutateTxSign(CMutableTransaction& tx, const std::string& flagStr)
             ProduceSignature(MutableTransactionSignatureCreator(&keystore, &mergedTx, i, amount, nHashType), prevPubKey, sigdata);
 
         // ... and merge in other signatures:
+<<<<<<< HEAD
         for (const CTransaction& txv : txVariants)
             sigdata = CombineSignatures(prevPubKey, MutableTransactionSignatureChecker(&mergedTx, i, amount), sigdata, DataFromTransaction(txv, i));
         UpdateTransaction(mergedTx, i, sigdata);
 
         if (!VerifyScript(txin.scriptSig, prevPubKey, &txin.scriptWitness, STANDARD_SCRIPT_VERIFY_FLAGS, MutableTransactionSignatureChecker(&mergedTx, i, amount)))
+=======
+        BOOST_FOREACH(const CTransaction& txv, txVariants) {
+            txin.scriptSig = CombineSignatures(prevPubKey, mergedTx, i, txin.scriptSig, txv.vin[i].scriptSig);
+        }
+        if (!VerifyScript(txin.scriptSig, prevPubKey, STANDARD_SCRIPT_VERIFY_FLAGS, MutableTransactionSignatureChecker(&mergedTx, i)))
+>>>>>>> 0.10
             fComplete = false;
     }
 

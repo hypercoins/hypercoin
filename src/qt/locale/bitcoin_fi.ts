@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Valitse hiiren oikealla painikkeella muokataksesi osoitetta tai nimikettä</translation>
+=======
+        <translation>Klikkaa hiiren oikealla painikkeella muokataksesi osoitetta tai nimikettä</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Create a new address</source>
@@ -24,6 +28,13 @@
     <message>
         <source>C&amp;lose</source>
         <translation>S&amp;ulje</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Kopioi Osoite</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -47,7 +58,11 @@
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
+<<<<<<< HEAD
         <translation>Valitse osoite kolikoiden vastaanottamiseen</translation>
+=======
+        <translation>Valitse osoite johon vastaanotetaan kolikoita</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -66,12 +81,21 @@
         <translation>Nämä ovat Litecoin-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Tässä ovat Litecoin vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopioi osoite</translation>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun Litecoin osoitteita maksujen lähetykseen. Tarkista aina summa ja vastaanottajan osoite ennenkuin lähetät kolikkoja.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun Litecoin-osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin transaktiolle.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -130,6 +154,7 @@
     <message>
         <source>Repeat new passphrase</source>
         <translation>Toista uusi tunnuslause</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Show password</source>
@@ -138,6 +163,8 @@
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Kirjoita uusi salauslause lompakolle.&lt;br/&gt;Käytä salauslausetta jossa on joko&lt;b&gt;kymmenen tai useampi satunnainen merkki&lt;/b&gt;, tai&lt;b&gt;vähintään kahdeksan sanaa&lt;/b&gt;</translation>
+=======
+>>>>>>> 0.10
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -188,8 +215,13 @@
         <translation>%1 sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>TÄRKEÄÄ: Kaikki tekemäsi vanhan lompakon varmuuskopiot pitäisi korvata uusilla suojatuilla varmuuskopioilla. Turvallisuussyistä edelliset varmuuskopiot muuttuvat turhiksi, kun aloitat uuden suojatun lompakon käytön.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -322,8 +354,13 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Paina poistaaksesi verkkoyhteysilmaisin käytöstä.</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core ohjelma</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -338,12 +375,21 @@
         <translation>Synkronoidaan Tunnisteita (%1%)...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reindexing blocks on disk...</source>
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Lähetä kolikoita Litecoin-osoitteeseen</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Lähetä kolikoita Litecoin-osoitteeseen</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Muuta Litecoinin konfiguraatioasetuksia</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -382,6 +428,13 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Näytä tietoja Litecoin Core:sta</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>&amp;Näytä / Piilota</translation>
     </message>
@@ -418,8 +471,21 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Pyydä maksuja (Luo QR koodit ja litecoin: URIt)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin-ydin</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja litecoin: URIt)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;Tietoja Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -438,8 +504,33 @@
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Indexing blocks on disk...</source>
         <translation>Ladataan lohkoindeksiä...</translation>
+=======
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Näytä Litecoin Core ohjeet saadaksesi listan mahdollisista Litecoinin komentorivivalinnoista</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys Litecoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Litecoin-verkkoon</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Lohkojen lähdettä ei saatavilla...</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n tunti</numerusform><numerusform>%n tuntia</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n päivä</numerusform><numerusform>%n päivää</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n viikko</numerusform><numerusform>%n viikkoa</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -472,6 +563,10 @@
     <message>
         <source>Up to date</source>
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Käsitelty %n lohko rahansiirtohistoriasta.</numerusform><numerusform>Käsitelty %n lohkoa rahansiirtohistoriasta.</numerusform></translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
@@ -742,8 +837,13 @@
         <translation>Antamasi osoite "%1" ei ole kelvollinen Litecoin-osoite.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Antamasi osoite "%1" on jo osoitekirjassa</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Antamasi osoite "%1" ei ole validi Litecoin-osoite.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -780,6 +880,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin-ydin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>versio</translation>
     </message>
@@ -788,8 +895,13 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>Tietoja %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>Tietoja Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -839,6 +951,7 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>Tervetuloa %1 pariin.</translation>
     </message>
@@ -857,6 +970,18 @@
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
         <translation>Vaikka olisitkin valinnut rajoittaa lohkoketjun tallennustilaa (karsinnalla), täytyy historiatiedot silti ladata ja käsitellä, mutta ne poistetaan jälkikäteen levytilan säästämiseksi.</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Tervetuloa Litecoin Core</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>Tämän on ensimmäinen kerta kun Litecoin Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Litecoin Core lataa ja tallentaa kopion Litecoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -867,6 +992,7 @@
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -885,6 +1011,10 @@
     <message>
         <source>The wallet will also be stored in this directory.</source>
         <translation>Lompakko tallennetaan myös tähän hakemistoon.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin-ydin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -894,7 +1024,15 @@
         <source>Error</source>
         <translation>Virhe</translation>
     </message>
-    </context>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n Gt vapaata tilaa käytettävissä</numerusform><numerusform>%n Gt vapaata tilaa käytettävissä</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(%n Gt tarvittavasta tilasta)</numerusform><numerusform>(%n Gt tarvittavasta tilasta)</numerusform></translation>
+    </message>
+</context>
 <context>
     <name>ModalOverlay</name>
     <message>
@@ -980,12 +1118,21 @@
         <translation>&amp;Yleiset</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>Käynnistä %1 automaattisesti järjestelmään kirjautumisen jälkeen.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
         <translation>&amp;Käynnistä %1 järjestelmään kirjautuessa</translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Käynnistä Litecoin kirjautumisen yhteydessä.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Käynnistä Litecoin kirjautumisen yhteydessä</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1124,6 +1271,13 @@
         <translation>&amp;Pienennä ilmaisinalueelle työkalurivin sijasta</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Ikkunaa suljettaessa vain pienentää Litecoin-ohjelman ikkunan lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>M&amp;inimize on close</source>
         <translation>P&amp;ienennä suljettaessa</translation>
     </message>
@@ -1136,8 +1290,13 @@
         <translation>&amp;Käyttöliittymän kieli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun %1 käynnistetään.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Tässä voit määritellä käyttöliittymän kielen. Muutokset astuvat voimaan seuraavan kerran, kun Litecoin käynnistetään.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1261,6 +1420,8 @@
     <message>
         <source>Spendable:</source>
         <translation>Käytettävissä:</translation>
+<<<<<<< HEAD
+=======
     </message>
     <message>
         <source>Recent transactions</source>
@@ -1278,6 +1439,51 @@
         <source>Current total balance in watch-only addresses</source>
         <translation>Nykyinen tase seurantaosoitetteissa</translation>
     </message>
+    <message>
+        <source>out of sync</source>
+        <translation>Ei ajan tasalla</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI käsittely</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Viimeisimmät rahansiirrot</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Vahvistamattomat rahansiirrot vain katseltaviin osoitteisiin</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Louhittu, ei vielä kypsynyt saldo vain katseltavissa osoitteissa</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Nykyinen tase seurantaosoitetteissa</translation>
+=======
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Maksypyyntö verkossa ei täsmää asiakasohjelman verkkoon.</translation>
+    </message>
+    <message>
+        <source>Payment request has expired.</source>
+        <translation>Maksupyyntö on vanhentunut.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Maksupyyntöä ei ole alustettu.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Maksupyyntö %1 on liian pieni (huomioidaan tomuna).</translation>
+>>>>>>> 0.10
+    </message>
 </context>
 <context>
     <name>PaymentServer</name>
@@ -1287,23 +1493,32 @@
     </message>
     <message>
         <source>Cannot start litecoin: click-to-pay handler</source>
+<<<<<<< HEAD
         <translation>Litecoinia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI käsittely</translation>
+=======
+        <translation>Ei voida käynnistää litecoin: klikkaa-maksu käsittelijää</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Maksupyynnön haku URL on virheellinen: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid payment address %1</source>
         <translation>Virheellinen maksuosoite %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
         <translation>URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Litecoin-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Litecoin-osoitteesta tai virheellisistä URI parametreista.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1311,6 +1526,7 @@
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+<<<<<<< HEAD
         <translation>Maksupyyntötiedostoa ei voi lukea! Tämä saattaa johtua epäkelvosta maksupyyntötiedostosta.</translation>
     </message>
     <message>
@@ -1328,6 +1544,9 @@
     <message>
         <source>Payment request is not initialized.</source>
         <translation>Maksupyyntöä ei ole alustettu.</translation>
+=======
+        <translation>Maksupyynnön tiedostoa ei voida lukea! Tämä voi aiheutua sopimattomasta maksupyyntötiedostosta.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -1350,12 +1569,26 @@
         <translation>Maksupyyntö %1 on liian suuri (%2 tavua, sallittu %3 tavua).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Maksupyynnön DoS-suojaus</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Error communicating with %1: %2</source>
         <translation>Virhe kommunikoidessa %1n kanssa: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
         <translation>Maksupyyntöä ei voida jäsentää!</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Huono vastaus palvelimelta %1</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1377,6 +1610,7 @@
         <translation>Käyttöliittymä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node/Service</source>
         <translation>Noodi/Palvelu</translation>
     </message>
@@ -1392,6 +1626,15 @@
         <source>Received</source>
         <translation>Vastaanotetut</translation>
     </message>
+=======
+        <source>Address/Hostname</source>
+        <translation>Osoite/Isäntänimi</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Vasteaika</translation>
+    </message>
+>>>>>>> 0.10
 </context>
 <context>
     <name>QObject</name>
@@ -1420,6 +1663,17 @@
         <translation>%1 s</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>NETWORK</source>
+        <translation>VERKKO</translation>
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>TUNNISTAMATON</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>None</source>
         <translation>Ei yhtään</translation>
     </message>
@@ -1525,6 +1779,10 @@
         <translation>Data-hakemisto</translation>
     </message>
     <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Käyttää BerkeleyDB-versiota</translation>
+    </message>
+    <message>
         <source>Startup time</source>
         <translation>Käynnistysaika</translation>
     </message>
@@ -1577,18 +1835,24 @@
         <translation>&amp;Vertaiset</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Banned peers</source>
         <translation>Estetyt vertaiset</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Select a peer to view detailed information.</source>
         <translation>Valitse vertainen eriteltyjä tietoja varten.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whitelisted</source>
         <translation>Sallittu</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Direction</source>
         <translation>Suunta</translation>
     </message>
@@ -1613,6 +1877,7 @@
         <translation>Käyttöliittymä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Avaa %1 -debug-loki tämänhetkisestä data-hakemistosta. Tämä voi viedä muutaman sekunnin suurille lokitiedostoille.</translation>
     </message>
@@ -1627,6 +1892,18 @@
     <message>
         <source>Services</source>
         <translation>Palvelut</translation>
+=======
+        <source>Services</source>
+        <translation>Palvelut</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Aloituskorkeus</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Synkronointikorkeus</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Ban Score</source>
@@ -1645,6 +1922,7 @@
         <translation>Viimeisin vastaanotettu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Ping Time</source>
         <translation>Vasteaika</translation>
     </message>
@@ -1663,6 +1941,18 @@
     <message>
         <source>Time Offset</source>
         <translation>Ajan poikkeama</translation>
+=======
+        <source>Bytes Sent</source>
+        <translation>Tavua lähetetty</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Tavua vastaanotettu</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Vasteaika</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Last block time</source>
@@ -1697,12 +1987,24 @@
         <translation>Debug lokitiedosto</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa lokitiedosto nykyisestä data-kansiosta. Tämä voi viedä useamman sekunnin, jos lokitiedosto on iso.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>Tyhjennä konsoli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>1 &amp;tunti</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Tervetuloa Litecoin RPC konsoliin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -1773,9 +2075,32 @@
         <translation>Ei</translation>
     </message>
     <message>
+        <source>via %1</source>
+        <translation>%1 kautta</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ei koskaan</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Sisääntuleva</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Ulosmenevä</translation>
+    </message>
+    <message>
         <source>Unknown</source>
         <translation>Tuntematon</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Fetching...</source>
+        <translation>Hankitaan...</translation>
+    </message>
+>>>>>>> 0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1792,6 +2117,17 @@
         <translation>&amp;Viesti:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Uudelleenkäytä yksi vanhoista vastaanotto-osoitteista. Uudelleenkäyttössä on turvallisuus- ja yksityisyysongelmia. Älä käytä tätä ellet ole uudelleenluomassa aikaisempaa maksupyyntöä.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Litecoin-verkkoon.</translation>
     </message>
@@ -1950,7 +2286,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
+<<<<<<< HEAD
         <translation>Lähetä kolikoita</translation>
+=======
+        <translation>Lähetä Litecoineja</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2009,6 +2349,7 @@
         <translation>Valitse...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
         <translation>Fallbackfeen käyttö voi johtaa useita tunteja, päiviä (tai loputtomiin) kestävän siirron lähettämiseen. Harkitse palkkion valitsemista itse tai odota kunnes koko ketju on vahvistettu.</translation>
     </message>
@@ -2017,10 +2358,13 @@
         <translation>Varoitus: Kulujen arviointi ei ole juuri nyt mahdollista.</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>collapse fee-settings</source>
         <translation>pudota kulujen asetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>per kilobyte</source>
         <translation>per kilotavu</translation>
     </message>
@@ -2031,6 +2375,18 @@
     <message>
         <source>Hide</source>
         <translation>Piilota</translation>
+=======
+        <source>Minimize</source>
+        <translation>Pienennä</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>per kilotavu</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>yhteensä ainakin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2045,8 +2401,29 @@
         <translation>Muokattu:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(Älykästä rahansiirtokulua ei ole vielä alustettu. Tähän kuluu yleensä aikaa muutaman lohkon verran...)</translation>
+=======
+        <source>Confirmation time:</source>
+        <translation>Vahvistusaika:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normaali</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>nopea</translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>Lähetä siirtokuluttomana jos mahdollista</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(vahvistaminen voi viedä kauemmin)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2085,6 +2462,17 @@
         <translation>&amp;Lähetä</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirm send coins</source>
+        <translation>Hyväksy Litecoinien lähettäminen</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 to %2</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Copy quantity</source>
         <translation>Kopioi lukumäärä</translation>
     </message>
@@ -2121,6 +2509,7 @@
         <translation>%1 to %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Are you sure you want to send?</source>
         <translation>Oletko varma, että haluat lähettää?</translation>
     </message>
@@ -2133,6 +2522,8 @@
         <translation>Kokonaismäärä %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>or</source>
         <translation>tai</translation>
     </message>
@@ -2146,7 +2537,11 @@
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
+<<<<<<< HEAD
         <translation>Maksettavan määrän täytyy olla suurempi kuin 0.</translation>
+=======
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 Litecoinia.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
@@ -2169,8 +2564,25 @@
         <translation>Siirto hylättiin seuraavasta syystä: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>%1:tä ja korkeampaa siirtokulua pidetään mielettömän korkeana.</translation>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Rahansiirtokulua %1 ja sitä suurempia määriä pidetään järjettöminä.</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Maksa vain vähimmäiskulu %1</translation>
+    </message>
+    <message>
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>Vahvistuminen alkaa arviolta %1 lohkon päästä.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Varoitus: Virheellinen Litecoin osoite</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2264,8 +2676,13 @@
         <translation>Tämä on todennettu maksupyyntö.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>Viesti joka liitettiin litecoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Litecoin-verkkoon.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
@@ -2294,8 +2711,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>%1 is shutting down...</source>
         <translation>%1 sulkeutuu...</translation>
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoin core sulkeutuu...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2315,6 +2737,10 @@
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Voit allekirjoittaa viestit / sopimukset omalla osoitteellasi todistaaksesi että voit vastaanottaa siihen lähetetyt litecoinit. Varo allekirjoittamasta mitään epämääräistä, sillä phishing-hyökkääjät voivat huijata sinua luovuttamaan henkilöllisyytesi allekirjoituksella. Allekirjoita ainoastaan täysin yksityiskohtainen selvitys siitä, mihin olet sitoutumassa.</translation>
+    </message>
+    <message>
+        <source>The Litecoin address to sign the message with</source>
+        <translation>Litecoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>The Litecoin address to sign the message with</source>
@@ -2444,6 +2870,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin-ydin</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core kehittäjät</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -2556,6 +2993,14 @@
     <message>
         <source>Total credit</source>
         <translation>Krediitti yhteensä</translation>
+    </message>
+    <message>
+        <source>Total debit</source>
+        <translation>Yhteensä debit</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Yhteensä credit</translation>
     </message>
     <message>
         <source>Transaction fee</source>
@@ -2728,8 +3173,17 @@
         <translation>Onko rahansiirrossa mukana ainoastaan katseltava osoite vai ei.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User-defined intent/purpose of the transaction.</source>
         <translation>Käyttäjän määrittämä käyttötarkoitus rahansiirrolle.</translation>
+=======
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Onko rahansiirrossa mukana ainoastaan katseltava osoite vai ei.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Rahansiirron kohteen Litecoin-osoite</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2835,6 +3289,29 @@
         <translation>Vie rahansiirtohistoria</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Watch-only</source>
+        <translation>Vain katseltava</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Vienti epäonnistui</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Rahansiirron historian tallentamisessa tapahtui virhe paikkaan %1.</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Vienti onnistui</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Rahansiirron historia tallennettiin onnistuneesti paikkaan %1.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Comma separated file (*.csv)</source>
         <translation>Pilkuilla erotettu tiedosto (*.csv)</translation>
     </message>
@@ -2909,6 +3386,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
+<<<<<<< HEAD
         <translation>Lähetä kolikoita</translation>
     </message>
     <message>
@@ -2934,6 +3412,9 @@
     <message>
         <source>Could not commit transaction</source>
         <translation>Siirtoa ei voitu tehdä</translation>
+=======
+        <translation>Lähetä Litecoineja</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -3038,6 +3519,7 @@
         <translation>Litecoin-ydin</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The %s developers</source>
         <translation>%s kehittäjät</translation>
     </message>
@@ -3050,6 +3532,8 @@
         <translation>Hyväksy valkolistatuilta vertaisilta vastaanotetut, välitetyt siirrot silloinkin, kun siirtojen välitys ei ole käytössä (oletus: %d)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:portin merkintätapaa IPv6:lle.</translation>
     </message>
@@ -3058,6 +3542,7 @@
         <translation>Ei voida lukita data-hakemistoa %s. %s on luultavasti jo käynnissä.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Poista kaikki lompakon rahasiirrot ja palauta vain määrätyt osat lohkoketjusta -rescan -valitsimella käynnistyksen yhteydessä.</translation>
     </message>
@@ -3066,6 +3551,8 @@
         <translation>Virhe luettaessa %s! Avaimet luetttiin oikein, mutta rahansiirtotiedot tai osoitekirjan sisältö saattavat olla puutteellisia tai vääriä.</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Suorita käsky kun lompakossa rahansiirto muuttuu (%s cmd on vaihdettu TxID kanssa)</translation>
     </message>
@@ -3110,8 +3597,13 @@
         <translation>Lohkoja ei voida uudelleenlukea. Joulut uudelleenrakentamaan tietokannan käyttämällä -reindex-chainstate -valitsinta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
         <translation>Tietokantaa ei onnistuttu palauttamaan tilaan ennen haarautumista. Lohkoketju pitää ladata uudestaan.</translation>
+=======
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. Litecoin Core on luultavasti jo käynnissä.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3276,6 +3768,13 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Yhdistä vain solmukohtiin &lt;net&gt;-verkossa (ipv4, ipv6 tai onion)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Uudelleenrakenna lohkoketjuindeksi nykyisistä blk000??.dat tiedostoista</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Print this help message and exit</source>
@@ -3354,6 +3853,10 @@
         <translation>Käytä testiketjua</translation>
     </message>
     <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Käytä UPnP:ta kuuntelevan portin kartoittamiseen (oletus: %u)</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
         <translation>Varmistetaan lohkoja...</translation>
     </message>
@@ -3378,6 +3881,7 @@
         <translation>Kytkeydy osoitteeseen ja valkolistaa siihen yhdistävät vertaiset. Käytä [isäntä]:portti -merkintätapaa IPv6:lle</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Luo uudet tiedostot järjestelmän oletusoikeuksilla, älä umask 077:llä (toimii vain, jos lompakkotoiminto on poissa käytöstä)</translation>
     </message>
@@ -3388,6 +3892,10 @@
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Virhe: Saapuvien yhteyksien kuuntelu epäonnistui (kuuntelu palautti virheen %s)</translation>
+=======
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <translation>Ei voida lukita data-hakemistoa %s. Litecoin Core on luultavasti jo käynnissä.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3434,6 +3942,18 @@
         <translation>Luo Tor-salattu palvelu automaattisesti (oletus: %d)</translation>
     </message>
     <message>
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>Aseta kolikoiden luomiseen tarkoitettujen säikeiden lukumäärä (-1 = kaikki ytimet, oletus: %d)</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Hyväksy julkisia REST-pyyntöjä (oletus: %u)</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>-whitebind -osoitetta '%s' ei voida jäsentää</translation>
+    </message>
+    <message>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Yhdistä SOCKS5 proxin kautta</translation>
     </message>
@@ -3442,12 +3962,21 @@
         <translation>Virhe ladattaessa %s: Et voi poistaa HD-ominaisuutta jo olemassa olevasta HD-lompakosta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error reading from database, shutting down.</source>
         <translation>Virheitä tietokantaa luettaessa, ohjelma pysäytetään.</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
         <translation>Tuo lohkot ulkoisesta blk000??.dat -tiedostosta käynnistettäessä</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Litecoinista</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Virheitä tietokantaa luettaessa, ohjelma pysäytetään.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Information</source>
@@ -3462,6 +3991,7 @@
         <translation>Virheellinen -proxy osoite tai isäntänimi: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>Kelvoton määrä argumentille -paytxfee=&lt;amount&gt;: '%s' (pitää olla vähintään %s)</translation>
     </message>
@@ -3480,14 +4010,31 @@
     <message>
         <source>Node relay options:</source>
         <translation>Välityssolmukohdan asetukset:</translation>
+=======
+        <source>Node relay options:</source>
+        <translation>Välityssolmukohdan asetukset:</translation>
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL valinnat: (katso Litecoin Wikistä SSL-asennuksen ohjeet)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>RPC server options:</source>
         <translation>RPC-palvelimen valinnat:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>Vähennetään -maxconnections arvoa %d:stä %d:hen järjestelmän rajoitusten vuoksi.</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC-tuki pysyville HTTP-yhteyksille (oletus: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Satunnaisesti pudota 1 joka &lt;n&gt; verkkoviestistä</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
@@ -3510,14 +4057,18 @@
         <translation>Siirron vahvistus epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction amount is too small to pay the fee</source>
         <translation>Rahansiirron määrä on liian pieni kattaakseen maksukulun</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>This is experimental software.</source>
         <translation>Tämä on ohjelmistoa kokeelliseen käyttöön.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Tor control port password (default: empty)</source>
         <translation>Tor-hallintaportin salasana (oletus: tyhjä)</translation>
     </message>
@@ -3526,6 +4077,8 @@
         <translation>Tor-hallintaportti jota käytetään jos onion-kuuntelu on käytössä (oletus: %s)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Transaction amount too small</source>
         <translation>Siirtosumma liian pieni</translation>
     </message>
@@ -3550,8 +4103,13 @@
         <translation>Käyttäjätunnus JSON-RPC-yhteyksille</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying wallet(s)...</source>
         <translation>Varmistetaan lompakko(ja)...</translation>
+=======
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <translation>Lompakko tarvitsee uudelleenkirjoittaa: käynnistä Litecoin uudelleen</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning</source>
@@ -3614,6 +4172,7 @@
         <translation>Kuinka läpikäyvä lohkojen -checkblocks -todennus on (0-4, oletus: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
         <translation>Kuinka monta sekuntia huonosti käyttäytyviä vertaisia estetään yhdistämästä (oletus: %u)</translation>
     </message>
@@ -3696,6 +4255,86 @@
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
         <translation>Maksimi yhteyttä kohden käytettävä vastaanottopuskurin koko, &lt;n&gt;*1000 tavua (oletus: %u)</translation>
+=======
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation>Käytä erillistä SOCKS5-proxyä tavoittaaksesi vertaisia Tor-piilopalveluiden kautta (oletus: %s)</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(oletus: %s)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Hyväksyttävät salaukset (oletus: %s)</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: %u)</source>
+        <translation>Pakota yhteensopivuustila (oletus: %u)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: %u)</source>
+        <translation>Luo kolikoita (oletus: %u)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Kuinka monta lohkoa tarkistetaan käynnistyksessä (oletus: %u, 0 = kaikki)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Sisällytä IP-osoitteet virheenkorjauslokissa (oletus: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Virheellinen proxy-osoite '%s'</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: %u tai testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Välitä ei-P2SH-multisig (oletus: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Palvelimen sertifikaattitiedosto (oletus: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Palvelimen private key (oletus: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Aseta avainaltaan kooksi &lt;n&gt; (oletus: %u)</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>Aseta pienin mahdollinen lohkokoko tavuina (oletus: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Aseta RPC-kutsujen palvelemiseen tarkoitettujen säikeiden lukumäärä (oletus: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Määritä asetustiedosto (oletus: %s)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Määritä pid-tiedosto (oletus: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Käytä vahvistamattomia vaihtorahoja lähetettäessä rahansiirtoja (oletus: %u)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Tuntematon verkko -onlynet parametrina: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -3710,6 +4349,7 @@
         <translation>Välitä ja louhi dataa kantavia rahansiirtoja (oletus: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Relay non-P2SH multisig (default: %u)</source>
         <translation>Välitä ei-P2SH-multisig (oletus: %u)</translation>
     </message>
@@ -3774,6 +4414,8 @@
         <translation>Tuntematon verkko -onlynet parametrina: '%s'</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Lompakon saldo ei riitä</translation>
     </message>

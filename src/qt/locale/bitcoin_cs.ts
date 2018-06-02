@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Pravým tlačítkem myši můžeš upravit označení adresy</translation>
+=======
+        <translation>Pravým tlačítkem myši začneš upravovat označení adresy</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Create a new address</source>
@@ -63,6 +67,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Tohle jsou tvé litecoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
@@ -72,6 +77,13 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Zkopírovat adresu</translation>
+=======
+        <translation>Tohle jsou tvé Litecoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tohle jsou tvé Litecoinové adresy pro příjem plateb. Je doporučené používat pokaždé novou adresu pro každou transakci.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +200,13 @@
         <translation>%1 se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky nemůže zabránit krádeži tvých litecoinů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>DŮLEŽITÉ: Všechny předchozí zálohy peněženky by měly být nahrazeny nově vygenerovanou, zašifrovanou peněženkou. Z bezpečnostních důvodů budou předchozí zálohy nešifrované peněženky nepoužitelné, jakmile začneš používat novou zašifrovanou peněženku.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých litecoinů malwarem, kterým se může počítač nakazit.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -322,8 +339,13 @@
         <translation>Načíst &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Kliknutím zařízneš spojení se sítí.</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core klient</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -334,6 +356,7 @@
         <translation>Kliknutím opět umožníš spojení do sítě.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Syncing Headers (%1%)...</source>
         <translation>Synchronizuji záhlaví bloků (%1 %)…</translation>
     </message>
@@ -344,6 +367,14 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Pošli mince na litecoinovou adresu</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Pošli mince na Litecoinovou adresu</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Uprav nastavení Litecoinu</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -382,6 +413,13 @@
         <translation>Při&amp;jmi</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Zobraz informace o Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>&amp;Zobraz/Skryj</translation>
     </message>
@@ -395,11 +433,19 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation>Podepiš zprávy svými litecoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými litecoinovými adresami</translation>
+=======
+        <translation>Podepiš zprávy svými Litecoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Litecoinovými adresami</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +464,21 @@
         <translation>Panel s listy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Požaduj platby (generuje QR kódy a litecoin: URI)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Požaduj platby (generuje QR kódy a litecoin: URI)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>O &amp;Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -435,15 +494,39 @@
     </message>
     <message>
         <source>&amp;Command-line options</source>
+<<<<<<< HEAD
         <translation>Ar&amp;gumenty příkazové řádky</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktivní spojení do litecoinové sítě</numerusform><numerusform>%n aktivní spojení do litecoinové sítě</numerusform><numerusform>%n aktivních spojení do litecoinové sítě</numerusform></translation>
+=======
+        <translation>Ar&amp;gumenty z příkazové řádky</translation>
+    </message>
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Seznam argumentů Litecoinu pro příkazovou řádku získáš v nápovědě Litecoinu Core</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n aktivní spojení do Litecoinové sítě</numerusform><numerusform>%n aktivní spojení do Litecoinové sítě</numerusform><numerusform>%n aktivních spojení do Litecoinové sítě</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
         <translation>Vytvářím index bloků na disku...</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hodinu</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodin</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n den</numerusform><numerusform>%n dny</numerusform><numerusform>%n dnů</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n týden</numerusform><numerusform>%n týdny</numerusform><numerusform>%n týdnů</numerusform></translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -452,6 +535,10 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>Zpracován %n blok transakční historie.</numerusform><numerusform>Zpracovány %n bloky transakční historie.</numerusform><numerusform>Zpracováno %n bloků transakční historie.</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n roků</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -480,6 +567,10 @@
     <message>
         <source>Up to date</source>
         <translation>Aktuální</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Zpracován %n blok transakční historie.</numerusform><numerusform>Zpracovány %n bloky transakční historie.</numerusform><numerusform>Zpracováno %n bloků transakční historie.</numerusform></translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
@@ -750,8 +841,13 @@
         <translation>Zadaná adresa „%1“ není platná litecoinová adresa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Zadaná adresa „%1“ už v adresáři je.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Zadaná adresa "%1" není platná Litecoinová adresa.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -788,6 +884,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>verze</translation>
     </message>
@@ -796,8 +899,13 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>O %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>O Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -847,6 +955,7 @@
         <translation>Vítej</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>Vítej v %1.</translation>
     </message>
@@ -865,6 +974,18 @@
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
         <translation>Pokud jsi omezil úložný prostor pro bločenku (tj. povolil její prořezávání), tak se historická data sice stáhnou a zpracují, ale následně zase smažou, aby nezabírala na disku místo.</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Vítej v Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>Tohle je poprvé, co spouštíš Litecoin Core, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Litecoin Core bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %1 GB dat – toto číslo bude navíc v průběhu času pomalu růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -875,6 +996,7 @@
         <translation>Použij tento adresář pro data:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -893,6 +1015,10 @@
     <message>
         <source>The wallet will also be stored in this directory.</source>
         <translation>Tvá peněženka bude uložena rovněž v tomto adresáři.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -911,6 +1037,7 @@
         <translation><numerusform>(z potřebného %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform></translation>
     </message>
 </context>
+<<<<<<< HEAD
 <context>
     <name>ModalOverlay</name>
     <message>
@@ -962,6 +1089,8 @@
         <translation>Neznámý. Synchronizuji záhlaví bloků (%1)…</translation>
     </message>
 </context>
+=======
+>>>>>>> 0.10
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -996,12 +1125,21 @@
         <translation>&amp;Hlavní</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>Automaticky spustí %1 po přihlášení do systému.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
         <translation>S&amp;pustit %1 po přihlášení do systému</translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Automaticky spustí Litecoin po přihlášení do systému.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>S&amp;pustit Litecoin po přihlášení do systému</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1096,12 +1234,17 @@
         <translation>Namapovat port přes &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside.</source>
         <translation>Přijímat spojení z venku.</translation>
     </message>
     <message>
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
         <translation>Připojí se do litecoinové sítě přes SOCKS5 proxy.</translation>
+=======
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Připojí se do Litecoinové sítě přes SOCKS5 proxy.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1164,8 +1307,13 @@
         <translation>&amp;Jazyk uživatelského rozhraní:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování %1.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Litecoinu.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1240,7 +1388,11 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s litecoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+=======
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Litecoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1338,16 +1490,26 @@
         <translation>Zpracování souboru platebního požadavku</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>Soubor platebního požadavku nejde přečíst nebo zpracovat! Příčinou může být špatný soubor platebního požadavku.</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Nemůžu spustit litecoin: obsluha click-to-pay</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request rejected</source>
         <translation>Platební požadavek byl odmítnut</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request network doesn't match client network.</source>
         <translation>Síť platebního požadavku neodpovídá síti klienta.</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Litecoinová adresa nebo poškozené parametry URI.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -1378,6 +1540,13 @@
         <translation>Platební požadavek %1 je moc velký (%2 bajtů, povoleno %3 bajtů).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>DoS ochrana platebního požadavku</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Error communicating with %1: %2</source>
         <translation>Chyba při komunikaci s %1: %2</translation>
     </message>
@@ -1433,7 +1602,11 @@
     </message>
     <message>
         <source>Enter a Litecoin address (e.g. %1)</source>
+<<<<<<< HEAD
         <translation>Zadej litecoinovou adresu (např. %1)</translation>
+=======
+        <translation>Zadej Litecoinovou adresu (např. %1)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>%1 d</source>
@@ -1753,12 +1926,24 @@
         <translation>Soubor s ladicími záznamy</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy Litecoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>Vyčistit konzoli</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>1 &amp;hodinu</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Vítej v Litecoinové RPC konzoli.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -1848,8 +2033,21 @@
         <translation>&amp;Zpráva:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: tahle zpráva se neposílá s platbou po litecoinové síti.</translation>
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Recyklovat již dříve použité adresy. Recyklace adres má bezpečnostní rizika a narušuje soukromí. Nezaškrtávejte to, pokud znovu nevytváříte již dříve vytvořený platební požadavek.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>&amp;Recyklovat již existující adresy (nedoporučeno)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: Tahle zpráva se neposílá s platbou po Litecoinové síti.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2061,6 +2259,7 @@
         <translation>Zvol...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
         <translation>Použití nouzového poplatku („fallbackfee“) může vyústit v transakci, které bude trvat hodiny nebo dny (případně věčnost), než bude potvrzena. Zvaž proto ruční nastavení poplatku, případně počkej, až se ti kompletně zvaliduje bločenka.</translation>
     </message>
@@ -2071,6 +2270,18 @@
     <message>
         <source>collapse fee-settings</source>
         <translation>sbal nastavení poplatků</translation>
+=======
+        <source>collapse fee-settings</source>
+        <translation>sbal nastavení poplatků</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Skryj</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Pokud je vlastní poplatek nastavený na 1000 satoshi a transakce má pouze 250 bajtů, tak „za kilobajt“ zaplatí poplatek jen 250 satoshi, zatímco „přinejmenším“ zaplatí 1000 satoshi. Pro transakce větší než kilobajt obě možnosti platí za kilobajt.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2081,8 +2292,13 @@
         <translation>Pokud je vlastní poplatek nastavený na 1000 satoshi a transakce má pouze 250 bajtů, tak „za kilobajt“ zaplatí poplatek jen 250 satoshi, zatímco „přinejmenším“ zaplatí 1000 satoshi. Pro transakce větší než kilobajt obě možnosti platí za kilobajt.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Skryj</translation>
+=======
+        <source>total at least</source>
+        <translation>přinejmenším</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
@@ -2105,6 +2321,29 @@
         <translation>(Inteligentní poplatek ještě není inicializovaný. Obvykle mu to tak pár bloků trvá...)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirmation time:</source>
+        <translation>Rychlost potvrzení:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normální</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>rychlá</translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>Pošli transakci pokud možno bez poplatku</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(potvrzení může trvat déle)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Send to multiple recipients at once</source>
         <translation>Pošli více příjemcům naráz</translation>
     </message>
@@ -2169,6 +2408,7 @@
         <translation>Kopíruj drobné</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 (%2 blocks)</source>
         <translation>%1 (%2 bloků)</translation>
     </message>
@@ -2189,6 +2429,8 @@
         <translation>Celková částka %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>or</source>
         <translation>nebo</translation>
     </message>
@@ -2225,8 +2467,13 @@
         <translation>Transakce byla zamítnuta s tímto odůvodněním: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Poplatek vyšší než %1 je považován za absurdně vysoký.</translation>
+=======
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Upozornění: Neplatná Litecoinová adresa</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2329,7 +2576,15 @@
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+<<<<<<< HEAD
         <translation>Zpráva, která byla připojena k litecoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po litecoinové síti.</translation>
+=======
+        <translation>Zpráva, která byla připojena k litecoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po Litecoinové síti.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>Tohle je neověřený platební požadavek.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Pay To:</source>
@@ -2354,8 +2609,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>%1 is shutting down...</source>
         <translation>%1 se ukončuje...</translation>
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoin Core se ukončuje...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2410,7 +2670,11 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Litecoin address</source>
+<<<<<<< HEAD
         <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této litecoinové adresy</translation>
+=======
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Litecoinové adresy</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2438,7 +2702,11 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+<<<<<<< HEAD
         <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou litecoinovou adresou</translation>
+=======
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Litecoinovou adresou</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2504,6 +2772,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Vývojáři Bitcoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -2808,8 +3087,13 @@
         <translation>Zda tato transakce zahrnuje i některou sledovanou adresu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User-defined intent/purpose of the transaction.</source>
         <translation>Uživatelsky určený účel transakce.</translation>
+=======
+        <source>Destination address of transaction.</source>
+        <translation>Cílová adresa transakce.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2915,6 +3199,29 @@
         <translation>Exportuj transakční historii</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Watch-only</source>
+        <translation>Sledovaná</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Exportování selhalo</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Při ukládání transakční historie do %1 se přihodila nějaká chyba.</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Úspěšně vyexportováno</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Transakční historie byla v pořádku uložena do %1.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Comma separated file (*.csv)</source>
         <translation>Formát CSV (*.csv)</translation>
     </message>
@@ -3130,6 +3437,7 @@
         <translation>Litecoin Core</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The %s developers</source>
         <translation>Vývojáři %s</translation>
     </message>
@@ -3142,6 +3450,8 @@
         <translation>Přijímat přeposílané transakce obdržené od vždy vítaných protějšků, i když transakce nepřeposíláme (výchozí: %d)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Poslouchat na zadané adrese. Pro zápis IPv6 adresy použij notaci [adresa]:port</translation>
     </message>
@@ -3150,6 +3460,7 @@
         <translation>Nedaří se mi získat zámek na datový adresář %s. %s pravděpodobně už jednou běží.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Smazat všechny transakce peněženky a při startu obnovit pouze relevantní části bločenky pomocí -rescan</translation>
     </message>
@@ -3160,6 +3471,14 @@
     <message>
         <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
         <translation>Vyloučit ladicí informace dané kategorie. Dá se zkombinovat s -debug=1, aby se zaznamenávaly ladicí informace všech kategorií kromě jedné nebo několika zvolených.</translation>
+=======
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>Šířen pod softwarovou licencí MIT, viz přiložený soubor COPYING nebo &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Přepnout do módu testování regresí, který používá speciální řetězec, ve kterém mohou být bloky okamžitě vyřešeny.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -3214,6 +3533,7 @@
         <translation>Tohle je testovací verze – používej ji jen na vlastní riziko, ale rozhodně ji nepoužívej k těžbě nebo pro obchodní aplikace</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
         <translation>Tohle je transakční poplatek, který můžeš zrušit, pokud budou na této úrovni drobné menší než prach</translation>
     </message>
@@ -3224,6 +3544,10 @@
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
         <translation>Nedaří se mi vrátit databázi do stavu před štěpem. Budeš muset znovu stáhnout celou bločenku</translation>
+=======
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. Litecoin Core už pravděpodobně jednou běží.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3254,12 +3578,21 @@
         <translation>%d z posledních 100 bloků má neočekávanou verzi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s corrupt, salvage failed</source>
         <translation>%s je poškozen, jeho záchrana se nezdařila</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
         <translation>-maxmempool musí být alespoň %d MB</translation>
+=======
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Umístit na bílou listinu protějšky připojující se z dané podsítě či IP adresy. Lze zadat i vícekrát.</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(výchozí: 1)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -3420,6 +3753,13 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Připojovat se pouze k uzlům v &lt;net&gt; síti (ipv4, ipv6 nebo onion)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Znovu vytvořit index řetězce bloků z aktuálních blk000??.dat souborů</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Print this help message and exit</source>
@@ -3466,8 +3806,17 @@
         <translation>Zdrojový kód je dostupný na %s.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transaction fee and change calculation failed</source>
         <translation>Selhal výpočet transakčního poplatku a drobných</translation>
+=======
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Použít UPnP k namapování naslouchacího portu (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Ověřuji bloky... </translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
@@ -3510,6 +3859,7 @@
         <translation>Ověřuji bloky…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet debugging/testing options:</source>
         <translation>Možnosti ladění/testování peněženky:</translation>
     </message>
@@ -3528,6 +3878,14 @@
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Obsadit zadanou adresu a vždy vítat protějšky, které se na ni připojí. Pro zápis IPv6 adresy použij notaci [adresa]:port</translation>
+=======
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. Litecoin Core pravděpodobně už jednou běží.</translation>
+    </message>
+    <message>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
+        <translation>Kontinuálně omezovat bezpoplatkové transakce na &lt;n&gt;*1000 bajtů za minutu (výchozí: %u)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3546,8 +3904,20 @@
         <translation>Spustit příkaz, když přijde relevantní upozornění nebo když dojde k opravdu dlouhému rozštěpení řetezce bloků (%s se v příkazu nahradí zprávou)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
         <translation>Poplatky (v %s/kB) menší než tato hodnota jsou považovány za nulové pro účely přeposílání, těžení a vytváření transakcí (výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Pokud paytxfee není nastaveno, platit dostatečný poplatek na to, aby začaly být transakce potvrzovány v průměru během n bloků (výchozí: %u)</translation>
+=======
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Poplatky (v LTC/Kb) menší než tato hodnota jsou považovány za nulové pro účely přeposílání transakcí (výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Poplatky (v LTC/Kb) menší než tato hodnota jsou považovány za nulové pro účely vytváření transakcí (výchozí: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3562,20 +3932,91 @@
         <translation>Maximální velikost dat v transakcích nesoucích data, se kterou jsme ochotni je ještě přeposílat a těžit (výchozí: %u)</translation>
     </message>
     <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Horní hranice pro celkový poplatek za jednu transakci z peněženky; příliš nízká hodnota může zmařit velké transakce (výchozí: %s)</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Neplatná částka pro -maxtxfee=&lt;amount&gt;: '%s' (musí být alespoň jako poplatek minrelay %s, aby transakce nezůstávaly trčet)</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Maximální velikost dat v transakcích nesoucích data, se kterou jsme ochotni je ještě přeposílat a těžit (výchozí: %u)</translation>
+    </message>
+    <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Použít náhodné údaje pro každé proxy spojení. To umožní izolovat nesouvisející datové toky v Toru (výchozí: %u)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>Částka v transakci po odečtení poplatku je příliš malá na odeslání</translation>
+=======
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Vyžadovat vysokou prioritu pro přeposílání bezplatných nebo nízkopoplatkových transakcí (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Nastavit maximální velikost prioritních/nízkopoplatkových transakcí v bajtech (výchozí: %d)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>Nastavení počtu vláken pro těžení, je-li zapnuté (-1 = všechna jádra, výchozí: %d)</translation>
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v OpenSSL Toolkitu &lt;https://www.openssl.org/&gt; a kryptografický program od Erika Younga a program UPnP od Thomase Bernarda.</translation>
+    </message>
+    <message>
+        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+</source>
+        <translation>K používání litecoind nebo volby -server u litecoin-qt musíš nastavit rpcpassword v konfiguračním souboru:
+%s
+Je vhodné použít následující náhodné heslo:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(není potřeba si ho pamatovat)
+rpcuser a rpcpassword NESMÍ být stejné.
+Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
+Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
+například: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Upozornění: -maxtxfee je nastaveno velmi vysoko! Takto vysoký poplatek může být zaplacen v jednotlivé transakci.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Litecoin Core nebude fungovat správně.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Na vždy vítané protějšky se nevztahuje DoS klatba a jejich transakce jsou vždy přeposílány, i když už třeba jsou v transakčním zásobníku, což je užitečné např. pro bránu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>K návratu k neprořezávacímu režimu je potřeba přestavět databázi použitím -reindex.  Také se znovu stáhne celá bločenka</translation>
+=======
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Přijímat veřejné REST požadavky (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>Nemohu přeložit -whitebind adresu: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>(default: %u)</source>
@@ -3594,24 +4035,47 @@
         <translation>Připojit se přes SOCKS5 proxy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading %s: You can't disable HD on an already existing HD wallet</source>
         <translation>Chyba při načítání %s: nemůžeš vypnout HD u existující HD peněženky</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Chyba při čtení z databáze, ukončuji se.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Chyba při čtení z databáze, ukončuji se.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error upgrading chainstate database</source>
         <translation>Chyba při aktualizaci stavové databáze bločenky</translation>
+=======
+        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Poplatek (v LTC/kB), který se přidá ke každé odeslané transakci (výchozí: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
         <translation>Importovat při startu bloky z externího souboru blk000??.dat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Information</source>
         <translation>Informace</translation>
+=======
+        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
+        <translation>Selhala úvodní zevrubná prověrka. Litecoin Core se ukončuje.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná částka pro -maxtxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
@@ -3642,12 +4106,28 @@
         <translation>Možnosti přeposílání:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL pro RPC: (viz instrukce nastavení SSL na Litecoin Wiki)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>RPC server options:</source>
         <translation>Možnosti RPC serveru:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>Omezuji -maxconnections z %d na %d kvůli systémovým omezením.</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Podpora RPC pro perzistentní HTTP spojení (výchozí: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Náhodně zahazovat jednu z každých &lt;n&gt; síťových zpráv</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
@@ -3656,6 +4136,10 @@
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Posílat stopovací/ladicí informace do konzole místo do souboru debug.log</translation>
+    </message>
+    <message>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Posílat transakce pokud možno bez poplatků (výchozí: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3694,6 +4178,10 @@
         <translation>Transakce je na poplatkovou politiku příliš velká</translation>
     </message>
     <message>
+        <source>Transaction too large for fee policy</source>
+        <translation>Transakce je na poplatkovou politiku příliš velká</translation>
+    </message>
+    <message>
         <source>Transaction too large</source>
         <translation>Transakce je příliš velká</translation>
     </message>
@@ -3710,8 +4198,13 @@
         <translation>Uživatelské jméno pro JSON-RPC spojení</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying wallet(s)...</source>
         <translation>Kontroluji peněženku/y…</translation>
+=======
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Litecoin Core, aby se operace dokončila</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning</source>
@@ -3778,6 +4271,7 @@
         <translation>Chyba při načítání peněženky %s. Parametr -wallet smí uvádět pouze název souboru (nikoli cestu k němu).</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation>Poplatky (v %s/kB) menší než tato hodnota jsou považovány za nulové pro účely vytváření transakcí (výchozí: %s)</translation>
     </message>
@@ -3836,6 +4330,170 @@
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
         <translation>Nepodporovaný argument -whitelistalwaysrelay se ignoruje, použij -whitelistrelay a/nebo -whitelistforcerelay.</translation>
+=======
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation>(1 = ukládat transakční metadata, např. majitele účtu a informace o platebním požadavku, 2 = mazat transakční metadata)</translation>
+    </message>
+    <message>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Promítnout databázovou aktivitu z paměťového prostoru do záznamu na disku každých &lt;n&gt; megabajtů (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Jak moc důkladná má být verifikace bloků -checkblocks (0-4, výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Zaznamenávat během těžení bloků prioritu transakce a poplatek za kB (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation>Spravovat úplný index transakcí, který je využíván rpc voláním getrawtransaction (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation>Doba ve vteřinách, po kterou se nebudou moci zlobivé protějšky znovu připojit (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
+        <translation>Tisknout ladicí informace (výchozí: %u, zadání &lt;category&gt; je volitelné)</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation>Použít samostatnou SOCKS5 proxy ke spojení s protějšky přes skryté služby v Toru (výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Akceptovatelné šifry (výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>Vždy získávat adresy dalších protějšků přes DNS (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: %u)</source>
+        <translation>Vypnout bezpečný režim (safemode), překrýt skutečnou událost bezpečného režimu (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Chyba při načítání wallet.dat</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: %u)</source>
+        <translation>Vynutit bezpečný mód (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: %u)</source>
+        <translation>Těžit (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Kolik bloků při startu zkontrolovat (výchozí: %u, 0 = všechny)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Zaznamenávat do ladicích výstupů i IP adresy (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Neplatná -proxy adresa: '%s'</translation>
+    </message>
+    <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>Omezit velikost vyrovnávací paměti pro podpisy na &lt;n&gt; položek (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Čekat na JSON-RPC spojení na &lt;portu&gt; (výchozí: %u nebo testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Čekat na spojení na &lt;portu&gt; (výchozí: %u nebo testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Povolit nejvýše &lt;n&gt; protějšků (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maximální velikost přijímacího bufferu pro každé spojení, &lt;n&gt;*1000 bajtů (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maximální velikost odesílacího bufferu pro každé spojení, &lt;n&gt;*1000 bajtů (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
+        <translation>Uznávat pouze řetězec bloků, který odpovídá vnitřním kontrolním bodům (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Připojit před ladicí výstup časové razítko (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>Přeposílat a těžit transakce nesoucí data (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Přeposílat ne-P2SH multisig (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Run a thread to flush wallet periodically (default: %u)</source>
+        <translation>Spustit vlákno pročišťující periodicky peněženku (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Soubor se serverovým certifikátem (výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Soubor se serverovým soukromým klíčem (výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Nastavit zásobník klíčů na velikost &lt;n&gt; (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>Nastavit minimální velikost bloku v bajtech (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Nastavení počtu vláken pro servisní RPC volání (výchozí: %d)</translation>
+    </message>
+    <message>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
+        <translation>Nastavit příznak DB_PRIVATE v databázovém prostředí peněženky (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Konfigurační soubor (výchozí: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Zadej časový limit spojení v milivteřinách (minimum: 1, výchozí: %d)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Utrácet i ještě nepotvrzené drobné při posílání transakcí (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Stop running after importing blocks from disk (default: %u)</source>
+        <translation>Ukončit se po importu bloků z disku (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Práh pro odpojování zlobivých protějšků (výchozí: %u)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>V -onlynet byla uvedena neznámá síť: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3850,6 +4508,7 @@
         <translation>Upozornění: soubor s peněženkou je poškozený, data jsou však zachráněna! Původní soubor %s je uložený jako %s v %s. Pokud nejsou stav tvého účtu nebo transakce v pořádku, zřejmě bys měl obnovit zálohu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
         <translation>Vždy vítat protějšky připojující se z dané IP adresy (např. 1.2.3.4) či podsítě (CIDR zápis, např. 1.2.3.0/24). Lze zadat i vícekrát.</translation>
     </message>
@@ -3986,6 +4645,8 @@
         <translation>V -onlynet byla uvedena neznámá síť: '%s'</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Nedostatek prostředků</translation>
     </message>

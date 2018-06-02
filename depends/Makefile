@@ -142,6 +142,7 @@ $(host_prefix)/share/config.site : config.site.in $(host_prefix)/.stamp_$(final_
             $< > $@
 	$(AT)touch $@
 
+<<<<<<< HEAD
 
 define check_or_remove_cached
   mkdir -p $(BASE_CACHE)/$(host)/$(package) && cd $(BASE_CACHE)/$(host)/$(package); \
@@ -171,6 +172,10 @@ install: check-packages $(host_prefix)/share/config.site
 
 download-one: check-sources $(all_sources)
 
+=======
+install: $(host_prefix)/share/config.site
+download-one: $(all_sources)
+>>>>>>> 0.10
 download-osx:
 	@$(MAKE) -s HOST=x86_64-apple-darwin11 download-one
 download-linux:
@@ -178,5 +183,9 @@ download-linux:
 download-win:
 	@$(MAKE) -s HOST=x86_64-w64-mingw32 download-one
 download: download-osx download-linux download-win
+<<<<<<< HEAD
 
 .PHONY: install cached download-one download-osx download-linux download-win download check-packages check-sources
+=======
+.PHONY: install cached download-one download-osx download-linux download-win download
+>>>>>>> 0.10

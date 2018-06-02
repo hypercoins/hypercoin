@@ -121,7 +121,11 @@ CoinControlDialog::CoinControlDialog(const PlatformStyle *_platformStyle, QWidge
     // (un)select all
     connect(ui->pushButtonSelectAll, SIGNAL(clicked()), this, SLOT(buttonSelectAllClicked()));
 
+<<<<<<< HEAD
     // change coin control first column label due Qt4 bug.
+=======
+    // change coin control first column label due Qt4 bug. 
+>>>>>>> 0.10
     // see https://github.com/bitcoin/bitcoin/issues/5716
     ui->treeWidget->headerItem()->setText(COLUMN_CHECKBOX, QString());
 
@@ -421,6 +425,7 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
     // nPayAmount
     CAmount nPayAmount = 0;
     bool fDust = false;
+    unsigned int nBytesPenalty = 0;
     CMutableTransaction txDummy;
     for (const CAmount &amount : CoinControlDialog::payAmounts)
     {
@@ -428,7 +433,17 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
 
         if (amount > 0)
         {
+<<<<<<< HEAD
             CTxOut txout(amount, (CScript)std::vector<unsigned char>(24, 0));
+=======
+            if (amount < DUST_THRESHOLD)
+            {
+                fDust = true;
+                nBytesPenalty += 1000;
+            }
+
+            CTxOut txout(amount, (CScript)vector<unsigned char>(24, 0));
+>>>>>>> 0.10
             txDummy.vout.push_back(txout);
             fDust |= IsDust(txout, ::dustRelayFee);
         }
@@ -508,7 +523,21 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
                 nBytes -= 34;
 
         // Fee
+<<<<<<< HEAD
         nPayFee = GetMinimumFee(nBytes, *coinControl(), ::mempool, ::feeEstimator, nullptr /* FeeCalculation */);
+=======
+        nPayFee = CWallet::GetMinimumFee(nBytes + nBytesPenalty, nTxConfirmTarget, mempool);
+
+        // Allow free?
+        double dPriorityNeeded = mempoolEstimatePriority;
+        if (dPriorityNeeded <= 0)
+            dPriorityNeeded = AllowFreeThreshold(); // not enough data, back to hard-coded
+        fAllowFree = !nBytesPenalty && (dPriority >= dPriorityNeeded);
+
+        if (fSendFreeTransactions)
+            if (fAllowFree && nBytes <= MAX_FREE_TRANSACTION_CREATE_SIZE)
+                nPayFee = 0;
+>>>>>>> 0.10
 
         if (nPayAmount > 0)
         {
@@ -517,10 +546,17 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
                 nChange -= nPayFee;
 
             // Never create dust outputs; if we would, just add the dust to the fee.
+<<<<<<< HEAD
             if (nChange > 0 && nChange < MIN_CHANGE)
             {
                 CTxOut txout(nChange, (CScript)std::vector<unsigned char>(24, 0));
                 if (IsDust(txout, ::dustRelayFee))
+=======
+            if (nChange > 0 && nChange < DUST_THRESHOLD)
+            {
+                //CTxOut txout(nChange, (CScript)vector<unsigned char>(24, 0));
+                //if (txout.IsDust(::minRelayTxFee))
+>>>>>>> 0.10
                 {
                     nPayFee += nChange;
                     nChange = 0;

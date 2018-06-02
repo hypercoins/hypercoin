@@ -37,7 +37,11 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
 {
     ui->setupUi(this);
 
+<<<<<<< HEAD
     QString version = tr(PACKAGE_NAME) + " " + tr("version") + " " + QString::fromStdString(FormatFullVersion());
+=======
+    QString version = tr("Litecoin Core") + " " + tr("version") + " " + QString::fromStdString(FormatFullVersion());
+>>>>>>> 0.10
     /* On x86 add a bit specifier to the version so that users can distinguish between
      * 32 and 64 bit builds. On other architectures, 32/64 bit may be more ambiguous.
      */
@@ -49,7 +53,11 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
 
     if (about)
     {
+<<<<<<< HEAD
         setWindowTitle(tr("About %1").arg(tr(PACKAGE_NAME)));
+=======
+        setWindowTitle(tr("About Litecoin Core"));
+>>>>>>> 0.10
 
         /// HTML-format the license message from the core
         QString licenseInfo = QString::fromStdString(LicenseInfo());
@@ -71,6 +79,7 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
         setWindowTitle(tr("Command-line options"));
         QString header = tr("Usage:") + "\n" +
             "  litecoin-qt [" + tr("command-line options") + "]                     " + "\n";
+<<<<<<< HEAD
         QTextCursor cursor(ui->helpMessage->document());
         cursor.insertText(version);
         cursor.insertBlock();
@@ -129,6 +138,21 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
         ui->helpMessage->moveCursor(QTextCursor::Start);
         ui->scrollArea->setVisible(false);
         ui->aboutLogo->setVisible(false);
+=======
+
+        QString coreOptions = QString::fromStdString(HelpMessage(HMM_BITCOIN_QT));
+
+        QString uiOptions = tr("UI options") + ":\n" +
+            "  -choosedatadir            " + tr("Choose data directory on startup (default: 0)") + "\n" +
+            "  -lang=<lang>              " + tr("Set language, for example \"de_DE\" (default: system locale)") + "\n" +
+            "  -min                      " + tr("Start minimized") + "\n" +
+            "  -rootcertificates=<file>  " + tr("Set SSL root certificates for payment request (default: -system-)") + "\n" +
+            "  -splash                   " + tr("Show splash screen on startup (default: 1)");
+
+        ui->helpMessageLabel->setFont(GUIUtil::bitcoinAddressFont());
+        text = version + "\n" + header + "\n" + coreOptions + "\n" + uiOptions;
+        ui->helpMessageLabel->setText(text);
+>>>>>>> 0.10
     }
 }
 
@@ -166,7 +190,11 @@ ShutdownWindow::ShutdownWindow(QWidget *parent, Qt::WindowFlags f):
 {
     QVBoxLayout *layout = new QVBoxLayout();
     layout->addWidget(new QLabel(
+<<<<<<< HEAD
         tr("%1 is shutting down...").arg(tr(PACKAGE_NAME)) + "<br /><br />" +
+=======
+        tr("Litecoin Core is shutting down...") + "<br /><br />" +
+>>>>>>> 0.10
         tr("Do not shut down the computer until this window disappears.")));
     setLayout(layout);
 }

@@ -44,10 +44,37 @@
     <message>
         <source>Choose the address to receive coins with</source>
         <translation>Izvēlies adresi ar kuru saņemt litecoins</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopēt adresi</translation>
+=======
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>&amp;Izvēlēties</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Sūtīšanas adreses</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Saņemšanas adreses</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Šīs ir jūsu Litecoin adreses maksājumu sūtīšanai. Vienmēr  pārbaudiet summu un saņēmēja adresi pirms monētu sūtīšanas.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Šīs ir jūsu Litecoin adreses maksājumu saņemšanai. Ir ieteicams katram darījumam izmantot jaunu saņemšanas adresi.</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Kopēt &amp;Nosaukumu</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -61,7 +88,11 @@
         <source>Exporting Failed</source>
         <translation>Eksportēšana Neizdevās</translation>
     </message>
-    </context>
+    <message>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Radās kļūda, saglabājot adrešu sarakstu %1. Lūdzu, mēģiniet vēlreiz!</translation>
+    </message>
+</context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -112,10 +143,36 @@
         <translation>Apstiprināt maciņa šifrēšanu</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS LITECOINS&lt;/b&gt;!</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Vai tu tiešām vēlies šifrēt savu maciņu?</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>SVARĪGI: Iepriekšējie maka faila dublējumi ir jāaizvieto ar jauno, šifrēto maka failu. Drošības apsvērumu dēļ iepriekšējie nešifrētā maka dublējumi vairs nebūs derīgi, tiklīdz sāksiet izmantot jauno, šifrēto maku.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Brīdinājums: Caps Lock ir ieslēgts!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Maciņš nošifrēts</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst litecoins zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Wallet encryption failed</source>
         <translation>Maciņa šifrēšana neizdevās</translation>
     </message>
@@ -198,12 +255,31 @@
         <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core klients</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Importē blokus no diska...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Reindexing blocks on disk...</source>
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
+<<<<<<< HEAD
         <translation>Nosūtīt bitkoinus uz Litecoin adresi</translation>
+=======
+        <translation>Nosūtīt litecoins uz Litecoin adresi</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Mainīt Litecoin konfigurācijas uzstādījumus</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -242,6 +318,13 @@
         <translation>&amp;Saņemt</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Parādīt informāciju par Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>&amp;Rādīt / Paslēpt</translation>
     </message>
@@ -278,10 +361,25 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Pieprasīt maksājumus (izveido QR kodu un litecoin: URIs)</translation>
     </message>
     <message>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un litecoin: URIs)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>Par &amp;Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Open a litecoin: URI or payment request</source>
         <translation>Atvērt litecoin URI vai maksājuma pieprasījumu</translation>
     </message>
@@ -289,6 +387,37 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandrindas iespējas</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar Litecoin tīklu</numerusform><numerusform>%n aktīvs savienojums ar Litecoin tīklu</numerusform><numerusform>%n aktīvu savienojumu as Litecoin tīklu</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Nav pieejams neviens bloku avots...</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n stundas</numerusform><numerusform>%n stunda</numerusform><numerusform>%n stundas</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dienas</numerusform><numerusform>%n diena</numerusform><numerusform>%n dienas</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n nedēļas</numerusform><numerusform>%n nedēļa</numerusform><numerusform>%n nedēļas</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 un %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n gadi</numerusform><numerusform>%n gads</numerusform><numerusform>%n gadi</numerusform></translation>
+    </message>
+>>>>>>> 0.10
     <message>
         <source>%1 behind</source>
         <translation>%1 aizmugurē</translation>
@@ -407,7 +536,43 @@
         <source>&amp;Address</source>
         <translation>&amp;Adrese</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>New receiving address</source>
+        <translation>Jauna saņemšanas adrese</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Jauna nosūtīšanas adrese</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Mainīt saņemšanas adresi</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Mainīt nosūtīšanas adresi</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Nupat ierakstītā adrese "%1" jau atrodas adrešu grāmatā.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Ierakstītā adrese "%1" nav derīga Litecoin adrese.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Nav iespējams atslēgt maciņu.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Neizdevās ģenerēt jaunu atslēgu.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -430,6 +595,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>versija</translation>
     </message>
@@ -438,8 +610,13 @@
         <translation>(%1-biti)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Command-line options</source>
         <translation>Komandrindas iespējas</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>Par Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Usage:</source>
@@ -457,6 +634,13 @@
         <translation>Sveiciens</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Sveicināts Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Use the default data directory</source>
         <translation>Izmantot noklusēto datu mapi</translation>
     </message>
@@ -465,8 +649,13 @@
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -514,6 +703,17 @@
         <translation>&amp;Galvenais</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Automātiski sākt Litecoin pēc pieteikšanās sistēmā.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Sākt Litecoin reizē ar sistēmu</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Size of &amp;database cache</source>
         <translation>&amp;Datubāzes kešatmiņas izmērs</translation>
     </message>
@@ -610,12 +810,19 @@
         <translation>Lietotāja interfeiss un &amp;valoda:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc Litecoin pārstartēšanas.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Vienības, kurās attēlot daudzumus:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot bitkoinus.</translation>
+        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot litecoins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -691,7 +898,39 @@
     </context>
 <context>
     <name>PaymentServer</name>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>URI handling</source>
+        <translation>URI apstrāde</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Nederīga maksājuma adrese %1</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Maksājumu pieprasījuma kļūda</translation>
+    </message>
+    <message>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Nevar palaist Litecoin: nospied-lai-maksātu apstrādātāju</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Atmaksa no %1</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>Maksājums atzīts</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Tīkla pieprasījuma kļūda</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>PeerTableModel</name>
     </context>
@@ -830,8 +1069,13 @@
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Amount:</source>
         <translation>&amp;Daudzums:</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Laipni lūgti Litecoin RPC konsolē.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -916,7 +1160,11 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
+<<<<<<< HEAD
         <translation>Sūtīt Bitkoinus</translation>
+=======
+        <translation>Sūtīt Litecoins</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -995,6 +1243,77 @@
         <translation>&amp;Sūtīt</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirm send coins</source>
+        <translation>Apstiprināt litecoin sūtīšanu</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 līdz %2</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopēt daudzumu</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopēt daudzumu</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Kopēt maksu</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Kopēt pēc maksas</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Kopēt baitus</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Kopēt prioritāti</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Kopēt atlikumu</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>vai</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Saņēmēja adrese ir nepareiza, lūdzu pārbaudi.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Nosūtāmajai summai jābūt lielākai par 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Daudzums pārsniedz pieejamo.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Kopsumma pārsniedz pieejamo, ja pieskaitīta %1 transakcijas maksa.</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Atrastas divas vienādas adreses, vienā nosūtīšanas reizē uz katru adresi var sūtīt tikai vienreiz.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Transakcijas izveidošana neizdevās!</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Brīdinājums: Nederīga Litecoin adrese</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>(no label)</source>
         <translation>(bez nosaukuma)</translation>
     </message>
@@ -1056,6 +1375,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoin Core tiek izslēgta...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Neizslēdziet datoru kamēr šis logs nepazūd.</translation>
     </message>
@@ -1130,6 +1456,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core izstrādātāji</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnets]</translation>
     </message>
@@ -1185,7 +1522,15 @@
     </context>
 <context>
     <name>WalletModel</name>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>Send Coins</source>
+        <translation>Sūtīt Litecoins</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>WalletView</name>
     </context>
@@ -1244,6 +1589,13 @@
         <translation>Kļūda: Zema diska vieta!</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Ja &lt;category&gt; nav norādīta, izvadīt visu atkļūdošanas informāciju.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Importing...</source>
         <translation>Importē...</translation>
     </message>
@@ -1304,8 +1656,23 @@
         <translation>-onlynet komandā norādīts nepazīstams tīkls: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Nevar uzmeklēt -bind adresi: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Nevar atrisināt -externalip adresi: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nederīgs daudzums priekš -paytxfree=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
-        <translation>Nepietiek bitkoinu</translation>
+        <translation>Nepietiek litecoins</translation>
     </message>
     <message>
         <source>Loading block index...</source>

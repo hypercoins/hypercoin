@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Clique com o botão direito para editar o endereço ou etiqueta</translation>
+=======
+        <translation>Clique á direita para editar endereço ou rótulo</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Create a new address</source>
@@ -39,7 +43,11 @@
     </message>
     <message>
         <source>&amp;Delete</source>
+<<<<<<< HEAD
         <translation>&amp;Eliminar</translation>
+=======
+        <translation>&amp;Eliminar\</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -68,10 +76,13 @@
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Estes são os seus endereços Litecoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copiar Endereço</translation>
+=======
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -95,7 +106,11 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
+<<<<<<< HEAD
         <translation>Ocorreu um erro ao tentar guardar a lista de endereços para %1. Por favor, tente novamente.</translation>
+=======
+        <translation>Houve um erro ao tentar a guardar a lista de endereços em %1. Por favor tente novamente.</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -173,7 +188,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Aviso: se encriptar a sua carteira e perder a sua frase de segurnça, &lt;b&gt;PERDERÁ TODOS OS SEUS LITECOINS&lt;/b&gt;!</translation>
+=======
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS LITECOINS&lt;/b&gt;!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +207,13 @@
         <translation>%1 irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus litecoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>IMPORTANTE: Qualquer cópia de segurança da carteira anterior deverá ser substituída com o novo ficheiro de carteira, agora encriptado. Por razões de segurança, cópias de segurança não encriptadas tornar-se-ão inúteis assim que começar a usar a nova carteira encriptada.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Litecoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus litecoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -322,8 +346,17 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Clique para desativar a atividade de rede.</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>Cliente Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>A importar blocos do disco...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -338,12 +371,21 @@
         <translation>A sincronizar cabeçalhos (%1%)...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reindexing blocks on disk...</source>
         <translation>A reindexar os blocos no disco...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Enviar moedas para um endereço Litecoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Enviar moedas para um endereço litecoin</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Modificar opções de configuração para litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -382,6 +424,10 @@
         <translation>&amp;Receber</translation>
     </message>
     <message>
+        <source>Show information about Litecoin Core</source>
+        <translation>Mostrar informação sobre Litecoin Core</translation>
+    </message>
+    <message>
         <source>&amp;Show / Hide</source>
         <translation>Mo&amp;strar / Ocultar</translation>
     </message>
@@ -395,7 +441,11 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation>Assine as mensagens com os seus endereços Litecoin para provar que é o proprietário dos mesmos</translation>
+=======
+        <translation>Assine mensagens com os seus endereços Litecoin para provar que os controla</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
@@ -418,8 +468,21 @@
         <translation>Barra de ferramentas dos separadores</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Solicitar pagamentos (gera códigos QR e litecoin: URIs)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e URIs litecoin:)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;Sobre o Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -435,7 +498,15 @@
     </message>
     <message>
         <source>&amp;Command-line options</source>
+<<<<<<< HEAD
         <translation>&amp;Opções da linha de &amp;comando</translation>
+=======
+        <translation>&amp;Opções da linha de &amp;comandos</translation>
+    </message>
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Mostrar a mensagem de ajuda do Litecoin Core para obter uma lista com possíveis opções de linha de comandos</translation>
+>>>>>>> 0.10
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
@@ -560,7 +631,11 @@
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
+<<<<<<< HEAD
         <translation>Seleção de Moeda</translation>
+=======
+        <translation>Seleção de moeda</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Quantity:</source>
@@ -609,6 +684,14 @@
     <message>
         <source>Received with label</source>
         <translation>Recebido com etiqueta</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Recebido com endereço</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>Recebido com rótulo</translation>
     </message>
     <message>
         <source>Received with address</source>
@@ -671,12 +754,20 @@
         <translation>Copiar poeira</translation>
     </message>
     <message>
+        <source>Copy dust</source>
+        <translation>Copiar lixo</translation>
+    </message>
+    <message>
         <source>Copy change</source>
         <translation>Copiar troco</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
         <translation>(%1 bloqueado)</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Pode variar +/- %1 satoshi(s) por entrada</translation>
     </message>
     <message>
         <source>yes</source>
@@ -750,8 +841,13 @@
         <translation>O endereço introduzido "%1" não é um endereço litecoin válido.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>O endereço introduzido "%1" já se encontra no livro de endereços.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço litecoin válido.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -788,6 +884,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>versão</translation>
     </message>
@@ -796,8 +899,13 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>Sobre o %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>Sobre o Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -829,11 +937,19 @@
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
+<<<<<<< HEAD
         <translation>Definir certificados de raiz SSL para pedidos de pagamento (predefinição: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
         <translation>Mostrar o ecrã de abertura no arranque (predefinição: %u)</translation>
+=======
+        <translation>Configurar certificados SSL root para pedido de pagamento (default: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Mostrar imagem ao iniciar (por defeito: 1)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
@@ -847,6 +963,7 @@
         <translation>Bem-vindo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>Bem-vindo ao %1.</translation>
     </message>
@@ -857,6 +974,18 @@
     <message>
         <source>Use a custom data directory:</source>
         <translation>Utilizar uma pasta de dados personalizada:</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Bem-vindo ao Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>Sendo esta a primeira vez que o programa é iniciado, poderá escolher onde o Litecoin Core irá guardar os seus dados.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O Litecoin Core vai transferir e armazenar uma cópia do "block chain" (cadeia de blocos). Pelo menos %1GB de dados serão armazenados nesta pasta, e vão crescer ao longo do tempo. A sua carteira também irá ser armazenada nesta pasta.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Litecoin</source>
@@ -871,8 +1000,17 @@
         <translation>A carteira também será guardada nesta directoria.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>Erro: não pode ser criada a pasta de dados especificada como "%1.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Erro: Pasta de dados especificada como "%1, não pode ser criada.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -880,13 +1018,18 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
+<<<<<<< HEAD
         <translation><numerusform>%n GB de espaço livre disponível</numerusform><numerusform>%n GB de espaço livre disponível</numerusform></translation>
+=======
+        <translation><numerusform>%n GB de espaço livre disponível </numerusform><numerusform>%n GB de espaço livre disponível </numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation><numerusform>(de %n GB necessários)</numerusform><numerusform>(de %n GB necessário)</numerusform></translation>
     </message>
 </context>
+<<<<<<< HEAD
 <context>
     <name>ModalOverlay</name>
     <message>
@@ -938,6 +1081,8 @@
         <translation>Desconhecido. Sincronização de Cabeçalhos (%1)...</translation>
     </message>
 </context>
+=======
+>>>>>>> 0.10
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -972,12 +1117,21 @@
         <translation>&amp;Principal</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>Iniciar automaticamente o %1 depois de iniciar a sessão no sistema.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
         <translation>&amp;Iniciar o %1 no início de sessão do sistema</translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Começar o Litecoin automaticamente ao iniciar sessão no sistema.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Começar o Litecoin ao iniciar o sistema</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -990,6 +1144,14 @@
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Número de processos de &amp;verificação de scripts</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>Aceitar conceções externas</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Permitir conexão</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1007,6 +1169,15 @@
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URLs de outrem (ex. um explorador de blocos) que aparece no separador de transações como itens do menu de contexto.
 %s do URL é substituído por hash de transação. Vários URLs são separados por barra vertical |.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URLs de outrem (ex. um explorador de blocos) que aparece no separador de transações como itens do menu de contexto.
+%s do URL é substituído por hash de transação. Vários URLs são separados por barra vertical |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>URLs de transação de outrem</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
@@ -1030,7 +1201,11 @@
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+<<<<<<< HEAD
         <translation>(0 = automático, &lt;0 = deixar essa quantidade de núcleos livre)</translation>
+=======
+        <translation>(0 = auto, &lt;0 = Deixar essa quantidade de núcleos livre)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1077,6 +1252,14 @@
         <translation>&amp;Ligar através dum proxy SOCKS5 (proxy por defeito):</translation>
     </message>
     <message>
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede da Litecoin através dum proxy SOCLS5.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Ligar através dum proxy SOCKS5 (proxy por defeito):</translation>
+    </message>
+    <message>
         <source>Proxy &amp;IP:</source>
         <translation>&amp;IP do proxy:</translation>
     </message>
@@ -1087,6 +1270,7 @@
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Porto do proxy (p.ex. 9050)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Used for reaching peers via:</source>
@@ -1107,6 +1291,8 @@
     <message>
         <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Ligar à rede Litecoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
+=======
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1133,8 +1319,13 @@
         <translation>&amp;Linguagem da interface de utilizador:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar %1.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1254,6 +1445,8 @@
     <message>
         <source>Your current balance in watch-only addresses</source>
         <translation>O seu balanço atual em endereços de apenas observação</translation>
+<<<<<<< HEAD
+=======
     </message>
     <message>
         <source>Spendable:</source>
@@ -1275,6 +1468,48 @@
         <source>Current total balance in watch-only addresses</source>
         <translation>Saldo disponivél em enderços modo-verificação</translation>
     </message>
+    <message>
+        <source>out of sync</source>
+        <translation>fora de sincronia</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Dispensável:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>transações recentes</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Transações não confirmadas para endereços modo-verificação</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Saldo minado ainda não disponivél de endereços modo-verificação</translation>
+=======
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Rede de requisição de pagamento não corresponde com a rede do cliente.</translation>
+    </message>
+    <message>
+        <source>Payment request has expired.</source>
+        <translation>Pedido de pagamento expirado.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Requisição de pagamento não iniciou.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Quantia solicitada para pagamento de %1 é muito pequena (considerada "pó").</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Saldo disponivél em enderços modo-verificação</translation>
+    </message>
 </context>
 <context>
     <name>PaymentServer</name>
@@ -1287,8 +1522,13 @@
         <translation>Impossível iniciar o controlador de litecoin: click-to-pay</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI handling</source>
         <translation>Manuseamento de URI</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Impossível iniciar o controlador de litecoin: click-to-pay</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1303,6 +1543,10 @@
         <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Litecoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Litecoin inválido ou por parâmetros URI malformados.</translation>
+    </message>
+    <message>
         <source>Payment request file handling</source>
         <translation>Controlo de pedidos de pagamento.</translation>
     </message>
@@ -1311,6 +1555,7 @@
         <translation>O ficheiro de pedido de pagamento não pôde ser lido! Isto pode ter sido causado por um ficheiro de pedido de pagamento inválido.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request rejected</source>
         <translation>Pedido de pagamento rejeitado</translation>
     </message>
@@ -1327,6 +1572,8 @@
         <translation>O pedido de pagamento não foi inicializado.</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Pedidos de pagamento não-verificados para scripts de pagamento personalizados não são suportados.</translation>
     </message>
@@ -1347,12 +1594,27 @@
         <translation>Pedido de pagamento %1 é demasiado grande (%2 bytes, permitido %3 bytes).</translation>
     </message>
     <message>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>Pedido de pagamento %1 excede o tamanho (%2 bytes, permitido %3 bytes).</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>Pedido de pagamento proteção DdS</translation>
+    </message>
+    <message>
         <source>Error communicating with %1: %2</source>
         <translation>Erro ao comunicar com %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
         <translation>O pedido de pagamento não pode ser lido ou processado!</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Má resposta do servidor %1</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1374,6 +1636,7 @@
         <translation>Agente Usuário</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node/Service</source>
         <translation>Nó/Serviço</translation>
     </message>
@@ -1392,6 +1655,14 @@
     <message>
         <source>Received</source>
         <translation>Recebido</translation>
+=======
+        <source>Address/Hostname</source>
+        <translation>Endereço/Nome da Rede</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Tempo de Latência</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -1421,6 +1692,17 @@
         <translation>%1 s</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>NETWORK</source>
+        <translation>REDE</translation>
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>DESCONHECIDO</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>None</source>
         <translation>Nenhum</translation>
     </message>
@@ -1432,6 +1714,7 @@
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
@@ -1499,6 +1782,8 @@
         <source>Error: %1</source>
         <translation>Erro: %1</translation>
     </message>
+=======
+>>>>>>> 0.10
 </context>
 <context>
     <name>QRImageWidget</name>
@@ -1550,6 +1835,10 @@
         <translation>Datadir</translation>
     </message>
     <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Versão BerkeleyDB em uso</translation>
+    </message>
+    <message>
         <source>Startup time</source>
         <translation>Hora de Arranque</translation>
     </message>
@@ -1574,6 +1863,7 @@
         <translation>Número actual de blocos</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Memory Pool</source>
         <translation>Banco de Memória</translation>
     </message>
@@ -1590,6 +1880,8 @@
         <translation>&amp;Reiniciar</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Received</source>
         <translation>Recebido</translation>
     </message>
@@ -1599,6 +1891,7 @@
     </message>
     <message>
         <source>&amp;Peers</source>
+<<<<<<< HEAD
         <translation>&amp;Pontos</translation>
     </message>
     <message>
@@ -1612,6 +1905,13 @@
     <message>
         <source>Whitelisted</source>
         <translation>Permitido por si</translation>
+=======
+        <translation>&amp;Conexção</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Selecione uma conexação para ver informação em detalhe.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Direction</source>
@@ -1622,6 +1922,7 @@
         <translation>Versão</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Starting Block</source>
         <translation>Bloco Inicial</translation>
     </message>
@@ -1634,10 +1935,13 @@
         <translation>Blocos Sincronizados</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>User Agent</source>
         <translation>Agente Usuário</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o ficheiro de registo de depuração %1 da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
@@ -1652,6 +1956,18 @@
     <message>
         <source>Services</source>
         <translation>Serviços</translation>
+=======
+        <source>Services</source>
+        <translation>Serviços</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Iniciando Altura</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Sincronização da Altura</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Ban Score</source>
@@ -1659,7 +1975,11 @@
     </message>
     <message>
         <source>Connection Time</source>
+<<<<<<< HEAD
         <translation>Tempo de Ligação</translation>
+=======
+        <translation>Tempo de Conexção</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Last Send</source>
@@ -1670,6 +1990,7 @@
         <translation>Ultimo Recebimento</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Ping Time</source>
         <translation>Tempo de Latência</translation>
     </message>
@@ -1688,6 +2009,18 @@
     <message>
         <source>Time Offset</source>
         <translation>Fuso Horário</translation>
+=======
+        <source>Bytes Sent</source>
+        <translation>Bytes Enviados</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Bytes Recebidos</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Tempo de Latência</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Last block time</source>
@@ -1722,12 +2055,24 @@
         <translation>Ficheiro de registo de depuração</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>Limpar consola</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>1 &amp;hora</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Bem-vindo à consola RPC Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -1754,6 +2099,7 @@
         <translation>Bem-vindo à consola RPC da %1.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>For more information on using this console type %1.</source>
         <translation>Para mais informação em como utilizar esta consola, digite %1.</translation>
     </message>
@@ -1766,6 +2112,8 @@
         <translation>(id nó: %1)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>via %1</source>
         <translation>via %1</translation>
     </message>
@@ -1782,6 +2130,7 @@
         <translation>Saída</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Yes</source>
         <translation>Sim</translation>
     </message>
@@ -1793,6 +2142,15 @@
         <source>Unknown</source>
         <translation>Desconhecido</translation>
     </message>
+=======
+        <source>Unknown</source>
+        <translation>Desconhecido</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Em busca...</translation>
+    </message>
+>>>>>>> 0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1809,6 +2167,17 @@
         <translation>&amp;Mensagem:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Reutilize um dos endereços de entrada usados anteriormente. Reutilizar endereços pode levar a riscos de segurança e de privacidade. Não use esta função a não ser que esteja a gerar novamente uma requisição de pagamento feita anteriormente.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>Reutilizar um endereço de receção existente (não recomendado)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Litecoin.</translation>
     </message>
@@ -2015,7 +2384,83 @@
     </message>
     <message>
         <source>Transaction Fee:</source>
+<<<<<<< HEAD
         <translation>Taxa da transação:</translation>
+=======
+        <translation>Custo da Transação:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Escolha...</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>fechar definições-de custos</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Minimizar</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa fixa for 1000 satoshis e a transação for somente 250 bytes, pagará somente 250 satoshis "por kilobyte" em custos se trasacionar "pelo menos" 1000 satoshis. Transações superiores a um kilobyte são cobradas por kilobyte.</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>por kilobyte</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa fixa for 1000 satoshis e a transação for somente 250 bytes, pagará somente 250 satoshis "por kilobyte" em custos se trasacionar "pelo menos" 1000 satoshis. Transações superiores a um kilobyte são cobradas por kilobyte.</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>total minimo</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <translation>Pode pagar somente a taxa minima desde que haja um volume de transações inferior ao espaço nos blocos. No entanto tenha em atenção que esta opção poderá acabar em uma transação nunca confirmada assim que os pedidos de transações excedam a capacidade de processamento da rede.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(leia a dica)</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Recomendado:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Uso:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(Taxa inteligente ainda não foi acionada. Normalmente demora alguns blocos...)</translation>
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>Tempo de confirmação:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normal</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>rapido</translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>Enviar como uma transação a custo zero se possivél</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(confirmação poderá demorar mais)</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Enviar para múltiplos destinatários de uma vez</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Choose...</source>
@@ -2026,8 +2471,17 @@
         <translation>Aviso: atualmente, não é possível a estimativa da taxa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>collapse fee-settings</source>
         <translation>ocultar definições de taxa</translation>
+=======
+        <source>Dust:</source>
+        <translation>Lixo:</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Limpar &amp;Tudo</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2038,8 +2492,13 @@
         <translation>Se a taxa personalizada estiver definida para 1.000 satoshis e a transação é de apenas 250 bytes, então paga apenas 250 satoshis "por kilobyte" na taxa, enquanto em "total pelo menos" paga 1.000 satoshis. Para transações superiores a um kilobyte ambos pagam por kilobyte.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Esconder</translation>
+=======
+        <source>S&amp;end</source>
+        <translation>E&amp;nviar</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
@@ -2126,6 +2585,7 @@
         <translation>Copiar troco</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 to %2</source>
         <translation>%1 para %2</translation>
     </message>
@@ -2142,6 +2602,8 @@
         <translation>Quantia Total %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>or</source>
         <translation>ou</translation>
     </message>
@@ -2179,8 +2641,25 @@
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Uma taxa superior a %1 é considerada uma taxa altamente absurda.</translation>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Uma taxa superior a %1 é considerada muito alta.</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Pagar somente a taxa minima de %1</translation>
+    </message>
+    <message>
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>Confirmação deverá começar dentro de %1 bloco(s).</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Aviso: Endereço Litecoin inválido</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2199,8 +2678,17 @@
         <translation>Aviso: endereço de troco desconhecido</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirm custom change address</source>
         <translation>Confirmar endereço de troco personalizado</translation>
+=======
+        <source>Copy dust</source>
+        <translation>Copiar lixo</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Tem a certeza que deseja enviar?</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
@@ -2278,8 +2766,13 @@
         <translation>Pedido de pagamento autenticado.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Introduza um rótulo para este endereço para o adicionar à sua lista de endereços usados</translation>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>Uma mensagem que estava anexada ao URI litecoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
@@ -2308,8 +2801,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>%1 is shutting down...</source>
         <translation>%1 está a encerrar...</translation>
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>O Litecoin Core está a encerrar...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2458,6 +2956,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>The Litecoin Core developers</source>
+        <translation>Os programadores do Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[rede de testes]</translation>
     </message>
@@ -2541,7 +3050,11 @@
     </message>
     <message>
         <source>watch-only</source>
+<<<<<<< HEAD
         <translation>vigiar apenas</translation>
+=======
+        <translation>modo-verificação</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>label</source>
@@ -2561,11 +3074,19 @@
     </message>
     <message>
         <source>Total debit</source>
+<<<<<<< HEAD
         <translation>Débito total</translation>
     </message>
     <message>
         <source>Total credit</source>
         <translation>Crédito total</translation>
+=======
+        <translation>Total a debitar</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Total a creditar</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Transaction fee</source>
@@ -2710,6 +3231,10 @@
         <translation>vigiar apenas</translation>
     </message>
     <message>
+        <source>watch-only</source>
+        <translation>modo-verificação</translation>
+    </message>
+    <message>
         <source>(n/a)</source>
         <translation>(n/d)</translation>
     </message>
@@ -2730,6 +3255,17 @@
         <translation>Tipo de transação.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Desde que um endereço de modo-verificação faça parte ou não desta transação</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Endereço de destino da transação.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Amount removed from or added to balance.</source>
         <translation>Montante retirado ou adicionado ao saldo</translation>
     </message>
@@ -2821,8 +3357,25 @@
         <translation>Copiar detalhes completos da transação</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Edit label</source>
         <translation>Editar etiqueta</translation>
+=======
+        <source>Export Transaction History</source>
+        <translation>Exportar Histórico de Transacções</translation>
+    </message>
+    <message>
+        <source>Watch-only</source>
+        <translation>Modo-verificação</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>A Exportação Falhou</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Ocorreu um erro ao tentar guardar o histórico de transações em %1.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show transaction details</source>
@@ -3012,6 +3565,7 @@
         <translation>Litecoin Core</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The %s developers</source>
         <translation>Os programadores de %s</translation>
     </message>
@@ -3024,6 +3578,8 @@
         <translation>Aceitar as transações retransmitidas recebidas dos pontos na lista branca, mesmo quando não retransmitir as transações (predefinição: %d)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Associar a endereço específico e escutar sempre nele. Use a notação [anfitrião]:porta para IPv6</translation>
     </message>
@@ -3032,24 +3588,50 @@
         <translation>Apague todas as transações da carteira e somente restore aquelas que façam parte do blockchain através de re-scan ao reiniciar o programa</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Executar o comando quando uma transação da carteira muda (no comando, %s é substituído pela Id. da Transação)</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
         <translation>Por favor verifique que a data e hora do seu computador estão certos! Se o relógio não estiver certo, o %s não funcionará corretamente.</translation>
+=======
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>Distribuido através da licença de software MIT, verifique o ficheiro anexado COPYING ou &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Entre no modo de teste de regressão, que usa uma cadeia especial cujos blocos podem ser resolvidos instantaneamente.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
         <translation>Consultar por endereços de ponto via procura de DNS, se tiver poucos endereços (predefinição: 1, a menos que use -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>Defina o número de processos de verificação (%u até %d, 0 = automático, &lt;0 = ldisponibiliza esse número de núcleos livres, por defeito: %d)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
         <translation>A base de dados de blocos contém um bloco que aparenta ser do futuro. Isto pode ser causado por uma data incorrecta definida no seu computador. Reconstrua apenas a base de dados de blocos caso tenha a certeza de que a data e hora do seu computador estão correctos.</translation>
+=======
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation>O modo -genproclimit controla quantos blocos são generados imediatamente.</translation>
+    </message>
+    <message>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation>Defina o número de processos de verificação (%u até %d, 0 = automático, &lt;0 = ldisponibiliza esse número de núcleos livres, por defeito: %d)</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>Esta é uma versão de testes pré-lançamento - use à sua responsabilidade - não usar para minar ou aplicações comerciais</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador. O Litecoin Core provavelmente já está a correr.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3070,6 +3652,14 @@
     <message>
         <source>-maxmempool must be at least %d MB</source>
         <translation>- máximo do banco de memória deverá ser pelo menos %d MB</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Ligações na lista branca conectam desde a seguinte netmask ou endereço IP. Posse ser especificado varias vezes.</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(padrão: 1)</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -3108,12 +3698,24 @@
         <translation>Direitos de Autor (C) %i-%i</translation>
     </message>
     <message>
+        <source>Connection options:</source>
+        <translation>Opcões de conexção:</translation>
+    </message>
+    <message>
         <source>Corrupted block database detected</source>
         <translation>Cadeia de blocos corrompida detectada</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
+<<<<<<< HEAD
         <translation>Opções de Depuração/Teste:</translation>
+=======
+        <translation>Depuração/Opções teste:</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Descobrir endereço IP próprio (padrão: 1 ao escutar sem -externalip)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -3184,6 +3786,10 @@
         <translation>A importar...</translation>
     </message>
     <message>
+        <source>Importing...</source>
+        <translation>A importar...</translation>
+    </message>
+    <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Bloco génese incorreto ou nenhum bloco génese encontrado. Pasta de dados errada para a rede?</translation>
     </message>
@@ -3218,6 +3824,13 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Somente conectar aos nodes na rede &lt;net&gt; (ipv4, ipv6 ou onion)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Reconstruir a cadeia de blocos a partir dos ficheiros blk000??.dat atuais</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Print this help message and exit</source>
@@ -3248,6 +3861,7 @@
         <translation>Argumento não suportado -benchmark ignorado, use -debug=bench.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
         <translation>Argumento não suportado -debugnet ignorado, use -debug=net.</translation>
     </message>
@@ -3262,6 +3876,14 @@
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Utilizar UPnP para mapear a porta de escuta (predefinição: %u)</translation>
+=======
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Use UPnP para mapear a porto de escuta (default: %u)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>A verificar blocos...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the test chain</source>
@@ -3292,6 +3914,7 @@
         <translation>Associar ao endereço indicado e pontos da lista branca ligando-se a ele. Utilize a notação [anfitrião]:porta para IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Crie ficheiros novos com as permisões predefinidas do sistema, em vez de umask 077 (apenas eficaz caso a funcionalidade carteira esteja desactivada)</translation>
     </message>
@@ -3302,6 +3925,26 @@
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Erro: A escuta de ligações de entrada falhou (escuta devolveu erro %s)</translation>
+=======
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Permitir conexções JSON-RPC de fontes especificas. Valido para &lt;ip&gt; um unico IP (ex. 1.2.3.4), uma rede/netmask (ex. 1.2.3.4/255.255.255.0) ou uma rede/CIDR (ex. 1.2.3.4/24). Esta opção pode ser especificada varias vezes</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Um erro ocorreu durante a definição do endereço RPC %s porto %u para escutar: %s</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Vincualar o endereço dado e listar as ligações conectadas ao mesmo na lista branca. Use a notação [anfitrião]:porta para IPv6</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
+        <translation>Vinculado para dar o endereço para atender as ligações JSON-RPC. Use [host]: Notação de porta para IPv6. Esta opção pode ser especificada várias vezes (padrão: ligam-se a todas as interfaces)</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s. Provavelmente o Litecoin Core já está a ser executado.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3362,6 +4005,18 @@
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
         <translation>Importar blocos de um ficheiro blk000??.dat externo ao iniciar</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Litecoin Core não irá funcionar correctamente.</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Copyright (C) 2009-%i Os Programadores do Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Litecoin Core</translation>
     </message>
     <message>
         <source>Information</source>
@@ -3460,8 +4115,13 @@
         <translation>Nome de utilizador para ligações JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying wallet(s)...</source>
         <translation>A verificar a(s) carteira(s)...</translation>
+=======
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <translation>A Carteira precisou de ser reescrita: reinicie o Litecoin Core para completar o processo</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning</source>
@@ -3532,6 +4192,7 @@
         <translation>Suportar filtragem de blocos e transacções com fitros bloom (padrão: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
         <translation>Esta é a taxa de transação que poderá pagar quando as estimativas da taxa não estão disponíveis.</translation>
     </message>
@@ -3562,6 +4223,62 @@
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
         <translation>Atenção: Versões desconhecidas de blocos estão a ser mineradas! É possível que regras desconhecias estão a ser efetuadas</translation>
+=======
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Escutar por ligações JSON-RPC na porta &lt;port&gt; (por defeito: %u ou rede de testes: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Escute ligações na porta &lt;port&gt; (por defeito: %u ou testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Manter no máximo &lt;n&gt; ligações a outros nós da rede (por defeito: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maximo armazenamento intermédio de recepção por ligação, &lt;n&gt;*1000 bytes (por defeito: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maximo armazenamento intermédio de envio por ligação, &lt;n&gt;*1000 bytes (por defeito: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Adicionar data e hora à informação de depuração (por defeito: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Ficheiro de certificado do servidor (por defeito: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Chave privada do servidor (por defeito: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Definir o tamanho da memória de chaves para &lt;n&gt; (por defeito: %u)</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>Definir tamanho minímo de um bloco em bytes (por defeito: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Defina o número de processos para servir as chamadas RPC (por defeito: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Especificar tempo de espera da ligação em milissegundos (mínimo 1, por defeito: %d)</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Rede desconhecida especificada em -onlynet: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>%s is set very high!</source>
@@ -3576,6 +4293,7 @@
         <translation>Consultar sempre os endereços de ponto via procura de DNS (predefinição: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
         <translation>Quantos blocos para verificar no arranque (predefinição: %u, 0 = todos)</translation>
     </message>
@@ -3672,6 +4390,8 @@
         <translation>Rede desconhecida especificada em -onlynet: '%s'</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Fundos insuficientes</translation>
     </message>
@@ -3693,7 +4413,11 @@
     </message>
     <message>
         <source>Done loading</source>
+<<<<<<< HEAD
         <translation>Carregamento concluído</translation>
+=======
+        <translation>Carregamento completo</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>

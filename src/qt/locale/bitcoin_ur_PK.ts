@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>نیا ایڈریس بنائیں</translation>
+        <translation>نیا پتہ بنائیں</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -34,12 +34,28 @@
         <translation>موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
     </message>
     <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>سلیکٹڈ پتے کو مٹائیں</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
+    </message>
+    <message>
         <source>&amp;Export</source>
         <translation>برآمد</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>مٹا</translation>
+        <translation>مٹائیں</translation>
+    </message>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>کوئین وصول کرنے والے کا پتہ</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>کوئین بھیجنے  والے کا پتہ</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -52,6 +68,10 @@
     <message>
         <source>C&amp;hoose</source>
         <translation>چننا</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>جس پتے پر بھیجنے ہیں</translation>
     </message>
     </context>
 <context>
@@ -240,10 +260,28 @@
     </context>
 <context>
     <name>WalletView</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>&amp;Export</source>
+        <translation>برآمد</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>موجودہ ڈیٹا کو فائیل میں محفوظ کریں</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This help message</source>
+        <translation>یہ مدد کا پیغام</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>ناکافی فنڈز</translation>
     </message>

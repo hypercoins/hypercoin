@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>დააჭირეთ მარჯვენა ღილაკს მისამართის ან იარლიყის ჩასასწორებლად</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>ახალი მისამართის შექმნა</translation>
     </message>
@@ -66,12 +69,21 @@
         <translation>ეს არის თქვენი ბიტკოინ-მისამართები, რომელთაგანაც შეგიძლიათ გადახდა. აუცილებლად შეამოწმეთ თანხა და მიმღები მისამართი გაგზავნამდე.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>ეს არის თქვენი ბიტკოინ-მისამართები, რომლებზეც შეგიძლიათ მიიღოთ თანხები. რეკომენდებულია ყოველი ტრანსაქციისათვის ახალი მიმღები მისამართის გამოყენება.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>მისამართის კოპირება</translation>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>ეს არის თქვენი Litecoin-მისამართები გადახდების შესასრულებლად. მონეტების გაგზავნამდე ყოველთვის შეამოწმეთ თანხა და მიმღების მისამართი.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>ეს არის თქვენი Litecoin-მისამართები გადახდების მისაღებად. რეკომენდებულია ყოველი ტრანსაქციისათვის ახალი მიღების მისამართის გამოყენება.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -169,7 +181,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>გაფრთხილება: თუ თქვენ დაშიფრავთ თქვენს საფულეს და ამის შემდეგ დაკარგავთ გასაშიფრ ფრაზას, &lt;b&gt;თქვენ დაკარგავთ ყველა ბიტკოინს!&lt;/b&gt;</translation>
+=======
+        <translation>ყურადღება: საფულის დაშიფრვის შემდეგ თუ თქვენ დაკარგავთ ფრაზა-პაროლს,  &lt;b&gt;ყველა LITECOINS დაგეკარგებათ&lt;/b&gt;!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,6 +196,13 @@
         <translation>საფულე დაშიფრულია</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>ახლა Litecoin დაიხურება დაშიფრვის პროცესის დასასრულებლად. გაითვალისწინეთ, რომ დაშიფრვა სრულად ვერ დაიცავს თქვენს litecoins თქვენს კომპიუტერში შემოპარული მავნე პროგრამების საშუალებით დატაცებისაგან.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Wallet encryption failed</source>
         <translation>საფულის დაშიფვრა წარუმატებით დამთვრდა</translation>
     </message>
@@ -288,6 +311,13 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>მონეტების გაგზავნა Litecoin-მისამართზე</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Litecoin-ის საკონფიგურაციო პარამეტრების ცვლილება</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +392,21 @@
         <translation>ბარათების პანელი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და litecoin: ბმულები)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და litecoin: ბმულები)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>Litecoin Core-ს შეს&amp;ახებ</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -382,6 +425,21 @@
         <translation>საკომანდო სტრიქონის ოპ&amp;ციები</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Litecoin Core-ს დახმარების ჩვენება Litecoin-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>ბლოკების წყარო მიუწვდომელია...</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 და %2</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>%1 behind</source>
         <translation>%1 გავლილია</translation>
     </message>
@@ -581,7 +639,43 @@
         <source>&amp;Address</source>
         <translation>მის&amp;ამართი</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>New receiving address</source>
+        <translation>ახალი მიღების მისამართი</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>ახალი გაგზავნის მისამართი</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>მიღების მისამართის შეცვლა</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>გაგზავნის მისამართის შეცვლა</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>მისამართი "%1" უკვე არის მისამართების წიგნში.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>შეყვანილი მისამართი "%1" არ არის ვალიდური Litecoin-მისამართი.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>საფულის განბლოკვა ვერ მოხერხდა.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>ახალი გასაღების გენერირება ვერ მოხერხდა</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -608,16 +702,28 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>ვერსია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(%1-bit)</source>
         <translation>(%1-ბიტი)</translation>
     </message>
     <message>
         <source>About %1</source>
         <translation>%1-ის შესახებ</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>Litecoin Core-ს შესახებ</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -643,8 +749,17 @@
         <translation>მოგესალმებით</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>კეთილი იყოს თქვენი მობრძანება %1-ში.</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>მოგესალმებათ Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები Litecoin Core-მ.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -655,8 +770,13 @@
         <translation>მითითებული კატალოგის გამოყენება:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -720,6 +840,17 @@
         <translation>&amp;მთავარი</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>სისტემაში შესვლის შემდეგ Litecoin-ის ავტომატური გაშვება.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;სისტემაში შესვლისას გაშვება</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Size of &amp;database cache</source>
         <translation>მონაცემთა ბაზის კეშის სი&amp;დიდე</translation>
     </message>
@@ -820,6 +951,13 @@
         <translation>სამომხმარებ&amp;ლო ენა:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>აქ შეგიძლიათ აირჩიოთ სამომხმარებლო ენა. ძალაში შევა Litecoin-ის რესტარტის შემდეგ.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Unit to show amounts in:</source>
         <translation>ერთეუ&amp;ლი:</translation>
     </message>
@@ -936,8 +1074,13 @@
         <translation>მიუწვდ.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 and %2</source>
         <translation>%1 და %2</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>ვერ გაიშვა litecoin: click-to-pay</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>%1 B</source>
@@ -1045,9 +1188,47 @@
         <translation>დახვეწის ლოგ-ფაილი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear console</source>
         <translation>კონსოლის გასუფთავება</translation>
     </message>
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>გახსენით Litecoin-ის დახვეწის ლოგ-ფაილი მიმდინარე კატალოგიდან. დიდი ლოგ-ფაილის შემთხვევაში ამას შეიძლება რამდენიმე წამი მოუნდეს.</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>კონსოლის გასუფთავება</translation>
+    </message>
+    <message>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>მოგესალმებათ Litecoin-ის RPC კონსოლი.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>კლავიშები "ზევით" და "ქვევით" - ისტორიაში მოძრაობა, &lt;b&gt;Ctrl-L&lt;/b&gt; - ეკრანის გასუფთავება.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>აკრიფეთ &lt;b&gt;help&lt;/b&gt; ფაშვებული ბრძანებების სანახავად.</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1064,8 +1245,21 @@
         <translation>&amp;მესიჯი:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>რომელიმე ადრე გამოყენებული მიღების მისამართის გამოყენება. ეს ამცირებს უსაფრთხოებასა და პრივატულობას. ნუ გამოიყენებთ ამ ოპციას, თუ არ ახდენთ ადრე მოთხოვნილი გადახდის ხელახლა გენერირებას.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>ად&amp;რე გამოყენებული მიღების მისამართის გამოყენება (არ არის რეკომენდებული)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას Litecoin ქსელში.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1254,7 +1448,63 @@
     </message>
     <message>
         <source>Copy amount</source>
+<<<<<<< HEAD
         <translation>რაოდენობის კოპირება</translation>
+=======
+        <translation>თანხის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>საკომისიოს კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>დამატებითი საკომისიოს კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>ბაიტების კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>პრიორიტეტის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>ხურდის კოპირება</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>ან</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>მიმღების მისამართი არასწორია, შეამოწმეთ.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>გადახდის მოცულობა 0-ზე მეტი უნდა იყოს</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>თანხა აღემატება თქვენს ბალანსს</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>მისამართები დუბლირებულია, დაშვებულია ერთ ჯერზე თითო მისამართზე ერთხელ გაგზავნა.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>შეცდომა ტრანსაქციის შექმნისას!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>ტრანსაქცია უარყოფილია! შესაძლოა მონეტების ნაწილი თქვენი საფულიდან უკვე გამოყენებულია, რაც შეიძლება მოხდეს wallet.dat-ის ასლის გამოყენებისას, როცა მონეტები გაიგზავნა სხვა ასლიდან, აქ კი არ არის გაგზავნილად მონიშნული.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>ყურადღება: არასწორია Litecoin-მისამართი</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>(no label)</source>
@@ -1309,7 +1559,11 @@
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+<<<<<<< HEAD
         <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
+=======
+        <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას litecoin ქსელში.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Pay To:</source>
@@ -1326,6 +1580,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoin Core იხურება...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>არ გამორთოთ კომპიუტერი ამ ფანჯრის გაქრობამდე.</translation>
     </message>
@@ -1389,6 +1650,13 @@
         <translation>მესიჯის &amp;ვერიფიკაცია</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>შეიყვანეთ ხელმოწერის მისამართი, მესიჯი (დაუკვირდით, რომ ზუსტად იყოს კოპირებული სტრიქონის გადატანები, ჰარები, ტაბულაციები და სხვ) და ხელმოწერა მესიჯის ვერიფიკაციისათვის. მიაქციეთ ყურადღება, რომ რაიმე ზედმეტი არ გაგყვეთ კოპირებისას, რათა არ გახდეთ "man-in-the-middle" შეტევის ობიექტი.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Litecoin-მისამართით</translation>
     </message>
@@ -1404,6 +1672,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core-ს ავტორები</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -1506,14 +1785,30 @@
         <translation>რეზიდენტულად გაშვება და კომანდების მიღება</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Use the test network</source>
+        <translation>სატესტო ქსელის გამოყენება</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>გარედან შეერთებების დაშვება (ნაგულისხმევი: 1 თუ არ გამოიყენება -proxy ან -connect)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>მოცემულ მისამართზე მიჯაჭვა მუდმივად მასზე მიყურადებით. გამოიყენეთ [host]:port ფორმა IPv6-სათვის</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>გადასვლა რეგრესული ტესტირების რეჟიმში, რომელიც იყენებს სპეციალურ ჯაჭვს ბლოკების დაუყოვნებლივი პოვნის შესაძლებლობით.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>კომანდის შესრულება საფულის ტრანსაქციის ცვლილებისას (%s კომანდაში ჩანაცვლდება TxID-ით)</translation>
     </message>
@@ -1646,6 +1941,21 @@
         <translation>-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>ვერ ხერხდება -bind მისამართის გარკვევა: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>ვერ ხერხდება -externalip მისამართის გარკვევა: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>დაუშვებელი მნიშვნელობა -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>არ არის საკმარისი თანხა</translation>
     </message>

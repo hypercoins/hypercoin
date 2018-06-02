@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Copyright (c) 2012-2017 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -9,6 +10,17 @@
 #include <boost/test/unit_test.hpp>
 
 BOOST_FIXTURE_TEST_SUITE(sanity_tests, BasicTestingSetup)
+=======
+// Copyright (c) 2012-2013 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+#include "compat/sanity.h"
+#include "key.h"
+
+#include <boost/test/unit_test.hpp>
+BOOST_AUTO_TEST_SUITE(sanity_tests)
+>>>>>>> 0.10
 
 BOOST_AUTO_TEST_CASE(basic_sanity)
 {

@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>Desni klik za izmenu adrese ili oznake</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>Napravite novu adresu</translation>
     </message>
@@ -79,10 +82,90 @@
         <source>Repeat new passphrase</source>
         <translation>Поновите нову лозинку</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>BanTableModel</name>
     </context>
+=======
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Шифровање новчаника</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Ова акција захтева лозинку Вашег новчаника да би га откључала.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Откључавање новчаника</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Ова акција захтева да унесете лозинку да би дешифловала новчаник.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Дешифровање новчаника</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Промена лозинке</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Унесите стару и нову лозинку за шифровање новчаника.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Одобрите шифровање новчаника</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Упозорење: Ако се ваш новчаник шифрује а потом изгубите лозинкзу, ви ћете &lt;b&gt;ИЗГУБИТИ СВЕ LITECOIN-Е&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Да ли сте сигурни да желите да се новчаник шифује?</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Новчаник је шифрован</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje litecoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Неуспело шифровање новчаника</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Настала је унутрашња грешка током шифровања новчаника. Ваш новчаник није шифрован.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Лозинке које сте унели се не подударају.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Неуспело откључавање новчаника</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>Лозинка коју сте унели за откључавање новчаника је нетачна.</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Неуспело дешифровање новчаника</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Лозинка за приступ новчанику је успешно промењена.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -140,6 +223,13 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Пошаљите новац на litecoin адресу</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Изаберите могућности litecoin-а</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -242,6 +332,13 @@
         <translation>верзија</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>About Litecoin Core</source>
+        <translation>O Litecoin Coru</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Usage:</source>
         <translation>Korišćenje:</translation>
     </message>

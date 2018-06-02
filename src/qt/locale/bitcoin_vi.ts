@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>Phải chuột để edit address hoặc label</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>Create một address mới</translation>
     </message>
@@ -14,11 +17,16 @@
         <translation>&amp;Tạo mới</translation>
     </message>
     <message>
+        <source>&amp;New</source>
+        <translation>Tạo mới</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Sao chép các địa chỉ đã được chọn vào bộ nhớ tạm thời của hệ thống</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
+<<<<<<< HEAD
         <translation>&amp;Sao chép</translation>
     </message>
     <message>
@@ -36,6 +44,13 @@
     <message>
         <source>&amp;Export</source>
         <translation>&amp;Xuất</translation>
+=======
+        <translation>Sao chép</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>Sao chép địa chỉ</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Delete</source>

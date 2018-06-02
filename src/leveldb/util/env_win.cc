@@ -106,7 +106,11 @@ private:
 class Win32WritableFile : public WritableFile
 {
 public:
+<<<<<<< HEAD
     Win32WritableFile(const std::string& fname, bool append);
+=======
+    Win32WritableFile(const std::string& fname);
+>>>>>>> 0.10
     ~Win32WritableFile();
 
     virtual Status Append(const Slice& data);
@@ -427,6 +431,7 @@ void Win32RandomAccessFile::_CleanUp()
     }
 }
 
+<<<<<<< HEAD
 Win32WritableFile::Win32WritableFile(const std::string& fname, bool append)
     : filename_(fname)
 {
@@ -457,6 +462,32 @@ Win32WritableFile::~Win32WritableFile()
 
 Status Win32WritableFile::Append(const Slice& data)
 {
+=======
+Win32WritableFile::Win32WritableFile(const std::string& fname)
+    : filename_(fname)
+{
+    std::wstring path;
+    ToWidePath(fname, path);
+    DWORD Flag = PathFileExistsW(path.c_str()) ? OPEN_EXISTING : CREATE_ALWAYS;
+    _hFile = CreateFileW(path.c_str(),
+                         GENERIC_READ | GENERIC_WRITE,
+                         FILE_SHARE_READ|FILE_SHARE_DELETE|FILE_SHARE_WRITE,
+                         NULL,
+                         Flag,
+                         FILE_ATTRIBUTE_NORMAL,
+                         NULL);
+    // CreateFileW returns INVALID_HANDLE_VALUE in case of error, always check isEnable() before use
+}
+
+Win32WritableFile::~Win32WritableFile()
+{
+    if (_hFile != INVALID_HANDLE_VALUE)
+        Close();
+}
+
+Status Win32WritableFile::Append(const Slice& data)
+{
+>>>>>>> 0.10
     DWORD r = 0;
     if (!WriteFile(_hFile, data.data(), data.size(), &r, NULL) || r != data.size()) {
         return Status::IOError("Win32WritableFile.Append::WriteFile: "+filename_, Win32::GetLastErrSz());
@@ -833,9 +864,13 @@ Status Win32Env::NewLogger( const std::string& fname, Logger** result )
 {
     Status sRet;
     std::string path = fname;
+<<<<<<< HEAD
     // Logs are opened with write semantics, not with append semantics
     // (see PosixEnv::NewLogger)
     Win32WritableFile* pMapFile = new Win32WritableFile(ModifyPath(path), false);
+=======
+    Win32WritableFile* pMapFile = new Win32WritableFile(ModifyPath(path));
+>>>>>>> 0.10
     if(!pMapFile->isEnable()){
         delete pMapFile;
         *result = NULL;
@@ -849,6 +884,7 @@ Status Win32Env::NewWritableFile( const std::string& fname, WritableFile** resul
 {
     Status sRet;
     std::string path = fname;
+<<<<<<< HEAD
     Win32WritableFile* pFile = new Win32WritableFile(ModifyPath(path), false);
     if(!pFile->isEnable()){
         *result = NULL;
@@ -863,6 +899,9 @@ Status Win32Env::NewAppendableFile( const std::string& fname, WritableFile** res
     Status sRet;
     std::string path = fname;
     Win32WritableFile* pFile = new Win32WritableFile(ModifyPath(path), true);
+=======
+    Win32WritableFile* pFile = new Win32WritableFile(ModifyPath(path));
+>>>>>>> 0.10
     if(!pFile->isEnable()){
         *result = NULL;
         sRet = Status::IOError(fname,Win32::GetLastErrSz());

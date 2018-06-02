@@ -29,9 +29,20 @@ define fetch_file_inner
 endef
 
 define fetch_file
+<<<<<<< HEAD
     ( test -f $$($(1)_source_dir)/$(4) || \
     ( $(call fetch_file_inner,$(1),$(2),$(3),$(4),$(5)) || \
       $(call fetch_file_inner,$(1),$(FALLBACK_DOWNLOAD_PATH),$(3),$(4),$(5))))
+=======
+(test -f $$($(1)_source_dir)/$(4) || \
+  ( mkdir -p $$($(1)_download_dir) && echo Fetching $(1)... && \
+  ( $(build_DOWNLOAD) "$$($(1)_download_dir)/$(4).temp" "$(2)/$(3)" || \
+    $(build_DOWNLOAD) "$$($(1)_download_dir)/$(4).temp" "$(FALLBACK_DOWNLOAD_PATH)/$(3)" ) && \
+    echo "$(5)  $$($(1)_download_dir)/$(4).temp" > $$($(1)_download_dir)/.$(4).hash && \
+    $(build_SHA256SUM) -c $$($(1)_download_dir)/.$(4).hash && \
+    mv $$($(1)_download_dir)/$(4).temp $$($(1)_source_dir)/$(4) && \
+    rm -rf $$($(1)_download_dir) ))
+>>>>>>> 0.10
 endef
 
 define int_get_build_recipe_hash
@@ -64,7 +75,11 @@ $(1)_cached:=$(BASE_CACHE)/$(host)/$(1)/$(1)-$($(1)_version)-$($(1)_build_id).ta
 $(1)_all_sources=$($(1)_file_name) $($(1)_extra_sources)
 
 #stamps
+<<<<<<< HEAD
 $(1)_fetched=$(SOURCES_PATH)/download-stamps/.stamp_fetched-$(1)-$($(1)_file_name).hash
+=======
+$(1)_fetched=$$($(1)_source_dir)/download-stamps/.stamp_fetched-$(1)-$($(1)_file_name)
+>>>>>>> 0.10
 $(1)_extracted=$$($(1)_extract_dir)/.stamp_extracted
 $(1)_preprocessed=$$($(1)_extract_dir)/.stamp_preprocessed
 $(1)_cleaned=$$($(1)_extract_dir)/.stamp_cleaned

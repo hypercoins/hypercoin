@@ -183,6 +183,7 @@ bool ProduceSignature(const BaseSignatureCreator& creator, const CScript& fromPu
     sigdata.scriptSig = PushAll(result);
 
     // Test solution
+<<<<<<< HEAD
     return solved && VerifyScript(sigdata.scriptSig, fromPubKey, &sigdata.scriptWitness, STANDARD_SCRIPT_VERIFY_FLAGS, creator.Checker());
 }
 
@@ -213,6 +214,9 @@ bool SignSignature(const CKeyStore &keystore, const CScript& fromPubKey, CMutabl
     bool ret = ProduceSignature(creator, fromPubKey, sigdata);
     UpdateTransaction(txTo, nIn, sigdata);
     return ret;
+=======
+    return VerifyScript(txin.scriptSig, fromPubKey, STANDARD_SCRIPT_VERIFY_FLAGS, MutableTransactionSignatureChecker(&txTo, nIn));
+>>>>>>> 0.10
 }
 
 bool SignSignature(const CKeyStore &keystore, const CTransaction& txFrom, CMutableTransaction& txTo, unsigned int nIn, int nHashType)
@@ -255,7 +259,11 @@ static std::vector<valtype> CombineMultisig(const CScript& scriptPubKey, const B
             if (sigs.count(pubkey))
                 continue; // Already got a sig for this pubkey
 
+<<<<<<< HEAD
             if (checker.CheckSig(sig, pubkey, scriptPubKey, sigversion))
+=======
+            if (TransactionSignatureChecker(&txTo, nIn).CheckSig(sig, pubkey, scriptPubKey))
+>>>>>>> 0.10
             {
                 sigs[pubkey] = sig;
                 break;

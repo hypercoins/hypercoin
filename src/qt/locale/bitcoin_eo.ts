@@ -67,11 +67,15 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+<<<<<<< HEAD
         <translation>Jen viaj litecoinj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopii Adreson</translation>
+=======
+        <translation>Jen viaj Litecoin adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -165,7 +169,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA BITMONO&lt;b&gt;!</translation>
+=======
+        <translation>Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA LITECOINS&lt;b&gt;!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,8 +184,13 @@
         <translation>La monujo estas ĉifrita</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>%1 nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -266,12 +279,30 @@
         <translation>Malfermi &amp;URI-on...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core client</source>
+        <translation>kliento de Litecoin-kerno</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Importado de blokoj el disko...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Reindexing blocks on disk...</source>
         <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Sendi monon al Litecoin-adreso</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Modifi agordaĵojn por Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -310,6 +341,10 @@
         <translation>&amp;Ricevi</translation>
     </message>
     <message>
+        <source>Show information about Litecoin Core</source>
+        <translation>Vidigi informon pri Litecoin Kerno</translation>
+    </message>
+    <message>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Montri / Kaŝi</translation>
     </message>
@@ -346,8 +381,21 @@
         <translation>Langeto-breto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso litecoin:)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Kerno de Litecoin</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso litecoin:)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;Pri la Litecoin Kerno</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -365,6 +413,37 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandliniaj agordaĵoj</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n aktiva konekto al la Litecoin reto</numerusform><numerusform>%n aktivaj konektoj al la Litecoin reto</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Neniu fonto de blokoj trovebla...</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n horo</numerusform><numerusform>%n horoj</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n tago</numerusform><numerusform>%n tagoj</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n semajno</numerusform><numerusform>%n semajnoj</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 kaj %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n jaro</numerusform><numerusform>%n jaroj</numerusform></translation>
+    </message>
+>>>>>>> 0.10
     <message>
         <source>%1 behind</source>
         <translation>mankas %1</translation>
@@ -511,6 +590,137 @@
         <translation>Konfirmita</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Priority</source>
+        <translation>Prioritato</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopii adreson</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopii etikedon</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopii sumon</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Kopii transakcian ID-on</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>Ŝlosi la neelspezitajn</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>Malŝlosi la neelspezitajn</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopii kvanton</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Kopii krompagon</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Kopii post krompago</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Kopii bajtojn</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Kopii prioritaton</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Kopii polvon</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Kopii restmonon</translation>
+    </message>
+    <message>
+        <source>highest</source>
+        <translation>plej alta</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>pli alta</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>alta</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>mezalta</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>meza</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>mezmalalta</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>malalta</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>pli malalta</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>plej malalta</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 ŝlosita)</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>neniu</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jes</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Tiu ĉi etikedo ruĝiĝas se la grando de la transakcio estas pli ol 1000 bajtoj.</translation>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>Tio signifas, ke krompago de almenaŭ po %1 por ĉiu kB estas deviga.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Povas varii po +/- 1 bajton por ĉiu enigo.</translation>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Transakcioj kun pli alta prioritato havas pli altan ŝancon inkluziviĝi en bloko.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Tiu ĉi etikedo ruĝiĝas se iu ajn ricevonto ricevos sumon malpli ol %1.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>(no label)</source>
         <translation>(neniu etikedo)</translation>
     </message>
@@ -537,7 +747,43 @@
         <source>&amp;Address</source>
         <translation>&amp;Adreso</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>New receiving address</source>
+        <translation>Nova adreso por ricevi</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Nova adreso por sendi</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Redakti adreson por ricevi</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Redakti adreson por sendi</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>La adreso enigita "%1" jam ekzistas en la adresaro.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>La adreso enigita "%1" ne estas valida Litecoin-adreso.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Ne eblis malŝlosi monujon.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Fiaskis kreo de nova ŝlosilo.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -564,10 +810,24 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Kerno de Litecoin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>versio</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>About Litecoin Core</source>
+        <translation>Pri la Litecoin Kerno</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Command-line options</source>
         <translation>Komandliniaj agordaĵoj</translation>
     </message>
@@ -591,6 +851,21 @@
         <translation>Bonvenon</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Bonvenon al la Litecoin kerno, Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie Litecoin Core stokos siajn datumojn.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Litecoin Core elŝutos kaj konservos kopion de la Litecoin blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Use the default data directory</source>
         <translation>Uzi la defaŭltan dosierujon por datumoj</translation>
     </message>
@@ -599,8 +874,13 @@
         <translation>Uzi alian dosierujon por datumoj:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Kerno de Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -652,6 +932,17 @@
         <translation>Ĉ&amp;efa</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Aŭtomate lanĉi Litecoin post ensaluto al la sistemo.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Lanĉi Litecoin tuj post ensaluto al la sistemo</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Size of &amp;database cache</source>
         <translation>Dosiergrando de &amp;datumbasa kaŝmemoro</translation>
     </message>
@@ -672,10 +963,13 @@
         <translation>&amp;Reto</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>W&amp;allet</source>
         <translation>Monujo</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Expert</source>
         <translation>Fakulo</translation>
     </message>
@@ -732,12 +1026,23 @@
         <translation>&amp;Lingvo de la fasado:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Vi povas elekti la lingvon uzata en la aplikaĵo ĉi tie. Tiu ekefikos nur post relanĉo de Litecoin.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unuo por vidigi sumojn:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+<<<<<<< HEAD
         <translation>Elekti la defaŭltan manieron por montri litecoinjn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
+=======
+        <translation>Elekti la defaŭltan manieron por montri Litecoin sumojn en la interfaco, kaj kiam vi sendos litecoins.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -780,7 +1085,11 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la litecoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+=======
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la Litecoin reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -811,8 +1120,40 @@
         <translation>via aktuala totala saldo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Spendable:</source>
         <translation>Elspezebla:</translation>
+=======
+        <source>out of sync</source>
+        <translation>nesinkronigita</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>Traktado de URI-oj</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Nevalida pagadreso %1</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>La petita pagosumo de %1 estas tro malgranda (konsiderata kiel polvo).</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Eraro dum pagopeto</translation>
+    </message>
+    <message>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Ne eblas lanĉi la ilon 'klaki-por-pagi'</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Repago de %1</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Recent transactions</source>
@@ -941,6 +1282,7 @@
         <translation>Aktuala nombro de blokoj</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received</source>
         <translation>Ricevita</translation>
     </message>
@@ -967,6 +1309,10 @@
     <message>
         <source>Services</source>
         <translation>Servoj</translation>
+=======
+        <source>Bytes Sent</source>
+        <translation>Bajtoj Senditaj:</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Last block time</source>
@@ -1001,9 +1347,47 @@
         <translation>Sencimiga protokoldosiero</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear console</source>
         <translation>Malplenigi konzolon</translation>
     </message>
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Malfermi la sencimiga protokoldosiero de Litecoin el la aktuala dosierujo por datumoj. Tio eble daŭros plurajn sekundojn por granda protokoldosiero.</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Malplenigi konzolon</translation>
+    </message>
+    <message>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Bonvenon al la RPC-konzolo de Litecoin.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Uzu la sagojn supran kaj malsupran por esplori la historion, kaj &lt;b&gt;stir-L&lt;/b&gt; por malplenigi la ekranon.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Tajpu &lt;b&gt;help&lt;/b&gt; por superrigardo de la disponeblaj komandoj.</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1209,6 +1593,17 @@
         <translation>Ŝendi</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirm send coins</source>
+        <translation>Konfirmi sendon de litecoin</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 al %2</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Copy quantity</source>
         <translation>Kopii kvanton</translation>
     </message>
@@ -1237,6 +1632,7 @@
         <translation>Kopii restmonon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 to %2</source>
         <translation>%1 al %2</translation>
     </message>
@@ -1253,6 +1649,8 @@
         <translation>Totala sumo %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>or</source>
         <translation>aŭ</translation>
     </message>
@@ -1284,6 +1682,21 @@
         <source>(no label)</source>
         <translation>(neniu etikedo)</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Copy dust</source>
+        <translation>Kopii polvon</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Ĉu vi certas, ke vi volas sendi?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>aldonita kiel krompago</translation>
+    </message>
+>>>>>>> 0.10
 </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -1413,6 +1826,13 @@
         <translation>&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Enmeti la subskriban adreson, la mesaĝon (kune kun ĉiu linisalto, spaceto, taboj, ktp. precize) kaj la subskribon ĉi sube por kontroli la mesaĝon. Atentu, ke vi ne komprenu per la subskribo pli ol la enhavo de la mesaĝo mem, por eviti homo-en-la-mezo-atakon.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Litecoin-adreso</translation>
     </message>
@@ -1480,6 +1900,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Kerno de Litecoin</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>La programistoj de Bitmona Kerno</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -1783,6 +2214,10 @@
         <translation>Montri detalojn de transakcio</translation>
     </message>
     <message>
+        <source>Exporting Failed</source>
+        <translation>ekspotado malsukcesinta</translation>
+    </message>
+    <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Perkome disigita dosiero (*.csv)</translation>
     </message>
@@ -1833,7 +2268,11 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
+<<<<<<< HEAD
         <translation>Sendi Litecoinn</translation>
+=======
+        <translation>Sendi Litecoin</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -1890,8 +2329,17 @@
         <translation>Ruli fone kiel demono kaj akcepti komandojn</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Kerno de Litecoin</translation>
+=======
+        <source>Use the test network</source>
+        <translation>Uzi la test-reton</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -2000,6 +2448,13 @@
     <message>
         <source>This is experimental software.</source>
         <translation>ĝi estas eksperimenta programo</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Transakcia sumo tro malgranda</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -2038,6 +2493,21 @@
         <translation>Nekonata reto specifita en -onlynet: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Ne eblas trovi la adreson -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Ne eblas trovi la adreson -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nevalida sumo por -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Nesufiĉa mono</translation>
     </message>

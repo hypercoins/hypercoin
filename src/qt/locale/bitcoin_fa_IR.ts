@@ -2,12 +2,19 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>برای ویرایش آدرس یا برچسب روی آن راست کلیک کنید</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>گشایش آدرس جدید</translation>
+    </message>
+    <message>
+        <source>&amp;New</source>
+        <translation>جدید</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -24,6 +31,15 @@
     <message>
         <source>C&amp;lose</source>
         <translation>بستن</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Delete the currently selected address from the list</source>
+        <translation>حذف آدرس های انتخاب شده از لیست</translation>
+=======
+        <source>&amp;Copy Address</source>
+        <translation>و کپی آدرس</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -74,6 +90,26 @@
         <translation>کپی آدرس</translation>
     </message>
     <message>
+        <source>Choose the address to send coins to</source>
+        <translation>انتخاب آدرس جهت ارسال کوین ها</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>انتخاب آدرس جهت دریافت کوین ها از آن</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>انتخاب</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>ارسال آدرس ها</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>دریافت آدرس ها</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
         <translation>کپی برچسب</translation>
     </message>
@@ -86,12 +122,20 @@
         <translation>از فهرست آدرس خروجی گرفته شود</translation>
     </message>
     <message>
+        <source>Export Address List</source>
+        <translation>صدور لیست آدرس</translation>
+    </message>
+    <message>
         <source>Comma separated file (*.csv)</source>
         <translation>فایل سی اس وی (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
+<<<<<<< HEAD
         <translation>گرفتن خروجی به مشکل خورد</translation>
+=======
+        <translation>صدور با شکست مواجه شد</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
@@ -176,16 +220,25 @@
         <translation>آیا از رمزگذاری کیف‌پول خود اطمینان دارید؟</translation>
     </message>
     <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>اخطار: کلید Caps Lock فعال است!</translation>
+    </message>
+    <message>
         <source>Wallet encrypted</source>
         <translation>کیف پول رمزگذاری شده است</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>%1 برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>مهم: هر بک‌آپ قبلی که از کیف‌پول خود گرفته‌اید، با نسخه‌ی جدید رمزنگاری‌شده جایگزین خواهد شد. به دلایل امنیتی، پس از رمزنگاری کیف‌پول، بک‌آپ‌های قدیمی شما بلااستفاده خواهد شد.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -213,6 +266,7 @@
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
+<<<<<<< HEAD
         <translation>رمز کیف‌پول با موفقیت تغییر یافت.</translation>
     </message>
     <message>
@@ -225,6 +279,9 @@
     <message>
         <source>Banned Until</source>
         <translation>مسدودشده تا</translation>
+=======
+        <translation>رمز عبور کیف پول با موفقیت تغییر کرد.</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -271,7 +328,11 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
+<<<<<<< HEAD
         <translation>درباره Qt</translation>
+=======
+        <translation>درباره و Qt</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show information about Qt</source>
@@ -298,6 +359,7 @@
         <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Sending addresses...</source>
         <translation>درحال ارسال آدرس‌ها…</translation>
     </message>
@@ -328,6 +390,10 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>ارسال کوین به آدرس litecoin</translation>
+=======
+        <source>Modify configuration options for Litecoin</source>
+        <translation>اصلاح انتخابها برای پیکربندی Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -338,6 +404,7 @@
         <translation>رمز عبور مربوط به رمزگذاریِ کیف پول  را تغییر دهید</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Debug window</source>
         <translation>پنجره دیباگ</translation>
     </message>
@@ -346,6 +413,8 @@
         <translation>تایید پیام</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Litecoin</source>
         <translation>litecoin</translation>
     </message>
@@ -571,7 +640,23 @@
         <source>Edit sending address</source>
         <translation>ویرایش آدرس ارسالی</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای litecoin نسشت</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>عدم توانیی برای قفل گشایی wallet</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>عدم توانیی در ایجاد کلید جدید</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -754,6 +839,13 @@
         <source>Current number of blocks</source>
         <translation>تعداد زنجیره های حاضر</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>به کنسول آر.پی.سی. LITECOIN خوش آمدید</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -859,8 +951,13 @@
         <translation>و ارسال</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy quantity</source>
         <translation>کپی مقدار</translation>
+=======
+        <source>Confirm send coins</source>
+        <translation>تایید ارسال Litecoins</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy amount</source>
@@ -905,10 +1002,31 @@
         <source>Memo:</source>
         <translation>یادداشت:</translation>
     </message>
-    </context>
+    <message>
+        <source>Pay To:</source>
+        <translation>پرداخت به:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>یادداشت:</translation>
+    </message>
+</context>
 <context>
+<<<<<<< HEAD
     <name>SendConfirmationDialog</name>
     </context>
+=======
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Litecoin Core is shutting down...</source>
+        <translation>هسته Litecoin در حال خاموش شدن است...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>تا پیش از بسته شدن این پنجره کامپیوتر خود را خاموش نکنید.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>ShutdownWindow</name>
     <message>
@@ -1049,6 +1167,14 @@
         <translation>کپی شناسه تراکنش</translation>
     </message>
     <message>
+        <source>Exporting Failed</source>
+        <translation>صدور با شکست مواجه شد</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>صدور با موفقیت انجام شد</translation>
+    </message>
+    <message>
         <source>Comma separated file (*.csv)</source>
         <translation>فایل سی اس وی (*.csv)</translation>
     </message>
@@ -1076,6 +1202,30 @@
     </context>
 <context>
     <name>WalletView</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>&amp;Export</source>
+        <translation>صدور</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>صدور داده نوار جاری به یک فایل</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>گرفتن نسخه پیشتیبان از Wallet</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>داده های Wallet  
+(*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>عملیات گرفتن نسخه پیشتیبان انجام نشد</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -1104,8 +1254,20 @@
         <translation>گزینه های سرویس دهنده RPC:</translation>
     </message>
     <message>
+        <source>RPC server options:</source>
+        <translation>گزینه های سرویس دهنده RPC:</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>حذف تصادفی 1 مورد از هر &lt;n&gt; مورد پیغام های شبکه</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>ارسال اطلاعات پیگیری/خطایابی به کنسول به جای ارسال به فایل debug.log</translation>
+    </message>
+    <message>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>ارسال تراکنش ها به صورت بدون کارمزد در صورت امکان (پیش فرض: %u)</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -1128,8 +1290,37 @@
         <translation>فایل تنظیمات را مشخص کنید (پیش فرض: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify pid file (default: %s)</source>
         <translation>فایل pid را مشخص کنید (پیش فرض: %s)</translation>
+=======
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>خطا در هنگام لود شدن wallet.dat: Wallet corrupted</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>خطا در هنگام لود شدن wallet.dat</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>تنظیم کمینه اندازه بلاک بر حسب بایت (پیش فرض: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>تنظیم تعداد ریسمان ها برای سرویس دهی فراخوانی های RPC (پیش فرض: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>فایل تنظیمات را مشخص کنید (پیش فرض: %s)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>فایل pid را مشخص کنید (پیش فرض: %s)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>میزان اشتباه است for -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Insufficient funds</source>

@@ -55,6 +55,7 @@ const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 const char* BIP71_MIMETYPE_PAYMENT = "application/litecoin-payment";
 const char* BIP71_MIMETYPE_PAYMENTACK = "application/litecoin-paymentack";
 const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/litecoin-paymentrequest";
+<<<<<<< HEAD
 
 struct X509StoreDeleter {
       void operator()(X509_STORE* b) {
@@ -67,6 +68,13 @@ struct X509Deleter {
 };
 
 namespace // Anon namespace
+=======
+// BIP70 max payment request size in bytes (DoS protection)
+const qint64 BIP70_MAX_PAYMENTREQUEST_SIZE = 50000;
+
+X509_STORE* PaymentServer::certStore = NULL;
+void PaymentServer::freeCertStore()
+>>>>>>> 0.10
 {
     std::unique_ptr<X509_STORE, X509StoreDeleter> certStore;
 }
@@ -446,7 +454,11 @@ void PaymentServer::handleURIOrFile(const QString& s)
                     Q_EMIT receivedPaymentRequest(recipient);
             }
             else
+<<<<<<< HEAD
                 Q_EMIT message(tr("URI handling"),
+=======
+                emit message(tr("URI handling"),
+>>>>>>> 0.10
                     tr("URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
@@ -578,8 +590,13 @@ bool PaymentServer::processPaymentRequest(const PaymentRequestPlus& request, Sen
 
         // Extract and check amounts
         CTxOut txOut(sendingTo.second, sendingTo.first);
+<<<<<<< HEAD
         if (IsDust(txOut, ::dustRelayFee)) {
             Q_EMIT message(tr("Payment request error"), tr("Requested payment amount of %1 is too small (considered dust).")
+=======
+        if (txOut.nValue < DUST_THRESHOLD) {
+            emit message(tr("Payment request error"), tr("Requested payment amount of %1 is too small (considered dust).")
+>>>>>>> 0.10
                 .arg(BitcoinUnits::formatWithUnit(optionsModel->getDisplayUnit(), sendingTo.second)),
                 CClientUIInterface::MSG_ERROR);
 
@@ -674,6 +691,7 @@ void PaymentServer::netRequestFinished(QNetworkReply* reply)
     reply->deleteLater();
 
     // BIP70 DoS protection
+<<<<<<< HEAD
     if (!verifySize(reply->size())) {
         Q_EMIT message(tr("Payment request rejected"),
             tr("Payment request %1 is too large (%2 bytes, allowed %3 bytes).")
@@ -681,6 +699,16 @@ void PaymentServer::netRequestFinished(QNetworkReply* reply)
                 .arg(reply->size())
                 .arg(BIP70_MAX_PAYMENTREQUEST_SIZE),
             CClientUIInterface::MSG_ERROR);
+=======
+    if (reply->size() > BIP70_MAX_PAYMENTREQUEST_SIZE) {
+        QString msg = tr("Payment request %1 is too large (%2 bytes, allowed %3 bytes).")
+            .arg(reply->request().url().toString())
+            .arg(reply->size())
+            .arg(BIP70_MAX_PAYMENTREQUEST_SIZE);
+
+        qWarning() << QString("PaymentServer::%1:").arg(__func__) << msg;
+        emit message(tr("Payment request DoS protection"), msg, CClientUIInterface::MSG_ERROR);
+>>>>>>> 0.10
         return;
     }
 
@@ -751,6 +779,7 @@ void PaymentServer::setOptionsModel(OptionsModel *_optionsModel)
 void PaymentServer::handlePaymentACK(const QString& paymentACKMsg)
 {
     // currently we don't further process or store the paymentACK message
+<<<<<<< HEAD
     Q_EMIT message(tr("Payment acknowledged"), paymentACKMsg, CClientUIInterface::ICON_INFORMATION | CClientUIInterface::MODAL);
 }
 
@@ -805,4 +834,7 @@ bool PaymentServer::verifyAmount(const CAmount& requestAmount)
 X509_STORE* PaymentServer::getCertStore()
 {
     return certStore.get();
+=======
+    emit message(tr("Payment acknowledged"), paymentACKMsg, CClientUIInterface::ICON_INFORMATION | CClientUIInterface::MODAL);
+>>>>>>> 0.10
 }

@@ -37,6 +37,7 @@ FastRandomContext insecure_rand_ctx(insecure_rand_seed);
 extern bool fPrintToConsole;
 extern void noui_connect();
 
+<<<<<<< HEAD
 BasicTestingSetup::BasicTestingSetup(const std::string& chainName)
 {
         SHA256AutoDetect();
@@ -49,6 +50,18 @@ BasicTestingSetup::BasicTestingSetup(const std::string& chainName)
         fPrintToDebugLog = false; // don't want to write to debug.log file
         fCheckBlockIndex = true;
         SelectParams(chainName);
+=======
+struct TestingSetup {
+    CCoinsViewDB *pcoinsdbview;
+    boost::filesystem::path pathTemp;
+    boost::thread_group threadGroup;
+
+    TestingSetup() {
+        SetupEnvironment();
+        fPrintToDebugLog = false; // don't want to write to debug.log file
+        fCheckBlockIndex = true;
+        SelectParams(CBaseChainParams::UNITTEST);
+>>>>>>> 0.10
         noui_connect();
 }
 

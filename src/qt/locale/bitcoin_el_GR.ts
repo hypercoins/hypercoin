@@ -63,6 +63,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να στέλνετε πληρωμές. Να ελέγχετε πάντα το ποσό, καθώς και τη διεύθυνση παραλήπτη πριν στείλετε νομίσματα.</translation>
     </message>
     <message>
@@ -72,6 +73,13 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Αντιγραφή Διεύθυνσης</translation>
+=======
+        <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Αυτές είναι οι Litecoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -165,7 +173,16 @@
     </message>
     <message>
         <source>Confirm wallet encryption</source>
+<<<<<<< HEAD
         <translation>Επιβεβαίωσε κρυπτογράφηση πορτοφολιού</translation>
+=======
+        <translation>Επιβεβαίωσε την κρυπτογραφηση του πορτοφολιού</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Προσοχη: Εαν κρυπτογραφησεις το πορτοφολι σου και χάσεις τον κωδικο σου θα χάσεις &lt;b&gt; ΟΛΑ ΣΟΥ ΤΑ LITECOINS&lt;/b&gt;!
+Είσαι σίγουρος ότι θέλεις να κρυπτογραφησεις το πορτοφολι;</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,8 +193,13 @@
         <translation>Πορτοφόλι κρυπτογραφήθηκε</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>%1 θα κλείσει τώρα για να τελειώσει η διαδικασία κρυπτογράφησης. Να θυμάστε ότι κρυπρογραφόντας το πορτοφόλι σας δεν μπορείτε να προστατεύσετε πλήρως τα litecoin σας απο κλοπή μέσω malware που μπορεί να προσβάλει τον υπολογιστή σας.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Το Litecoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα litecoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικό.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -270,12 +292,30 @@
         <translation>'Ανοιγμα &amp;URI</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core client</source>
+        <translation>Εφαρμογή Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Εισαγωγή μπλοκ από τον σκληρο δίσκο ... </translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Reindexing blocks on disk...</source>
         <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρο δισκο...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Στείλε νομίσματα σε μια διεύθυνση litecoin</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Επεργασία  ρυθμισεων επιλογών για το Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,6 +354,13 @@
         <translation>&amp;Παραλαβή </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Σχετικά με το Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>&amp;Εμφάνισε/Κρύψε</translation>
     </message>
@@ -350,8 +397,21 @@
         <translation>Εργαλειοθήκη καρτελών</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις litecoin: )</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις litecoin: )</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;Σχετικά με το Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -370,6 +430,41 @@
         <translation>&amp;Επιλογές γραμμής εντολών</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Εμφανιση του Litecoin-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Litecoin γραμμής εντολών.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Litecoin</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Η πηγή του μπλοκ δεν ειναι διαθέσιμη... </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n ώρες </numerusform><numerusform>%n ώρες </numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n ημέρες </numerusform><numerusform>%n ημέρες </numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n εβδομαδες</numerusform><numerusform>%n εβδομαδες</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 και %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n έτος</numerusform><numerusform>%n έτη</numerusform></translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>%1 behind</source>
         <translation>%1 πίσω</translation>
     </message>
@@ -571,7 +666,31 @@
     </message>
     <message>
         <source>Edit receiving address</source>
+<<<<<<< HEAD
         <translation>Διόρθωση Διεύθυνσης Λήψης</translation>
+=======
+        <translation>Επεξεργασία διεύθυνσης λήψης</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Επεξεργασία διεύθυνσης αποστολής</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Η διεύθυνση "%1" βρίσκεται ήδη στο βιβλίο διευθύνσεων.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Η διεύθυνση "%1" δεν είναι έγκυρη Litecoin διεύθυνση.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Δεν είναι δυνατό το ξεκλείδωμα του πορτοφολιού.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Η δημιουργία νέου κλειδιού απέτυχε.</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -600,6 +719,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>έκδοση</translation>
     </message>
@@ -608,6 +734,13 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>About Litecoin Core</source>
+        <translation>Σχετικά με το Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Command-line options</source>
         <translation>επιλογής γραμμής εντολών</translation>
     </message>
@@ -627,6 +760,21 @@
         <translation>Καλώς ήρθατε</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Καλώς ήρθατε στο Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>Καθώς αυτή είναι η πρώτη φορά που εκκινείται το πρόγραμμα, μπορείτε να διαλέξετε πού θα αποθηκεύει το Litecoin Core τα δεδομένα του.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O πυρήνας Litecoin θα κατεβάσει και να αποθηκεύσει ένα αντίγραφο της αλυσίδας μπλοκ Litecoin. Τουλάχιστον %1GB δεδομένων θα αποθηκευτούν σε αυτόν τον κατάλογο, και θα αυξηθεί με την πάροδο του χρόνου. Το πορτοφόλι θα αποθηκευτεί σε αυτόν τον κατάλογο.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Use the default data directory</source>
         <translation>Χρήση του προεπιλεγμένου φακέλου δεδομένων</translation>
     </message>
@@ -635,8 +783,13 @@
         <translation>Προσαρμογή του φακέλου δεδομένων: </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -700,6 +853,17 @@
         <translation>&amp;Κύριο</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Αυτόματη εκκίνηση του Litecoin μετά την εισαγωγή στο σύστημα</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Έναρξη του Βιtcoin κατά την εκκίνηση του συστήματος</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Size of &amp;database cache</source>
         <translation>Μέγεθος κρυφής μνήμης βάσης δεδομένων.</translation>
     </message>
@@ -722,6 +886,19 @@
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URLs από τρίτους (π.χ. ένας εξερευνητής μπλοκ) τα οποία εμφανίζονται στην καρτέλα συναλλαγών ως στοιχεία μενού. Το %s στα URL αντικαθιστάται από την τιμή της κατατεμαχισμένης συναλλαγής.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Active command-line options that override above options:</source>
+        <translation>Ενεργές επιλογές γραμμής-εντολών που παρακάμπτουν τις παραπάνω επιλογές:</translation>
+=======
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URLs από τρίτους (π.χ. ένας εξερευνητής μπλοκ) τα οποία εμφανίζονται στην καρτέλα συναλλαγών ως στοιχεία μενού. Το %s στα URL αντικαθιστάται από την τιμή της κατατεμαχισμένης συναλλαγής.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Διευθύνσεις τρίτων συναλλαγών.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
@@ -816,6 +993,13 @@
         <translation>Γλώσσα περιβάλλοντος εργασίας: </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Litecoin.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Μονάδα μέτρησης:</translation>
     </message>
@@ -930,6 +1114,21 @@
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
         <translation>Μη επικυρωμένες συναλλαγές σε διευθύνσεις παρακολούθησης μόνο</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Εξορυγμένο υπόλοιπο σε διευθύνσεις παρακολούθησης μόνο που δεν έχει ωριμάσει ακόμα</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Το τρέχον συνολικό υπόλοιπο σε διευθύνσεις παρακολούθησης μόνο</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>εκτός συγχρονισμού</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
@@ -950,8 +1149,72 @@
         <translation>Αποστολή</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received</source>
         <translation>Παραλήφθησαν</translation>
+=======
+        <source>Payment request has expired.</source>
+        <translation>Η αίτηση πληρωμής έχει λήξει.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Η αίτηση πληρωμής δεν έχει αρχίζει ακόμα.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Το ζητούμενο ποσό πληρωμής του %1 είναι πολύ μικρό (θεωρείται σκόνη)</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Σφάλμα αιτήματος πληρωμής</translation>
+    </message>
+    <message>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Δεν είναι δυνατή η εκκίνηση του Litecoin: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Η διεύθυνση πληρωμής (URL) δεν είναι έγκυρη: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Επιλέξτε αρχείο πληρωμής για άνοιγμα.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Επιστροφή ποσού από %1</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Σφάλμα επικοινωνίας με %1: %2</translation>
+    </message>
+    <message>
+        <source>Payment request cannot be parsed!</source>
+        <translation>Η αίτηση πληρωμής δεν μπορεί να αναλυθεί!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Κακή απάντηση από διακομιστή %1</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>Πληρωμή αναγνωρίστηκε</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Σφάλμα αιτήματος δικτύου</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>Address/Hostname</source>
+        <translation>Διεύθυθνση/Όνομα υπολογιστή</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Χρόνος καθυστέρησης</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -1050,6 +1313,10 @@
         <translation>Χρήση BerkeleyDB έκδοσης</translation>
     </message>
     <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Χρήση BerkeleyDB έκδοσης</translation>
+    </message>
+    <message>
         <source>Startup time</source>
         <translation>Χρόνος εκκίνησης</translation>
     </message>
@@ -1098,6 +1365,17 @@
         <translation>Υπηρεσίες</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Starting Height</source>
+        <translation>Αρχικό ύψος</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Ύψος συγχονισμού</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Ban Score</source>
         <translation>Σκορ αποκλησμού</translation>
     </message>
@@ -1114,6 +1392,17 @@
         <translation>Τελευταία λήψη</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bytes Sent</source>
+        <translation>Σταλθέντα bytes</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Ληφθέντα bytes</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Ping Time</source>
         <translation>Χρόνος καθυστέρησης</translation>
     </message>
@@ -1150,10 +1439,48 @@
         <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ανοίξτε το αρχείο καταγραφής εντοπισμού σφαλμάτων από τον τρέχοντα κατάλογο δεδομένων. Αυτό μπορεί να πάρει μερικά δευτερόλεπτα για τα μεγάλα αρχεία καταγραφής. </translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>Καθαρισμός κονσόλας</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Καλώς ήρθατε στην Litecoin RPC κονσόλα.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Χρησιμοποιήστε το πάνω και κάτω βέλος για να περιηγηθείτε στο ιστορικο, και &lt;b&gt;Ctrl-L&lt;/b&gt; για εκκαθαριση οθονης.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Γράψτε &lt;b&gt;help&lt;/b&gt; για μια επισκόπηση των διαθέσιμων εντολών</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>via %1</source>
         <translation>μέσω %1</translation>
     </message>
@@ -1173,6 +1500,13 @@
         <source>Unknown</source>
         <translation>Άγνωστο(α)</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Fetching...</source>
+        <translation>Ανάκτηση...</translation>
+    </message>
+>>>>>>> 0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1187,6 +1521,10 @@
     <message>
         <source>&amp;Message:</source>
         <translation>&amp;Μήνυμα:</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>Ε&amp;παναχρησιμοποίηση υπάρχουσας διεύθυνσης λήψης (δεν συνιστάται)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1234,6 +1572,21 @@
     <message>
         <source>Copy &amp;Address</source>
         <translation>Αντιγραφή &amp;Διεύθυνσης</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Αποθήκευση εικόνας...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Αίτηση πληρωμής για %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>Πληροφορίες πληρωμής</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Save Image...</source>
@@ -1334,12 +1687,42 @@
         <translation>Απόκρυψη</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>per kilobyte</source>
+        <translation>ανά kilobyte</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>συνολικά τουλάχιστον</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Recommended:</source>
         <translation>Προτεινόμενο: </translation>
     </message>
     <message>
         <source>Custom:</source>
         <translation>Προσαρμογή:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>Χρόνος επικύρωσης:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>κανονικό</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>γρήγορο</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(η επικύρωση ίσως χρειαστεί περισσότερο χρόνο)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1378,6 +1761,61 @@
         <translation>Αντιγραφή ποσού</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy fee</source>
+        <translation>Αντιγραφή ταρίφας</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Αντιγραφή μετα-ταρίφας</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Αντιγραφή των byte</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Αντιγραφή προτεραιότητας</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Αντιγραφή των ρέστων</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>ή</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Η διεύθυνση του αποδέκτη δεν είναι σωστή. Παρακαλώ ελέγξτε ξανά.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Το ποσό πληρωμής πρέπει να είναι μεγαλύτερο από 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Το ποσό ξεπερνάει το διαθέσιμο υπόλοιπο</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Το σύνολο υπερβαίνει το υπόλοιπό σας όταν συμπεριληφθεί και η αμοιβή %1</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Βρέθηκε η ίδια διεύθυνση δύο φορές. Επιτρέπεται μία μόνο εγγραφή για κάθε διεύθυνση, σε κάθε διαδικασία αποστολής.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Η δημιουργία της συναλλαγής απέτυχε!</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Προειδοποίηση: Μη έγκυρη διεύθυνση Litecoin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>(no label)</source>
         <translation>(χωρίς ετικέτα)</translation>
     </message>
@@ -1433,6 +1871,13 @@
         <translation>Εισάγεται μία ετικέτα για αυτή την διεύθυνση για να προστεθεί στη λίστα με τις χρησιμοποιημένες διευθύνσεις</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This is an unverified payment request.</source>
+        <translation>Αυτή είναι μία ανεπιβεβαίωτη αίτηση πληρωμής.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Pay To:</source>
         <translation>Πληρωμή σε:</translation>
     </message>
@@ -1447,6 +1892,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Το Litecoin Core τερματίζεται...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Μην απενεργοποιήσετε τον υπολογιστή μέχρι να κλείσει αυτό το παράθυρο.</translation>
     </message>
@@ -1462,6 +1914,13 @@
         <translation>&amp;Υπογραφή Μηνύματος</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Μπορείτε να υπογράφετε μηνύματα με τις διευθύνσεις σας, ώστε ν' αποδεικνύετε πως αυτές σας ανήκουν. Αποφεύγετε να υπογράφετε κάτι αόριστο καθώς ενδέχεται να εξαπατηθείτε. Υπογράφετε μόνο πλήρης δηλώσεις με τις οποίες συμφωνείτε.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>The Litecoin address to sign the message with</source>
         <translation>Διεύθυνση Litecoin που θα σταλεί το μήνυμα</translation>
     </message>
@@ -1514,6 +1973,13 @@
         <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Πληκτρολογήστε την υπογραφή διεύθυνσης, μήνυμα (βεβαιωθείτε ότι έχετε αντιγράψει τις αλλαγές γραμμής, κενά, tabs, κ.λπ. ακριβώς) και την υπογραφή παρακάτω, για να ελέγξει το μήνυμα. Να είστε προσεκτικοί για να μην διαβάσετε περισσότερα στην υπογραφή ό, τι είναι στην υπογραφή ίδιο το μήνυμα , για να μην εξαπατηθούν από έναν άνθρωπο -in - the-middle επίθεση.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>The Litecoin address the message was signed with</source>
         <translation>Διεύθυνση Litecoin η οποία το μήνυμα έχει υπογραφεί</translation>
     </message>
@@ -1533,6 +1999,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Οι προγραμματιστές του Bitcoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -1668,6 +2145,10 @@
         <translation>Επεξεργασία ετικέτας</translation>
     </message>
     <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Το ιστορικό συναλλαγών αποθηκεύτηκε επιτυχώς στο %1.</translation>
+    </message>
+    <message>
         <source>Comma separated file (*.csv)</source>
         <translation>Αρχείο οριοθετημένο με κόμματα (*.csv)</translation>
     </message>
@@ -1687,7 +2168,18 @@
         <source>Exporting Failed</source>
         <translation>Αποτυχία Εξαγωγής</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>Μονάδα μέτρησης προβολής ποσών. Κάντε κλικ για επιλογή άλλης μονάδας.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
@@ -1703,7 +2195,43 @@
     </context>
 <context>
     <name>WalletView</name>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Εξαγωγή</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Εξαγωγή δεδομένων καρτέλας σε αρχείο</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Αντίγραφο ασφαλείας του πορτοφολιού</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Αρχεία δεδομένων πορτοφολιού (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Αποτυχία κατά τη δημιουργία αντιγράφου</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Παρουσιάστηκε σφάλμα κατά την αποθήκευση των δεδομένων πορτοφολιού στο %1.</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Τα δεδομένα πορτοφολιού αποθηκεύτηκαν με επιτυχία στο %1.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Η δημιουργια αντιγραφου ασφαλειας πετυχε</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>bitcoin-core</name>
     <message>
@@ -1731,14 +2259,30 @@
         <translation>Εκτέλεση στο παρασκήνιο κι αποδοχή εντολών</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Use the test network</source>
+        <translation>Χρήση του δοκιμαστικού δικτύου</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Να δέχεσαι συνδέσεις από έξω(προεπιλογή:1)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Αποθηκευση σε συγκεκριμένη διεύθυνση. Χρησιμοποιήστε τα πλήκτρα [Host] : συμβολισμός θύρα για IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Εισαγωγή δοκιμαστικής λειτουργίας παλινδρόμησης, που χρησιμοποιεί μια ειδική αλυσίδα στην οποία τα μπλοκ επιλύονται στιγμιαία.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
     </message>
@@ -1797,36 +2341,113 @@
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Μόνο σύνδεση σε κόμβους του δικτύου &lt;net&gt; (ipv4, ipv6 ή onion)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Εισαγωγή μπλοκ από εξωτερικό αρχείο blk000?.dat</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Επιλέξτε αρχείο πορτοφολιού (μέσα απο κατάλογο δεδομένων)</translation>
     </message>
     <message>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>Αυτό προορίζεται για εργαλεία δοκιμών παλινδρόμησης και την ανάπτυξη εφαρμογών.</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
         <translation>Επαλήθευση των μπλοκ... </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Verifying wallet...</source>
+        <translation>Επαλήθευση πορτοφολιου... </translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Το πορτοφόλι %s βρίσκεται έξω από το φάκελο δεδομένων %s</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Wallet options:</source>
         <translation>Επιλογές πορτοφολιού:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Εισαγωγή μπλοκ από εξωτερικό αρχείο blk000?.dat</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Litecoin να είναι ήδη ενεργό.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+        <translation>Προειδοποίηση: Παρακαλώ ελέγξτε ότι η ημερομηνία και ώρα του υπολογιστή σας είναι σωστά ρυθμισμένες! Εάν το ρολόι σας είναι λάθος το Litecoin Core δεν θα λειτουργήσει σωστά. </translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Connect through SOCKS5 proxy</source>
         <translation>Σύνδεση μέσω διαμεσολαβητή SOCKS5</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Error reading from database, shutting down.</source>
+        <translation>Σφάλμα ανάγνωσης από τη βάση δεδομένων, γίνεται τερματισμός.</translation>
+=======
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>Δεν μπόρεσε να αναλυθεί η παράμετρος -rpcbind value %s ως διεύθυνση δικτύου</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Litecoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Σφάλμα ανάγνωσης από τη βάση δεδομένων, γίνεται τερματισμός.</translation>
     </message>
     <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Σφάλμα: Μη συμβατή παράμετρος -tor. Χρησιμοποιήσε την παράμετρο -onion</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
         <source>Information</source>
         <translation>Πληροφορία</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Node relay options:</source>
+        <translation>Επιλογές αναμετάδοσης κόμβου: </translation>
+    </message>
+    <message>
+=======
+        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
+        <translation>Η εκκίνηση ελέγχου ορθότητας απέτυχε.  Γίνεται τερματισμός του Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Μη έγκυρο ποσό για την παράμετρο -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Μη έγκυρο ποσό για την παράμετρο -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
         <translation>Επιλογές αναμετάδοσης κόμβου: </translation>
     </message>
     <message>
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Litecoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>RPC server options:</source>
         <translation>Επιλογές διακομιστή RPC:</translation>
     </message>
@@ -1907,8 +2528,13 @@
         <translation>Μέγιστες αριθμός συνδέσεων με τους peers &lt;n&gt; (προεπιλογή: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: %s)</source>
         <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: %s)</translation>
+=======
+        <source>Server certificate file (default: %s)</source>
+        <translation>Αρχείο πιστοποιητικού του διακομιστή  (προεπιλογή: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
@@ -1927,6 +2553,21 @@
         <translation>Άγνωστo δίκτυο ορίζεται σε onlynet: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Μη έγκυρο ποσό για την παράμετρο -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Ανεπαρκές κεφάλαιο</translation>
     </message>

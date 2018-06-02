@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Højreklik for at redigere adresse eller mærkat</translation>
+=======
+        <translation>Højreklik for at redigere adresse eller mærke</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Create a new address</source>
@@ -63,6 +67,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Disse er dine Litecoin-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender litecoins.</translation>
     </message>
     <message>
@@ -72,6 +77,13 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopiér adresse</translation>
+=======
+        <translation>Disse er dine Litecoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender litecoins.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine Litecoin-adresser til at modtage betalinger med. Det anbefales are bruge en ny modtagelsesadresse for hver transaktion.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +200,13 @@
         <translation>%1 vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine litecoin fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>VIGTIGT: Enhver tidligere sikkerhedskopi, som du har lavet af tegnebogsfilen, bør blive erstattet af den nyligt genererede, krypterede tegnebogsfil. Af sikkerhedsmæssige årsager vil tidligere sikkerhedskopier af den ikke-krypterede tegnebogsfil blive ubrugelige i det øjeblik, du starter med at anvende den nye, krypterede tegnebog.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine litecoins fuldt ud mod at blive stjålet af malware på din computer.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -322,8 +339,13 @@
         <translation>&amp;Åbn URI…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Klik for at deaktivere netværksaktivitet.</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core-klient</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -338,12 +360,21 @@
         <translation>Synkroniserer hoveder (%1%)…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reindexing blocks on disk...</source>
         <translation>Genindekserer blokke på disken…</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Send litecoins til en Litecoin-adresse</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Send litecoins til en Litecoin-adresse</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Redigér konfigurationsindstillinger for Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -382,6 +413,13 @@
         <translation>&amp;Modtag</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Vis oplysninger om Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>&amp;Vis / skjul</translation>
     </message>
@@ -395,11 +433,19 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation>Signér beskeder med dine Litecoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verificér beskeder for at sikre, at de er signeret med de angivne Litecoin-adresser</translation>
+=======
+        <translation>Underskriv beskeder med dine Litecoin-adresser for at bevise, at de tilhører dig</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Verificér beskeder for at sikre, at de er underskrevet med de angivne Litecoin-adresser</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +464,21 @@
         <translation>Faneværktøjslinje</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Anmod om betalinger (genererer QR-koder og “litecoin:”-URI'er)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Anmod om betalinger (genererer QR-koder og "litecoin:"-URI'er)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;Om Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -431,12 +490,23 @@
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
+<<<<<<< HEAD
         <translation>Åbn en “litecoin:”-URI eller betalingsanmodning</translation>
+=======
+        <translation>Åbn en "litecoin:"-URI eller betalingsanmodning</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Tilvalg for &amp;kommandolinje</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Vis Litecoin Core hjælpebesked for at få en liste over mulige tilvalg for Litecoin kommandolinje</translation>
+    </message>
+>>>>>>> 0.10
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktiv forbindelse til Litecoin-netværket</numerusform><numerusform>%n aktive forbindelser til Litecoin-netværket</numerusform></translation>
@@ -750,8 +820,13 @@
         <translation>Den indtastede adresse “%1” er ikke en gyldig Litecoin-adresse.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Den indtastede adresse “%1” er allerede i adressebogen.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Den indtastede adresse "%1" er ikke en gyldig Litecoin-adresse.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -788,6 +863,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>version</translation>
     </message>
@@ -796,8 +878,13 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>Om %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>Om Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -847,6 +934,7 @@
         <translation>Velkommen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>Velkommen til %1.</translation>
     </message>
@@ -865,6 +953,18 @@
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
         <translation>Hvis du har valgt at begrænse opbevaringen af blokkæden (beskæring/pruning), vil al historisk data stadig skulle downloades og bearbejdes men vil blive slettet efterfølgende for at holde dit diskforbrug lavt.</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Velkommen til Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor Litecoin Core skal gemme sin data.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Litecoin Core vil downloade og gemme et kopi af Litecoin-blokkæden. Mindst %1 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -875,6 +975,7 @@
         <translation>Brug tilpasset mappe for data:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -893,6 +994,10 @@
     <message>
         <source>The wallet will also be stored in this directory.</source>
         <translation>Tegnebogen vil også blive gemt i denne mappe.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -996,12 +1101,21 @@
         <translation>&amp;Generelt</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>Start %1 automatisk, når der logges ind på systemet.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
         <translation>&amp;Start %1 ved systemlogin</translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Start Litecoin automatisk, når der logges ind på systemet.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Start Litecoin ved systemlogin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1100,6 +1214,7 @@
         <translation>Konfigurér port vha. &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside.</source>
         <translation>Acceptér forbindelser udefra.</translation>
     </message>
@@ -1108,6 +1223,8 @@
         <translation>Tillad &amp;indkommende forbindelser</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
         <translation>Forbind til Litecoin-netværket gennem en SOCKS5-proxy.</translation>
     </message>
@@ -1172,8 +1289,13 @@
         <translation>&amp;Sprog for brugergrænseflade:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation>Sproget for brugerfladen kan vælges her. Denne indstilling vil træde i kraft efter genstart af %1.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Sproget for brugergrænsefladen kan angives her. Denne indstilling træder først i kraft, når Litecoin genstartes.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1358,16 +1480,26 @@
         <translation>Betalingsanmodning afvist</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request network doesn't match client network.</source>
         <translation>Netværk for betalingsanmodning stemmer ikke overens med klientens netværk.</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Kan ikke starte litecoin: click-to-pay-håndtering</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
         <translation>Betalingsanmodning er udløbet.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request is not initialized.</source>
         <translation>Betalingsanmodning er ikke klargjort.</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Litecoin-adresse eller forkert udformede URL-parametre.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -1387,7 +1519,15 @@
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+<<<<<<< HEAD
         <translation>Betalingsanmodning %1 er for stor (%2 byte; %3 byte tilladt).</translation>
+=======
+        <translation>Betalingsanmodning %1 er for stor (%2 byte, %3 byte tilladt).</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>Beskyttelse mod DoS-angreb via betalingsanmodninger</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
@@ -1765,12 +1905,24 @@
         <translation>Fejlsøgningslogfil</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Litecoin-fejlsøgningslogfilen fra den nuværende datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>Ryd konsol</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>1 &amp;time</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Velkommen til Litecoin RPC-konsollen.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -1868,6 +2020,17 @@
         <translation>&amp;Besked:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Genbrug en af de tidligere brugte modtagelsesadresser. Genbrug af adresser har indflydelse på sikkerhed og privatliv. Brug ikke dette med mindre du genskaber en betalingsanmodning fra tidligere.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>&amp;Genbrug en eksisterende modtagelsesadresse (anbefales ikke)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Litecoin-netværket.</translation>
     </message>
@@ -2177,6 +2340,17 @@
         <translation>&amp;Afsend</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirm send coins</source>
+        <translation>Bekræft afsendelse af litecoins</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 til %2</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Copy quantity</source>
         <translation>Kopiér mængde</translation>
     </message>
@@ -2205,8 +2379,13 @@
         <translation>Kopiér byttepenge</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 (%2 blocks)</source>
         <translation>%1 (%2 blokke)</translation>
+=======
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>Totalbeløb %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2237,8 +2416,13 @@
         <translation>Signalerer ikke erstat-med-gebyr, BIP-125.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirm send coins</source>
         <translation>Bekræft afsendelse af litecoins</translation>
+=======
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Transaktionen blev afvist! Dette kan ske, hvis nogle af dine litecoins i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine litecoins er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2253,8 +2437,13 @@
         <translation>Beløbet overstiger din saldo.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>Totalen overstiger din saldo, når transaktionsgebyret på %1 er inkluderet.</translation>
+=======
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Advarsel: Ugyldig Litecoin-adresse</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
@@ -2372,8 +2561,13 @@
         <translation>Dette er en autentificeret betalingsanmodning.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>En besked, som blev føjet til "bitcon:"-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Litecoin-netværket.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
@@ -2402,8 +2596,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>%1 is shutting down...</source>
         <translation>%1 lukker ned…</translation>
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoin Core lukker ned …</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2421,8 +2620,13 @@
         <translation>&amp;Singér besked</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage litecoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
+=======
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan underskrive beskeder med dine Litecoin-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>The Litecoin address to sign the message with</source>
@@ -2458,7 +2662,11 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Litecoin address</source>
+<<<<<<< HEAD
         <translation>Signér denne besked for at bevise, at Litecoin-adressen tilhører dig</translation>
+=======
+        <translation>Underskriv denne besked for at bevise, at Litecoin-adressen tilhører dig</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2486,7 +2694,11 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+<<<<<<< HEAD
         <translation>Verificér beskeden for at sikre, at den er signeret med den angivne Litecoin-adresse</translation>
+=======
+        <translation>Verificér beskeden for at sikre, at den er underskrevet med den angivne Litecoin-adresse</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2552,6 +2764,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Udviklerne af Bitcoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnetværk]</translation>
     </message>
@@ -2711,7 +2934,11 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+<<<<<<< HEAD
         <translation>Minede litecoins skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til “ikke accepteret”, og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
+=======
+        <translation>Minede litecoins skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den udsendt til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til "ikke accepteret", og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Debug information</source>
@@ -3042,6 +3269,7 @@
     <message>
         <source>Send Coins</source>
         <translation>Send litecoins</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Fee bump error</source>
@@ -3078,6 +3306,8 @@
     <message>
         <source>Could not commit transaction</source>
         <translation>Kunne ikke gennemføre transaktionen</translation>
+=======
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -3182,6 +3412,7 @@
         <translation>Litecoin Core</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The %s developers</source>
         <translation>Udviklerne af %s</translation>
     </message>
@@ -3198,6 +3429,8 @@
         <translation>Tilføj en knude at forbinde til og forsøg at holde forbindelsen åben (se hjælp for RPC-kommandoen “addnode” for mere info)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Tildel til den givne adresse og lyt altid på den. Brug [vært]:port-notation for IPv6</translation>
     </message>
@@ -3214,6 +3447,7 @@
         <translation>Forbind kun til de specificerede knuder; -connect=0 deaktiverer automatiske forbindelser (reglerne for denne knude er de samme som for -addnode)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Slet alle transaktioner i tegnebogen og genskab kun disse dele af blokkæden gennem -rescan under opstart</translation>
     </message>
@@ -3226,6 +3460,8 @@
         <translation>Ekskludér fejlsøgningsinformation for en kategori. Kan bruges sammen med -debug=1 for at udskrive fejlsøgningslogs for alle kategorier undtaget én eller flere specificerede kategorier.</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Udfør kommando, når en transaktion i tegnebogen ændres (%s i kommandoen erstattes med TxID)</translation>
     </message>
@@ -3282,8 +3518,13 @@
         <translation>Dette er det transaktionsgebyr, du kan kassere, hvis byttepengene er mindre end støv på dette niveau</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
         <translation>Kan ikke genafspille blokke. Du er nødt til at genopbytte databasen ved hjælp af -reindex-chainstate.</translation>
+=======
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation>Ikke i stand til at tildele til %s på denne computer. Litecoin Core kører sansynligvis allerede.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
@@ -3586,8 +3827,13 @@
         <translation>Verificerer blokke…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet debugging/testing options:</source>
         <translation>Tilvalg for fejlfinding/test af tegnebog:</translation>
+=======
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <translation>Kan ikke opnå en lås på datamappe %s. Litecoin Core kører sansynligvis allerede.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
@@ -3622,8 +3868,17 @@
         <translation>Udfør kommando, når en relevant alarm modtages eller vi ser en virkelig lang udsplitning (%s i cmd erstattes af besked)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
         <translation>Gebyrer (i %s/kB) mindre end dette opfattes som intet gebyr for videresendelse, mining og oprettelse af transaktioner (standard: %s)</translation>
+=======
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (i LTC/Kb) mindre end dette opfattes som nulgebyr for videresendelse (standard: %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (i LTC/Kb) mindre end dette opfattes som nulgebyr for oprettelse af transaktion (standard: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3631,19 +3886,40 @@
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+<<<<<<< HEAD
         <translation>Ugyldigt beløb for -maxtxfee=&lt;beløb&gt;: “%s” (skal være på mindst minrelay-gebyret på %s for at undgå hængende transaktioner)</translation>
+=======
+        <translation>Ugyldigt beløb for -maxtxfee=&lt;beløb&gt;: "%s" (skal være på mindst minrelay-gebyret på %s for at undgå hængende transaktioner)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maksimal størrelse på data i transaktioner til dataoverførsel, som vi videresender og miner (standard: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Brug tilfældige akkreditiver for hver proxy-forbindelse. Dette aktiverer strømisolation med Tor (standard: %u)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>Transaktionsbeløbet er for lille til at sende, når gebyret er trukket fra</translation>
+=======
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Maksimalt totalgebyr der bruges på en enkelt tegnebogstransaktion. Sættes det for lavt kan store transaktioner afbrydes (standard: %s)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Forespørgsel</translation>
+    </message>
+    <message>
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Kræv høj prioritet for at videresende transaktioner med intet eller lavt gebyr (standard: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Sæt maksimumstørrelse for højprioritet/lavgebyr-transaktioner i byte (standard: %d)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3654,16 +3930,58 @@
         <translation>Du er nødt til at genopbygge databasen ved hjælp af -reindex for at gå tilbage til ikke-beskåret tilstand. Dette vil downloade hele blokkæden igen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: %u)</source>
         <translation>(standard: %u)</translation>
+=======
+        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+</source>
+        <translation>For at bruge litecoind eller valgmuligheden -server i litecoin-qt skal du oprette et rpcpassword i konfigurationsfilen:
+%s
+Det anbefales, at du bruger følgende tilfældige adgangskode:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(du behøver ikke at huske adgangskoden)
+Brugernavnet og adgangskoden MÅ IKKE være det samme.
+Hvis filen ikke eksisterer, opret den da så kun ejeren har læserettigheder.
+Det anbefales også at sætte alertnotify, så du får besked omkring problemer;
+for eksempel: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Advarsel: -maxtxfee er sat meget højt! Så store gebyrer kan betales på en enkelt transaktion.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+        <translation>Advarsel: Undersøg venligst at din computers dato og klokkeslet er korrekt indstillet! Hvis der er fejl i disse vil Litecoin Core ikke fungere korrekt.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Acceptér offentlige REST-anmodninger (standard: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically create Tor hidden service (default: %d)</source>
         <translation>Opret automatisk skjult Tor-tjeneste (standard: %d)</translation>
+=======
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Acceptér offentlige REST-anmodninger (standard: %u)</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>Kan ikke løse -whitebind adresse: "%s"</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3674,24 +3992,51 @@
         <translation>Fejl under indlæsning af %s: Du kan ikke slå HD fra på en allerede eksisterende HD-tegnebog</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error reading from database, shutting down.</source>
         <translation>Fejl under læsning fra database; lukker ned.</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Fejl under læsning fra database; lukker ned.</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Fejl: En alvorlig intern fejl er opstået. Se debug.log for detaljer</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error upgrading chainstate database</source>
         <translation>Fejl under opgradering af kædetilstandsdatabase</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Imports blocks from external blk000??.dat file on startup</source>
         <translation>Importerer blokeringer fra ekstern blk000??.dat-fil under opstart</translation>
+=======
+        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i LTC/kB) som skal føjes til transaktioner, du sender (standard: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -onion address or hostname: '%s'</source>
         <translation>Ugyldig -onion-adresse eller værtsnavn: “%s”</translation>
+=======
+        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
+        <translation>Sundhedstjek under klargøring mislykkedes. Litecoin Core lukker ned.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ugyldigt beløb for -maxtxfee=&lt;beløb&gt;: "%s"</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
@@ -3703,7 +4048,11 @@
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
+<<<<<<< HEAD
         <translation>Ugyldig netmaske angivet i -whitelist: “%s”</translation>
+=======
+        <translation>Ugyldig netmaske angivet i -whitelist: "%s"</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -3718,16 +4067,36 @@
         <translation>Videresendelsesvalgmuligheder for knude:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation>Tilvalg for RPC SSL: (se Litecoin Wiki for instruktioner i SSL-opstart)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>RPC server options:</source>
         <translation>Tilvalg for RPC-server:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>Reducerer -maxconnections fra %d til %d på grund af systembegrænsninger.</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC-understøttelse for HTTP-persistente forbindelser (standard: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Drop tilfældigt 1 ud af hver &lt;n&gt; netværksbeskeder</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
         <translation>Genindlæs blokkæden efter manglende tegnebogstransaktioner under opstart</translation>
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>Modtag og vis P2P-netværksadvarsler (standard: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3770,6 +4139,10 @@
         <translation>Transaktion for stor til gebyrretningslinjer</translation>
     </message>
     <message>
+        <source>Transaction too large for fee policy</source>
+        <translation>Transaktion for stor til gebyrretningslinjer</translation>
+    </message>
+    <message>
         <source>Transaction too large</source>
         <translation>Transaktionen er for stor</translation>
     </message>
@@ -3790,12 +4163,17 @@
         <translation>Brugernavn til JSON-RPC-forbindelser</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying wallet(s)...</source>
         <translation>Verificerer tegnebøger…</translation>
     </message>
     <message>
         <source>Wallet %s resides outside wallet directory %s</source>
         <translation>Tegnebog %s findes uden for tegnebogsmappen %s</translation>
+=======
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Litecoin Core for at gennemføre</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning</source>
@@ -3866,12 +4244,17 @@
         <translation>Gebyrer (i %s/kB) mindre end dette opfattes som intet gebyr under oprettelse af transaktioner (standard: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
         <translation>Gennemtving videresendelse af transaktioner fra hvidlistede knuder, selv om de overtræder lokal videresendelsespolitik (standard: %d)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Hvor gennemarbejdet blokverificeringen for -checkblocks er (0-4; standard: %u)</translation>
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Prioritet for transaktionslog og gebyr pr. kB under udvinding af blokke (standard: %u)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
@@ -3962,6 +4345,7 @@
         <translation>Forespørg altid adresser på andre knuder via DNS-opslag (default: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
         <translation>Fejl under indlæsning af tegnebog %s. -wallet filnavn skal være en almindelig fil.</translation>
     </message>
@@ -3972,6 +4356,10 @@
     <message>
         <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
         <translation>Fejl under indlæsning af tegnebog %s. Ugyldige tegn i -wallet filnavn.</translation>
+=======
+        <source>Generate coins (default: %u)</source>
+        <translation>Generér litecoins (standard: %u)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -4083,10 +4471,13 @@
         <translation>Transaktionen skal have mindst én modtager</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Ukendt netværk anført i -onlynet: “%s”</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Manglende dækning</translation>
     </message>

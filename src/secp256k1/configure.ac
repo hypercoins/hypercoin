@@ -232,6 +232,10 @@ if test x"$req_field" = x"auto"; then
       set_field=64bit
     fi
   fi
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0.10
   if test x"$set_field" = x; then
     set_field=32bit
   fi
@@ -280,11 +284,6 @@ else
 fi
 
 if test x"$req_bignum" = x"auto"; then
-  SECP_GMP_CHECK
-  if test x"$has_gmp" = x"yes"; then
-    set_bignum=gmp
-  fi
-
   if test x"$set_bignum" = x; then
     set_bignum=no
   fi

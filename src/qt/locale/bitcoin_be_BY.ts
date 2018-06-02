@@ -70,10 +70,13 @@
         <translation>Тут знаходзяцца Litecoin-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy Address</source>
         <translation>Капіяваць адрас</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Copy &amp;Label</source>
         <translation>Капіяваць Метку</translation>
     </message>
@@ -169,19 +172,43 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Увага: калі вы зашыфруеце свой гаманец і страціце парольную фразу, то &lt;b&gt;СТРАЦІЦЕ ЎСЕ СВАЕ БІТКОЙНЫ&lt;/b&gt;!</translation>
+=======
+        <translation>Увага: калі вы зашыфруеце свой гаманец і страціце парольную фразу, то &lt;b&gt;СТРАЦІЦЕ ЎСЕ СВАЕ LITECOINS&lt;/b&gt;!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ці ўпэўненыя вы, што жадаеце зашыфраваць свой гаманец?</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ВАЖНА: Усе папярэднія копіі гаманца варта замяніць новым зашыфраваным файлам. У мэтах бяспекі папярэднія копіі незашыфраванага файла-гаманца стануць неўжывальнымі, калі вы станеце карыстацца новым зашыфраваным гаманцом.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Увага: Caps Lock уключаны!</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Wallet encrypted</source>
         <translation>Гаманец зашыфраваны</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>ВАЖНА: Усе папярэднія копіі гаманца варта замяніць новым зашыфраваным файлам. У мэтах бяспекі папярэднія копіі незашыфраванага файла-гаманца стануць неўжывальнымі, калі вы станеце карыстацца новым зашыфраваным гаманцом.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Увядзіце новы пароль для гаманца.&lt;br/&gt;Парольная фраза павинна складацца&lt;b&gt; не меньш чым з дзесяці сімвалаў&lt;/b&gt;, ці &lt;b&gt;больш чым з васьмі слоў&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -294,6 +321,17 @@
         <translation>Адчыниць &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core кліент</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Імпартуюцца блокі з дыску...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Reindexing blocks on disk...</source>
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
@@ -338,6 +376,10 @@
         <translation>Атрымаць</translation>
     </message>
     <message>
+        <source>Show information about Litecoin Core</source>
+        <translation>Паказаць інфармацыю аб Litecoin Core</translation>
+    </message>
+    <message>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Паказаць / Схаваць</translation>
     </message>
@@ -370,10 +412,24 @@
         <translation>Дапамога</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Запатрабаваць плацёж (генеруецца QR-код для litecoin URI)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&amp;About Litecoin Core</source>
+        <translation>Аб Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Show the list of used sending addresses and labels</source>
         <translation>Паказаць спіс адрасоў і метак для дасылання</translation>
     </message>
@@ -390,6 +446,25 @@
         <translation>Опцыі каманднага радка</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Паказваць даведку Litecoin Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n актыўнае злучэнне з Litecoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Litecoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Litecoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Litecoin-сецівам</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Крыніца блокаў недасяжная...</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 і %2</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>%1 behind</source>
         <translation>%1 таму</translation>
     </message>
@@ -467,7 +542,18 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Гаманец &lt;b&gt;зашыфраваны&lt;/b&gt; і зараз &lt;b&gt;заблакаваны&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+</context>
+<context>
+    <name>ClientModel</name>
+    <message>
+        <source>Network Alert</source>
+        <translation>Трывога Сеціва</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -483,6 +569,13 @@
         <translation>Колькасць:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Priority:</source>
+        <translation>Прыярытэт:</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Fee:</source>
         <translation>Камісія:</translation>
     </message>
@@ -531,6 +624,10 @@
         <translation>Пацверджана</translation>
     </message>
     <message>
+        <source>Priority</source>
+        <translation>Прыярытэт</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Капіяваць адрас</translation>
     </message>
@@ -571,10 +668,56 @@
         <translation>Капіяваць байты</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy priority</source>
+        <translation>Капіяваць прыярытэт</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Copy dust</source>
         <translation>Капіяваць пыл</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>highest</source>
+        <translation>найвышэйшы</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>вышэйшы</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>высокі</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>вышэй сярэдняга</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>сярэдні</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>ніжэй сярэдняга</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>нізкі</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>ніжэйшы</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>найніжэйшы</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>yes</source>
         <translation>так</translation>
     </message>
@@ -583,6 +726,29 @@
         <translation>не</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Гэта метка стане чырвонай, калі транзакцыя перавысіць 1000 байт.</translation>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>Гэта значыць патрэбную камісію мінімум %1 на Кб.</translation>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Транзакцыя большага прыярытэту больш прываблівая для ўключэння ў блок.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Гэта метка стане чырвонай, калі прыярытэт меньш чым "сярэдні".</translation>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Гэта метка стане чырвонай, калі любы з адрасатаў атрымае меньш чым %1.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>(no label)</source>
         <translation>непазначаны</translation>
     </message>
@@ -648,10 +814,21 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
         <source>(%1-bit)</source>
         <translation>(%1-біт)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>About Litecoin Core</source>
+        <translation>Аб Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Command-line options</source>
         <translation>Опцыі каманднага радка</translation>
     </message>
@@ -675,8 +852,17 @@
         <translation>Вітаем</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Вітаем у Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -707,6 +893,7 @@
         <source>MB</source>
         <translation>Мб</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>W&amp;allet</source>
         <translation>Гаманец</translation>
@@ -715,6 +902,8 @@
         <source>Error</source>
         <translation>Памылка</translation>
     </message>
+=======
+>>>>>>> 0.10
     </context>
 <context>
     <name>OverviewPage</name>
@@ -812,6 +1001,13 @@
     <message>
         <source>Label</source>
         <translation>Метка</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Паведамленне</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Message</source>
@@ -829,10 +1025,13 @@
         <translation>Даслаць Манеты</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Insufficient funds!</source>
         <translation>Недастаткова сродкаў</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Quantity:</source>
         <translation>Колькасць:</translation>
     </message>
@@ -845,6 +1044,13 @@
         <translation>Колькасць:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Priority:</source>
+        <translation>Прыярытэт:</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Fee:</source>
         <translation>Камісія:</translation>
     </message>
@@ -873,6 +1079,10 @@
         <translation>Капіяваць колькасць</translation>
     </message>
     <message>
+        <source>Copy quantity</source>
+        <translation>Капіяваць колькасць</translation>
+    </message>
+    <message>
         <source>Copy amount</source>
         <translation>Капіяваць колькасць</translation>
     </message>
@@ -889,12 +1099,17 @@
         <translation>Капіяваць байты</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy dust</source>
         <translation>Капіяваць пыл</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
         <translation>Пацвердзіць дасыланне манет</translation>
+=======
+        <source>Copy priority</source>
+        <translation>Капіяваць прыярытэт</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -904,7 +1119,15 @@
         <source>(no label)</source>
         <translation>непазначаны</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    <message>
+        <source>Copy dust</source>
+        <translation>Капіяваць пыл</translation>
+    </message>
+    </context>
+>>>>>>> 0.10
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -932,6 +1155,7 @@
         <translation>Alt+P</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Message:</source>
         <translation>Паведамленне:</translation>
     </message>
@@ -951,6 +1175,12 @@
 <context>
     <name>SendConfirmationDialog</name>
     </context>
+=======
+        <source>Memo:</source>
+        <translation>Памятка:</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>ShutdownWindow</name>
     </context>
@@ -972,6 +1202,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Распрацоўнікі Bitcoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -1002,16 +1243,32 @@
         <translation>Статус</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>, has not been successfully broadcast yet</source>
         <translation>, пакуль не было паспяхова транслявана</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>unknown</source>
         <translation>невядома</translation>
+=======
+        <source>Message</source>
+        <translation>Паведамленне</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Каментар</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Message</source>
@@ -1272,6 +1529,16 @@
     <message>
         <source>Do you want to rebuild the block database now?</source>
         <translation>Ці жадаеце вы перабудаваць зараз базу звестак блокаў?</translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Памылка ініцыялізацыі базвы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Памалка ініцыялізацыі асяроддзя базы звестак гаманца %s!</translation>
+=======
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -1310,6 +1577,88 @@
         <translation>Праверка блокаў...</translation>
     </message>
     <message>
+        <source>Verifying wallet...</source>
+        <translation>Праверка гаманца...</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Опцыі гаманца:</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Імпартаванне блокаў з вонкавага blk000??.dat файла</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Інфармацыя</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Опцыі RPC сервера:</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Слаць trace/debug звесткі ў кансоль замест файла debug.log</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>Памылка подпісу транзакцыі</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>Гэта эксперыментальная праграма.</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Транзакцыя занадта малая</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Транзакцыя занадта вялікая</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Імя карыстальника для JSON-RPC злучэнняў</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Увага</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Пароль для JSON-RPC злучэнняў</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Памылка загрузкі базвы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Памылка адчынення базы звестак блокаў</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Памылка: Замала вольнага месца на дыску!</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Імпартаванне...</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Не хапае файлавых дэскрыптараў.</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Use UPnP to map the listening port (default: %u)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Праверка блокаў...</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Wallet options:</source>
         <translation>Опцыі гаманца:</translation>
     </message>
@@ -1358,6 +1707,8 @@
         <translation>Выканаць каманду калі лепшы блок зменіцца (%s замяняецца на хэш блока)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Недастаткова сродкаў</translation>
     </message>

@@ -63,6 +63,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>هذه هي عناوين Litecion التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
     </message>
     <message>
@@ -72,6 +73,13 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>انسخ العنوان</translation>
+=======
+        <translation>هذه هي عناوين Litecoin التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>هذه هي عناوين Litecoin التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -184,8 +192,17 @@
         <translation>محفظة مشفرة</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>هام: أي نسخة إحتياطية سابقة  قمت بها لمحفظتك يجب استبدالها  بأخرى حديثة، مشفرة. لأسباب أمنية، النسخ الاحتياطية السابقة لملفات المحفظة الغير مشفرة تصبح عديمة الفائدة مع بداية استخدام المحفظة المشفرة الجديدة.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>أدخل عبارة مرور جديدة إلى المحفظة. الرجاء استخدام عبارة مرور تتكون من10 حروف عشوائية على الاقل, أو أكثر من 7 كلمات</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -318,6 +335,7 @@
         <translation>افتح &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>اضغط لإلغاء تفعيل الشبكه</translation>
     </message>
@@ -332,10 +350,29 @@
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>إعادة الفهرسة الكتل على القرص ...</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>عميل litecoin core</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>استيراد كتل من القرص ...</translation>
+    </message>
+    <message>
+        <source>Reindexing blocks on disk...</source>
+        <translation>إعادة فهرسة الكتل على القرص</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>ارسل عملات الى عنوان Litecoin</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>تعديل إعدادات litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -359,7 +396,11 @@
     </message>
     <message>
         <source>Litecoin</source>
+<<<<<<< HEAD
         <translation>بتكوين</translation>
+=======
+        <translation>بت كوين</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet</source>
@@ -370,8 +411,13 @@
         <translation>&amp;ارسل</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Receive</source>
         <translation>&amp;استقبل</translation>
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>  اظهار معلومات حول Litecoin core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -410,6 +456,7 @@
         <translation>شريط أدوات علامات التبويب</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>أطلب دفعات (يولد كودات الرمز المربع وبيت كوين: العناوين المعطاة)</translation>
     </message>
@@ -420,6 +467,14 @@
     <message>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>عرض قائمة عناوين الإستقبال المستخدمة والملصقات</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>جوهر البيت كوين</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>حول litecoin core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
@@ -738,16 +793,28 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>جوهر البيت كوين</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>النسخة</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>حوالي %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
         <translation>خيارات سطر الأوامر</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>عن جوهر البيت كوين</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Usage:</source>
@@ -809,12 +876,17 @@
         <translation>استخدام دليل بيانات مخصص:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>بتكوين</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>خطأ: لا يمكن تكوين دليل بيانات مخصص ل %1</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>جوهر البيت كوين</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -1459,10 +1531,13 @@
         <translation>نسخ التعديل</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 to %2</source>
         <translation>%1 الى %2</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>or</source>
         <translation>أو</translation>
     </message>
@@ -1654,6 +1729,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>جوهر البيت كوين</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>مطوري جوهر البيت كوين</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -2052,10 +2138,13 @@
         <translation>خيارات الاتصال:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Disk space is low!</source>
         <translation>تحذير: مساحة القرص منخفضة</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>فشل في الاستماع على أي منفذ. استخدام الاستماع = 0 إذا كنت تريد هذا.</translation>
     </message>
@@ -2120,10 +2209,13 @@
         <translation>%s عالٍ جداً</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Make the wallet broadcast transactions</source>
         <translation>إنتاج معاملات بث المحفظة</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>اموال غير كافية</translation>
     </message>

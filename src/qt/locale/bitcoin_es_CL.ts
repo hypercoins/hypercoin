@@ -7,7 +7,11 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crea una nueva dirección</translation>
+        <translation>Crea una nueva direCrea una nueva direccióncción</translation>
+    </message>
+    <message>
+        <source>&amp;New</source>
+        <translation>y nueva</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -20,6 +24,7 @@
     <message>
         <source>&amp;Copy</source>
         <translation>y copiar</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>C&amp;lose</source>
@@ -28,6 +33,32 @@
     <message>
         <source>Delete the currently selected address from the list</source>
         <translation>Eliminar la dirección seleccionada de la lista</translation>
+=======
+    </message>
+    <message>
+        <source>C&amp;lose</source>
+        <translation>C y perder</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Copia dirección</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Eliminar la dirección seleccionada de la lista</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportar los datos de la pestaña actual a un archivo</translation>
+    </message>
+    <message>
+        <source>&amp;Export</source>
+        <translation>y exportar</translation>
+    </message>
+    <message>
+        <source>&amp;Delete</source>
+        <translation>&amp;Borrar</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -59,10 +90,98 @@
         <source>Repeat new passphrase</source>
         <translation>Repite nueva contraseña</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>BanTableModel</name>
     </context>
+=======
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Codificar billetera</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Esta operación necesita la contraseña para desbloquear la billetera.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Desbloquea billetera</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Esta operación necesita la contraseña para decodificar la billetara.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Decodificar cartera</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Cambia contraseña</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Introduce la contraseña anterior y la nueva de cartera</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Confirma la codificación de cartera</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Atención: ¡Si codificas tu billetera y pierdes la contraseña perderás &lt;b&gt;TODOS TUS LITECOINS&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>¿Seguro que quieres seguir codificando la billetera?</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>IMPORTANTE: Cualquier versión anterior que hayas realizado de tu archivo de billetera será reemplazada por el nuevo archivo de billetera encriptado. Por razones de seguridad, los respaldos anteriores de los archivos de billetera se volverán inútiles en tanto comiences a usar la nueva billetera encriptada.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Precaucion: Mayúsculas Activadas</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Billetera codificada</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus litecoins de ser robados por malware que infecte su computador</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Falló la codificación de la billetera</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>La codificación de la billetera falló debido a un error interno. Tu billetera no ha sido codificada.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Las contraseñas no coinciden.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Ha fallado el desbloqueo de la billetera</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>La contraseña introducida para decodificar la billetera es incorrecta.</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Ha fallado la decodificación de la billetera</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>La contraseña de billetera ha sido cambiada con éxito.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -126,6 +245,7 @@
         <translation>&amp;Cambiar la contraseña...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Sending addresses...</source>
         <translation>Mandando direcciones</translation>
     </message>
@@ -144,6 +264,26 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Enviar monedas a una dirección litecoin</translation>
+=======
+        <source>Open &amp;URI...</source>
+        <translation>Abrir y url...</translation>
+    </message>
+    <message>
+        <source>Litecoin Core client</source>
+        <translation>cliente litecoin core</translation>
+    </message>
+    <message>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Cargando el index de bloques...</translation>
+    </message>
+    <message>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Enviar monedas a una dirección litecoin</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Modifica las opciones de configuración de litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -162,10 +302,13 @@
         <translation>Abre consola de depuración y diagnóstico</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Verify message...</source>
         <translation>Verificar mensaje....</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -206,8 +349,29 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Pide pagos (genera codigos QR and litecoin: URls)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>litecoin core</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red Litecoin</numerusform><numerusform>%n conexiones activas hacia la red Litecoin</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n día</numerusform><numerusform>%n días</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -266,12 +430,49 @@
         <translation>Fecha</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation>Confirmaciones</translation>
     </message>
     <message>
         <source>Confirmed</source>
         <translation>Confirmado</translation>
+=======
+        <source>Confirmed</source>
+        <translation>Confirmado</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>prioridad</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Copia dirección</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copia etiqueta</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copiar Cantidad</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>medio</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>si</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sin etiqueta)</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -288,7 +489,43 @@
         <source>&amp;Address</source>
         <translation>&amp;Dirección</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>New receiving address</source>
+        <translation>Nueva dirección para recibir</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Nueva dirección para enviar</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Editar dirección de recepción</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Editar dirección de envio</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>La dirección introducida "%1" ya esta guardada en la libreta de direcciones.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Litecoin valida.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>No se pudo desbloquear la billetera.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>La generación de nueva clave falló.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -298,6 +535,10 @@
     </context>
 <context>
     <name>HelpMessageDialog</name>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>litecoin core</translation>
+    </message>
     <message>
         <source>version</source>
         <translation>versión</translation>
@@ -320,6 +561,14 @@
     <message>
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+    </message>
+    <message>
+        <source>Welcome</source>
+        <translation>bienvenido</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>litecoin core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -351,6 +600,17 @@
         <translation>&amp;Principal</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Inicia Litecoin automáticamente despues de encender el computador</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Inicia Litecoin al iniciar el sistema</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Reset all client options to default.</source>
         <translation>Reestablece todas las opciones.</translation>
     </message>
@@ -359,10 +619,13 @@
         <translation>&amp;Red</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>W&amp;allet</source>
         <translation>Cartera</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Expert</source>
         <translation>experto</translation>
     </message>
@@ -460,6 +723,10 @@
         <translation>Cantidad</translation>
     </message>
     <message>
+        <source>UNKNOWN</source>
+        <translation>DESCONOCIDO</translation>
+    </message>
+    <message>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
@@ -493,10 +760,13 @@
         <translation>&amp;Información</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debug window</source>
         <translation>Ventana Debug</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>General</source>
         <translation>General</translation>
     </message>
@@ -710,9 +980,41 @@
         <source>Verify &amp;Message</source>
         <translation>&amp;Firmar Mensaje</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Click en "Firmar Mensage" para conseguir firma</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Por favor, revise la dirección Litecoin e inténtelo denuevo</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Ha fallado el desbloqueo de la billetera</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Firma fallida</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Mensaje firmado</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Mensaje comprobado</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>SplashScreen</name>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>litecoin core</translation>
+    </message>
     <message>
         <source>[testnet]</source>
         <translation>[red-de-pruebas]</translation>
@@ -752,6 +1054,29 @@
     </context>
 <context>
     <name>WalletView</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>&amp;Export</source>
+        <translation>y exportar</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportar los datos de la pestaña actual a un archivo</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Respaldar billetera</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Datos de billetera (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Ha fallado el respaldo</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -815,6 +1140,29 @@
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Loading addresses...</source>
+        <translation>Cargando direcciónes...</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Error cargando wallet.dat: Billetera corrupta</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Error cargando wallet.dat</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Dirección -proxy invalida: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Cantidad inválida para -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Fondos insuficientes</translation>
     </message>

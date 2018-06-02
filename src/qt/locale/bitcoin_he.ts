@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>לחץ מקש ימני כדי לערוך כתובת או תווית</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>יצירת כתובת חדשה</translation>
     </message>
@@ -63,6 +66,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. חשוב לבדוק את הסכום ואת הכתובת המקבלת לפני שליחת מטבעות.</translation>
     </message>
     <message>
@@ -72,6 +76,13 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>ה&amp;עתקת כתובת</translation>
+=======
+        <translation>אלה כתובת ללייטקוין שלך לצורך שליחת תשלומים. תמיד יש לבדוק את הכמות ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>אלה כתובות ללייטקוין שלך לצורך קבלת תשלומים. מומלץ להשתמש בכתובת קבלה חדשה לכל העברה.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -169,7 +180,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>אזהרה: איבוד מילת הצופן לאחר הצפנת הארנק עשויה לגרום לכך &lt;b&gt;שכל הביטקוינים שלך יאבדו&lt;/b&gt;!</translation>
+=======
+        <translation>אזהרה: הצפנת הארנק ואיבוד מילת הצופן עשויה להוביל &lt;b&gt;לאיבוד כל הלייטקוינים שלך&lt;/b&gt;!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +199,13 @@
         <translation>%1 ייסגר כעת כדי לסיים את תהליך ההצפנה. נא לשים לב כי הצפנת הארנק שלך לא יכול להגן על הביטקוינים שלך מפני גניבה או נוזקה שתוקפת את מחשבך.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>חשוב: כל הגיבויים הקודמים שערכת לארנק שלך אמורים להתחלף עם קובץ הארנק המוצפן שנוצר כרגע. מטעמי אבטחה, הגיבויים הקודמים של קובץ הארנק שאינו מוגן הופכים לחסרי תועלת ברגע התחלת השימוש בארנק החדש והמוצפן.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>לייטקוין ייסגר כעת כדי להשלים את תהליך ההצפנה. עליך לזכור שהצפנת הארנק שלך אינה מגנה באופן מלא על הלייטקוינים שלך מתכניות זדוניות המושתלות על המחשב.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -318,8 +338,13 @@
         <translation>פתיחת &amp;כתובת משאב…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>יש ללחוץ כדי לנטרל פעילות רשת.</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>לקוח ליבה של לייטקוין</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -330,6 +355,7 @@
         <translation>יש ללחוץ כדי להפעיל את פעילות הרשת מחדש.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Syncing Headers (%1%)...</source>
         <translation>הכותרות מתעדכנות (%1%)...</translation>
     </message>
@@ -340,6 +366,14 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>שליחת מטבעות לכתובת לייטקוין</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>שליחת מטבעות לכתובת לייטקוין</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>שינוי התצורה של לייטקוין</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -378,6 +412,13 @@
         <translation>&amp;קבלה</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>הצגת מידע על ליבת לייטקוין</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>ה&amp;צגה / הסתרה</translation>
     </message>
@@ -391,7 +432,11 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation>חתום על הודעות עם כתובות לייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
+=======
+        <translation>חתום על הודעות עם כתובות ללייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
@@ -414,8 +459,21 @@
         <translation>סרגל כלים לשוניות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :litecoin)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>ליבת לייטקוין</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :litecoin)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>על &amp;אודות ליבת לייטקוין</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -433,6 +491,17 @@
         <source>&amp;Command-line options</source>
         <translation>אפשרויות &amp;שורת הפקודה</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>הצגת הודעות העזרה של ליבת לייטקוין כדי לקבל רשימה עם אפשרויות שורת הפקודה האפשריות של לייטקוין</translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>אין מקור מקטעים זמין…</translation>
+    </message>
+>>>>>>> 0.10
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>חיבור אחד פעיל לרשת לייטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת לייטקוין</numerusform></translation>
@@ -742,8 +811,13 @@
         <translation>הכתובת שהוקלדה „%1” היא אינה כתובת לייטקוין תקנית.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>הכתובת שהוקלדה „%1” כבר נמצאת בספר הכתובות.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>הכתובת שהוכנסה „%1“ אינה כתובת לייטקוין תקנית.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -780,6 +854,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>ליבת לייטקוין</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>גרסה</translation>
     </message>
@@ -788,8 +869,13 @@
         <translation>(%1-סיביות)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>על אודות %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>על אודות ליבת לייטקוין</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -839,6 +925,7 @@
         <translation>ברוך בואך</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>ברוך בואך אל %1.</translation>
     </message>
@@ -857,6 +944,18 @@
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
         <translation>אם בחרת להגביל את שטח האחרון לשרשרת, עדיין נדרש מידע היסטורי להורדה ועיבוד אך המידע ההיסטורי יימחק לאחר מכן כדי לשמור על צריכת שטח האחסון בדיסק נמוכה.</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>ברוך בואך לליבת לייטקוין</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>מכיוון שזאת הפעם הראשונה שהתכנית פועלת ניתן לבחור איפה ליבת לייטקוין תאחסן את הנתונים שלה.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>לקוח לייטקוין יוריד וישמור העתק של שרשרת המקטעים של לייטקוין. לפחות %1 ג״ב מהנתונים יאוחסנו בתיקייה זו, והיא תגדל עם הזמן. הארנק גם יאוחסן בתיקייה הזו.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -867,6 +966,7 @@
         <translation>שימוש בתיקיית נתונים מותאמת אישית:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>לייטקוין</translation>
     </message>
@@ -885,6 +985,10 @@
     <message>
         <source>The wallet will also be stored in this directory.</source>
         <translation>הארנק גם מאוחסן בתיקייה הזו.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>ליבת לייטקוין</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -988,12 +1092,21 @@
         <translation>&amp;ראשי</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>להפעיל את %1 אוטומטית לאחר הכניסה למערכת.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
         <translation>ה&amp;פעלת %1 עם הכניסה למערכת</translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>הפעלת לייטקוין אוטומטית לאחר כניסה למערכת.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>ה&amp;פעלת לייטקוין בעת הכניסה למערכת</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1132,8 +1245,13 @@
         <translation>&amp;שפת מנשק המשתמש:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation>ניתן להגדיר כאן את שפת מנשק המשתמש. הגדרה זו תיכנס לתוקף לאחר הפעלה של %1 מחדש.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>להלן ניתן לקבוע את שפת מנשק המשתמש. הגדרה זו תיכנס לתוקף לאחר הפעלה מחדש של לייטקוין.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1208,7 +1326,11 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת לייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
+=======
+        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת ללייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1330,16 +1452,46 @@
         <translation>בקשת תשלום שגויה.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Requested payment amount of %1 is too small (considered dust).</source>
         <translation>הסכום על סך %1 הנדרש לתשלום קטן מדי (נחשב לאבק)</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>לא ניתן להתחיל את לייטקוין: טיפול בלחיצה–לתשלום </translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Refund from %1</source>
         <translation>זיכוי מאת %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error communicating with %1: %2</source>
         <translation>שגיאה בעת יצירת קשר עם %1:‏ %2</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>לא ניתן לנתח את כתובת המשאב! מצב זה יכול לקרות עקב כתובת לייטקוין שגויה או פרמטרים שגויים בכתובת המשאב.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>טיפול בקובצי בקשות תשלום</translation>
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>לא ניתן לקרוא את קובץ בקשת התשלום! מצב כזה יכול לקרות בעקבות קובץ בקשת תשלום פגום.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>בקשות תשלום בלתי מאומתות לסקריפטים לתשלום מותאמים אישית אינן נתמכות.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>החזר מ־%1</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>שגיאה בתקשורת עם %1: %2</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
@@ -1701,12 +1853,24 @@
         <translation>קובץ יומן ניפוי</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>פתיחת קובץ יומן הניפוי מתיקיית הנתונים הנוכחית. פעולה זו עשויה להימשך מספר שניות עבור קובצי יומן גדולים.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>ניקוי מסוף הבקרה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>&amp;שעה אחת</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>ברוכים הבאים למסוף ה־RPC של לייטקוין.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -1792,6 +1956,17 @@
         <translation>הו&amp;דעה:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>ניתן להשתמש שוב באחת מכתובות הקבלה שכבר נעשה בהן שימוש. לשימוש חוזר בכתובות ישנן השלכות אבטחה ופרטיות. מומלץ שלא להשתמש באפשרות זו למעט יצירה מחדש של בקשת תשלום שנוצרה בעבר.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>ש&amp;ימוש &amp;חוזר בכתובת קבלה קיימת (לא מומלץ)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת לייטקוין.</translation>
     </message>
@@ -2093,10 +2268,13 @@
         <translation>נוספה עמלת העברה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Total Amount %1</source>
         <translation>סכום כולל %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>or</source>
         <translation>או</translation>
     </message>
@@ -2129,8 +2307,13 @@
         <translation>ההעברה נדחתה מהסיבות הבאות: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>עמלה מעל לסכום של %1 נחשבת לעמלה גבוהה באופן מוגזם.</translation>
+=======
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>אזהרה: כתובת לייטקוין שגויה</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2185,7 +2368,11 @@
     </message>
     <message>
         <source>The Litecoin address to send the payment to</source>
+<<<<<<< HEAD
         <translation>כתובת לייטקוין של המוטב</translation>
+=======
+        <translation>כתובת ללייטקוין של המוטב</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Alt+A</source>
@@ -2229,7 +2416,15 @@
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+<<<<<<< HEAD
         <translation>הודעה שצורפה לייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת הלייטקוין.</translation>
+=======
+        <translation>הודעה שצורפה ללייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת ללייטקוין.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>זוהי בקשת תשלום בלתי־מאומתת.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Pay To:</source>
@@ -2254,8 +2449,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>%1 is shutting down...</source>
         <translation>%1 בתהליך כיבוי...</translation>
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>ליבת לייטקוין נסגרת…</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2278,7 +2478,11 @@
     </message>
     <message>
         <source>The Litecoin address to sign the message with</source>
+<<<<<<< HEAD
         <translation>כתובת לייטקוין אתה לחתום אתה את ההודעה</translation>
+=======
+        <translation>כתובת ללייטקוין אתה לחתום אתה את ההודעה</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2310,7 +2514,11 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Litecoin address</source>
+<<<<<<< HEAD
         <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת לייטקוין הזו בבעלותך.</translation>
+=======
+        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת ללייטקוין הזו בבעלותך.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2329,12 +2537,25 @@
         <translation>&amp;אימות הודעה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Litecoin address the message was signed with</source>
         <translation>כתובת לייטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת לייטקוין הנתונה</translation>
+=======
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>הכנס למטה את הכתובת החותמת, ההודעה (ודא שאתה מעתיק מעברי שורה, רווחים, טאבים וכו' באופן מדויק) והחתימה כדי לאמת את ההודעה. היזהר לא לפרש את החתימה כיותר ממה שמופיע בהודעה החתומה בעצמה, כדי להימנע מליפול קורבן למתקפת איש-באמצע.</translation>
+    </message>
+    <message>
+        <source>The Litecoin address the message was signed with</source>
+        <translation>כתובת ללייטקוין שאתה נחתמה ההודעה</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת ללייטקוין הנתונה</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2400,6 +2621,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>ליבת לייטקוין</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>מתכנתי ליבת ביטקוין</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[רשת-בדיקה]</translation>
     </message>
@@ -2926,10 +3158,13 @@
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The %s developers</source>
         <translation>ה %s מפתחים</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>להתאגד לכתובת נתונה להאזין לה תמיד. יש להשתמש בצורה ‎[host]:port עבור IPv6.</translation>
     </message>
@@ -2938,12 +3173,32 @@
         <translation>מחיקת כל העברות הארנק ולשחזר רק את החלקים המסוימים בשרשרת המקטעים באמצעות ‎-rescan עם ההפעלה</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>כניסה למצב בדיקת נסיגה, שמשתמש בשרשרת מיוחדת בה ניתן לפתור את המקטעים במהירות.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>ביצוע פקודה כאשר העברה בארנק משתנה (%s ב־cmd יוחלף ב־TxID)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>שימוש ב־UPnP כדי למפות את הפתחה להאזנה (בררת מחדל: 1 בעת האזנה ובלי ‎-proxy)</translation>
+=======
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>זוהי בניית ניסיון טרום-שחרור - השימוש בה על אחריותך - אין להשתמש לצורך כריה או יישומי מסחר</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation>לא ניתן להתאגד אל %s במחשב זה. כנראה שליבת לייטקוין כבר פועלת.</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>אזהרה: ‎-paytxfee נקבע לערך מאד גבוה! זוהי עמלת הפעולה שתשולם בעת העברת שליחה.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3094,22 +3349,73 @@
         <translation>הרץ פקודה כאשר ההתראה הרלוונטית מתקבלת או כשאנחנו עדים לפיצול ארוך מאוד (%s בשורת הפקודה יוחלף ע"י ההודעה)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>סכום העברה נמוך מדי לשליחה אחרי גביית העמלה</translation>
     </message>
     <message>
         <source>(default: %u)</source>
         <translation>(בררת מחדל: %u)</translation>
+=======
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>העמלות (ב־LTC/ק״ב) הנמוכות מהסכום הזה נחשבות לעמלות אפס ליצירת העברה (בררת מחדל: %s)</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+        <translation>אזהרה: נא לבדוק שהתאריך והשעה של המחשב שלך נכונים! אם השעון שלך שגוי ליבת לייטקוין לא תעבוד כראוי.</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>לא ניתן לפתור את הכתובת ‎-whitebind:‏ '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
         <translation>התחברות דרך מתווך SOCKS5</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>כל הזכויות שמורות (C)‏ 2009‏-%i מתכנתי ליבת ביטקוין</translation>
+    </message>
+    <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>לא ניתן לנתח את הערך של ‎-rpcbind שצוין בתור %s ככתובת רשת</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>אירעה שגיאה בטעינת wallet.dat: הארנק דורש גרסה חדשה יותר של ליבת לייטקוין</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>שגיאה: נמצא ארגומנט בלתי נתמך ‎-tor, יש להשתמש ב־‎-onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>עמלה (ב־LTC/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Information</source>
         <translation>מידע</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
+        <translation>בדיקת התקינות ההתחלתית נכשלה. ליבת לייטקוין תיסגר כעת.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>כמות לא תקינה עבור -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>כמות לא תקינה עבור ‎-mintxfee=&lt;amount&gt;‎:‏ '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>כמות לא תקינה עבור ‎-paytxfee=&lt;amount&gt;‎:‏ '%s' (חייבת להיות לפחות %s)</translation>
     </message>
@@ -3126,6 +3432,13 @@
         <translation>אפשרויות ממסר מפרק:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation>אפשרויות RPC SSL: (נא לעיין בוויקי של לייטקוין לקבלת הנחיות על הגדרת SSL)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>RPC server options:</source>
         <translation>הגדרות שרת RPC</translation>
     </message>
@@ -3178,6 +3491,13 @@
         <translation>שם משתמש לחיבורי JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <translation>יש לכתוב את הארנק מחדש: נא להפעיל את ליבת לייטקוין מחדש כדי להשלים את הפעולה</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Warning</source>
         <translation>אזהרה</translation>
     </message>
@@ -3270,6 +3590,7 @@
         <translation>סכומי ההעברה לא יכולים להיות שליליים</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transaction must have at least one recipient</source>
         <translation>להעברה חייב להיות לפחות נמען אחד</translation>
     </message>
@@ -3278,6 +3599,8 @@
         <translation>רשת לא ידועה צוינה דרך ‎-onlynet:‏ '%s'</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>אין מספיק כספים</translation>
     </message>

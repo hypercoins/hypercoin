@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>คลิกขวาเพื่อแก้ไขที่อยู่ หรือป้ายชื่อ</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>สร้างที่อยู่ใหม่</translation>
     </message>
@@ -275,6 +278,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
+<<<<<<< HEAD
         <translation><numerusform>%n ช่องการเชื่อมต่อที่ใช้งานได้ เพื่อเชื่อมกับเครือข่าย Litecoin</numerusform></translation>
     </message>
     <message>
@@ -312,6 +316,9 @@
     <message>
         <source>Information</source>
         <translation>ข้อมูล</translation>
+=======
+        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Litecoin</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Up to date</source>

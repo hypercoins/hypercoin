@@ -66,12 +66,21 @@
         <translation>Це ваші адреси Litecoin для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Це ваші адреси Litecoin для отримання платежів. Для кожної транзакції рекомендується використовувати нову адресу одержувача.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Скопіювати адресу гаманця</translation>
+=======
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Це ваші Litecoin-адреси для відправлення платежів. Перед відправленням монет завжди перевіряйте суму та адресу прийому.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Це ваша нова Litecoin адреса для отримання платежів. Рекомендовано використовувати нову адресу для кожної транзакції.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -176,16 +185,36 @@
         <translation>Ви дійсно хочете зашифрувати свій гаманець?</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ВАЖЛИВО: Всі попередні резервні копії, які ви зробили з вашого файлу гаманця повинні бути замінені новоствореним, зашифрованим файлом гаманця. З міркувань безпеки, попередні резервні копії незашифрованого файла гаманця стануть непридатними одразу ж, як тільки ви почнете використовувати новий, зашифрований гаманець.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Увага: Ввімкнено Caps Lock!</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Wallet encrypted</source>
         <translation>Гаманець зашифровано</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
         <translation>%1 буде закрито зараз, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші litecoinи від крадіжки шкідливими програмами, у випадку якщо ваш комп'ютер буде інфіковано.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>ВАЖЛИВО: Всі попередні резервні копії, які ви зробили з вашого файлу гаманця повинні бути замінені новоствореним, зашифрованим файлом гаманця. З міркувань безпеки, попередні резервні копії незашифрованого файла гаманця стануть непридатними одразу ж, як тільки ви почнете використовувати новий, зашифрований гаманець.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Введіть нову кодову фразу для гаманця.&lt;br/&gt;Будь ласка, використовуйте кодові фрази що містять &lt;b&gt; щонайменше десять випадкових символів &lt;/b&gt; або &lt;b&gt; щонайменше вісім слів &lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Біткоін-клієнт буде закрито для завершення процесу шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші біткоіни від крадіжки, у випадку якщо ваш комп'ютер буде інфіковано шкідливими програмами.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -318,6 +347,7 @@
         <translation>Відкрити &amp;URI</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Натисніть, щоб вимкнути активність мережі.</translation>
     </message>
@@ -328,6 +358,10 @@
     <message>
         <source>Click to enable network activity again.</source>
         <translation>Натисніть, щоб знову активувати мережеву активність.</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>Клієнт «Litecoin Core»</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
@@ -342,6 +376,13 @@
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Редагувати параметри</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Backup wallet to another location</source>
         <translation>Резервне копіювання гаманця в інше місце</translation>
     </message>
@@ -378,6 +419,13 @@
         <translation>&amp;Отримати</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Показати інформацію про Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>Показа&amp;ти / Приховати</translation>
     </message>
@@ -414,8 +462,21 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Створити запит платежу (генерує QR-код та litecoin: URI)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Створити запит платежу (генерує QR-код та litecoin: URI)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>П&amp;ро Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -432,6 +493,13 @@
     <message>
         <source>&amp;Command-line options</source>
         <translation>П&amp;араметри командного рядка</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Показати довідку Litecoin Core для отримання переліку можливих параметрів командного рядка.</translation>
+>>>>>>> 0.10
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
@@ -569,6 +637,13 @@
     <message>
         <source>Amount:</source>
         <translation>Сума:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Пріорітет:</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Fee:</source>
@@ -632,11 +707,15 @@
     </message>
     <message>
         <source>Copy amount</source>
+<<<<<<< HEAD
         <translation>Копіювати суму</translation>
+=======
+        <translation>Скопіювати суму</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Копіювати ID транзакції </translation>
+        <translation>Скопіювати ID транзакції </translation>
     </message>
     <message>
         <source>Lock unspent</source>
@@ -661,14 +740,64 @@
     <message>
         <source>Copy bytes</source>
         <translation>Скопіювати байти</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy dust</source>
         <translation>Скопіювати інше</translation>
+=======
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Скопіювати пріорітет</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Скопіювати пил</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy change</source>
         <translation>Скопіювати решту</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>highest</source>
+        <translation>найвищий</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>вищий</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>високий</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>вище за середній</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>середній</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>нижче за середній</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>низький</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>нижчий</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>найнижчий</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>(%1 locked)</source>
@@ -683,8 +812,33 @@
         <translation>ні</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Може відрізнятися на +/- %1 сатоші за введені</translation>
+=======
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Ця позначка буде червоною, якщо розмір транзакції вищий за 1000 байтів.</translation>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>Це означає, що необхідно внести комісію (щонайменше %1 за КБ).</translation>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Може відрізнятися на +/- 1 байт за вхід.</translation>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Транзакції з вищим пріоритетом мають більше шансів бути включеними до блоку.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Ця позначка буде червоною, якщо пріоритет транзакції нижчий за «середній».</translation>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Ця позначка буде червоною, якщо будь хто з отримувачів отримає менше ніж %1.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>(no label)</source>
@@ -742,8 +896,13 @@
         <translation>Введена адреса "%1" не є адресою в мережі Litecoin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Введена адреса "%1" вже присутня в адресній книзі.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -780,6 +939,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>версії</translation>
     </message>
@@ -788,8 +954,13 @@
         <translation>(%1-бітний)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>Про %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>Про Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -839,6 +1010,7 @@
         <translation>Ласкаво просимо</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>Ласкаво просимо до %1.</translation>
     </message>
@@ -853,6 +1025,18 @@
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
         <translation>Якщо ви вирішили обмежити збереження ланцюжка блоків (відсікання), історичні дані повинні бути завантажені та оброблені, але потім можуть бути видалені, щоб зберегти потрібний простір диска.</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Ласкаво просимо в Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>Оскільки це перший запуск програми, ви можете обрати де Litecoin Core буде зберігати дані.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Litecoin Core завантажить та збереже копію ланцюжка блоків Litecoin. Щонайменше %1ГБ даних буде збережено в цьому каталозі. Гаманець теж буде збережено в цьому каталозі.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -863,6 +1047,7 @@
         <translation>Використовувати свій каталог даних:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -881,6 +1066,10 @@
     <message>
         <source>The wallet will also be stored in this directory.</source>
         <translation>Гаманець також зберігатиметься в цьому каталозі.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -984,6 +1173,17 @@
         <translation>&amp;Головні</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Автоматично запускати гаманець при вході до системи.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Запускати гаманець при вході в систему</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Size of &amp;database cache</source>
         <translation>Розмір &amp;кешу бази даних</translation>
     </message>
@@ -1132,8 +1332,13 @@
         <translation>Мов&amp;а інтерфейсу користувача:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску %1.</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1326,8 +1531,45 @@
         <translation>Відшкодування з %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
         <translation>Запит платежу %1 занадто великий (%2 байт, дозволено %3 байт).</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Неможливо запустити litecoin: обробник click-to-pay</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>URL запиту платежу є некоректним: %1</translation>
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Причиною цього може бути некоректна Litecoin-адреса або неправильні параметри URI.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Обробка файлу запиту платежу</translation>
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>Неможливо прочитати файл запиту платежу! Ймовірно, файл пошкоджено.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>Неперевірені запити платежів з власними платіжними сценаріями не підтримуються.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Відшкодування з %1</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>Запит платежу %1 занадто великий (%2 байт, дозволено %3 байт).</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>Оплата потребує захисту DoS</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
@@ -1649,12 +1891,28 @@
         <translation>Файл звіту зневадження</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрийте файл журналу налагодження Litecoin з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>Очистити консоль</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>1 &amp;годину</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Вітаємо у консолі Litecoin RPC.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Використовуйте стрілки вгору вниз для навігації по історії, і &lt;b&gt;Ctrl-L&lt;/b&gt; для очищення екрана.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -1720,6 +1978,17 @@
         <translation>&amp;Повідомлення:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Повторно використати одну з адрес. Повторне використання адрес створює ризики безпеки та конфіденційності. Не використовуйте її, окрім як для створення повторного запиту платежу.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>По&amp;вторно використати адресу для отримання (не рекомендується)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу Litecoin.</translation>
     </message>
@@ -1921,6 +2190,17 @@
         <translation>згорнути налаштування оплат</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>Мінімізувати</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Якщо комісія встановлюється в 1000 сатоші і розмір транзакції лише 250 байтів, то опція "за кілобайт" встановлює комісію в 250 сатоші, в той час, як "щонайменше" - в 1000 сатоші. Для транзакцій більших за кілобайт в обох випадках буде знято комісію за кілобайт.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>per kilobyte</source>
         <translation>за кілобайт</translation>
     </message>
@@ -1951,6 +2231,29 @@
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(Розумну оплату ще не ініціалізовано. Це, зазвичай, триває кілька блоків...)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>Час підтвердження:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>звичайний</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>швидкий</translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>Надіслати транзакцію без сплати комісії, якщо це можливо</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(підтвердження може зайняти більше часу)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2014,11 +2317,67 @@
     </message>
     <message>
         <source>Copy change</source>
+<<<<<<< HEAD
         <translation>Скопіювати решту</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
         <translation>Запит платежу прострочено.</translation>
+=======
+        <translation>Копіювати решту</translation>
+    </message>
+    <message>
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>Всього %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>або</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Адреса отримувача неправильна; будь ласка, перевірте її.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Кількість монет для відправлення повинна бути більше 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Кількість монет для відправлення перевищує ваш баланс.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Сума перевищить ваш баланс, якщо комісія %1 буде додана до вашої транзакції.</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Знайдено адресу що дублюється. Відправлення на кожну адресу дозволяється лише один раз на кожну операцію переказу.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Не вдалося створити транзакцію!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Транзакцію відхилено! Це може статись, якщо декілька монет з вашого гаманця вже використані, наприклад, якщо ви використовуєте одну копію гаманця (wallet.dat), а монети були використані з іншої копії, але не позначені як використані в цій.</translation>
+    </message>
+    <message>
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Плата вища, ніж %1 вважається шалено високою.</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Платити тільки мінімальну комісію у розмірі %1</translation>
+    </message>
+    <message>
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>Розрахунковий початок підтвердження протягом %1 блоку(ів).</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Увага: Неправильна Litecoin-адреса</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>(no label)</source>
@@ -2088,8 +2447,13 @@
         <translation>Цей запит платежу є автентифікованим.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Введіть мітку для цієї адреси для додавання її в список використаних адрес</translation>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>Повідомлення, що було додане до litecoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
@@ -2111,8 +2475,13 @@
 <context>
     <name>SendConfirmationDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Yes</source>
         <translation>Так</translation>
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoin Core вимикається...</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -2264,6 +2633,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Розробники Bitcoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[тестова мережа]</translation>
     </message>
@@ -2573,6 +2953,7 @@
     <message>
         <source>Copy transaction ID</source>
         <translation>Скопіювати ID транзакції </translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy raw transaction</source>
@@ -2581,6 +2962,8 @@
     <message>
         <source>Copy full transaction details</source>
         <translation>Скопіювати повні деталі транзакції</translation>
+=======
+>>>>>>> 0.10
     </message>
     <message>
         <source>Edit label</source>
@@ -2718,6 +3101,7 @@
         <translation>Операція відсікання: остання синхронізація вмісту гаманцю не обмежується діями над скороченими данними. Вам необхідно зробити переіндексацію -reindex (заново завантажити веcь ланцюжок блоків в разі появи скороченого ланцюга)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
         <translation>Неможливо провести повторне сканування зі скороченим ланцюжком. Вам необхідно використати -reindex для завантаження повного ланцюжка блоків.</translation>
     </message>
@@ -2728,6 +3112,26 @@
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
         <translation>Комісія (в %s/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
+=======
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Прив'язатися до даної адреси та прослуховувати її. Використовуйте запис виду [хост]:порт для IPv6</translation>
+    </message>
+    <message>
+        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
+        <translation>Видалити всі транзакції гаманця та відновити ті, що будуть знайдені під час запуску за допомогою -rescan</translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>Поширюється за ліцензією MIT, додаткова інформація міститься у файлі COPYING та за адресою &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Ввійти в режим регресивного тестування, що використовує спеціальний ланцюг з миттєвим знаходженням блоків.</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Виконати команду, коли транзакція гаманця зміниться (замість %s в команді буде підставлено ідентифікатор транзакції)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Pruning blockstore...</source>
@@ -2742,8 +3146,13 @@
         <translation>Неможливо запустити HTTP-сервер. Детальніший опис наведено в журналі зневадження.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation>Неможливо прив'язатися до %s на цьому комп'ютері. Можливо, Litecoin Core вже запущено.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -2786,6 +3195,13 @@
         <translation>Опції створення блоку:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect only to the specified node(s)</source>
+        <translation>Підключитись лише до вказаного вузла/вузлів</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Connection options:</source>
         <translation>Параметри з'єднання:</translation>
     </message>
@@ -2930,8 +3346,13 @@
         <translation>Параметри гаманця:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Дозволити підключення по протоколу JSON-RPC зі вказаного джерела. Правильною для &lt;ip&gt; є окрема IP-адреса (наприклад, 1.2.3.4), IP-адреса та маска підмережі (наприклад, 1.2.3.4/255.255.255.0) або CIDR-адреса (наприклад, 1.2.3.4/24). Цей параметр можна вказувати декілька разів.</translation>
+=======
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <translation>Не вдалося встановити блокування на каталог даних %s. Litecoin Core, ймовірно, вже запущений.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -2954,6 +3375,7 @@
         <translation>Виконати команду при надходженні важливого сповіщення або при спостереженні тривалого розгалуження ланцюжка (замість %s буде підставлено повідомлення)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
         <translation>Комісії (в %s/kB), що менші за вказану, вважатимуться нульовими для зміни, аналізу та створення транзакцій (типово: %s)</translation>
     </message>
@@ -2968,22 +3390,104 @@
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Максимальний розмір даних в транзакціях носіїв даних, що ми передаємо і добуваємо (за замовчуванням: %u)</translation>
+=======
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комісії (в LTC/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Комісії (в LTC/КБ), що менші за вказану, вважатимуться нульовими (для створення транзакції) (типово: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Якщо параметр paytxfee не встановлено, включити комісію для отримання перших підтверджень транзакцій протягом n блоків (типово: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Неприпустима сума для -maxtxfee = &lt;amount&gt;: «%s» ( плата повинна бути, принаймні %s, щоб запобігти зависанню транзакцій)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Максимальний розмір даних в транзакціях носіїв даних, що ми передаємо і добуваємо (типово: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>Максимальна загальна комісія для використання в одній транзакції, установка занадто низької може скасувати великі транзакції (типово: %s)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Дізнаватися адреси учасників через DNS при замалій кількості відомих адрес (типово: 1 за відсутності -connect)</translation>
+    </message>
+    <message>
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>Вимагати високий пріоритет для ретрансляції транзакцій з низькою або нульовою комісією (типово: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Встановити максимальний розмір транзакцій з високим пріоритетом та низькою комісією (в байтах) (типово: %d)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>Встановити кількість потоків для генерації монет (-1 = кількості ядер, типово: %d)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Надавати випадкові дані доступу для кожного проксі-з'єднання. Це дозволяє ввімкнути ізоляцію потоків Tor'у (типово: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>Залишок від суми транзакції зі сплатою комісії занадто малий </translation>
+=======
+        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+</source>
+        <translation>Для використання litecoind, або litecoin-qt з параметром -server, ви повинні встановити rpcpassword в файлі конфігурації:
+%s
+Рекомендується використати такий випадковий пароль:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(вам не треба запам'ятовувати цей пароль)
+Ім'я користувача та пароль ПОВИННІ бути різними.
+Якщо файлу не існує, створіть його, обмеживши доступ правом читання для власника.
+Також рекомендується використовувати alertnotify для того, щоб отримувати сповіщення про проблеми;
+наприклад: alertnotify=echo %%s | mail -s "Сповіщення Litecoin" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Увага: установлено дуже велике значення -maxtxfee! Такі великі комісії можуть бути сплачені в окремій транзакції.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп'ютері! Якщо ваш годинник йде неправильно, Litecoin Core може працювати некоректно.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Учасники, що знаходяться в білому списку, не можуть бути заблоковані за DoS та їхні транзакції завжди ретранслюватимуться (навіть якщо вони є в пам'яті), що може бути корисним, наприклад, для шлюзу</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
         <translation>Вам необхідно перебудувати базу даних з використанням -reindex для завантаження повного ланцюжка блоків.</translation>
+=======
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Приймати публічні REST-запити (типово: %u)</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>Не вдалося розпізнати адресу для -whitebind: «%s»</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>(default: %u)</source>
@@ -2998,22 +3502,59 @@
         <translation>Автоматичне з'єднання з прихованим сервісом Tor (типово: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect through SOCKS5 proxy</source>
         <translation>Підключитись через SOCKS5-проксі</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Litecoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
         <translation>Помилка читання бази даних, припиняю роботу.</translation>
     </message>
     <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Помилка: Сталася фатальна помилка (детальніший опис наведено в debug.log)</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Помилка читання бази даних, припиняю роботу.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Imports blocks from external blk000??.dat file on startup</source>
         <translation>Спочатку імпортує блоки з зовнішнього файлу blk000??.dat </translation>
+=======
+        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комісія (в LTC/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Information</source>
         <translation>Інформація</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
+        <translation>Не вдалося пройти базові перевірки під час ініціалізації. Litecoin Core буде вимкнено.</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Неприпустима сума для -maxtxfee = &lt;amount&gt;: «%s»</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Вказано некоректну суму для параметру -minrelaytxfee: «%s»</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Вказано некоректну суму для параметру -mintxfee: «%s»</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>Вказано некоректну суму для параметру -paytxfee: «%s» (повинно бути щонайменше %s)</translation>
     </message>
@@ -3034,22 +3575,49 @@
         <translation>Параметри вузла ретрансляції:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation>Параметри RPC SSL: (див. Litecoin Wiki для налаштування SSL)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>RPC server options:</source>
         <translation>Параметри сервера RPC:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>Зменшення значення -maxconnections з %d до %d із-за обмежень системи.</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>Підтримка RPC для постійних HTTP-з'єднань (типово: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Випадковим чином відкидати 1 з &lt;n&gt; мережевих повідомлень</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
         <translation>Спочатку переглянте ланцюжок блоків на наявність втрачених транзакцій гаманця</translation>
     </message>
     <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>Отримувати та відображати попередження з мережі (типово: %u)</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Відсилати налагоджувальну інформацію на консоль, а не у файл debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Не сплачувати комісію за надсилання транзакцій, якщо це можливо (типово: %u)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Показати всі налагоджувальні параметри (використання: --help -help-debug)</translation>
     </message>
@@ -3086,6 +3654,10 @@
         <translation>Транзакція занадто велика для правил комісії</translation>
     </message>
     <message>
+        <source>Transaction too large for fee policy</source>
+        <translation>Транзакція занадто велика для правил комісії</translation>
+    </message>
+    <message>
         <source>Transaction too large</source>
         <translation>Транзакція занадто велика</translation>
     </message>
@@ -3102,8 +3674,13 @@
         <translation>Ім'я користувача для JSON-RPC-з'єднань</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying wallet(s)...</source>
         <translation>Перевірка гаманця(ців)... </translation>
+=======
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <translation>Потрібно перезаписати гаманець: перезапустіть Litecoin Core для завершення</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning</source>
@@ -3146,12 +3723,17 @@
         <translation>Не тримати транзакції в пам'яті довше &lt;n&gt; годин (типово: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation>Комісії (в %s/kB), що менші за вказану, вважатимуться нульовими для створення транзакцій (типово: %s)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Рівень ретельності перевірки блоків (0-4, типово: %u)</translation>
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>Записувати в лог-файл пріоритет транзакції та комісію за кБ під час добування блоків (типово: %u)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
@@ -3302,10 +3884,13 @@
         <translation>У транзакції повинен бути щонайменше один одержувач</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Невідома мережа вказана в -onlynet: «%s»</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Недостатньо коштів</translation>
     </message>

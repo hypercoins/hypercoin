@@ -24,6 +24,13 @@
     <message>
         <source>C&amp;lose</source>
         <translation>Затвори</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Копирай</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -43,7 +50,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
+<<<<<<< HEAD
         <translation>Изберете адрес, на който ще изпращате монети</translation>
+=======
+        <translation>Изберете адрес, на който да се изпращат монети</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
@@ -72,6 +83,14 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Копирай адрес</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите Litecoin адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -169,7 +188,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ БИТКОИНИ&lt;/b&gt;!</translation>
+=======
+        <translation>ВНИМАНИЕ: Ако защитите вашият портфейл и изгубите ключовата дума, вие ще &lt;b&gt;ИЗГУБИТЕ ВСИЧКИТЕ СИ LITECOINS&lt;/b&gt;!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +203,13 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>ВАЖНО: Всички стари запазвания, които сте направили на Вашият портфейл трябва да замените с запазване на новополучения, шифриран портфейл. От съображения за сигурност, предишните запазвания на нешифрирани портфейли ще станат неизползваеми веднага, щом започнете да използвате новият, шифриран портфейл.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin ще се затоври сега за да завърши процеса на криптиране. Запомнете, че криптирането на вашия портефейл не може напълно да предпази вашите litecoins от кражба чрез зловреден софтуер, инфектирал вашия компютър</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -314,6 +342,7 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Натиснете за деактивиране на мрежата</translation>
     </message>
@@ -332,6 +361,22 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Изпращане към Биткоин адрес</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core клиент</translation>
+    </message>
+    <message>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Изпращане към Litecoin адрес</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Променете настройките на Litecoin</translation>
+    </message>
+    <message>
+        <source>Backup wallet to another location</source>
+        <translation>Запазване на портфейла на друго място</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -355,7 +400,11 @@
     </message>
     <message>
         <source>Litecoin</source>
+<<<<<<< HEAD
         <translation>Биткоин</translation>
+=======
+        <translation>Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet</source>
@@ -370,6 +419,13 @@
         <translation>&amp;Получаване</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Покажете информация за Litecoin ядрото</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>&amp;Показване / Скриване</translation>
     </message>
@@ -406,8 +462,49 @@
         <translation>Раздели</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Изискване на плащания(генерира QR кодове и Litecoin: URIs)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin ядро</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и litecoin: URIs)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;Относно Litecoin Core</translation>
+    </message>
+    <message>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Показване на списъка с използвани адреси и имена</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Покажи списък с използваните адреси и имена.</translation>
+    </message>
+    <message>
+        <source>Open a litecoin: URI or payment request</source>
+        <translation>Отворете litecoin: URI  или заявка за плащане</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Налични команди</translation>
+    </message>
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Покажи помощните съобщения на Litecoin за да видиш наличните и валидни команди</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n връзка към Litecoin мрежата</numerusform><numerusform>%n връзки към Litecoin мрежата</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Липсва източник на блоковете...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -446,6 +543,14 @@
         <translation>Транзакции след това няма все още да бъдат видими.</translation>
     </message>
     <message>
+        <source>%1 behind</source>
+        <translation>%1 зад</translation>
+    </message>
+    <message>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation>Транзакции след това няма все още да бъдат видими.</translation>
+    </message>
+    <message>
         <source>Error</source>
         <translation>Грешка</translation>
     </message>
@@ -460,6 +565,10 @@
     <message>
         <source>Up to date</source>
         <translation>Синхронизиран</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Обслужени %n блокове от историята с транзакции.</numerusform><numerusform>Обслужени %n блокове от историята с транзакции.</numerusform></translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
@@ -516,6 +625,18 @@
         <translation>Входяща транзакция</translation>
     </message>
     <message>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation>Дата: %1
+Сума: %2
+Вид: %3
+Адрес: %4
+</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Портфейлът е &lt;b&gt;криптиран&lt;/b&gt; и &lt;b&gt;отключен&lt;/b&gt;</translation>
     </message>
@@ -529,6 +650,16 @@
     </message>
 </context>
 <context>
+<<<<<<< HEAD
+=======
+    <name>ClientModel</name>
+    <message>
+        <source>Network Alert</source>
+        <translation>Мрежови проблем</translation>
+    </message>
+</context>
+<context>
+>>>>>>> 0.10
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
@@ -639,6 +770,13 @@
         <translation>Копиране на байтовете</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copy priority</source>
+        <translation>Копиране на приоритет</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Copy dust</source>
         <translation>Копирай прахта:</translation>
     </message>
@@ -647,16 +785,74 @@
         <translation>Копирай рестото</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>highest</source>
+        <translation>Най-висок</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>По-висок</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>Висок</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>Средно-висок</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>Среден</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>Ниско-среден</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>Нисък</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>По-нисък</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>Най-нисък</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>(%1 locked)</source>
         <translation>(%1 заключен)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>none</source>
+        <translation>нищо</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>yes</source>
         <translation>да</translation>
     </message>
     <message>
         <source>no</source>
         <translation>не</translation>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>Това означава че се изисква такса от поне %1 на килобайт.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Може да варира с +-1 байт</translation>
+    </message>
+    <message>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Това наименование се оцветява в червено, ако произволен получател получи сума по-малка от %1.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -714,8 +910,13 @@
         <translation>"%1" не е валиден Биткоин адрес.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Вече има адрес "%1" в списъка с адреси.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>"%1" не е валиден Litecoin адрес.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -752,6 +953,10 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin ядро</translation>
+    </message>
+    <message>
         <source>version</source>
         <translation>версия</translation>
     </message>
@@ -760,8 +965,13 @@
         <translation>(%1-битов)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>Относно %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>За Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -774,6 +984,7 @@
     <message>
         <source>command-line options</source>
         <translation>Списък с налични команди</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>UI Options:</source>
@@ -802,6 +1013,24 @@
     <message>
         <source>Reset all settings changed in the GUI</source>
         <translation>Нулиране на всички настройки променени в GUI</translation>
+=======
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>UI Опции</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Задаване на език,например "de_DE" (по подразбиране: system locale)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Стартирай минимизирано</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Изберете директория при стартиране на програмата.( настройка по подразбиране:0)</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -811,12 +1040,21 @@
         <translation>Добре дошли</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>Добре дошли в %1.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
         <translation>Програмата се стартира за първи път вие може да изберете къде %1 ще се запаметят данните.</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Добре дошли в Litecoin ядрото.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>Тъй като това е първото стартиране на програмата можете да изберете къде Litecoin ядрото да запази данните си.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -827,6 +1065,7 @@
         <translation>Използване на директория ръчно</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Биткоин</translation>
     </message>
@@ -837,6 +1076,10 @@
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
         <translation>Около %1 GB данни ще бъдат запаметени в тази директория.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin ядро</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -868,6 +1111,7 @@
         <source>Open URI</source>
         <translation>Отваряне на URI</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Open payment request from URI or file</source>
         <translation>Отвори молба за изплащане от URI или файл</translation>
@@ -876,6 +1120,8 @@
         <source>URI:</source>
         <translation>URI:</translation>
     </message>
+=======
+>>>>>>> 0.10
     </context>
 <context>
     <name>OptionsDialog</name>
@@ -888,6 +1134,17 @@
         <translation>&amp;Основни</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Автоматично включване на Litecoin след влизане в системата.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Пускане на Litecoin при вход в системата</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Size of &amp;database cache</source>
         <translation>Размер на кеша в &amp;базата данни</translation>
     </message>
@@ -896,14 +1153,30 @@
         <translation>Мегабайта</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Number of script &amp;verification threads</source>
         <translation>Брой на скриптове и &amp;нишки за потвърждение</translation>
+=======
+        <source>Accept connections from outside</source>
+        <translation>Приемай връзки отвън</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Позволи входящите връзки</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>IP адрес на прокси (напр. за IPv4: 127.0.0.1 / за IPv6: ::1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Third party transaction URLs</source>
+        <translation>URL адреси на трети страни</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Reset all client options to default.</source>
         <translation>Възстановете всички настройки по подразбиране.</translation>
     </message>
@@ -924,10 +1197,13 @@
         <translation>Експерт</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enable coin &amp;control features</source>
         <translation>Позволяване на монетите и &amp;техните възможности</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
@@ -984,6 +1260,13 @@
         <translation>Език:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Промяната на езика ще влезе в сила след рестартиране на Litecoin.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Unit to show amounts in:</source>
         <translation>Мерна единица за показваните суми:</translation>
     </message>
@@ -1020,8 +1303,13 @@
         <translation>Изисква се рестартиране на клиента за активиране на извършените промени.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error</source>
         <translation>Грешка</translation>
+=======
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>Клиентът ще бъде изключен,искате ли да продължите?</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -1041,6 +1329,14 @@
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
+    </message>
+    <message>
+        <source>Watch-only:</source>
+        <translation>В наблюдателен режим:</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Litecoin, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1079,6 +1375,330 @@
         <translation>Текущият ви общ баланс</translation>
     </message>
     <message>
+        <source>Spendable:</source>
+        <translation>За харчене:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Скорошни транзакции</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>несинхронизиран</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>Справяне с URI</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Невалиден адрес на плащане %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Заявката за плащане беше отхвърлена</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Мрежата от която се извършва заявката за плащане не съвпада с мрежата на клиента.</translation>
+    </message>
+    <message>
+        <source>Payment request has expired.</source>
+        <translation>Заявката за плащане е изтекла.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Заявената сума за плащане: %1 е твърде малка (счита се за отпадък)</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Възникна грешка по време назаявката за плащане</translation>
+    </message>
+    <message>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Litecoin не можe да се стартира: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Файл за справяне със заявки</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Възстановяване на сума от %1</translation>
+    </message>
+    <message>
+        <source>Payment request DoS protection</source>
+        <translation>Дос защита на заявката за плащане</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Грешка при комуникацията с %1: %2</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Възникна проблем при свързването със сървър %1</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>Плащането е прието</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Грешка в мрежата по време на заявката</translation>
+    </message>
+</context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+        <source>User Agent</source>
+        <translation>Клиент на потребителя</translation>
+    </message>
+    <message>
+        <source>Address/Hostname</source>
+        <translation>Адрес в интернет</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Време за отговор</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Сума</translation>
+    </message>
+    <message>
+        <source>Enter a Litecoin address (e.g. %1)</source>
+        <translation>Въведете Litecoin адрес (например: %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 ден</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 час</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 минута</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 секунда</translation>
+    </message>
+    <message>
+        <source>NETWORK</source>
+        <translation>Мрежа</translation>
+    </message>
+    <message>
+        <source>UNKNOWN</source>
+        <translation>Неизвестен</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Неналичен</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Несъществуващ</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 милисекунда</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Запиши изображение...</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>&amp;Копирай изображение</translation>
+    </message>
+    <message>
+        <source>Save QR Code</source>
+        <translation>Запази QR Код</translation>
+    </message>
+    <message>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG Изображение (*.png)</translation>
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>Client name</source>
+        <translation>Име на клиента</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>Версия на клиента</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>Данни</translation>
+    </message>
+    <message>
+        <source>Debug window</source>
+        <translation>Прозорец с грешки</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Основни</translation>
+    </message>
+    <message>
+        <source>Using OpenSSL version</source>
+        <translation>Използване на OpenSSL версия</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Използване на база данни BerkeleyDB </translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>Време за стартиране</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Мрежа</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Име</translation>
+    </message>
+    <message>
+        <source>Number of connections</source>
+        <translation>Брой връзки</translation>
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>Текущ брой блокове</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>Получени</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Изпратени</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Пиъри</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Избери пиър за детайлна информация.</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Посока</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>Клиент на потребителя</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Услуги</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Стартова височина</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Продължителност на връзката</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Изпратени за последно</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Получени за последно</translation>
+    </message>
+    <message>
+        <source>Bytes Sent</source>
+        <translation>Изпратени байтове</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Получени байтове</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Време за отговор</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Време на последния блок</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Отвори</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Конзола</translation>
+    </message>
+    <message>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Мрежов Трафик</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Your current spendable balance</source>
+        <translation>Вашата текуща сметка за изразходване</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>Изчакващо:</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>Неразвит:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>Миниран баланс,който все още не се е развил</translation>
+    </message>
+    <message>
+        <source>Balances</source>
+        <translation>Баланс</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+=======
+        <source>&amp;Clear</source>
+        <translation>&amp;Изчисти</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+>>>>>>> 0.10
+        <translation>Общо:</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>Входящи:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Spendable:</source>
         <translation>За харчене:</translation>
     </message>
@@ -1171,11 +1791,21 @@
 </context>
 <context>
     <name>QObject</name>
-    <message>
-        <source>Amount</source>
-        <translation>Сума</translation>
+=======
+        <source>Out:</source>
+        <translation>Изходящи</translation>
     </message>
     <message>
+        <source>Build date</source>
+        <translation>Дата на създаване</translation>
+    </message>
+>>>>>>> 0.10
+    <message>
+        <source>Debug log file</source>
+        <translation>Лог файл,съдържащ грешките</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Enter a Litecoin address (e.g. %1)</source>
         <translation>Въведете Litecoin адрес (например: %1)</translation>
     </message>
@@ -1263,16 +1893,29 @@
     <message>
         <source>N/A</source>
         <translation>Несъществуващ</translation>
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отворете Litecoin дебъг лог файла от настоящата Data папка. Може да отнеме няколко секунди при по - големи лог файлове.</translation>
     </message>
     <message>
-        <source>Client version</source>
-        <translation>Версия на клиента</translation>
+        <source>Clear console</source>
+        <translation>Изчисти конзолата</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
-        <translation>Данни</translation>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Добре дошли в Litecoin RPC конзолата.</translation>
+>>>>>>> 0.10
     </message>
     <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Използвайте стрелки надолу и нагореза разглеждане на историятаот команди и &lt;b&gt;Ctrl-L&lt;/b&gt; за изчистване на конзолата.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Въведeте &lt;/b&gt;помощ&lt;/b&gt; за да видите наличните команди.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>Debug window</source>
         <translation>Прозорец с грешки</translation>
     </message>
@@ -1287,24 +1930,29 @@
     <message>
         <source>Startup time</source>
         <translation>Време за стартиране</translation>
+=======
+        <source>%1 B</source>
+        <translation>%1 Байт</translation>
+>>>>>>> 0.10
     </message>
     <message>
-        <source>Network</source>
-        <translation>Мрежа</translation>
+        <source>%1 KB</source>
+        <translation>%1 Килобайт</translation>
     </message>
     <message>
-        <source>Name</source>
-        <translation>Име</translation>
+        <source>%1 MB</source>
+        <translation>%1 Мегабайт</translation>
     </message>
     <message>
-        <source>Number of connections</source>
-        <translation>Брой връзки</translation>
+        <source>%1 GB</source>
+        <translation>%1 Гигабайт</translation>
     </message>
     <message>
-        <source>Current number of blocks</source>
-        <translation>Текущ брой блокове</translation>
+        <source>via %1</source>
+        <translation>посредством %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Received</source>
         <translation>Получени</translation>
     </message>
@@ -1415,6 +2063,26 @@
     <message>
         <source>Unknown</source>
         <translation>Неизвестен</translation>
+=======
+        <source>never</source>
+        <translation>Никога</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Входящи</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Изходящи</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Неизвестен</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Прихващане...</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -1545,7 +2213,15 @@
         <source>(no message)</source>
         <translation>(без съобщение)</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>(no amount)</source>
+        <translation>(липсва сума)</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>SendCoinsDialog</name>
     <message>
@@ -1601,12 +2277,24 @@
         <translation>Избери...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize</source>
+        <translation>Минимизирай</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>per kilobyte</source>
         <translation>за килобайт</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Скрий</translation>
+=======
+        <source>total at least</source>
+        <translation>Крайна сума поне</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Recommended:</source>
@@ -1617,6 +2305,21 @@
         <translation>По избор:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirmation time:</source>
+        <translation>Време за потвърждение:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>нормален</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>бърз</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Send to multiple recipients at once</source>
         <translation>Изпращане към повече от един получател</translation>
     </message>
@@ -1653,6 +2356,10 @@
         <translation>Копиране на количеството</translation>
     </message>
     <message>
+        <source>Copy quantity</source>
+        <translation>Копиране на количеството</translation>
+    </message>
+    <message>
         <source>Copy amount</source>
         <translation>Копирай сума</translation>
     </message>
@@ -1669,14 +2376,20 @@
         <translation>Копиране на байтовете</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy dust</source>
         <translation>Копирай прахта:</translation>
+=======
+        <source>Copy priority</source>
+        <translation>Копиране на приоритет</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy change</source>
         <translation>Копирай рестото</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Are you sure you want to send?</source>
         <translation>Наистина ли искате да изпратите?</translation>
     </message>
@@ -1685,6 +2398,8 @@
         <translation>добавено като такса за транзакция</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>or</source>
         <translation>или</translation>
     </message>
@@ -1707,14 +2422,42 @@
     <message>
         <source>Transaction creation failed!</source>
         <translation>Грешка при създаването на транзакция!</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Такса по-висока от %1 се смята за извънредно висока.</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Платете минималната такса от %1</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Внимание: Невалиден Litecoin адрес</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
         <translation>Заявката за плащане е изтекла.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Litecoin address</source>
         <translation>Внимание: Невалиден Litecoin адрес</translation>
+=======
+        <source>Warning: Unknown change address</source>
+        <translation>Внимание:Неизвестен адрес за промяна</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Копирай прахта:</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Наистина ли искате да изпратите?</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1768,6 +2511,14 @@
         <translation>Съобщение:</translation>
     </message>
     <message>
+        <source>This is a verified payment request.</source>
+        <translation>Това е потвърдена транзакция.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>Това е непотвърдена заявка за плащане.</translation>
+    </message>
+    <message>
         <source>Pay To:</source>
         <translation>Плащане на:</translation>
     </message>
@@ -1775,6 +2526,7 @@
         <source>Memo:</source>
         <translation>Бележка:</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Въведете име за този адрес, за да го добавите в списъка с адреси</translation>
@@ -1786,10 +2538,19 @@
         <source>Yes</source>
         <translation>Да</translation>
     </message>
+=======
+>>>>>>> 0.10
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoin ядрото се изключва...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Не изключвайте компютъра докато този прозорец не изчезне.</translation>
     </message>
@@ -1803,6 +2564,10 @@
     <message>
         <source>&amp;Sign Message</source>
         <translation>&amp;Подпиши</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Изберете използван преди адрес</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1850,7 +2615,15 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+<<<<<<< HEAD
         <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+=======
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Litecoin адрес</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Потвърди &amp;съобщението</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1912,6 +2685,14 @@
 <context>
     <name>SplashScreen</name>
     <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin ядро</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Разработчици на Bitcoin Core</translation>
+    </message>
+    <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -1928,6 +2709,10 @@
     <message>
         <source>Open until %1</source>
         <translation>Подлежи на промяна до %1</translation>
+    </message>
+    <message>
+        <source>conflicted</source>
+        <translation>припокриващ се</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -2076,8 +2861,16 @@
         <translation>Име</translation>
     </message>
     <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Неплатим (%1 потвърждения, ще бъде платим след %2)</translation>
+    </message>
+    <message>
         <source>Open until %1</source>
         <translation>Подлежи на промяна до %1</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Извън линия</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -2243,6 +3036,10 @@
         <translation>Изнасяне историята на транзакциите</translation>
     </message>
     <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Историята с транзакциите беше успешно запазена в %1.</translation>
+    </message>
+    <message>
         <source>Comma separated file (*.csv)</source>
         <translation>CSV файл (*.csv)</translation>
     </message>
@@ -2339,6 +3136,7 @@
         <translation>Възникна грешка при запазването на информацията за портфейла в %1.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Backup Successful</source>
         <translation>Успешно запазване на портфейла</translation>
     </message>
@@ -2346,6 +3144,15 @@
         <source>The wallet data was successfully saved to %1.</source>
         <translation>Информацията за портфейла беше успешно запазена в %1.</translation>
     </message>
+=======
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Информацията за портфейла беше успешно запазена в %1.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Успешно запазване на портфейла</translation>
+    </message>
+>>>>>>> 0.10
 </context>
 <context>
     <name>bitcoin-core</name>
@@ -2366,6 +3173,7 @@
         <translation>Въведете Ваш публичен адрес</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin ядро</translation>
     </message>
@@ -2376,6 +3184,30 @@
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Приемайте връзки отвън.(по подразбиране:1 в противен случай -proxy или -connect)</translation>
+=======
+        <source>Use the test network</source>
+        <translation>Използвайте тестовата мрежа</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Приемайте връзки отвън.(по подразбиране:1 в противен случай -proxy или -connect)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Внимание: -paytxfee има голяма стойност! Това е таксата за транзакциите, която ще платите ако направите транзакция.</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Сложете в бял списък пиъри,свързващи се от дадената интернет маска или айпи адрес.Може да бъде заложено неколкократно.</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(по подразбиране 1)</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; може да бъде:</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -2410,12 +3242,38 @@
         <translation>Настройки на портфейла:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
+        <translation>Заложете броя на нишки за генерация на монети ако е включено(-1 = всички ядра, по подразбиране: %d)</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Внимание: -maxtxfee има много висока стойност! Толкова високи такси могат да бъдат заплатени на една транзакция.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Connect through SOCKS5 proxy</source>
         <translation>Свързване чрез SOCKS5  прокси</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
+        <translation>Всички права запазени (C) 2009-%i Доставчиците на Биткойн</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Information</source>
         <translation>Информация</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна сума за -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна сума за -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -2424,6 +3282,13 @@
     <message>
         <source>This is experimental software.</source>
         <translation>Това е експериментален софтуер.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Сумата на трансакцията е твърде малка</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -2442,6 +3307,17 @@
         <translation>Предупреждение</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Внимание: Използвате остаряла версия, необходимо е обновление!</translation>
+    </message>
+    <message>
+        <source>on startup</source>
+        <translation>по време на стартирането</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Password for JSON-RPC connections</source>
         <translation>Парола за  JSON-RPC връзките</translation>
     </message>
@@ -2480,6 +3356,22 @@
     <message>
         <source>Transaction must have at least one recipient</source>
         <translation>Транзакцията трябва да има поне един получател.</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Назовете конфигурационен файл(по подразбиране %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Задайте време на изключване при проблеми със свързването в милисекунди(минимум:1, по подразбиране %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Задайте pid  файл(по подразбиране: %s)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Невалидна сума за -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>

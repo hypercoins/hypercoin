@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 Litecoin Core
 =============
+=======
+Bitcoin Core 0.10.4
+=====================
+>>>>>>> 0.10
 
 Setup
 ---------------------
@@ -9,7 +14,11 @@ To download Litecoin Core, visit [litecoin.org](https://litecoin.org).
 
 Running
 ---------------------
+<<<<<<< HEAD
 The following are some helpful notes on how to run Litecoin on your native platform.
+=======
+The following are some helpful notes on how to run Bitcoin on your native platform.
+>>>>>>> 0.10
 
 ### Unix
 
@@ -37,7 +46,10 @@ Building
 ---------------------
 The following are developer notes on how to build Litecoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
+<<<<<<< HEAD
 - [Dependencies](dependencies.md)
+=======
+>>>>>>> 0.10
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
 - [Windows Build Notes](build-windows.md)

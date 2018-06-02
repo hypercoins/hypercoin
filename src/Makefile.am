@@ -258,21 +258,36 @@ libbitcoin_wallet_a_SOURCES = \
 crypto_libbitcoin_crypto_a_CPPFLAGS = $(AM_CPPFLAGS) $(SSL_CFLAGS)
 crypto_libbitcoin_crypto_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 crypto_libbitcoin_crypto_a_SOURCES = \
+<<<<<<< HEAD
   crypto/aes.cpp \
   crypto/aes.h \
   crypto/chacha20.h \
   crypto/chacha20.cpp \
+=======
+  crypto/sha1.cpp \
+  crypto/sha256.cpp \
+  crypto/sha512.cpp \
+  crypto/hmac_sha256.cpp \
+  crypto/rfc6979_hmac_sha256.cpp \
+  crypto/hmac_sha512.cpp \
+  crypto/scrypt.cpp \
+  crypto/ripemd160.cpp \
+>>>>>>> 0.10
   crypto/common.h \
   crypto/hmac_sha256.cpp \
   crypto/hmac_sha256.h \
   crypto/hmac_sha512.cpp \
   crypto/hmac_sha512.h \
+<<<<<<< HEAD
   crypto/ripemd160.cpp \
   crypto/ripemd160.h \
   crypto/scrypt.cpp \
   crypto/scrypt-sse2.cpp \
   crypto/scrypt.h \
   crypto/sha1.cpp \
+=======
+  crypto/scrypt.h \
+>>>>>>> 0.10
   crypto/sha1.h \
   crypto/sha256.cpp \
   crypto/sha256.h \
@@ -380,6 +395,7 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
+<<<<<<< HEAD
 # bitcoind binary #
 litecoind_SOURCES = bitcoind.cpp
 litecoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
@@ -390,6 +406,9 @@ if TARGET_WINDOWS
 litecoind_SOURCES += bitcoind-res.rc
 endif
 
+=======
+# litecoind binary #
+>>>>>>> 0.10
 litecoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
@@ -404,6 +423,7 @@ litecoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
+<<<<<<< HEAD
 litecoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
@@ -416,12 +436,30 @@ if TARGET_WINDOWS
 litecoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
+=======
+if ENABLE_WALLET
+litecoind_LDADD += libbitcoin_wallet.a
+endif
+litecoind_SOURCES = bitcoind.cpp
+#
+
+if TARGET_WINDOWS
+litecoind_SOURCES += bitcoind-res.rc
+endif
+
+litecoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+litecoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+litecoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+
+# bitcoin-cli binary #
+>>>>>>> 0.10
 litecoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
+<<<<<<< HEAD
 litecoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
@@ -437,19 +475,62 @@ endif
 
 litecoin_tx_LDADD = \
   $(LIBUNIVALUE) \
+=======
+litecoin_cli_SOURCES = \
+  bitcoin-cli.cpp
+
+litecoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+#
+
+# bitcoin-tx binary #
+litecoin_tx_LDADD = \
+  $(LIBBITCOIN_UNIVALUE) \
+>>>>>>> 0.10
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CONSENSUS) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
+<<<<<<< HEAD
 litecoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
+=======
+litecoin_tx_SOURCES = bitcoin-tx.cpp
+litecoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+#
+litecoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+
+if TARGET_WINDOWS
+litecoin_cli_SOURCES += bitcoin-cli-res.rc
+endif
+litecoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+>>>>>>> 0.10
 
 # bitcoinconsensus library #
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h
+<<<<<<< HEAD
 libbitcoinconsensus_la_SOURCES = $(crypto_libbitcoin_crypto_a_SOURCES) $(libbitcoin_consensus_a_SOURCES)
+=======
+libbitcoinconsensus_la_SOURCES = \
+  primitives/transaction.cpp \
+  crypto/hmac_sha512.cpp \
+  crypto/scrypt.cpp \
+  crypto/sha1.cpp \
+  crypto/sha256.cpp \
+  crypto/sha512.cpp \
+  crypto/ripemd160.cpp \
+  eccryptoverify.cpp \
+  ecwrapper.cpp \
+  hash.cpp \
+  pubkey.cpp \
+  script/script.cpp \
+  script/interpreter.cpp \
+  script/bitcoinconsensus.cpp \
+  uint256.cpp \
+  utilstrencodings.cpp
+>>>>>>> 0.10
 
 if GLIBC_BACK_COMPAT
   libbitcoinconsensus_la_SOURCES += compat/glibc_compat.cpp

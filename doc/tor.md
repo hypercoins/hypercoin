@@ -41,12 +41,20 @@ If you configure your Tor system accordingly, it is possible to make your node a
 reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equivalent
 config file):
 
+<<<<<<< HEAD
 	HiddenServiceDir /var/lib/tor/litecoin-service/
+=======
+	HiddenServiceDir /var/lib/tor/bitcoin-service/
+>>>>>>> 0.10
 	HiddenServicePort 9333 127.0.0.1:9333
 	HiddenServicePort 19335 127.0.0.1:19335
 
 The directory can be different of course, but (both) port numbers should be equal to
+<<<<<<< HEAD
 your litecoind's P2P listen port (9333 by default).
+=======
+your bitcoind's P2P listen port (9333 by default).
+>>>>>>> 0.10
 
 	-externalip=X   You can tell litecoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
@@ -79,13 +87,17 @@ your address. To mitigate this, additionally bind the address of your Tor proxy:
 If you don't care too much about hiding your node, and want to be reachable on IPv4
 as well, use `discover` instead:
 
+<<<<<<< HEAD
 	./litecoind ... -discover
 
+=======
+>>>>>>> 0.10
 and open port 9333 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
+<<<<<<< HEAD
 	./litecoin -onion=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
 
 3. Automatically listen on Tor
@@ -123,3 +135,6 @@ Tor configuration.
   Otherwise it is trivial to link them, which may reduce privacy. Hidden
   services created automatically (as in section 3) always have only one port
   open.
+=======
+	./bitcoin -onion=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
+>>>>>>> 0.10

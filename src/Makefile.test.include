@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Copyright (c) 2013-2016 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -7,6 +8,25 @@ bin_PROGRAMS += test/test_litecoin
 noinst_PROGRAMS += test/test_litecoin_fuzzy
 TEST_SRCDIR = test
 TEST_BINARY=test/test_litecoin$(EXEEXT)
+=======
+TESTS += test/test_litecoin test/bitcoin-util-test.py
+bin_PROGRAMS += test/test_litecoin
+TEST_SRCDIR = test
+TEST_BINARY=test/test_litecoin$(EXEEXT)
+
+EXTRA_DIST += \
+	test/bctest.py \
+	test/bitcoin-util-test.py \
+	test/data/bitcoin-util-test.json \
+	test/data/blanktx.hex \
+	test/data/tt-delin1-out.hex \
+	test/data/tt-delout1-out.hex \
+	test/data/tt-locktime317000-out.hex \
+	test/data/tx394b54bb.hex \
+	test/data/txcreate1.hex \
+	test/data/txcreate2.hex \
+	test/data/txcreatesign.hex
+>>>>>>> 0.10
 
 JSON_TEST_FILES = \
   test/data/script_tests.json \
@@ -49,8 +69,11 @@ BITCOIN_TESTS =\
   test/dbwrapper_tests.cpp \
   test/main_tests.cpp \
   test/mempool_tests.cpp \
+<<<<<<< HEAD
   test/merkle_tests.cpp \
   test/merkleblock_tests.cpp \
+=======
+>>>>>>> 0.10
   test/miner_tests.cpp \
   test/multisig_tests.cpp \
   test/net_tests.cpp \
@@ -64,7 +87,10 @@ BITCOIN_TESTS =\
   test/reverselock_tests.cpp \
   test/rpc_tests.cpp \
   test/sanity_tests.cpp \
+<<<<<<< HEAD
   test/scheduler_tests.cpp \
+=======
+>>>>>>> 0.10
   test/script_P2SH_tests.cpp \
   test/script_tests.cpp \
   test/script_standard_tests.cpp \
@@ -97,6 +123,7 @@ BITCOIN_TESTS += \
 endif
 
 test_test_litecoin_SOURCES = $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
+<<<<<<< HEAD
 test_test_litecoin_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(TESTDEFS) $(EVENT_CFLAGS)
 test_test_litecoin_LDADD =
 if ENABLE_WALLET
@@ -111,9 +138,17 @@ test_test_litecoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -
 
 if ENABLE_ZMQ
 test_test_litecoin_LDADD += $(ZMQ_LIBS)
+=======
+test_test_litecoin_CPPFLAGS = $(BITCOIN_INCLUDES) -I$(builddir)/test/ $(TESTDEFS)
+test_test_litecoin_LDADD = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+  $(BOOST_LIBS) $(BOOST_UNIT_TEST_FRAMEWORK_LIB) $(LIBSECP256K1)
+if ENABLE_WALLET
+test_test_litecoin_LDADD += $(LIBBITCOIN_WALLET)
+>>>>>>> 0.10
 endif
 #
 
+<<<<<<< HEAD
 # test_bitcoin_fuzzy binary #
 test_test_litecoin_fuzzy_SOURCES = test/test_bitcoin_fuzzy.cpp
 test_test_litecoin_fuzzy_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
@@ -132,6 +167,11 @@ test_test_litecoin_fuzzy_LDADD = \
 test_test_litecoin_fuzzy_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
+=======
+test_test_litecoin_LDADD += $(LIBBITCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+test_test_litecoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+
+>>>>>>> 0.10
 nodist_test_test_litecoin_SOURCES = $(GENERATED_TEST_FILES)
 
 $(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
@@ -146,7 +186,7 @@ bitcoin_test_check: $(TEST_BINARY) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
 bitcoin_test_clean : FORCE
-	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_bitcoin_OBJECTS) $(TEST_BINARY)
+	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_litecoin_OBJECTS) $(TEST_BINARY)
 
 check-local:
 	@echo "Running test/util/bitcoin-util-test.py..."

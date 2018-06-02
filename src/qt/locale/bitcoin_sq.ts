@@ -22,12 +22,21 @@
         <translation>&amp;Kopjo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Delete the currently selected address from the list</source>
         <translation>Fshi adresen e selektuar nga lista</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
         <translation>Eksporto të dhënat e skedës korrente në një skedar</translation>
+=======
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Kopjo adresen</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Fshi adresen e selektuar nga lista</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -38,6 +47,7 @@
         <translation>Zgjidh adresen ku do te dergoni monedhat</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Choose the address to receive coins with</source>
         <translation>Zgjidh adresën ku do të merrni monedhat</translation>
     </message>
@@ -46,6 +56,8 @@
         <translation>Zgjidh</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Sending addresses</source>
         <translation>Duke derguar adresen</translation>
     </message>
@@ -62,10 +74,13 @@
         <translation>Këto janë Litecoin adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopjo adresen</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Copy &amp;Label</source>
         <translation>Kopjo &amp;Etiketë</translation>
     </message>
@@ -266,6 +281,37 @@
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Berthama Litecoin</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>Rreth Berthames Bitkoin</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n ore</numerusform><numerusform>%n ore</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dite</numerusform><numerusform>%n dite</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n jave</numerusform><numerusform>%n jave</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 dhe %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n vit</numerusform><numerusform>%n vite</numerusform></translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>%1 behind</source>
         <translation>%1 Pas</translation>
     </message>
@@ -390,9 +436,23 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>version</source>
         <translation>versioni</translation>
     </message>
+=======
+        <source>Litecoin Core</source>
+        <translation>Berthama Litecoin</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>versioni</translation>
+    </message>
+    <message>
+        <source>About Litecoin Core</source>
+        <translation>Rreth Berthames Bitkoin</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>Intro</name>
@@ -401,6 +461,7 @@
         <translation>Miresevini</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -414,6 +475,18 @@
     <message>
         <source>Form</source>
         <translation>Formilarë</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Miresevini ne Berthamen Litecoin</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Berthama Litecoin</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Problem</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -471,14 +544,24 @@
 <context>
     <name>RPCConsole</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Information</source>
         <translation>Informacion</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>&amp;Open</source>
         <translation>&amp;Hap</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&amp;Clear</source>
+        <translation>&amp;Pastro</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>never</source>
         <translation>asnjehere</translation>
     </message>
@@ -486,7 +569,11 @@
         <source>Unknown</source>
         <translation>i/e panjohur</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> 0.10
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -543,10 +630,13 @@
         <translation>Dërgo Monedha</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Insufficient funds!</source>
         <translation>Fonde te pamjaftueshme</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Amount:</source>
         <translation>Shuma:</translation>
     </message>
@@ -633,6 +723,10 @@
     </context>
 <context>
     <name>SplashScreen</name>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Berthama Litecoin</translation>
+    </message>
     <message>
         <source>[testnet]</source>
         <translation>[testo rrjetin]</translation>
@@ -757,6 +851,13 @@
         <translation>Kopjo adresën</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Exporting Failed</source>
+        <translation>Eksportimi dështoj</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Comma separated file (*.csv)</source>
         <translation>Skedar i ndarë me pikëpresje(*.csv)</translation>
     </message>
@@ -804,6 +905,7 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Options:</source>
         <translation>Opsionet:</translation>
     </message>
@@ -812,6 +914,8 @@
         <translation>Berthama Litecoin</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Information</source>
         <translation>Informacion</translation>
     </message>

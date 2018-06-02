@@ -86,6 +86,10 @@ bool CachingTransactionSignatureChecker::VerifySignature(const std::vector<unsig
     signatureCache.ComputeEntry(entry, sighash, vchSig, pubkey);
     if (signatureCache.Get(entry, !store))
         return true;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0.10
     if (!TransactionSignatureChecker::VerifySignature(vchSig, pubkey, sighash))
         return false;
     if (store)

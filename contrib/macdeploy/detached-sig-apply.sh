@@ -9,6 +9,10 @@ UNSIGNED="$1"
 SIGNATURE="$2"
 ARCH=x86_64
 ROOTDIR=dist
+<<<<<<< HEAD
+=======
+BUNDLE=${ROOTDIR}/Litecoin-Qt.app
+>>>>>>> 0.10
 TEMPDIR=signed.temp
 OUTDIR=signed-app
 

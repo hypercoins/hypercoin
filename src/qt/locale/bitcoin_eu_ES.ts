@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>Klikatu eskuinean helbidea edo etiketa aldatzeko</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>Sortu helbide berria</translation>
     </message>
@@ -239,7 +242,11 @@
     </message>
     <message>
         <source>Show information about Qt</source>
+<<<<<<< HEAD
         <translation>Erakutsi Qt-ren buruzko informazioa</translation>
+=======
+        <translation>Erakutsi Litecoin-i buruzko informazioa</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Options...</source>

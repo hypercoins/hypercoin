@@ -11,7 +11,7 @@
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Новый</translation>
+        <translation>Новый</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -19,27 +19,34 @@
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Копировать</translation>
+        <translation>Копировать</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Закрыть</translation>
+        <translation>Закрыть</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&amp;Copy Address</source>
+        <translation>Копировать адрес</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Delete the currently selected address from the list</source>
         <translation>Удалить выбранный адрес из списка</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Экспортировать данные из вкладки в файл</translation>
+        <translation>Экспортировать данные текущей вкладки в файл</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Экспорт</translation>
+        <translation>Экспорт</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Удалить</translation>
+        <translation>Удалить</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -51,7 +58,7 @@
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>&amp;Выбрать</translation>
+        <translation>Выбрать</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -63,6 +70,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Это ваши адреса Litecoin для отправки платежей. Всегда проверяйте сумму и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
@@ -72,14 +80,21 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>Копировать &amp;адрес</translation>
+=======
+        <translation>Это ваши адреса Litecoin для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса Litecoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Копировать &amp;метку</translation>
+        <translation>Копировать &amp;Метку</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Правка</translation>
+        <translation>Правка</translation>
     </message>
     <message>
         <source>Export Address List</source>
@@ -87,7 +102,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Текст, разделённый запятыми (*.csv)</translation>
+        <translation>Файл, разделённый запятыми (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -145,7 +160,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Для выполнения операции требуется пароль вашего бумажника.</translation>
+        <translation>Данная операция требует введения пароля для разблокировки вашего бумажника.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -153,7 +168,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Для выполнения операции требуется пароль вашего бумажника.</translation>
+        <translation>Данная операция требует введения пароля для расшифровки вашего бумажника.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -173,7 +188,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Предупреждение: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОИНЫ&lt;/b&gt;!</translation>
+=======
+        <translation>Предупреждение: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОЙНЫ&lt;/b&gt;!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +207,13 @@
         <translation>Сейчас %1 закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>ВАЖНО: все предыдущие резервные копии вашего бумажника должны быть заменены новым зашифрованным файлом. В целях безопасности предыдущие резервные копии незашифрованного бумажника станут бесполезны, как только вы начнёте использовать новый зашифрованный бумажник.</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткойны от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -209,7 +233,11 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
+<<<<<<< HEAD
         <translation>Неверный пароль для расшифровки бумажника.</translation>
+=======
+        <translation>Неверно указан пароль для расшиврования бумажника.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -239,7 +267,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Подписать сообщение...</translation>
+        <translation>Подписать &amp;сообщение</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -247,7 +275,7 @@
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Обзор</translation>
+        <translation>Обзор</translation>
     </message>
     <message>
         <source>Node</source>
@@ -259,15 +287,15 @@
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Транзакции</translation>
+        <translation>Транзакции</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Показать историю транзакций</translation>
+        <translation>Просмотр истории транзакций</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>В&amp;ыход</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -283,7 +311,7 @@
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>О &amp;Qt</translation>
+        <translation>О Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
@@ -291,7 +319,7 @@
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Параметры</translation>
+        <translation>Параметры</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -299,31 +327,36 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Зашифровать бумажник...</translation>
+        <translation>Зашифровать бумажник...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Сделать резервную копию бумажника...</translation>
+        <translation>Сделать резервную копию бумажника...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Изменить пароль...</translation>
+        <translation>Сменить пароль</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Адреса отправки...</translation>
+        <translation>Адреса отправки...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Адреса &amp;получения...</translation>
+        <translation>Адреса получения...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Открыть &amp;URI...</translation>
+        <translation>Открыть URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Кликните, чтобы запретить сетевую активность.</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core клиент</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -338,12 +371,21 @@
         <translation>Синхронизация заголовков (%1%)...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reindexing blocks on disk...</source>
         <translation>Идёт переиндексация блоков на диске...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Отправить монеты на указанный адрес Litecoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Отправить монеты на адрес Litecoin</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Изменить параметры конфигурации Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -355,7 +397,7 @@
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Окно отладки</translation>
+        <translation>Окно отладки</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
@@ -363,7 +405,7 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Проверить сообщение...</translation>
+        <translation>Проверить сообщение...</translation>
     </message>
     <message>
         <source>Litecoin</source>
@@ -375,15 +417,22 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Отправить</translation>
+        <translation>Отправить</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Получить</translation>
+        <translation>Получить</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Показать информацию о Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Показать / Скрыть</translation>
+        <translation>Показать / Скрыть</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -418,16 +467,29 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
+<<<<<<< HEAD
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Запросить платежи (создаёт QR-коды и litecoin: ссылки)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    <message>
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Запросить платежи (создаёт QR-коды и litecoin: ссылки)</translation>
     </message>
     <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;О Litecoin Core</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Показать список использованных адресов и меток отправки</translation>
+        <translation>Показать список использованных адресов отправки и меток</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Показать список использованных адресов и меток получения</translation>
+        <translation>Показать список использованных адресов получения и меток</translation>
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
@@ -437,6 +499,7 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Параметры командной строки</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n активных соединений с сетью Litecoin</numerusform><numerusform>%n активных соединений с сетью Litecoin</numerusform><numerusform>%n активных соединений с сетью Litecoin</numerusform><numerusform>%n активных соединений с сетью Litecoin</numerusform></translation>
@@ -677,59 +740,213 @@
     <message>
         <source>(%1 locked)</source>
         <translation>(%1 заблокировано)</translation>
+=======
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Показать помощь по Litecoin Core и получить список доступных параметров командной строки.</translation>
     </message>
     <message>
+        <source>No block source available...</source>
+        <translation>Нет доступного источника блоков...</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n час</numerusform><numerusform>%n часа</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n день</numerusform><numerusform>%n дня</numerusform><numerusform>%n дней</numerusform><numerusform>%n дней</numerusform></translation>
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Change:</source>
+        <translation>Размен:</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Копировать размен</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
+>>>>>>> 0.10
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>yes</source>
         <translation>да</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Очистить все поля формы</translation>
+>>>>>>> 0.10
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
     </message>
     <message>
-        <source>no</source>
-        <translation>нет</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
         <translation>Эта метка станет красной, если любой получатель получит сумму меньше, чем текущий порог пыли.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Может отличаться на +/- %1 сатоши на вход.</translation>
+=======
+        <source>Label</source>
+        <translation>Метка</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Метка</translation>
     </message>
     <message>
         <source>(no label)</source>
         <translation>(нет метки)</translation>
     </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Change:</source>
+        <translation>Размен:</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Очистить все поля формы</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Копировать размен</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
+<<<<<<< HEAD
+    </message>
     <message>
         <source>change from %1 (%2)</source>
         <translation>сдача с %1 (%2)</translation>
+=======
+>>>>>>> 0.10
     </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <source>(change)</source>
         <translation>(сдача)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
-</context>
+    </context>
 <context>
-    <name>EditAddressDialog</name>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
-        <source>Edit Address</source>
-        <translation>Изменить адрес</translation>
+        <source>Address</source>
+        <translation>Адрес</translation>
     </message>
     <message>
-        <source>&amp;Label</source>
-        <translation>&amp;Метка</translation>
+        <source>Received with</source>
+        <translation>Получено на</translation>
     </message>
     <message>
-        <source>The label associated with this address list entry</source>
-        <translation>Метка, связанная с этой записью списка адресов</translation>
+        <source>Sent to</source>
+        <translation>Отправлено на</translation>
     </message>
     <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Адрес, связанный с этой записью списка адресов. Он может быть изменён только для адресов отправки.</translation>
+        <source>Mined</source>
+        <translation>Добытые</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>Received with</source>
+        <translation>Получено на</translation>
     </message>
     <message>
-        <source>&amp;Address</source>
-        <translation>&amp;Адрес</translation>
-    </message>
-    <message>
+<<<<<<< HEAD
         <source>New receiving address</source>
         <translation>Новый адрес получения</translation>
     </message>
@@ -752,12 +969,49 @@
     <message>
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Введённый адрес "%1" уже находится в адресной книге.</translation>
+=======
+        <source>Sent to</source>
+        <translation>Отправлено на</translation>
     </message>
     <message>
-        <source>Could not unlock wallet.</source>
-        <translation>Не удается разблокировать бумажник.</translation>
+        <source>Mined</source>
+        <translation>Добытые</translation>
     </message>
     <message>
+        <source>Exporting Failed</source>
+        <translation>Экспорт не удался</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Файл, разделённый запятыми (*.csv)</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Метка</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+>>>>>>> 0.10
+    </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>Экспорт</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>New key generation failed.</source>
         <translation>Генерация нового ключа не удалась.</translation>
     </message>
@@ -4119,3 +4373,13 @@
     </message>
 </context>
 </TS>
+=======
+        <source>Export the data in the current tab to a file</source>
+        <translation>Экспортировать данные текущей вкладки в файл</translation>
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+</TS>
+>>>>>>> 0.10

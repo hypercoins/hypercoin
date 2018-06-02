@@ -6,7 +6,10 @@ src/litecoind
 src/litecoin-cli
 src/litecoin-tx
 src/test/test_litecoin
+<<<<<<< HEAD
 src/test/test_litecoin_fuzzy
+=======
+>>>>>>> 0.10
 src/qt/test/test_litecoin-qt
 
 # autoreconf
@@ -81,12 +84,20 @@ src/qt/bitcoin-qt.includes
 *.qm
 Makefile
 litecoin-qt
+<<<<<<< HEAD
 litecoin-Qt.app
 background.tiff*
+=======
+Litecoin-Qt.app
+>>>>>>> 0.10
 
 # Unit-tests
 Makefile.test
 litecoin-qt_test
+<<<<<<< HEAD
+=======
+src/test/buildenv.py
+>>>>>>> 0.10
 
 # Resources cpp
 qrc_*.cpp

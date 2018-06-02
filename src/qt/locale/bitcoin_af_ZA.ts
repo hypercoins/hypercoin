@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>Regs-klik om die adres of etiket te wysig</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>Skep 'n nuwe adres</translation>
     </message>
@@ -282,6 +285,7 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Modify configuration options for %1</source>
         <translation>Verander konfigurasie opsies vir %1</translation>
     </message>
@@ -310,6 +314,8 @@
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -1304,10 +1310,13 @@
         <translation>Informasie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning</source>
         <translation>Waarskuwing</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Onvoldoende fondse</translation>
     </message>

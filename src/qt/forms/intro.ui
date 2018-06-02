@@ -20,7 +20,11 @@
       <string notr="true">QLabel { font-style:italic; }</string>
      </property>
      <property name="text">
+<<<<<<< HEAD
       <string>Welcome to %1.</string>
+=======
+      <string>Welcome to Litecoin Core.</string>
+>>>>>>> 0.10
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -46,7 +50,11 @@
    <item>
     <widget class="QLabel" name="storageLabel">
      <property name="text">
+<<<<<<< HEAD
       <string>As this is the first time the program is launched, you can choose where %1 will store its data.</string>
+=======
+      <string>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</string>
+>>>>>>> 0.10
      </property>
      <property name="wordWrap">
       <bool>true</bool>
@@ -55,6 +63,12 @@
    </item>
    <item>
     <widget class="QLabel" name="sizeWarningLabel">
+<<<<<<< HEAD
+=======
+     <property name="text">
+      <string>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</string>
+     </property>
+>>>>>>> 0.10
      <property name="wordWrap">
       <bool>true</bool>
      </property>

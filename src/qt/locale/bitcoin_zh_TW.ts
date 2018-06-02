@@ -63,6 +63,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>這些是你要付款過去的 Litecoin 位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
@@ -72,6 +73,13 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>複製位址(&amp;C)</translation>
+=======
+        <translation>這些是你要付款過去的莱特幣位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這些是你用來收款的莱特幣位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -173,7 +181,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的 Litecoin 了&lt;/b&gt;！</translation>
+=======
+        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的莱特幣了&lt;/b&gt;！</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +200,13 @@
         <translation>%1 現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取錢幣。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>重要: 請改用新產生有加密的錢包檔，來取代舊錢包檔的備份。為了安全性的理由，當你開始使用新的有加密的錢包後，舊錢包檔的備份就不能再使用了。</translation>
+=======
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>莱特幣軟體現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取莱特幣。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -322,8 +339,13 @@
         <translation>開啓 &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>按一下就會不使用網路。</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>莱特幣核心客戶端軟體</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -338,12 +360,21 @@
         <translation>正在同步前導資料(%1%)中...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reindexing blocks on disk...</source>
         <translation>正在為磁碟裡的區塊重建索引...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>付錢給一個 Litecoin 位址</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>付錢給一個莱特幣位址</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>修改莱特幣軟體的設定選項</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,7 +398,11 @@
     </message>
     <message>
         <source>Litecoin</source>
+<<<<<<< HEAD
         <translation>Litecoin</translation>
+=======
+        <translation>莱特幣</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet</source>
@@ -375,11 +410,23 @@
     </message>
     <message>
         <source>&amp;Send</source>
+<<<<<<< HEAD
         <translation>付款(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>收款(&amp;R)</translation>
+=======
+        <translation>已傳送</translation>
+    </message>
+    <message>
+        <source>&amp;Receive</source>
+        <translation>已接收</translation>
+    </message>
+    <message>
+        <source>Show information about Litecoin Core</source>
+        <translation>顯示莱特幣核心的相關資訊</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -395,11 +442,19 @@
     </message>
     <message>
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
+<<<<<<< HEAD
         <translation>用 Litecoin 位址簽署訊息來證明位址是你的</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>驗證訊息是用來確定訊息是用指定的 Litecoin 位址簽署的</translation>
+=======
+        <translation>用莱特幣位址簽署訊息來證明位址是你的</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>驗證訊息是用來確定訊息是用指定的莱特幣位址簽署的</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;File</source>
@@ -418,8 +473,21 @@
         <translation>分頁工具列</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>要求付款(產生 QR Code 和 litecoin 付款協議的資源識別碼: URI)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>莱特幣核心</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>要求付款(產生 QR Code 和莱特幣付款協議的 URI)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>關於莱特幣核心</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -431,6 +499,7 @@
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
+<<<<<<< HEAD
         <translation>開啓 litecoin 協議的資源識別碼(URI)或付款要求</translation>
     </message>
     <message>
@@ -440,6 +509,21 @@
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n 個運作中的 Litecoin 網路連線</numerusform></translation>
+=======
+        <translation>開啓 litecoin 協議的 URI 或付款要求</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>命令列選項</translation>
+    </message>
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>顯示莱特幣核心的說明訊息，來取得可用命令列選項的列表</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n 個運作中的莱特幣網路連線</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -750,8 +834,13 @@
         <translation>輸入的位址 %1 並不是有效的 Litecoin 位址。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>輸入的位址 %1 在位址簿中已經有了。</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>輸入的位址 %1 並不是有效的莱特幣位址。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -788,6 +877,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>莱特幣核心</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>版本</translation>
     </message>
@@ -796,8 +892,13 @@
         <translation>(%1 位元)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>關於 %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>關於莱特幣核心</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -847,6 +948,7 @@
         <translation>歡迎</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>歡迎使用 %1。</translation>
     </message>
@@ -865,6 +967,18 @@
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
         <translation>如果你選擇要限制區塊鏈儲存空間的大小(修剪模式)，還是需要下載和處理過去的歷史資料被，但是之後就會把它刪掉來節省磁碟使用量。</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>歡迎使用莱特幣核心</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>因為這是程式第一次啓動，你可以選擇莱特幣核心儲存資料的地方。</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>莱特幣核心會下載並儲存一份莱特幣區塊鏈的拷貝。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -891,8 +1005,13 @@
         <translation>%1 會下載 Litecoin 區塊鏈並且儲存一份副本。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The wallet will also be stored in this directory.</source>
         <translation>錢包檔也會存放在這個目錄中。</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>莱特幣核心</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -996,12 +1115,21 @@
         <translation>主要(&amp;M)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>在登入系統後自動啓動 %1。</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
         <translation>系統登入時啟動 %1 (&amp;S)</translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>在登入系統後自動啓動莱特幣軟體。</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>系統登入時啟動莱特幣</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1093,13 +1221,18 @@
     </message>
     <message>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+<<<<<<< HEAD
         <translation>自動在路由器上開放 Litecoin 的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
+=======
+        <translation>自動在路由器上開放莱特幣的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>用 &amp;UPnP 設定通訊埠對應</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside.</source>
         <translation>接受外來連線</translation>
     </message>
@@ -1110,6 +1243,10 @@
     <message>
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
         <translation>透過 SOCKS5 代理伺服器來連線到 Litecoin 網路。</translation>
+=======
+        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+        <translation>透過 SOCKS5 代理伺服器來連線到莱特幣網路。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1172,8 +1309,13 @@
         <translation>使用界面語言(&amp;L):</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation>可以在這裡設定使用者介面的語言。這個設定在重啓 %1 後才會生效。</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>可以在這裡設定使用者介面的語言。這個設定在重啓莱特幣軟體後才會生效。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1252,7 +1394,11 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+<<<<<<< HEAD
         <translation>顯示的資訊可能是過期的。跟 Litecoin 網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
+=======
+        <translation>顯示的資訊可能是過期的。跟莱特幣網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1350,16 +1496,26 @@
         <translation>處理付款要求檔案</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>沒辦法讀取付款要求檔案！可能是無效的檔案造成的。</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>沒辦法啟動 litecoin 協議的按就付處理器</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request rejected</source>
         <translation>付款的要求被拒絕了</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request network doesn't match client network.</source>
         <translation>付款要求的網路類型跟客戶端不符。</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>沒辦法解析 URI 位址！可能是因為莱特幣位址無效，或是 URI 參數格式錯誤。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -1390,6 +1546,13 @@
         <translation>付款要求 %1 過大 (%2 位元組, 上限 %3 位元組).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>支付請求的分佈式阻斷服務攻擊DoS保護</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Error communicating with %1: %2</source>
         <translation>跟 %1 通訊時發生錯誤: %2</translation>
     </message>
@@ -1445,7 +1608,11 @@
     </message>
     <message>
         <source>Enter a Litecoin address (e.g. %1)</source>
+<<<<<<< HEAD
         <translation>輸入 Litecoin 位址 (比如說 %1)</translation>
+=======
+        <translation>輸入莱特幣位址 (比如說 %1)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>%1 d</source>
@@ -1765,12 +1932,24 @@
         <translation>除錯紀錄檔</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>從目前的資料目錄下開啓莱特幣軟體的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Clear console</source>
         <translation>清主控台</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>1 小時(&amp;H)</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>歡迎使用莱特幣 RPC 主控台。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;day</source>
@@ -1868,8 +2047,17 @@
         <translation>訊息(&amp;M):</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到 Litecoin 網路上。</translation>
+=======
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>重複使用現有的收款位址(不建議)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到莱特幣網路上。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2097,8 +2285,17 @@
         <translation>警告：目前無法計算預估手續費。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>collapse fee-settings</source>
         <translation>展開手續費設定</translation>
+=======
+        <source>Minimize</source>
+        <translation>縮小</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2107,6 +2304,7 @@
     <message>
         <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>如果自訂手續費設定為 1000 satoshi, 而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 satoshi 的手續費，換做選「總共至少」就會付 1000 satoshi. 但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Hide</source>
@@ -2131,6 +2329,52 @@
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(手續費智慧演算法還沒準備好。通常都要等幾個區塊才行...)</translation>
+=======
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>總共最少</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <translation>當交易量少於區塊可容納的空間時，只付最低手續費不會有什麽問題。但是當交易量的需求成長到超過整體網路可以處理的量時，可能會造成一筆一直不會被確認的交易。</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(請看提示)</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>建議值:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>自訂:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(手續費智慧演算法還沒準備好。通常都要等幾個區塊才行...)</translation>
+    </message>
+    <message>
+        <source>Confirmation time:</source>
+        <translation>確認時間:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>正常</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>快速</translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>盡可能送不用付手續費的交易</translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(確認時間可能拉長)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -2205,6 +2449,7 @@
         <translation>複製找零金額</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 (%2 blocks)</source>
         <translation>%1 (%2 個區塊)</translation>
     </message>
@@ -2223,6 +2468,10 @@
     <message>
         <source>Total Amount %1</source>
         <translation>總金額 %1</translation>
+=======
+        <source>Total Amount %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</source>
+        <translation>總金額 %1&lt;span style='font-size:10pt;font-weight:normal;'&gt;&lt;br /&gt;(=%2)&lt;/span&gt;</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>or</source>
@@ -2269,8 +2518,25 @@
         <translation>交易因為以下原因被拒絕了: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>高於 %1 的手續費會被認為是不合理。</translation>
+=======
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>高於 %1 的手續費會被認為是不正常。</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>只付最低手續費 %1</translation>
+    </message>
+    <message>
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>預計可在 %1 個區塊內開始確認。</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>警告: 莱特幣位址無效</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2325,7 +2591,11 @@
     </message>
     <message>
         <source>The Litecoin address to send the payment to</source>
+<<<<<<< HEAD
         <translation>接收付款的 Litecoin 位址</translation>
+=======
+        <translation>接收付款的莱特幣位址</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Alt+A</source>
@@ -2368,8 +2638,13 @@
         <translation>這是個已經驗證過身份的付款要求。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>請輸入這個位址的標記，來把它加進去已使用過位址的清單。</translation>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>附加在莱特幣付款協議 URI 中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到莱特幣網路上。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
@@ -2398,8 +2673,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>%1 is shutting down...</source>
         <translation>正在關閉 %1 中...</translation>
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>莱特幣核心正在關閉中...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2422,7 +2702,11 @@
     </message>
     <message>
         <source>The Litecoin address to sign the message with</source>
+<<<<<<< HEAD
         <translation>用來簽署訊息的 Litecoin 位址</translation>
+=======
+        <translation>用來簽署訊息的莱特幣位址</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2454,7 +2738,11 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Litecoin address</source>
+<<<<<<< HEAD
         <translation>簽署這個訊息來證明這個 Litecoin 位址是你的</translation>
+=======
+        <translation>簽署這個訊息來證明這個莱特幣位址是你的</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2478,11 +2766,19 @@
     </message>
     <message>
         <source>The Litecoin address the message was signed with</source>
+<<<<<<< HEAD
         <translation>簽署這個訊息的 Litecoin 位址</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>驗證這個訊息來確定是用指定的 Litecoin 位址簽署的</translation>
+=======
+        <translation>簽署這個訊息的莱特幣位址</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>驗證這個訊息來確定是用指定的莱特幣位址簽署的</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2548,6 +2844,17 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>莱特幣核心</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>位元幣核心開發人員</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -3147,6 +3454,7 @@
         <translation>設定的修剪值小於最小需求的 %d 百萬位元組(MiB)。請指定大一點的數字。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
         <translation>修剪模式：錢包的最後同步狀態是在被修剪掉的區塊資料中。你需要用 -reindex 參數執行(會重新下載整個區塊鏈)</translation>
     </message>
@@ -3195,6 +3503,8 @@
         <translation>增加一個要連線的節線，並試著保持對它的連線不斷(詳情請見 RPC 指令 addnode 的說明)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>和指定的位址繫結，並且一直在指定位址聽候連線。IPv6 請用 [主機]:通訊埠 這種格式</translation>
     </message>
@@ -3215,6 +3525,7 @@
         <translation>清掉錢包裡的所有交易，並且在下次啟動時，使用 -rescan 來從區塊鏈中復原回來。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>讀取錢包檔 %s 時發生錯誤！所有的密鑰都正確讀取了，但是交易資料或位址簿資料可能會缺少或不正確。</translation>
     </message>
@@ -3223,6 +3534,8 @@
         <translation>不要對一種類別紀錄除錯資訊。可以和 -debug=1 配合，用來輸入除了指定的一種或多種類別外的所有除錯紀錄。</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>當錢包有交易改變時要執行的指令(指令中的 %s 會被取代成交易識別碼)</translation>
     </message>
@@ -3279,8 +3592,13 @@
         <translation>在該交易手續費率下，找零的零錢會因為少於零散錢的金額，而自動棄掉變成手續費</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
         <translation>沒辦法重算區塊。你需要先用 -reindex-chainstate 參數來重建資料庫。</translation>
+=======
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation>沒辦法繫結在這台電腦上的 %s 。莱特幣核心可能已經在執行了。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
@@ -3300,7 +3618,11 @@
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+<<<<<<< HEAD
         <translation>警告: 位元幣網路對於區塊鏈結的決定目前有分歧！有些礦工看來會有問題。</translation>
+=======
+        <translation>警告: 莱特幣網路對於區塊鏈結的決定目前有分歧！看來有些礦工會有問題。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
@@ -3595,8 +3917,13 @@
         <translation>錢包選項:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>允許指定的來源建立 JSON-RPC 連線。&lt;ip&gt; 的有效值可以是一個單獨位址(像是 1.2.3.4)，一個網段/網段罩遮值(像是 1.2.3.4/255.255.255.0)，或是網段/CIDR值(像是 1.2.3.4/24)。這個選項可以設定多次。</translation>
+=======
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <translation>沒辦法鎖定資料目錄 %s。莱特幣核心可能已經在執行了。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
@@ -3619,8 +3946,25 @@
         <translation>當收到相關警示，或發現相當長的分支時，所要執行的指令(指令中的 %s 會被取代成警示訊息)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
         <translation>當處理轉發的交易、挖礦、或製造交易時，如果每千位元組(kB)的手續費比這個值(單位是 %s)低，就視為沒付手續費(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>當沒有設定 paytxfee 時，自動包含可以讓交易能在平均 n 個區塊內開始確認的手續費(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效 (必須大於最低轉發手續費 %s 以避免交易無法確認)</translation>
+=======
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>當處理轉發的交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>當製造交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3635,12 +3979,29 @@
         <translation>轉發和開採時，對只帶資料的交易的大小上限(預設值: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>對每個代理連線使用隨機產生的憑證。這個選項會開啟 Tor 的串流隔離(預設值: %u)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>扣除手續費後的交易金額太少而不能傳送</translation>
+=======
+        <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
+        <translation>一次錢包交易允許付出最高的總手續費，設定太低的話，可能會無法進行資料量大的交易(預設值: %s)</translation>
+    </message>
+    <message>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>是否允許在節點位址數目不足時，使用域名查詢來搜尋節點 (預設值: 當沒用 -connect 時為 1)</translation>
+    </message>
+    <message>
+        <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
+        <translation>沒有手續費或手續費比較低的交易是否必須要是高優先權才會轉發(預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>設定高優先度或低手續費的交易資料大小上限成多少位元組(預設值: %d)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3651,16 +4012,58 @@
         <translation>回到非修剪的模式需要用 -reindex 參數來重建資料庫。這會導致重新下載整個區塊鏈。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: %u)</source>
         <translation>(預設值: %u)</translation>
+=======
+        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+</source>
+        <translation>要使用 litecoind, 或是對 litecoin-qt 指定 -server 選項，你必須要在以下設定檔中設定 RPC 密碼(選項: rpcpassword):
+%s
+建議你使用以下隨機產生的密碼:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(你不用記住這個密碼)
+注意使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同！
+如果設定檔還不存在，請在新增時，設定檔案權限為"只有主人才能讀取"。
+也建議你設定警示通知，這樣發生問題時你才會被通知到；
+比如說設定: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>警告: -maxtxfee 設定了很高的金額！這可是一次交易就有可能付出的最高手續費。</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.</source>
+        <translation>警告: 請檢查電腦日期和時間是否正確！莱特幣核心沒辦法在時鐘不準的情況下正常運作。</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>接受公開的REST請求 (預設值: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically create Tor hidden service (default: %d)</source>
         <translation>自動產生 Tor 隱藏服務(預設值: %d)</translation>
+=======
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>接受公開的REST請求 (預設值: %u)</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>沒辦法解析 -whitebind 指定的位址: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3675,20 +4078,54 @@
         <translation>讀取資料庫時發生錯誤，要關閉了。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error upgrading chainstate database</source>
         <translation>升級區塊鏈狀態資料庫時發生錯誤</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
         <translation>啟動時從其它來源的 blk000??.dat 檔匯入區塊</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>載入 wallet.dat 檔案時發生錯誤: 這個錢包需要新版的莱特幣核心</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>讀取資料庫時發生錯誤，要關閉了。</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>錯誤：發生了致命的內部錯誤，細節請看 debug.log</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>錯誤: 找到不再支援的 -tor 參數，請改用 -onion 參數。</translation>
+    </message>
+    <message>
+        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>交易付款時每千位元組(kB)的交易手續費 (預設值: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Information</source>
         <translation>資訊</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -onion address or hostname: '%s'</source>
         <translation>無效的 -onion 位址或主機名稱: '%s'</translation>
+=======
+        <source>Initialization sanity check failed. Litecoin Core is shutting down.</source>
+        <translation>初始化時的基本檢查失敗了。莱特幣核心就要關閉了。</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>設定最低轉發手續費 -minrelaytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
@@ -3715,16 +4152,36 @@
         <translation>節點轉發選項:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL 選項: (SSL 設定程序請見 Litecoin Wiki)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>RPC server options:</source>
         <translation>RPC 伺服器選項:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
         <translation>因為系統的限制，將 -maxconnections 參數從 %d 降到了 %d</translation>
+=======
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC 是否支援 HTTP 持久連線(預設值: %d)</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>隨機丟掉 &lt;n&gt; 分之一的網路訊息</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
         <translation>啟動時重新掃描區塊鏈，來尋找錢包可能漏掉的交易。</translation>
+    </message>
+    <message>
+        <source>Receive and display P2P network alerts (default: %u)</source>
+        <translation>接收並顯示 P2P 網路警示 (預設值: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3779,6 +4236,10 @@
         <translation>根據交易手續費準則，本交易的位元量過大</translation>
     </message>
     <message>
+        <source>Transaction too large for fee policy</source>
+        <translation>根據交易手續費準則，本交易的位元量過大</translation>
+    </message>
+    <message>
         <source>Transaction too large</source>
         <translation>交易位元量太大</translation>
     </message>
@@ -3799,12 +4260,17 @@
         <translation>JSON-RPC 連線使用者名稱</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying wallet(s)...</source>
         <translation>正在驗證錢包資料...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside wallet directory %s</source>
         <translation>錢包檔 %s 沒有在錢包目錄 %s 裡面</translation>
+=======
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <translation>錢包需要重寫: 請重新啓動莱特幣核心來完成</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning</source>
@@ -3875,12 +4341,17 @@
         <translation>當製造交易時，如果每千位元組(kB)的手續費比這個值(單位是 %s)低，就視為沒付手續費(預設值: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
         <translation>強制轉發從白名點節點收到的交易，即使它們違反了本機的轉發準則(預設值: %d)</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>使用 -checkblocks 檢查區塊的仔細程度(0 到 4，預設值: %u)</translation>
+=======
+        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
+        <translation>開採區塊的時候，紀錄交易的優先度以及每千位元組(kB)的手續費(預設值: %u)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
@@ -3979,8 +4450,13 @@
         <translation>載入錢包檔 %s 失敗。-wallet 參數指定了重複的檔名。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
         <translation>載入錢包檔 %s 失敗。-wallet 參數檔名含有無效的字元。</translation>
+=======
+        <source>Generate coins (default: %u)</source>
+        <translation>生產莱特幣(預設值: %u)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -4083,6 +4559,7 @@
         <translation>交易金額不能是負的</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Transaction has too long of a mempool chain</source>
         <translation>交易造成記憶池中的交易鏈太長</translation>
     </message>
@@ -4095,6 +4572,8 @@
         <translation>在 -onlynet 指定了不明的網路別: '%s'</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>累積金額不足</translation>
     </message>

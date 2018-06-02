@@ -3,15 +3,19 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Clique com o botão direito para editar o endereço ou rótulo</translation>
+=======
+        <translation>Clique com o botão direito para editar o endereço ou rótulo </translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Criar um novo endereço</translation>
+        <translation>Criar novo endereço</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Novo</translation>
+        <translation>Novo</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -19,11 +23,19 @@
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Copiar</translation>
+        <translation>Copiar</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
+<<<<<<< HEAD
         <translation>F&amp;char</translation>
+=======
+        <translation>Fechar</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>Copiar Endereço</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -35,11 +47,11 @@
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exportar</translation>
+        <translation>Exportar</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Excluir</translation>
+        <translation>Excluir</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -63,6 +75,7 @@
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+<<<<<<< HEAD
         <translation>Estes são os seus endereços para enviar pagamentos. Sempre cheque a quantia e o endereço do destinatário antes de enviar moedas.</translation>
     </message>
     <message>
@@ -72,6 +85,13 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Copiar endereço</translation>
+=======
+        <translation>Estes são os seus endereços Litecoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços Litecoin para receber pagamentos. Recomenda-se a utilização de um novo endereço de recebimento para cada transação.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -79,7 +99,7 @@
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Editar</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Export Address List</source>
@@ -173,7 +193,11 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+<<<<<<< HEAD
         <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS LITECOINS&lt;/b&gt;!</translation>
+=======
+        <translation>Atenção: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus LITECOINS!&lt;/b&gt;</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,8 +208,17 @@
         <translation>Carteira criptografada</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>IMPORTANTE: Qualquer backup prévio que você tenha feito da sua carteira deve ser substituído pelo novo e encriptado arquivo gerado. Por razões de segurança, qualquer backup do arquivo não criptografado se tornará inútil assim que você começar a usar uma nova carteira criptografada.</translation>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Digite a nova senha da carteira. &lt;br/&gt;Por favor utilize uma senha com &lt;b&gt;dez ou mais caracteres aleartórios&lt;/b&gt;, ou &lt;b&gt;oito ou mais palavras&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>O Litecoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas litecoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -235,7 +268,11 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
+<<<<<<< HEAD
         <translation>Assinar &amp;mensagem...</translation>
+=======
+        <translation>Assinar Mensagem...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -243,7 +280,7 @@
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Visão geral</translation>
+        <translation>Visão geral</translation>
     </message>
     <message>
         <source>Node</source>
@@ -255,7 +292,7 @@
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transações</translation>
+        <translation>Transações</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
@@ -287,7 +324,7 @@
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opções...</translation>
+        <translation>Opções...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -295,15 +332,19 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Criptografar Carteira...</translation>
+        <translation>Criptografar Carteira...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
+<<<<<<< HEAD
         <translation>&amp;Backup da carteira...</translation>
+=======
+        <translation>Backup Carteira...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Mudar frase de segurança...</translation>
+        <translation>Mudar frase de segurança...</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
@@ -311,15 +352,24 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
+<<<<<<< HEAD
         <translation>Endereços de &amp;recebimento...</translation>
+=======
+        <translation>Receber endereços...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Abrir &amp;URI...</translation>
+        <translation>Abrir URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Clique para desativar a atividade de rede.</translation>
+=======
+        <source>Litecoin Core client</source>
+        <translation>Cliente Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -334,12 +384,21 @@
         <translation>Sincronizando cabeçahos (%1%)...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reindexing blocks on disk...</source>
         <translation>Reindexando blocos no disco...</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Enviar moedas para um endereço litecoin</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Enviar moedas para um endereço litecoin</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Modificar opções de configuração para litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -359,7 +418,7 @@
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verificar mensagem...</translation>
+        <translation>Verificar mensagem...</translation>
     </message>
     <message>
         <source>Litecoin</source>
@@ -371,15 +430,24 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Enviar</translation>
+        <translation>Enviar</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Receber</translation>
+        <translation>Receber</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Exibir / Ocultar</translation>
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Mostrar informações sobre Litecoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Exibir / Ocultar</translation>
+        <translation>Exibir/Ocultar</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -414,8 +482,21 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Solicitações de pagamentos (gera códigos QR e litecoin: URIs)</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin</translation>
+    </message>
+    <message>
+        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <translation>Solicitações de pagamentos (gera códigos QR e litecoin: URIs)</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;Sobre Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -433,6 +514,13 @@
         <source>&amp;Command-line options</source>
         <translation>Opções de linha de &amp;comando</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Mostra a mensagem de ajuda do Litecoin para pegar a lista com os comandos possíveis</translation>
+    </message>
+>>>>>>> 0.10
     <message numerus="yes">
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n conexão ativa na rede Litecoin</numerusform><numerusform>%n conexões ativas na rede Litecoin</numerusform></translation>
@@ -604,11 +692,19 @@
     </message>
     <message>
         <source>Received with label</source>
+<<<<<<< HEAD
         <translation>Rótulo</translation>
     </message>
     <message>
         <source>Received with address</source>
         <translation>Endereço </translation>
+=======
+        <translation>Recebido com rótulo</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Recebido com endereço </translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Date</source>
@@ -746,8 +842,13 @@
         <translation>O endereço digitado "%1" não é um endereço válido.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is already in the address book.</source>
         <translation>O endereço digitado "%1" já se encontra no catálogo de endereços.</translation>
+=======
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>O endereço digitado "%1" não é um endereço Litecoin válido.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -784,6 +885,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>versão</translation>
     </message>
@@ -792,8 +900,13 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>About %1</source>
         <translation>Sobre %1</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>Sobre o Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Command-line options</source>
@@ -843,6 +956,7 @@
         <translation>Bem-vindo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Welcome to %1.</source>
         <translation>Bem vindo ao %1</translation>
     </message>
@@ -858,6 +972,18 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
         <translation>Se você escolheu limitar o armazenamento da corrente de blocos (prunando), os dados históricos ainda devem ser baixados e processados, mas serão apagados no final para manter o uso de disco baixo.</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Bem vindo ao Litecoin.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
+        <translation>A primeira vez que o programa é aberto você pode escolher onde o Litecoin vai guardar os dados.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O Litecoin vai fazer download e salvar uma cópia da cadeia de blocos do Litecoin: Blockchain. Pelo menos %1 GB de dados serão armazenados nesse diretório e isso aumentará ao longo do tempo. Sua carteira também será armazenada nesse diretório.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -868,6 +994,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Use um diretório de dados personalizado:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
     </message>
@@ -886,6 +1013,10 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>The wallet will also be stored in this directory.</source>
         <translation>A carteira também será armazenada neste diretório.</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -989,12 +1120,21 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Principal</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>Executar o %1 automaticamente ao iniciar o sistema.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
         <translation>&amp;Iniciar %1 ao fazer login no sistema</translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Iniciar Litecoin automaticamente após se logar no sistema.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>Iniciar Litecoin no login do sistema</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1033,8 +1173,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>URLs de terceiros (exemplo: explorador de blocos) que aparecem na aba de transações como itens do menu de contexto. %s na URL é substituido pela hash da transação. Múltiplas URLs são separadas pela barra vertical |.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Active command-line options that override above options:</source>
         <translation>Opções de linha de comando ativas que sobrescreve as opções acima:</translation>
+=======
+        <source>Third party transaction URLs</source>
+        <translation>URLs de transação de terceiros:</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
@@ -1089,6 +1234,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Mapear porta usando &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside.</source>
         <translation>Aceite conexões exteriores.</translation>
     </message>
@@ -1097,6 +1243,8 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Permitir receber conexões</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
         <translation>Conectar na rede Litecoin através de um proxy SOCKS5.</translation>
     </message>
@@ -1161,8 +1309,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>&amp;Linguagem da interface:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
         <translation>O idioma de interface do usuário pode ser definido aqui. Essa configuração terá efeito após reiniciar o %1</translation>
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1302,6 +1455,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Balanço total em endereços monitorados</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>fora de sincronia</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -1319,26 +1479,49 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Manipulação de URI</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL de cobrança é inválida: %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
         <translation>Endereço de pagamento %1 inválido</translation>
+=======
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Rede de pedido de pagamento não corresponde rede do cliente.</translation>
+    </message>
+    <message>
+        <source>Payment request has expired.</source>
+        <translation>Solicitação de pagamento expirou.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Pedido de pagamento não é inicializado.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Valor do pagamento solicitado de %1 é muito pequeno (Considerado poeira).</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
         <translation>URI não pode ser analisado! Isto pode ser causado por um endereço inválido ou parâmetros URI informados incorretamente.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request file handling</source>
         <translation>Manipulação de arquivo de cobrança</translation>
+=======
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Não foi possível iniciar litecoin: manipulador clique-para-pagar</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>Arquivo de pedido de pagamento não pode ser lido! Isto pode ser causado por uma requisição de pagamento inválida.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request rejected</source>
         <translation>Pedido de pagamento rejeitado</translation>
     </message>
@@ -1353,6 +1536,18 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Payment request is not initialized.</source>
         <translation>Pedido de pagamento não inicializado</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>URI não pode ser analisado ! Isto pode ser causado por um endereço Litecoin inválido ou parâmetros URI informados incorretamente.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Manipulação de arquivo de cobrança</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>Arquivo de pedido de pagamento não pode ser lido ! Isto pode ser causado por uma requisição de pagamento inválida.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
@@ -1375,12 +1570,27 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Pedido de pagamento %1 é muito grande (%2 bytes, permitido %3 bytes).</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Payment request DoS protection</source>
+        <translation>Pagamento requer proteção DoS</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Error communicating with %1: %2</source>
         <translation>Erro na comunicação com %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
+<<<<<<< HEAD
         <translation>Pedido de pagamento não pode ser analisado!</translation>
+=======
+        <translation>Requisição de pagamento não pode ser analisado!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Resposta incorreta do servidor %1</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bad response from server %1</source>
@@ -1402,6 +1612,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>User Agent</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Node/Service</source>
         <translation>Nó/Serviço</translation>
     </message>
@@ -1420,6 +1631,14 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Received</source>
         <translation>Recebido</translation>
+=======
+        <source>Address/Hostname</source>
+        <translation>Endereço/Hostname</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -1570,12 +1789,21 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Geral</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Using BerkeleyDB version</source>
         <translation>Versão do BerkeleyDB</translation>
     </message>
     <message>
         <source>Datadir</source>
         <translation>Datadir</translation>
+=======
+        <source>Using OpenSSL version</source>
+        <translation>Versão do OpenSSL</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Versão do BerkeleyDB</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Startup time</source>
@@ -1630,18 +1858,24 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>&amp;Pares</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Banned peers</source>
         <translation>Nós banidos</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Select a peer to view detailed information.</source>
         <translation>Selecione um cliente para ver informações detalhadas.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whitelisted</source>
         <translation>Lista branca</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Direction</source>
         <translation>Direção</translation>
     </message>
@@ -1650,6 +1884,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Versão</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Starting Block</source>
         <translation>Bloco inicial</translation>
     </message>
@@ -1662,10 +1897,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Blocos Sincronizados</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>User Agent</source>
         <translation>User Agent</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o arquivo de log de depuração do %1 localizado no diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
     </message>
@@ -1678,8 +1916,18 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Aumentar o tamanho da fonte</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Services</source>
         <translation>Serviços</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Altura inicial</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Altura sincronizada</translation>
     </message>
     <message>
         <source>Ban Score</source>
@@ -1702,6 +1950,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Ping</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The duration of a currently outstanding ping.</source>
         <translation>A duração de um ping excepcional no momento.</translation>
     </message>
@@ -1716,6 +1965,14 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Time Offset</source>
         <translation>Offset de tempo</translation>
+=======
+        <source>Bytes Received</source>
+        <translation>Bytes recebidos</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Last block time</source>
@@ -1754,16 +2011,26 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Limpar console</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>1 &amp;hora</translation>
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o arquivo de log de depuração do Litecoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;day</source>
         <translation>1 &amp;dia</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;week</source>
         <translation>1 &amp;semana</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Bem-vindo ao console Litecoin RPC.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>1 &amp;year</source>
@@ -1833,6 +2100,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <source>Unknown</source>
         <translation>Desconhecido</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Fetching...</source>
+        <translation>Buscando...</translation>
+    </message>
+>>>>>>> 0.10
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -1849,6 +2123,17 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>&amp;Mensagem</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Reutilize um dos endereços de recebimento anteriormente utilizados. Reutilizar um endereço implica em problemas com segurança e privacidade. Não reutilize a menos que esteja refazendo uma cobrança já feita anteriormente.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>R&amp;eutilize um endereço de recebimento (não recomendado)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Litecoin.</translation>
     </message>
@@ -2070,6 +2355,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Escolher</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
         <translation>O uso da taxa de retorno pode resultar no envio de uma transação que levará várias horas ou dias (ou nunca) para confirmar. Considere escolher sua taxa manualmente ou aguarde até que você tenha validado a cadeia completa.</translation>
     </message>
@@ -2080,6 +2366,18 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>collapse fee-settings</source>
         <translation>Ocultar painel</translation>
+=======
+        <source>collapse fee-settings</source>
+        <translation>colapso Taxa de definições</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Minimizar</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa personalizada for definida em 1000 satoshis e a transação tiver somente 250 bytes, então "por kilobyte" somente paga 250 satoshis de taxa, enquanto "pelo menos" paga 1000 satoshis. Se a transação for maior que 1 kilobyte, ambos pagam por kilobyte.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2090,8 +2388,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Se a taxa personalizada for definida em 1000 satoshis e a transação tiver somente 250 bytes, então "por kilobyte" somente paga 250 satoshis de taxa, enquanto "pelo menos" paga 1000 satoshis. Se a transação for maior que 1 kilobyte, ambos pagam por kilobyte.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide</source>
         <translation>Ocultar</translation>
+=======
+        <source>total at least</source>
+        <translation>pelo menos</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
@@ -2114,6 +2417,29 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>(Smart fee não iniciado. Isso requer alguns blocos...)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirmation time:</source>
+        <translation>Tempo de confirmação:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normal</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>rápido </translation>
+    </message>
+    <message>
+        <source>Send as zero-fee transaction if possible</source>
+        <translation>Enviar sem taxa de transação se possível </translation>
+    </message>
+    <message>
+        <source>(confirmation may take longer)</source>
+        <translation>(confirmação pode demorar)</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Send to multiple recipients at once</source>
         <translation>Enviar para vários destinatários de uma só vez</translation>
     </message>
@@ -2158,6 +2484,17 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Enviar</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Confirm send coins</source>
+        <translation>Confirmar envio de moedas</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 para %2</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Copy quantity</source>
         <translation>Copiar quantia</translation>
     </message>
@@ -2202,10 +2539,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>adicionado como taxa da transação </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Total Amount %1</source>
         <translation>Quantia tota %1</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>or</source>
         <translation>ou</translation>
     </message>
@@ -2246,12 +2586,33 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Falha na criação da transação</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The transaction was rejected with the following reason: %1</source>
         <translation>A transação foi negada pela seguinte razão: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Uma taxa maior que %1 é considerada uma taxa absurdamente alta.</translation>
+=======
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>A transação foi rejeitada! Isso pode acontecer se alguns litecoins na sua carteira já foram gastos em outro local, por exemplo se você tiver uma cópia do wallet.dat e os litecoins tiverem sido gastos na cópia mas não marcados como gastos aqui ainda.</translation>
+    </message>
+    <message>
+        <source>A fee higher than %1 is considered an insanely high fee.</source>
+        <translation>Uma taxa acima de %1 é considerada uma taxa insanamente alta.</translation>
+    </message>
+    <message>
+        <source>Pay only the minimum fee of %1</source>
+        <translation>Pagar somente a taxa mínima de %1</translation>
+    </message>
+    <message>
+        <source>Estimated to begin confirmation within %1 block(s).</source>
+        <translation>Confirmação estimada em %1 bloco(s)</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Atenção: endereço de Litecoin inválido</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2353,8 +2714,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Esta é uma cobrança autenticada.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Digite um rótulo para este endereço para adicioná-lo no catálogo</translation>
+=======
+        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>A mensagem que foi anexada ao litecoin: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Litecoin.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
@@ -2383,12 +2749,21 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
         <source>%1 is shutting down...</source>
         <translation>%1 está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Não desligue o computador até que esta janela desapareça.</translation>
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoin está desligando...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Não desligue o computador até esta janela desapareça.</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -2402,8 +2777,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Você pode assinar mensagens com seus endereços para provar que você pode receber litecoins enviados por alguém. Cuidado para não assinar nada vago ou aleatório, pois ataques phishing podem tentar te enganar para assinar coisas para eles como se fosse você. Somente assine termos bem detalhados que você concorde.</translation>
+=======
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Você pode assinar mensagens com seus endereços para provar que você é o dono delas. Seja cuidadoso para não assinar algo vago, pois ataques de phishing podem tentar te enganar para dar sua assinatura de identidade para eles. Apenas assine afirmações completamente detalhadas com as quais você concorda.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>The Litecoin address to sign the message with</source>
@@ -2533,6 +2913,17 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Programadores do Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -2692,7 +3083,11 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+<<<<<<< HEAD
         <translation>Moedas recém minerados precisam aguardar %1 blocos antes de serem gastos. Quando o bloco foi gerado, ele foi disseminado pela rede para ser adicionado à blockchain. Se ele falhar em ser inserido na cadeia, seu estado será modificado para "não aceito" e ele não poderá ser gasto. Isso pode acontecer eventualmente quando blocos são gerados quase que simultaneamente.</translation>
+=======
+        <translation>Litecoins recém minerados precisam aguardar %1 blocos antes de serem gastos. Quando o bloco foi gerado, ele foi disseminado pela rede para ser adicionado à blockchain. Se ele falhar em ser inserido na cadeia, seu estado será modificado para "não aceito" e ele não poderá ser gasto. Isso pode acontecer eventualmente quando blocos são gerados quase que simultaneamente.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Debug information</source>
@@ -2798,7 +3193,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Enviado para</translation>
+        <translation>Enviado</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
@@ -2837,8 +3232,17 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Mostrar ou não endereços monitorados na lista de transações.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User-defined intent/purpose of the transaction.</source>
         <translation>Intenção/Propósito definido pelo usuário para a transação</translation>
+=======
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Mostrar ou não endereços Litecoin na lista de transações.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Endereço de destino da transação.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2881,7 +3285,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Enviado para</translation>
+        <translation>Enviado</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -2945,7 +3349,31 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     </message>
     <message>
         <source>Export Transaction History</source>
+<<<<<<< HEAD
         <translation>Exportar histórico de transações</translation>
+=======
+        <translation>Exportar Histórico de Transação</translation>
+    </message>
+    <message>
+        <source>Watch-only</source>
+        <translation>Monitorado</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Exportação Falhou</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Ocorreu um erro ao tentar salvar o histórico de transação em %1.</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Exportação feita com sucesso</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>O histórico de transação foi gravado com sucesso em %1.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -3163,6 +3591,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Litecoin Core</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The %s developers</source>
         <translation>Desenvolvedores do %s</translation>
     </message>
@@ -3179,24 +3608,38 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Adicione um node para se conectar e tentar manter a conexão aberta (consulte a ajuda do comando `addnode` RPC para obter mais informações)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
         <translation>Não foi possível obter exclusividade de escrita no endereço %s. O %s provavelmente já está sendo executado.</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Apaga todas as transações da carteira e somente recupera essas partes da blockchain usando o comando -rescan na inicialização</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Erro ao ler arquivo %s! Todas as chaves foram lidas corretamente, mas os dados de transação ou o livro de endereos podem estar faltando ou incorretos.</translation>
     </message>
     <message>
         <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
         <translation>Excluir informações de depuração para uma categoria. Pode ser usado em conjunto com -debug=1 para exibir logs de depuração para todas as categorias, exceto uma ou mais categorias especificadas.</translation>
+=======
+        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
+        <translation>Distribuido sob a licença MIT software license. Veja os termos em &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>Entra no modo de teste de regressão, que usa uma cadeia especial onde os blocos podem ser resolvidos instantaneamente.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -3267,8 +3710,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Use UPnP para mapear a porta escutada (padrão: 1 quando escutando e sem -proxy)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
         <translation>Nome de usuário e hash da senha para conexões JSON-RPC. O campo &lt;userpw&gt; vem com o formato: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Um script python canônico é incluído em share/rpcuser. O cliente pode conectar normalmente usando o rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt;. Esta opção pode ser especificado multiplas vezes</translation>
+=======
+        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
+        <translation>Impossível ouvir em %s neste computador. Provavelmente o Litecoin já está sendo executado.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
@@ -3291,8 +3739,17 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>%s corrompido, recuperação falhou</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>-maxmempool must be at least %d MB</source>
         <translation>-maxmempool deve ser pelo menos %d MB</translation>
+=======
+        <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
+        <translation>Lista Branca pares de ligação da máscara de rede dado ou o endereço IP . Pode ser especificado várias vezes.</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(padrão: 1)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -3457,6 +3914,13 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Somente conectar a clientes na rede &lt;net&gt; (ipv4, ipv6 ou onion)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Reconstruir índice de blockchain a partir dos arquivos atuais blk000??.dat</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Print this help message and exit</source>
@@ -3539,6 +4003,10 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Comentário do Agente de Usuário (%s) contém caracteres inseguros.</translation>
     </message>
     <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Use UPnP para mapear a porta de entrada (padrão: %u)</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
         <translation>Verificando blocos...</translation>
     </message>
@@ -3555,20 +4023,42 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Opções da carteira:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Permitir conexões JSON-RPC de uma fonte específica. Válido para um único ip (ex. 1.2.3.4), até uma rede/máscara (ex. 1.2.3.4/255.255.255.0) ou uma rede/CIDR (ex. 1.2.3.4/24). Esta opção pode ser usada múltiplas vezes</translation>
+=======
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>Você precisa reconstruir o banco de dados utilizando -reindex</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
         <translation>Criar novos arquivos com permissões padrão do sistema, em vez de umask 077 (apenas efetivo com funcionalidade de carteira desabilitada)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
         <translation>Descobrir o próprio IP (padrão: 1 enquanto aguardando conexões e sem -externalip ou -proxy)</translation>
+=======
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Permitir conexões JSON-RPC de uma fonte específica. Válido para um único ip (ex. 1.2.3.4), até uma rede/máscara (ex. 1.2.3.4/255.255.255.0) ou uma rede/CIDR (ex. 1.2.3.4/24). Esta opção pode ser usada múltiplas vezes</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Um erro ocorreu enquanto configurando o endereço RPC %s porta %u para escuta: %s</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo ao diretório de dados %s. Provavelmente Litecoin já está sendo executado.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3583,18 +4073,28 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Comissões (em %s/kB) menores serão consideradas como zero para relaying, mineração e criação de transação (padrão %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Se paytxfee não estiver definida, incluir comissão suficiente para que as transações comecem a ter confirmações em média dentro de N blocos (padrão %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation>Valor inválido para -maxtxfee=&lt;valor&gt;: '%s' (precisa ser pelo menos a taxa mínima de %s para prevenir que a transação nunca seja confirmada)</translation>
+=======
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em LTC/Kb) menores do que este valor são consideradas inexistentes para divulgação (padrão: %s)</translation>
+    </message>
+    <message>
+        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em LTC/Kb) menores do que este valor são consideradas inexistentes para a criação da transação (padrão: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Tamanho máximo de dados em transações de dados de operadora (padrão %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
         <translation>Gerar credenciais aleatórias para cada conexão por proxy. Isto habilita o isolamento de stream do Tor (padrão: %u)</translation>
     </message>
@@ -3621,6 +4121,34 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
         <translation>Criar automaticamente serviços ocultos do Tor (padrão: %d)</translation>
+=======
+        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+</source>
+        <translation>Para usar o litecoind, ou a opção -server do litecoin-qt, você deve definir rpcpassword no arquivo de configuração:
+%s
+É recomendado que use a seguinte senha randômica:
+rpcuser=litecoinrpc
+rpcpassword=%s
+(você não precisa lembrar esta senha)
+O usuário e senha NÃO DEVEM ser os mesmos.
+Se o arquivo não existir, crie com permissão de proprietário criador somente.
+É também recomendado definir a opção alertnotify se deseja ser notificado de problemas;
+por exemplo: alertnotify=echo %%s | mail -s "Alerta do Litecoin" admin@foo.com.br
+</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -whitebind address: '%s'</source>
+        <translation>Impossível resolver endereço -whitebind: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3639,16 +4167,42 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Erro ao atualizar banco de dados de cadeias</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Imports blocks from external blk000??.dat file on startup</source>
         <translation>Importar blocos a partir de arquivo externo blk000??.dat durante a inicialização</translation>
+=======
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
+        <translation>Erro ao carregar wallet.dat: A carteira requer a nova versão do Litecoin</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Erro ao ler o banco de dados. Finalizando.</translation>
+    </message>
+    <message>
+        <source>Error: Unsupported argument -tor found, use -onion.</source>
+        <translation>Erro: Argumento não suportado -tor, use -onion.</translation>
+    </message>
+    <message>
+        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em LTC/kB) a adicionar nas transações que você envia (padrão: %s)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Information</source>
         <translation>Informação</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid -onion address or hostname: '%s'</source>
         <translation>Endereço -onion ou nome do servidor inválido: '%s'</translation>
+=======
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantidade inválida para -maxtxfee=&lt;quantidade&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantidade inválida para -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
@@ -3663,16 +4217,26 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Máscara de rede especificada em -whitelist: '%s' é inválida</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Manter ao máximo &lt;n&gt; transações inconectáveis na memória (padrão: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Necessário informar uma porta com -whitebind: '%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
         <translation>Opções de relé nó :</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation>Opções RPC SSL: (veja o Litecoin Wiki para instruções de configuração SSL)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3689,6 +4253,10 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Mandar informação de trace/debug para o console em vez de para o arquivo debug.log</translation>
+    </message>
+    <message>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Enviar transação sem taxa, se possível (padrão: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
@@ -3727,6 +4295,10 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Transação muito grande para enviar sem taxa</translation>
     </message>
     <message>
+        <source>Transaction too large for fee policy</source>
+        <translation>Transação muito grande para enviar sem taxa</translation>
+    </message>
+    <message>
         <source>Transaction too large</source>
         <translation>Transação muito larga</translation>
     </message>
@@ -3743,16 +4315,26 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying wallet(s)...</source>
         <translation>Verificando carteira(s)...</translation>
+=======
+        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
+        <translation>Sua carteira precisou ser reescrita: favor reiniciar o Litecoin para completar</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Warning</source>
         <translation>Atenção</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: unknown new rules activated (versionbit %i)</source>
         <translation>Aviso: Novas regras estranhas foram ativadas (versionbit %i)</translation>
+=======
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Atenção: Esta versão está obsoleta, atualização necessária!</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
@@ -3899,6 +4481,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>(padrão: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Sempre pergunte pelo endereço de peer via pesquisa DNS (padrão: %u)</translation>
     </message>
@@ -3913,6 +4496,26 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
         <translation>Erro ao carregar carteira %s. Caracteres inválidos no nome do arquivo de -wallet.</translation>
+=======
+        <source>(default: %s)</source>
+        <translation>(padrão: %s)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Cífras aceitas (padrão: %s)</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Erro ao carregar wallet.dat</translation>
+    </message>
+    <message>
+        <source>Force safe mode (default: %u)</source>
+        <translation>Forçar modo seguro (default: %u)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: %u)</source>
+        <translation>Gerar moedas (padrão: %u)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -3920,6 +4523,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
+<<<<<<< HEAD
         <translation>Incluir endereço IP na saída de depuração (padrão: %u)</translation>
     </message>
     <message>
@@ -3981,6 +4585,57 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
         <translation>Especificar tempo para desistência de conexões, em mili segundos (mínimo: 1, padrão: %d)</translation>
+=======
+        <translation>Incluir endereço IP na saída de debug (padrão: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Endereço -proxy inválido: '%s'</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
+        <translation>Tamanho limite do cache de assinaturas de &lt;n&gt; entradas (padrão: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Aguardar por conexões na porta &lt;port&gt; (padrão: %u ou testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Adiciona timestamp como prefixo no debug (default: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Retransmitir P2SH não multisig (default: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Arquivo de certificado do servidor (padrão: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Chave privada do servidor (padrão: %s)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Defina o tamanho da chave para piscina &lt;n&gt; (default: %u)</translation>
+    </message>
+    <message>
+        <source>Set minimum block size in bytes (default: %u)</source>
+        <translation>Definir tamanho mínimo do bloco, em bytes (padrão: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Defina o número de threads para chamadas do serviço RPC (padrão: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Especificar arquivo de configuração (padrão: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Especificar tempo para desistência de conexões, em mili segundos (mínimo: 1, padrão: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -4007,6 +4662,7 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Esta é a taxa que você irá pagar se enviar a transação.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>Limite para desconectar peers mal comportados (padrão: %u)</translation>
     </message>
@@ -4027,6 +4683,8 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
         <translation>Rede desconhecida especificada em -onlynet: '%s'</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Saldo insuficiente</translation>
     </message>
@@ -4048,7 +4706,11 @@ Esta sincronização inicial é muito exigente e pode expor problemas de hardwar
     </message>
     <message>
         <source>Done loading</source>
+<<<<<<< HEAD
         <translation>Carregamento terminado!</translation>
+=======
+        <translation>Carregamento terminado</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>

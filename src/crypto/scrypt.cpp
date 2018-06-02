@@ -43,7 +43,11 @@
 #include <cpuid.h>
 #endif
 #endif
+<<<<<<< HEAD
 #ifndef __FreeBSD__
+=======
+
+>>>>>>> 0.10
 static inline uint32_t be32dec(const void *pp)
 {
 	const uint8_t *p = (uint8_t const *)pp;
@@ -60,7 +64,10 @@ static inline void be32enc(void *pp, uint32_t x)
 	p[0] = (x >> 24) & 0xff;
 }
 
+<<<<<<< HEAD
 #endif
+=======
+>>>>>>> 0.10
 typedef struct HMAC_SHA256Context {
 	SHA256_CTX ictx;
 	SHA256_CTX octx;
@@ -291,11 +298,18 @@ void scrypt_1024_1_1_256_sp_generic(const char *input, char *output, char *scrat
 // By default, set to generic scrypt function. This will prevent crash in case when scrypt_detect_sse2() wasn't called
 void (*scrypt_1024_1_1_256_sp_detected)(const char *input, char *output, char *scratchpad) = &scrypt_1024_1_1_256_sp_generic;
 
+<<<<<<< HEAD
 std::string scrypt_detect_sse2()
 {
     std::string ret;
 #if defined(USE_SSE2_ALWAYS)
     ret = "scrypt: using scrypt-sse2 as built.";
+=======
+void scrypt_detect_sse2()
+{
+#if defined(USE_SSE2_ALWAYS)
+    printf("scrypt: using scrypt-sse2 as built.\n");
+>>>>>>> 0.10
 #else // USE_SSE2_ALWAYS
     // 32bit x86 Linux or Windows, detect cpuid features
     unsigned int cpuid_edx=0;
@@ -313,15 +327,25 @@ std::string scrypt_detect_sse2()
     if (cpuid_edx & 1<<26)
     {
         scrypt_1024_1_1_256_sp_detected = &scrypt_1024_1_1_256_sp_sse2;
+<<<<<<< HEAD
         ret = "scrypt: using scrypt-sse2 as detected";
+=======
+        printf("scrypt: using scrypt-sse2 as detected.\n");
+>>>>>>> 0.10
     }
     else
     {
         scrypt_1024_1_1_256_sp_detected = &scrypt_1024_1_1_256_sp_generic;
+<<<<<<< HEAD
         ret = "scrypt: using scrypt-generic, SSE2 unavailable";
     }
 #endif // USE_SSE2_ALWAYS
     return ret;
+=======
+        printf("scrypt: using scrypt-generic, SSE2 unavailable.\n");
+    }
+#endif // USE_SSE2_ALWAYS
+>>>>>>> 0.10
 }
 #endif
 

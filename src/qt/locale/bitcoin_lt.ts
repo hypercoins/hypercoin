@@ -3,7 +3,11 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
+<<<<<<< HEAD
         <translation>Spustelėkite dešinįjį klavišą norint keisti adresą arba etiketę</translation>
+=======
+        <translation>Spustelėkite dešinįjį klaviša norint keisti adresą arba etiketę</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Create a new address</source>
@@ -34,6 +38,10 @@
         <translation>Eksportuoti informaciją iš dabartinės lentelės į failą</translation>
     </message>
     <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Ištrinti pasirinktą adresą iš sąrašo</translation>
+    </message>
+    <message>
         <source>&amp;Export</source>
         <translation>&amp;Eksportuoti</translation>
     </message>
@@ -41,7 +49,51 @@
         <source>&amp;Delete</source>
         <translation>&amp;Trinti</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Pasirinkite adresą kuriam siūsite monetas</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>P&amp;asirinkti</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Siunčiami adresai</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Gaunami adresai</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Kopijuoti ž&amp;ymę</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;Keisti</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>Eksportuoti adresų sąrašą</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Kableliais išskirtas failas (*.csv)</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Eksportavimas nepavyko</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Bandant išsaugoti adresų sąrašą - įvyko klaida keliant į %1. Prašome bandyti dar kartą.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -71,8 +123,89 @@
 <context>
     <name>BanTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Banned Until</source>
         <translation>Užblokuotas iki</translation>
+=======
+        <source>Encrypt wallet</source>
+        <translation>Užšifruoti piniginę</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Ši operacija reikalauja jūsų piniginės slaptafrazės jai atrakinti.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Atrakinti piniginę</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Ši operacija reikalauja jūsų piniginės slaptafrazės jai iššifruoti.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Iššifruoti piniginę</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Pakeisti slaptafrazę</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Įveskite seną ir naują piniginės slaptafrazes.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Patvirtinkite piniginės užšifravimą</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Dėmesio: jei užšifruosite savo piniginę ir pamesite slaptafrazę, jūs&lt;b&gt;PRARASITE VISUS SAVO LITECOINUS&lt;/b&gt;! </translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Ar tikrai norite šifruoti savo piniginę?</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Įspėjimas: įjungtas Caps Lock klavišas!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Piniginė užšifruota</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti litecoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Nepavyko užšifruoti piniginę</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Dėl vidinės klaidos nepavyko užšifruoti piniginę.Piniginė neužšifruota.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Įvestos slaptafrazės nesutampa.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Nepavyko atrakinti piniginę</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>Neteisingai įvestas slaptažodis piniginės iššifravimui.</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Nepavyko iššifruoti piniginės</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Piniginės slaptažodis sėkmingai pakeistas.</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -156,6 +289,17 @@
     <message>
         <source>Open &amp;URI...</source>
         <translation>Atidaryti &amp;URI...</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Litecoin Core client</source>
+        <translation>Litecoin Core klientas</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Blokai importuojami iš disko...</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -164,6 +308,13 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Siųsti monetas Litecoin adresui</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Keisti litecoin konfigūracijos galimybes</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -202,6 +353,13 @@
         <translation>&amp;Gauti</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Litecoin Core</source>
+        <translation>Rodyti informaciją apie Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Show / Hide</source>
         <translation>&amp;Rodyti / Slėpti</translation>
     </message>
@@ -230,8 +388,37 @@
         <translation>Kortelių įrankinė</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Command-line options</source>
         <translation>Komandinės eilutės parametrai</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin branduolys</translation>
+    </message>
+    <message>
+        <source>&amp;About Litecoin Core</source>
+        <translation>&amp;Apie Litecoin Core</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n Litecoin tinklo aktyvus ryšys</numerusform><numerusform>%n Litecoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Litecoin tinklo aktyvūs ryšiai</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n valanda</numerusform><numerusform>%n valandos</numerusform><numerusform>%n valandų</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n diena</numerusform><numerusform>%n dienos</numerusform><numerusform>%n dienų</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n savaitė</numerusform><numerusform>%n savaitės</numerusform><numerusform>%n savaičių</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n metas</numerusform><numerusform>%n metai</numerusform><numerusform>%n metų</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -278,6 +465,10 @@
     </context>
 <context>
     <name>CoinControlDialog</name>
+    <message>
+        <source>Coin Selection</source>
+        <translation>Monetų pasirinkimas</translation>
+    </message>
     <message>
         <source>Coin Selection</source>
         <translation>Monetų pasirinkimas</translation>
@@ -349,7 +540,43 @@
         <source>&amp;Address</source>
         <translation>&amp;Adresas</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>New receiving address</source>
+        <translation>Naujas gavimo adresas</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Naujas siuntimo adresas</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Keisti gavimo adresą</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Keisti siuntimo adresą</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Įvestas adresas „%1“ jau yra adresų knygelėje.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Litecoin adresas.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Nepavyko atrakinti piniginės.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Naujo rakto generavimas nepavyko.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -360,10 +587,24 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin branduolys</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>versija</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>About Litecoin Core</source>
+        <translation>Apie Litecoin Core</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Command-line options</source>
         <translation>Komandinės eilutės parametrai</translation>
     </message>
@@ -383,8 +624,17 @@
         <translation>Sveiki</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Welcome to Litecoin Core.</source>
+        <translation>Sveiki atvykę į Litecoin Core.</translation>
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin branduolys</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -416,6 +666,7 @@
         <translation>&amp;Pagrindinės</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>MB</source>
         <translation>MB</translation>
     </message>
@@ -426,16 +677,27 @@
     <message>
         <source>&amp;Reset Options</source>
         <translation>&amp;Atstatyti Parinktis</translation>
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Paleisti Litecoin programą su window sistemos paleidimu</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>W&amp;allet</source>
         <translation>Piniginė</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatiškai atidaryti Litecoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
@@ -492,6 +754,13 @@
         <translation>Naudotojo sąsajos &amp;kalba:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Litecoin.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Vienetai, kuriais rodyti sumas:</translation>
     </message>
@@ -520,6 +789,7 @@
         <translation>Patvirtinti nustatymų atstatymą</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client restart required to activate changes.</source>
         <translation>Kliento perkrovimas reikalingas nustatymų aktyvavimui</translation>
     </message>
@@ -532,6 +802,8 @@
         <translation>Šis pakeitimas reikalautų kliento perkrovimo</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>The supplied proxy address is invalid.</source>
         <translation>Nurodytas tarpinio serverio adresas negalioja.</translation>
     </message>
@@ -547,10 +819,13 @@
         <translation>Galimi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Your current spendable balance</source>
         <translation>Jūsų dabartinis išleidžiamas balansas</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Pending:</source>
         <translation>Laukiantys:</translation>
     </message>
@@ -573,8 +848,21 @@
 <context>
     <name>PeerTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Received</source>
         <translation>Gauta</translation>
+=======
+        <source>URI handling</source>
+        <translation>URI apdorojimas</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Mokėjimo siuntimas atmestas</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Tinklo užklausos klaida</translation>
+>>>>>>> 0.10
     </message>
 </context>
 <context>
@@ -677,6 +965,17 @@
         <translation>Versija</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Bytes Sent</source>
+        <translation>Nusiųsti baitai</translation>
+    </message>
+    <message>
+        <source>Bytes Received</source>
+        <translation>Gauti baitai</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Last block time</source>
         <translation>Paskutinio bloko laikas</translation>
     </message>
@@ -701,8 +1000,13 @@
         <translation>Išvalyti konsolę</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>never</source>
         <translation>Niekada</translation>
+=======
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Sveiki atvykę į Litecoin RPC konsolę.</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Yes</source>
@@ -711,6 +1015,10 @@
     <message>
         <source>No</source>
         <translation>Ne</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>Niekada</translation>
     </message>
     </context>
 <context>
@@ -724,8 +1032,17 @@
         <translation>Ž&amp;ymė:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Message:</source>
         <translation>Žinutė:</translation>
+=======
+        <source>Clear</source>
+        <translation>Išvalyti</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopijuoti žymę</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Clear</source>
@@ -904,6 +1221,13 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin branduolys</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testavimotinklas]</translation>
     </message>
@@ -1006,6 +1330,29 @@
         <translation>Leisti DNS paiešką sujungimui ir mazgo pridėjimui</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Loading addresses...</source>
+        <translation>Užkraunami adresai...</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat sugadintas</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation> wallet.dat pakrovimo klaida</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Neteisingas proxy adresas: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neteisinga suma -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Nepakanka lėšų</translation>
     </message>

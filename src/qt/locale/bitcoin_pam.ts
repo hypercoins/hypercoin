@@ -33,6 +33,49 @@
         <source>&amp;Delete</source>
         <translation>&amp;Ilako</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Pilinan ing address a magpadalang coins kang</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Pilinan ing address a tumanggap coins a atin</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>P&amp;ilinan</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Address king pamag-Padala</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Address king pamag-Tanggap</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Reni reng kekang Litecoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Reni reng kekang Litecoin addresses keng pamananggap bayad. Rerekomenda mi na gumamit kang bayung address keng balang transaksiyon.</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Kopyan ing &amp;Label</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;Alilan</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma separated file (*.csv)</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -55,10 +98,98 @@
         <source>Repeat new passphrase</source>
         <translation>Pasibayuan ya ing bayung passphrase</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>BanTableModel</name>
     </context>
+=======
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>I-encrypt ye ing wallet</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Ing operasyun a ini kailangan ne ing kekayung wallet passphrase, ban a-unlock ya ing wallet</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Unlock ya ing wallet</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Ing operasyun a ini kailangan ne ing kekang wallet passphrase ban a-decrypt ne ing wallet.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>I-decrypt ya ing wallet</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Alilan ya ing passphrase</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Palub ye ing luma ampo ing bayung passphrase king wallet.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Kumpirman ya ing wallet encryption</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG LITECOINS&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Siguradu na kang buri meng i-encrypt ing kekang wallet?</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>Mayalaga: Reng milabas a backups a gewa mu gamit ing wallet file mu dapat lamung mialilan bayung gawang encrypted wallet file. Para keng seguridad , reng milabas a backups dareng ali maka encrypt a wallet file ma-ala nala istung inumpisan mu nalang gamitan reng bayu, at me encrypt a wallet. </translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Kapabaluan: Makabuklat ya ing Caps Lock key!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Me-encrypt ne ing wallet</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Ing Litecoin ngeni magsara ya ban ayari ing proseso ning pamag-encrypt. Tandanan yu king pamag-encrypt wallet, ali nala aprotektan king kabuuan reng litecoins yu kareng malware a kasalunsungan atiu kareng computer yu.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Memali ya ing pamag-encrypt king wallet </translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Memali ya ing encryption uli na ning ausan dang internal error. E ya me-encrypt ing wallet yu.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>E la mitutugma ring mibieng passphrase</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Memali ya ing pamag-unlock king wallet </translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>E ya istu ing passphrase a pepalub da para king wallet decryption</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Me-mali ya ing pamag-decrypt king wallet</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Mi-alilan ne ing passphrase na ning wallet.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -118,12 +249,21 @@
         <translation>&amp;Alilan ing Passphrase...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Receiving addresses...</source>
         <translation>Address king pamag-Tanggap</translation>
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Magpadalang barya king Litecoin address</translation>
+=======
+        <source>Send coins to a Litecoin address</source>
+        <translation>Magpadalang barya king Litecoin address</translation>
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Alilan ing pipamilian konpigurasion para keng Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -178,8 +318,13 @@
         <translation>Gamit para king Tabs</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Command-line options</source>
         <translation>Pipamilian command-line</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Kapilubluban ning Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -259,13 +404,56 @@
         <source>&amp;Address</source>
         <translation>&amp;Address</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>New receiving address</source>
+        <translation>Bayung address king pamagtanggap</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Bayung address king pamagpadala</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Alilan ya ing address king pamagpadala</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Alilan ya ing address king pamagpadala</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Ing pepalub yung address "%1" ati na yu king aklat dareng address</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Ing pepalub yung address "%1" ali ya katanggap-tanggap a Litecoin address.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Ali ya bisang mag-unlock ing wallet</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Memali ya ing pamangaua king key</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>FreespaceChecker</name>
     </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Kapilubluban ning Litecoin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>bersion</translation>
     </message>
@@ -289,8 +477,13 @@
         <translation>Malaus ka</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Kapilubluban ning Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Error</source>
@@ -322,6 +515,17 @@
         <translation>&amp;Pun</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Umpisan yang antimu ing Litecoin kaibat mekapag-log in king sistema.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Umpisan ya ing Litecoin king pamag-log-in na ning sistema.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Network</source>
         <translation>&amp;Network</translation>
     </message>
@@ -370,6 +574,13 @@
         <translation>Amanu na ning user interface:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Ing amanu na ning user interface maliari yang i-ayus o ilage keni. Ing ayus a ini magsilbi yamu istung pesibayuan meng pasibayu ing Litecoin.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Unit to show amounts in:</source>
         <translation>Ing &amp;Unit a ipakit king alaga ning:</translation>
     </message>
@@ -519,9 +730,31 @@
         <translation>Debug log file</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear console</source>
         <translation>I-Clear ing console</translation>
     </message>
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ibuklat ing Litecoin debug log file menibat king kasalungsungan data directory. Magluat ya ining pilan segundu para kareng mamaragul a log files.</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>I-Clear ing console</translation>
+    </message>
+    <message>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Malaus kayu king Litecoin RPC console.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Gamitan me ing patas at pababang arrow para alibut me ing kasalesayan, at &lt;b&gt;Ctrl-L&lt;/b&gt; ban I-clear ya ing screen.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>I-type ing &lt;b&gt;help&lt;/b&gt; ban akit la reng ati at magsilbing commands.</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -694,6 +927,13 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Kapilubluban ning Litecoin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -828,6 +1068,21 @@
         <translation>E kilalang network ing mepili king -onlynet: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Eya me-resolve ing -bind address: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Eya me-resolve ing -externalip address: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Eya maliari ing alaga keng -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Kulang a pondo</translation>
     </message>

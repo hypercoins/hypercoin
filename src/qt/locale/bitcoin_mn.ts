@@ -16,10 +16,28 @@
     <message>
         <source>&amp;Copy</source>
         <translation>&amp;Хуулах</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>C&amp;lose</source>
         <translation>&amp;Хаах</translation>
+    </message>
+    <message>
+        <source>Delete the currently selected address from the list</source>
+        <translation>Одоо сонгогдсон байгаа хаягуудыг жагсаалтаас устгах</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Сонгогдсон таб дээрхи дата-г экспортлох</translation>
+=======
+    </message>
+    <message>
+        <source>C&amp;lose</source>
+        <translation>&amp;Хаах</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>Хаягийг &amp;Хуулбарлах</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -36,6 +54,56 @@
     <message>
         <source>&amp;Delete</source>
         <translation>&amp;Устгах</translation>
+    </message>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Зооснуудыг илгээх хаягийг сонгоно уу</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Зооснуудыг хүлээн авах хаягийг сонгоно уу</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>С&amp;онго</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Илгээх хаягууд</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Хүлээн авах хаяг</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Эдгээр Litecoin хаягууд нь илгээх хаягууд. Хүлээн авах хаяг болон тоо хэмжээг илгээхээсээ өмнө сайн нягталж үзэж байна уу</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Эдгээр Litecoin хаягууд нь хүлээн авах хаягууд. Гүйлгээ болгонд шинээр хаяг үүсгэхийг бид санал болгож байна.</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>&amp;Шошгыг хуулбарлах</translation>
+>>>>>>> 0.10
+    </message>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Экспортдлох</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Delete</source>
+        <translation>&amp;Устгах</translation>
+=======
+        <source>Export Address List</source>
+        <translation>Экспорт хийх хаягуудын жагсаалт</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Таслалаар тусгаарлагдсан хүснэгтэн файл (.csv)</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -55,10 +123,82 @@
         <source>Repeat new passphrase</source>
         <translation>Шинэ нууц үгийг давтана уу</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>BanTableModel</name>
     </context>
+=======
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Түрүйвчийг цоожлох</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Энэ үйлдэлийг гүйцэтгэхийн тулд та нууц үгээрээ түрүйвчийн цоожийг тайлах хэрэгтэй</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Түрүйвчийн цоожийг тайлах</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Энэ үйлдэлийг гүйцэтгэхийн тулд та эхлээд түрүйвчийн нууц үгийг оруулж цоожийг тайлах шаардлагтай.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Түрүйвчийн цоожийг устгах</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Нууц үгийг солих</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Түрүйвчийн хуучин болоод шинэ нууц үгсийг оруулна уу</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Түрүйвчийн цоожийг баталгаажуулах</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Түрүйвч цоожлогдлоо</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Цоожлолтын процесыг дуусгахын тулд Litecoin одоо хаагдана. Ѳѳрийн түрүйвчийг цоожлох нь таны litecoinsуудыг компьютерийн вирус хулгайлахаас бүрэн сэргийлж чадахгүй гэдгийг санаарай.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Түрүйвчийн цоожлол амжилттай болсонгүй</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Түрүйвчийн цоожлол дотоод алдаанаас үүдэн амжилттай болсонгүй. Түрүйвч цоожлогдоогүй байна.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Таны оруулсан нууц үг таарсангүй</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Түрүйвчийн цоож тайлагдсангүй</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>Таны оруулсан түрүйвчийн цоожийг тайлах нууц үг буруу байна</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Түрүйвчийн цоож амжилттай устгагдсангүй</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Түрүйвчийн нууц үг амжилттай ѳѳр</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -149,6 +289,21 @@
         <source>&amp;Help</source>
         <translation>&amp;Тусламж</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>Litecoinы сүлжээрүү %n идэвхитэй холболт байна </numerusform><numerusform>Litecoinы сүлжээрүү %n идэвхитэй холболтууд байна </numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n цаг</numerusform><numerusform>%n цаг</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n ѳдѳр</numerusform><numerusform>%n ѳдрүүд</numerusform></translation>
+    </message>
+>>>>>>> 0.10
     <message>
         <source>Error</source>
         <translation>Алдаа</translation>
@@ -458,6 +613,45 @@
         <source>S&amp;end</source>
         <translation>Яв&amp;уул</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Зоос явуулахыг баталгаажуулна уу</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Хэмжээг санах</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Ѳѳрчлѳлтийг санах</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>эсвэл</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Тѳлѳх хэмжээ 0.-оос их байх ёстой</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Энэ хэмжээ таны балансаас хэтэрсэн байна.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Гүйлгээний тѳлбѳр %1-ийг тооцхоор нийт дүн нь таны балансаас хэтрээд байна.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Анхаар:Буруу Litecoinы хаяг байна</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(шошгогүй)</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -500,6 +694,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Litecoinы цѳм хаагдаж байна...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Энэ цонхыг хаагдтал компьютерээ бүү унтраагаарай</translation>
     </message>
@@ -556,6 +757,14 @@
     </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Экспортдлох</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Сонгогдсон таб дээрхи дата-г экспортлох</translation>
+    </message>
     </context>
 <context>
     <name>bitcoin-core</name>
@@ -568,8 +777,29 @@
         <translation>Түрүйвчийн сонголтууд:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Information</source>
         <translation>Мэдээллэл</translation>
+=======
+        <source>Upgrade wallet to latest format</source>
+        <translation>Түрүйвчийг хамгийн сүүлийн үеийн форматруу шинэчлэх</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Хаягуудыг ачааллаж байна...</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>wallet.dat-ыг ачааллахад алдаа гарлаа: Түрүйвч эвдэрсэн байна</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>wallet.dat-ыг ачааллахад алдаа гарлаа</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Эдгээр прокси хаягнууд буруу байна: '%s'</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Insufficient funds</source>

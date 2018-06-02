@@ -10,6 +10,17 @@
     <height>400</height>
    </rect>
   </property>
+<<<<<<< HEAD
+=======
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Litecoin Core - Command-line options</string>
+  </property>
+>>>>>>> 0.10
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <property name="spacing">
     <number>0</number>

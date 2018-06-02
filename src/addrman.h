@@ -117,10 +117,17 @@ public:
  *
  * To that end:
  *  * Addresses are organized into buckets.
+<<<<<<< HEAD
  *    * Addresses that have not yet been tried go into 1024 "new" buckets.
  *      * Based on the address range (/16 for IPv4) of the source of information, 64 buckets are selected at random.
  *      * The actual bucket is chosen from one of these, based on the range in which the address itself is located.
  *      * One single address can occur in up to 8 different buckets to increase selection chances for addresses that
+=======
+ *    * Address that have not yet been tried go into 1024 "new" buckets.
+ *      * Based on the address range (/16 for IPv4) of source of the information, 64 buckets are selected at random
+ *      * The actual bucket is chosen from one of these, based on the range the address itself is located.
+ *      * One single address can occur in up to 8 different buckets, to increase selection chances for addresses that
+>>>>>>> 0.10
  *        are seen frequently. The chance for increasing this multiplicity decreases exponentially.
  *      * When adding a new address to a full bucket, a randomly chosen entry (with a bias favoring less recently seen
  *        ones) is removed from it first.
@@ -136,6 +143,7 @@ public:
  */
 
 //! total number of buckets for tried addresses
+<<<<<<< HEAD
 #define ADDRMAN_TRIED_BUCKET_COUNT_LOG2 8
 
 //! total number of buckets for new addresses
@@ -143,6 +151,15 @@ public:
 
 //! maximum allowed number of entries in buckets for new and tried addresses
 #define ADDRMAN_BUCKET_SIZE_LOG2 6
+=======
+#define ADDRMAN_TRIED_BUCKET_COUNT 256
+
+//! total number of buckets for new addresses
+#define ADDRMAN_NEW_BUCKET_COUNT 1024
+
+//! maximum allowed number of entries in buckets for new and tried addresses
+#define ADDRMAN_BUCKET_SIZE 64
+>>>>>>> 0.10
 
 //! over how many buckets entries with tried addresses from a single group (/16 for IPv4) are spread
 #define ADDRMAN_TRIED_BUCKETS_PER_GROUP 8
@@ -185,6 +202,12 @@ private:
     //! critical section to protect the inner data structures
     mutable CCriticalSection cs;
 
+<<<<<<< HEAD
+=======
+    //! secret key to randomize bucket select with
+    uint256 nKey;
+
+>>>>>>> 0.10
     //! last used nId
     int nIdCount;
 
@@ -208,9 +231,12 @@ private:
 
     //! list of "new" buckets
     int vvNew[ADDRMAN_NEW_BUCKET_COUNT][ADDRMAN_BUCKET_SIZE];
+<<<<<<< HEAD
 
     //! last time Good was called (memory only)
     int64_t nLastGood;
+=======
+>>>>>>> 0.10
 
 protected:
     //! secret key to randomize bucket select with
@@ -250,8 +276,14 @@ protected:
     //! Select an address to connect to, if newOnly is set to true, only the new table is selected from.
     CAddrInfo Select_(bool newOnly);
 
+<<<<<<< HEAD
     //! Wraps GetRandInt to allow tests to override RandomInt and make it determinismistic.
     virtual int RandomInt(int nMax);
+=======
+    //! Select an address to connect to.
+    //! nUnkBias determines how much to favor new addresses over tried ones (min=0, max=100)
+    CAddress Select_();
+>>>>>>> 0.10
 
 #ifdef DEBUG_ADDRMAN
     //! Perform consistency check. Returns an error code or zero.
@@ -313,9 +345,15 @@ public:
         s << nUBuckets;
         std::map<int, int> mapUnkIds;
         int nIds = 0;
+<<<<<<< HEAD
         for (const auto& entry : mapInfo) {
             mapUnkIds[entry.first] = nIds;
             const CAddrInfo &info = entry.second;
+=======
+        for (std::map<int, CAddrInfo>::const_iterator it = mapInfo.begin(); it != mapInfo.end(); it++) {
+            mapUnkIds[(*it).first] = nIds;
+            const CAddrInfo &info = (*it).second;
+>>>>>>> 0.10
             if (info.nRefCount) {
                 assert(nIds != nNew); // this means nNew was wrong, oh ow
                 s << info;
@@ -323,8 +361,13 @@ public:
             }
         }
         nIds = 0;
+<<<<<<< HEAD
         for (const auto& entry : mapInfo) {
             const CAddrInfo &info = entry.second;
+=======
+        for (std::map<int, CAddrInfo>::const_iterator it = mapInfo.begin(); it != mapInfo.end(); it++) {
+            const CAddrInfo &info = (*it).second;
+>>>>>>> 0.10
             if (info.fInTried) {
                 assert(nIds != nTried); // this means nTried was wrong, oh ow
                 s << info;
@@ -368,6 +411,7 @@ public:
             nUBuckets ^= (1 << 30);
         }
 
+<<<<<<< HEAD
         if (nNew > ADDRMAN_NEW_BUCKET_COUNT * ADDRMAN_BUCKET_SIZE) {
             throw std::ios_base::failure("Corrupt CAddrMan serialization, nNew exceeds limit.");
         }
@@ -376,6 +420,8 @@ public:
             throw std::ios_base::failure("Corrupt CAddrMan serialization, nTried exceeds limit.");
         }
 
+=======
+>>>>>>> 0.10
         // Deserialize entries from the new table.
         for (int n = 0; n < nNew; n++) {
             CAddrInfo &info = mapInfo[n];
@@ -447,7 +493,11 @@ public:
             }
         }
         if (nLost + nLostUnk > 0) {
+<<<<<<< HEAD
             LogPrint(BCLog::ADDRMAN, "addrman lost %i new and %i tried addresses due to collisions\n", nLostUnk, nLost);
+=======
+            LogPrint("addrman", "addrman lost %i new and %i tried addresses due to collisions\n", nLostUnk, nLost);
+>>>>>>> 0.10
         }
 
         Check();
@@ -477,6 +527,7 @@ public:
         mapAddr.clear();
     }
 
+<<<<<<< HEAD
     CAddrMan()
     {
         Clear();
@@ -485,6 +536,36 @@ public:
     ~CAddrMan()
     {
         nKey.SetNull();
+=======
+    void Clear()
+    {
+        std::vector<int>().swap(vRandom);
+        nKey = GetRandHash();
+        for (size_t bucket = 0; bucket < ADDRMAN_NEW_BUCKET_COUNT; bucket++) {
+            for (size_t entry = 0; entry < ADDRMAN_BUCKET_SIZE; entry++) {
+                vvNew[bucket][entry] = -1;
+            }
+        }
+        for (size_t bucket = 0; bucket < ADDRMAN_TRIED_BUCKET_COUNT; bucket++) {
+            for (size_t entry = 0; entry < ADDRMAN_BUCKET_SIZE; entry++) {
+                vvTried[bucket][entry] = -1;
+            }
+        }
+
+        nIdCount = 0;
+        nTried = 0;
+        nNew = 0;
+    }
+
+    CAddrMan()
+    {
+        Clear();
+    }
+
+    ~CAddrMan()
+    {
+        nKey = uint256(0);
+>>>>>>> 0.10
     }
 
     //! Return the number of (unique) addresses in all tables.
@@ -557,13 +638,21 @@ public:
     /**
      * Choose an address to connect to.
      */
+<<<<<<< HEAD
     CAddrInfo Select(bool newOnly = false)
+=======
+    CAddress Select()
+>>>>>>> 0.10
     {
         CAddrInfo addrRet;
         {
             LOCK(cs);
             Check();
+<<<<<<< HEAD
             addrRet = Select_(newOnly);
+=======
+            addrRet = Select_();
+>>>>>>> 0.10
             Check();
         }
         return addrRet;

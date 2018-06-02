@@ -30,6 +30,7 @@ static const int CONTINUE_EXECUTION=-1;
 
 std::string HelpMessageCli()
 {
+<<<<<<< HEAD
     const auto defaultBaseParams = CreateBaseChainParams(CBaseChainParams::MAIN);
     const auto testnetBaseParams = CreateBaseChainParams(CBaseChainParams::TESTNET);
     std::string strUsage;
@@ -49,6 +50,24 @@ std::string HelpMessageCli()
     strUsage += HelpMessageOpt("-stdinrpcpass", strprintf(_("Read RPC password from standard input as a single line.  When combined with -stdin, the first line from standard input is used for the RPC password.")));
     strUsage += HelpMessageOpt("-stdin", _("Read extra arguments from standard input, one per line until EOF/Ctrl-D (recommended for sensitive information such as passphrases).  When combined with -stdinrpcpass, the first line from standard input is used for the RPC password."));
     strUsage += HelpMessageOpt("-rpcwallet=<walletname>", _("Send RPC for non-default wallet on RPC server (argument is wallet filename in litecoind directory, required if litecoind/-Qt runs with multiple wallets)"));
+=======
+    string strUsage;
+    strUsage += _("Options:") + "\n";
+    strUsage += "  -?                     " + _("This help message") + "\n";
+    strUsage += "  -conf=<file>           " + strprintf(_("Specify configuration file (default: %s)"), "litecoin.conf") + "\n";
+    strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
+    strUsage += "  -testnet               " + _("Use the test network") + "\n";
+    strUsage += "  -regtest               " + _("Enter regression test mode, which uses a special chain in which blocks can be "
+                                                "solved instantly. This is intended for regression testing tools and app development.") + "\n";
+    strUsage += "  -rpcconnect=<ip>       " + strprintf(_("Send commands to node running on <ip> (default: %s)"), "127.0.0.1") + "\n";
+    strUsage += "  -rpcport=<port>        " + strprintf(_("Connect to JSON-RPC on <port> (default: %u or testnet: %u)"), 9332, 19332) + "\n";
+    strUsage += "  -rpcwait               " + _("Wait for RPC server to start") + "\n";
+    strUsage += "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n";
+    strUsage += "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n";
+
+    strUsage += "\n" + _("SSL options: (see the Litecoin Wiki for SSL setup instructions)") + "\n";
+    strUsage += "  -rpcssl                " + _("Use OpenSSL (https) for JSON-RPC connections") + "\n";
+>>>>>>> 0.10
 
     return strUsage;
 }
@@ -81,6 +100,7 @@ static int AppInitRPC(int argc, char* argv[])
     //
     // Parameters
     //
+<<<<<<< HEAD
     gArgs.ParseParameters(argc, argv);
     if (argc<2 || gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help") || gArgs.IsArgSet("-version")) {
         std::string strUsage = strprintf(_("%s RPC client version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n";
@@ -88,6 +108,14 @@ static int AppInitRPC(int argc, char* argv[])
             strUsage += "\n" + _("Usage:") + "\n" +
                   "  litecoin-cli [options] <command> [params]  " + strprintf(_("Send command to %s"), _(PACKAGE_NAME)) + "\n" +
                   "  litecoin-cli [options] -named <command> [name=value] ... " + strprintf(_("Send command to %s (with named arguments)"), _(PACKAGE_NAME)) + "\n" +
+=======
+    ParseParameters(argc, argv);
+    if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help") || mapArgs.count("-version")) {
+        std::string strUsage = _("Litecoin Core RPC client version") + " " + FormatFullVersion() + "\n";
+        if (!mapArgs.count("-version")) {
+            strUsage += "\n" + _("Usage:") + "\n" +
+                  "  litecoin-cli [options] <command> [params]  " + _("Send command to Litecoin Core") + "\n" +
+>>>>>>> 0.10
                   "  litecoin-cli [options] help                " + _("List commands") + "\n" +
                   "  litecoin-cli [options] help <command>      " + _("Get help for a command") + "\n";
 

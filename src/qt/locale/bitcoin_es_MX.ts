@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>Click derecho para editar tu dirección o etiqueta</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>Crear una dirección nueva</translation>
     </message>
@@ -59,7 +62,31 @@
     </message>
     <message>
         <source>Receiving addresses</source>
+<<<<<<< HEAD
         <translation>Direcciones de recibo</translation>
+=======
+        <translation>Recibiendo direcciones</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones de Litecoin para enviar pagos. Siempre revise la cantidad y la dirección receptora antes de enviar monedas</translation>
+    </message>
+    <message>
+        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones Litecoin para recibir pagos. Es recomendado usar una nueva dirección receptora para cada transacción.</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Copiar &amp;Etiqueta</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;Editar</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>Exportar Lista de direcciones</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -95,8 +122,89 @@
 <context>
     <name>BanTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>IP/Netmask</source>
         <translation>IP/Máscara de red</translation>
+=======
+        <source>Encrypt wallet</source>
+        <translation>Cartera encriptada.</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Esta operación necesita la contraseña de su cartera para desbloquear su cartera.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Desbloquear cartera.</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Esta operación necesita la contraseña de su cartera para desencriptar su cartera.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Desencriptar la cartera</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Cambiar contraseña</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Ingrese la antugüa y nueva contraseña de la cartera</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Confirmar la encriptación de cartera</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Advertencia: Si encripta su cartera y pierde su contraseña, &lt;b&gt;PERDERÁ TODOS SUS LITECOINS&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>¿Está seguro que desea encriptar su cartera?</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Advertencia: ¡La tecla Bloq Mayus está activada!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Cartera encriptada</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu cartera no protege completamente a tus litecoins de ser robadas por malware infectando tu computadora.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>La encriptación de la cartera falló</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>La encriptación de la cartera falló debido a un error interno. Su cartera no fue encriptada.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Las contraseñas dadas no coinciden</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>El desbloqueo de la cartera Fallo</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>La contraseña ingresada para la des encriptación de la cartera es incorrecto</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>La desencriptación de la cartera fallo</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>La contraseña de la cartera ha sido exitosamente cambiada.</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -180,6 +288,13 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Enviar monedas a una dirección Litecoin</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Modificar las opciones de configuración de Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -238,10 +353,18 @@
         <translation>Pestañas</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>nucleo Litecoin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Command-line options</source>
         <translation>opciones de la &amp;Linea de comandos</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -252,6 +375,14 @@
     <message>
         <source>Information</source>
         <translation>Información </translation>
+=======
+        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
+        <translation>Mostrar mensaje de ayuda del nucleo de Litecoin para optener una lista con los posibles comandos  de Litecoin</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n Activar conexión a la red de Litecoin</numerusform><numerusform>%n Activar conexiones a la red de Litecoin</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Up to date</source>
@@ -342,6 +473,13 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>nucleo Litecoin</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>versión</translation>
     </message>
@@ -350,8 +488,13 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Command-line options</source>
         <translation>opciones de la Linea de comandos</translation>
+=======
+        <source>About Litecoin Core</source>
+        <translation>Acerca de Litecoin Core</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Usage:</source>
@@ -376,8 +519,13 @@
 <context>
     <name>ModalOverlay</name>
     <message>
+<<<<<<< HEAD
         <source>Form</source>
         <translation>Formulario</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>nucleo Litecoin</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -454,10 +602,13 @@
         <translation>&amp;Etiqueta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Message:</source>
         <translation>Mensaje:</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Litecoin.</translation>
     </message>
@@ -522,6 +673,69 @@
         <source>Confirm the send action</source>
         <translation>Confirme la acción de enviar</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Confirme para mandar monedas</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>copiar cantidad</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>copiar monto</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>copiar cuota</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>copiar despues de cuota</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>copiar bytes</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>copiar prioridad</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>copiar cambio</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>o</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>El monto a pagar debe ser mayor a 0</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>¡La creación de transacion falló!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>¡La transación fue rechazada! Esto puede ocurrir si algunas de tus monedas en tu cartera han sido gastadas, al igual que si usas una cartera copiada y la monedas fueron gastadas en la copia pero no se marcaron como gastadas.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Litecoin address</source>
+        <translation>Advertencia: Dirección de Litecoin invalida</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(sin etiqueta)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Advertencia: Cambio de dirección desconocido</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>SendCoinsEntry</name>
@@ -572,6 +786,13 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core is shutting down...</source>
+        <translation>Apagando el nucleo de Litecoin...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>No apague su computadora hasta que esta ventana desaparesca.</translation>
     </message>
@@ -597,6 +818,17 @@
     </context>
 <context>
     <name>SplashScreen</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Litecoin Core</source>
+        <translation>nucleo Litecoin</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>El nucleo de Bitcoin de desarrolladores</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>TrafficGraphWidget</name>
@@ -679,9 +911,14 @@
         <source>Done loading</source>
         <translation>Carga completa</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Error</source>
         <translation>Error</translation>
     </message>
 </context>
 </TS>
+=======
+    </context>
+</TS>
+>>>>>>> 0.10

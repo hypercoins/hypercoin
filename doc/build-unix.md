@@ -1,13 +1,21 @@
 UNIX BUILD NOTES
 ====================
+<<<<<<< HEAD
 Some notes on how to build Litecoin Core in Unix.
 
 (for OpenBSD specific instructions, see [build-openbsd.md](build-openbsd.md))
+=======
+Some notes on how to build Litecoin in Unix. 
+>>>>>>> 0.10
 
 Note
 ---------------------
 Always use absolute paths to configure and compile litecoin and the dependencies,
+<<<<<<< HEAD
 for example, when specifying the path of the dependency:
+=======
+for example, when specifying the the path of the dependency:
+>>>>>>> 0.10
 
 	../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 
@@ -54,12 +62,18 @@ For the versions used, see [dependencies.md](dependencies.md)
 Memory Requirements
 --------------------
 
+<<<<<<< HEAD
 C++ compilers are memory-hungry. It is recommended to have at least 1.5 GB of
 memory available when compiling Litecoin Core. On systems with less, gcc can be
 tuned to conserve memory with additional CXXFLAGS:
 
 
     ./configure CXXFLAGS="--param ggc-min-expand=1 --param ggc-min-heapsize=32768"
+=======
+C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
+memory available when compiling Litecoin Core. With 512MB of memory or less
+compilation will take much longer due to swap thrashing.
+>>>>>>> 0.10
 
 Dependency Build Instructions: Ubuntu & Debian
 ----------------------------------------------
@@ -108,8 +122,13 @@ Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
 If you want to build Litecoin-Qt, make sure that the required packages for Qt development
+<<<<<<< HEAD
 are installed. Either Qt 5 or Qt 4 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 5 will be used. Pass `--with-gui=qt4` to configure to choose Qt4.
+=======
+are installed. Either Qt 4 or Qt 5 are necessary to build the GUI.
+If both Qt 4 and Qt 5 are installed, Qt 4 will be used. Pass `--with-gui=qt5` to configure to choose Qt5.
+>>>>>>> 0.10
 To build without GUI pass `--without-gui`.
 
 To build with Qt 5 (recommended) you need the following:
@@ -169,8 +188,33 @@ It is recommended to use Berkeley DB 4.8. If you have to build it yourself,
 you can use [the installation script included in contrib/](/contrib/install_db4.sh)
 like so
 
+<<<<<<< HEAD
 ```shell
 ./contrib/install_db4.sh `pwd`
+=======
+```bash
+LITECOIN_ROOT=$(pwd)
+
+# Pick some path to install BDB to, here we create a directory within the litecoin directory
+BDB_PREFIX="${LITECOIN_ROOT}/db4"
+mkdir -p $BDB_PREFIX
+
+# Fetch the source and verify that it is not tampered with
+wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
+echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c
+# -> db-4.8.30.NC.tar.gz: OK
+tar -xzvf db-4.8.30.NC.tar.gz
+
+# Build the library and install to our prefix
+cd db-4.8.30.NC/build_unix/
+#  Note: Do a static build so that it can be embedded into the exectuable, instead of having to find a .so at runtime
+../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
+make install
+
+# Configure Litecoin Core to use our own-built instance of BDB
+cd $LITECOIN_ROOT
+./configure (other args...) LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
+>>>>>>> 0.10
 ```
 
 from the root of the repository.

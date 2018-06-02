@@ -295,6 +295,7 @@
          </property>
         </widget>
        </item>
+<<<<<<< HEAD:src/qt/forms/debugwindow.ui
        <item row="13" column="0">
         <widget class="QLabel" name="labelNumberOfTransactions">
          <property name="text">
@@ -306,6 +307,12 @@
         <widget class="QLabel" name="mempoolNumberTxs">
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
+=======
+       <item row="15" column="0">
+        <widget class="QPushButton" name="openDebugLogfileButton">
+         <property name="toolTip">
+          <string>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
+>>>>>>> 0.10:src/qt/forms/rpcconsole.ui
          </property>
          <property name="text">
           <string>N/A</string>

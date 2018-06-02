@@ -1,13 +1,21 @@
 ---
+<<<<<<< HEAD
 name: "litecoin-osx-0.16"
+=======
+name: "litecoin-osx-0.10"
+>>>>>>> 0.10
 enable_cache: true
 suites:
 - "trusty"
 architectures:
 - "amd64"
+<<<<<<< HEAD
 packages:
 - "ca-certificates"
 - "curl"
+=======
+packages: 
+>>>>>>> 0.10
 - "g++"
 - "git-core"
 - "pkg-config"
@@ -23,19 +31,31 @@ packages:
 - "libcap-dev"
 - "libz-dev"
 - "libbz2-dev"
+<<<<<<< HEAD
 - "python"
 - "python-dev"
 - "python-setuptools"
 - "fonts-tuffy"
+=======
+reference_datetime: "2016-01-01 00:00:00"
+>>>>>>> 0.10
 remotes:
 - "url": "https://github.com/litecoin-project/litecoin.git"
   "dir": "litecoin"
 files:
+<<<<<<< HEAD
 - "MacOSX10.11.sdk.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   HOSTS="x86_64-apple-darwin11"
   CONFIGFLAGS="--enable-reduce-exports --disable-bench --disable-gui-tests GENISOIMAGE=$WRAP_DIR/genisoimage"
+=======
+- "MacOSX10.9.sdk.tar.gz"
+script: |
+  WRAP_DIR=$HOME/wrapped
+  HOSTS="x86_64-apple-darwin11"
+  CONFIGFLAGS="GENISOIMAGE=$WRAP_DIR/genisoimage"
+>>>>>>> 0.10
   FAKETIME_HOST_PROGS=""
   FAKETIME_PROGS="ar ranlib date dmg genisoimage"
 
@@ -87,7 +107,11 @@ script: |
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
+<<<<<<< HEAD
   tar -C ${BASEPREFIX}/SDKs -xf ${BUILD_DIR}/MacOSX10.11.sdk.tar.gz
+=======
+  tar -C ${BASEPREFIX}/SDKs -xf ${BUILD_DIR}/MacOSX10.9.sdk.tar.gz
+>>>>>>> 0.10
 
   # Build dependencies for each host
   for i in $HOSTS; do
@@ -152,7 +176,11 @@ script: |
     popd
 
     make deploy
+<<<<<<< HEAD
     ${WRAP_DIR}/dmg dmg "${OSX_VOLNAME}.dmg" ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+=======
+    ${WRAP_DIR}/dmg dmg Litecoin-Qt.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+>>>>>>> 0.10
 
     cd installed
     find . -name "lib*.la" -delete

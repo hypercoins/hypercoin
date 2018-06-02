@@ -38,6 +38,12 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
         return pindexLast->nBits;
     }
 
+    // Litecoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
+    int blockstogoback = Params().Interval()-1;
+    if ((pindexLast->nHeight+1) != Params().Interval())
+        blockstogoback = Params().Interval();
+
     // Go back by what we want to be 14 days worth of blocks
     // Litecoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
@@ -73,6 +79,7 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     bnNew.SetCompact(pindexLast->nBits);
     bnOld = bnNew;
     // Litecoin: intermediate uint256 can overflow by 1 bit
+<<<<<<< HEAD
     const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     bool fShift = bnNew.bits() > bnPowLimit.bits() - 1;
     if (fShift)
@@ -81,6 +88,18 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     bnNew /= params.nPowTargetTimespan;
     if (fShift)
         bnNew <<= 1;
+=======
+    bool fShift = bnNew.bits() > 235;
+    if (fShift)
+        bnNew >>= 1;
+    bnNew *= nActualTimespan;
+    bnNew /= Params().TargetTimespan();
+    if (fShift)
+        bnNew <<= 1;
+
+    if (bnNew > Params().ProofOfWorkLimit())
+        bnNew = Params().ProofOfWorkLimit();
+>>>>>>> 0.10
 
     if (bnNew > bnPowLimit)
         bnNew = bnPowLimit;

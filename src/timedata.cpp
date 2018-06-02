@@ -43,12 +43,23 @@ static int64_t abs64(int64_t n)
 }
 
 #define BITCOIN_TIMEDATA_MAX_SAMPLES 200
+<<<<<<< HEAD
+=======
+
+void AddTimeData(const CNetAddr& ip, int64_t nTime)
+{
+    int64_t nOffsetSample = nTime - GetTime();
+>>>>>>> 0.10
 
 void AddTimeData(const CNetAddr& ip, int64_t nOffsetSample)
 {
     LOCK(cs_nTimeOffset);
     // Ignore duplicates
+<<<<<<< HEAD
     static std::set<CNetAddr> setKnown;
+=======
+    static set<CNetAddr> setKnown;
+>>>>>>> 0.10
     if (setKnown.size() == BITCOIN_TIMEDATA_MAX_SAMPLES)
         return;
     if (!setKnown.insert(ip).second)
@@ -81,7 +92,11 @@ void AddTimeData(const CNetAddr& ip, int64_t nOffsetSample)
         int64_t nMedian = vTimeOffsets.median();
         std::vector<int64_t> vSorted = vTimeOffsets.sorted();
         // Only let other nodes change our time by so much
+<<<<<<< HEAD
         if (abs64(nMedian) <= std::max<int64_t>(0, gArgs.GetArg("-maxtimeadjustment", DEFAULT_MAX_TIME_ADJUSTMENT)))
+=======
+        if (abs64(nMedian) < 35 * 60)
+>>>>>>> 0.10
         {
             nTimeOffset = nMedian;
         }
@@ -101,8 +116,14 @@ void AddTimeData(const CNetAddr& ip, int64_t nOffsetSample)
                 if (!fMatch)
                 {
                     fDone = true;
+<<<<<<< HEAD
                     std::string strMessage = strprintf(_("Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly."), _(PACKAGE_NAME));
                     SetMiscWarning(strMessage);
+=======
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Litecoin Core will not work properly.");
+                    strMiscWarning = strMessage;
+                    LogPrintf("*** %s\n", strMessage);
+>>>>>>> 0.10
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);
                 }
             }

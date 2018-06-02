@@ -71,7 +71,11 @@
     </message>
     <message>
         <source>Litecoin</source>
+<<<<<<< HEAD
         <translation>Биткоин</translation>
+=======
+        <translation>Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet</source>

@@ -6,11 +6,19 @@ architectures:
 - "amd64"
 packages:
 - "faketime"
+<<<<<<< HEAD
 remotes:
 - "url": "https://github.com/litecoin-project/litecoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "litecoin-osx-unsigned.tar.gz"
+=======
+reference_datetime: "2016-01-01 00:00:00"
+remotes: []
+files:
+- "litecoin-osx-unsigned.tar.gz"
+- "signature.tar.gz"
+>>>>>>> 0.10
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -31,7 +39,12 @@ script: |
   SIGNED=litecoin-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
+<<<<<<< HEAD
   OSX_VOLNAME="$(cat osx_volname)"
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
   ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "${OSX_VOLNAME}" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
+=======
+  ./detached-sig-apply.sh ${UNSIGNED} signature.tar.gz
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "Litecoin-Qt" -no-pad -r -apple -o uncompressed.dmg signed-app
+>>>>>>> 0.10
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

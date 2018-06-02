@@ -38,10 +38,16 @@ controls who can access it through RPC.
 By default the cookie is stored in the data directory, but it's location can be overridden
 with the option '-rpccookiefile'.
 
+<<<<<<< HEAD
 This allows for running bitcoind without having to do any manual configuration.
 
 `conf`, `pid`, and `wallet` accept relative paths which are interpreted as
 relative to the data directory. `wallet` *only* supports relative paths.
+=======
+
+For an example configuration file that describes the configuration settings,
+see contrib/debian/examples/bitcoin.conf.
+>>>>>>> 0.10
 
 For an example configuration file that describes the configuration settings,
 see `contrib/debian/examples/bitcoin.conf`.
@@ -98,6 +104,7 @@ it will automatically start on reboot.
 
 NOTE: This script is incompatible with CentOS 5 and Amazon Linux 2014 as they
 use old versions of Upstart and do not supply the start-stop-daemon utility.
+<<<<<<< HEAD
 
 ### CentOS
 
@@ -106,6 +113,8 @@ Copy bitcoind.init to /etc/init.d/bitcoind. Test by running `service bitcoind st
 Using this script, you can adjust the path and flags to the bitcoind program by
 setting the BITCOIND and FLAGS environment variables in the file
 /etc/sysconfig/bitcoind. You can also use the DAEMONOPTS environment variable here.
+=======
+>>>>>>> 0.10
 
 ### Mac OS X
 
@@ -123,3 +132,7 @@ Auto-respawn
 
 Auto respawning is currently only configured for Upstart and systemd.
 Reasonable defaults have been chosen but YMMV.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0.10

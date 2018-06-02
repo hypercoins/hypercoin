@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 name: "litecoin-win-0.16"
+=======
+name: "litecoin-win-0.10"
+>>>>>>> 0.10
 enable_cache: true
 suites:
 - "trusty"
@@ -19,17 +23,27 @@ packages:
 - "g++-mingw-w64"
 - "nsis"
 - "zip"
+<<<<<<< HEAD
 - "ca-certificates"
 - "python"
+=======
+reference_datetime: "2016-01-01 00:00:00"
+>>>>>>> 0.10
 remotes:
 - "url": "https://github.com/litecoin-project/litecoin.git"
   "dir": "litecoin"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
+<<<<<<< HEAD
   HOSTS="i686-w64-mingw32 x86_64-w64-mingw32"
   CONFIGFLAGS="--enable-reduce-exports --disable-bench --disable-gui-tests"
   FAKETIME_HOST_PROGS="g++ ar ranlib nm windres strip objcopy"
+=======
+  HOSTS="x86_64-w64-mingw32 i686-w64-mingw32"
+  CONFIGFLAGS=""
+  FAKETIME_HOST_PROGS="g++ ar ranlib nm windres strip"
+>>>>>>> 0.10
   FAKETIME_PROGS="date makensis zip"
   HOST_CFLAGS="-O2 -g"
   HOST_CXXFLAGS="-O2 -g"
@@ -127,8 +141,11 @@ script: |
   pushd temp
   tar xf ../$SOURCEDIST
   find litecoin-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+<<<<<<< HEAD
   mkdir -p $OUTDIR/src
   cp ../$SOURCEDIST $OUTDIR/src
+=======
+>>>>>>> 0.10
   popd
 
   # Workaround for tarball not building with the bare tag version (prep)
@@ -153,20 +170,29 @@ script: |
     make ${MAKEOPTS}
     make ${MAKEOPTS} -C src check-security
     make deploy
+<<<<<<< HEAD
     make install DESTDIR=${INSTALLPATH}
     rename 's/-setup\.exe$/-setup-unsigned.exe/' *-setup.exe
+=======
+    make install-strip
+>>>>>>> 0.10
     cp -f litecoin-*setup*.exe $OUTDIR/
     cd installed
     mv ${DISTNAME}/bin/*.dll ${DISTNAME}/lib/
     find . -name "lib*.la" -delete
     find . -name "lib*.a" -delete
     rm -rf ${DISTNAME}/lib/pkgconfig
+<<<<<<< HEAD
     find ${DISTNAME}/bin -type f -executable -exec ${i}-objcopy --only-keep-debug {} {}.dbg \; -exec ${i}-strip -s {} \; -exec ${i}-objcopy --add-gnu-debuglink={}.dbg {} \;
     find ${DISTNAME}/lib -type f -exec ${i}-objcopy --only-keep-debug {} {}.dbg \; -exec ${i}-strip -s {} \; -exec ${i}-objcopy --add-gnu-debuglink={}.dbg {} \;
     find ${DISTNAME} -not -name "*.dbg"  -type f | sort | zip -X@ ${OUTDIR}/${DISTNAME}-${i}.zip
     find ${DISTNAME} -name "*.dbg"  -type f | sort | zip -X@ ${OUTDIR}/${DISTNAME}-${i}-debug.zip
     cd ../../
     rm -rf distsrc-${i}
+=======
+    find ${DISTNAME} -type f | sort | zip -X@ ${OUTDIR}/${DISTNAME}-${i}.zip
+    cd ../..
+>>>>>>> 0.10
   done
   cp -rf contrib/windeploy $BUILD_DIR
   cd $BUILD_DIR/windeploy

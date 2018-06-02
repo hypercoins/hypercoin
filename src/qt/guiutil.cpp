@@ -127,8 +127,12 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
+<<<<<<< HEAD
     widget->setPlaceholderText(QObject::tr("Enter a Litecoin address (e.g. %1)").arg(
         QString::fromStdString(DummyAddress(Params()))));
+=======
+    widget->setPlaceholderText(QObject::tr("Enter a Litecoin address (e.g. %1)").arg("Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2"));
+>>>>>>> 0.10
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -415,6 +419,7 @@ void openDebugLogfile()
         QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathDebug)));
 }
 
+<<<<<<< HEAD
 bool openBitcoinConf()
 {
     boost::filesystem::path pathConfig = GetConfigFile(BITCOIN_CONF_FILENAME);
@@ -431,6 +436,8 @@ bool openBitcoinConf()
     return QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }
 
+=======
+>>>>>>> 0.10
 void SubstituteFonts(const QString& language)
 {
 #if defined(Q_OS_MAC)
@@ -457,7 +464,11 @@ void SubstituteFonts(const QString& language)
             /* 10.10 or later system */
             if (language == "zh_CN" || language == "zh_TW" || language == "zh_HK") // traditional or simplified Chinese
               QFont::insertSubstitution(".Helvetica Neue DeskInterface", "Heiti SC");
+<<<<<<< HEAD
             else if (language == "ja") // Japanese
+=======
+            else if (language == "ja") // Japanesee
+>>>>>>> 0.10
               QFont::insertSubstitution(".Helvetica Neue DeskInterface", "Songti SC");
             else
               QFont::insertSubstitution(".Helvetica Neue DeskInterface", "Lucida Grande");
@@ -613,12 +624,16 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 fs::path static StartupShortcutPath()
 {
+<<<<<<< HEAD
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
         return GetSpecialFolderPath(CSIDL_STARTUP) / "Litecoin.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
         return GetSpecialFolderPath(CSIDL_STARTUP) / "Litecoin (testnet).lnk";
     return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Litecoin (%s).lnk", chain);
+=======
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Litecoin.lnk";
+>>>>>>> 0.10
 }
 
 bool GetStartOnSystemStartup()
@@ -711,10 +726,14 @@ fs::path static GetAutostartDir()
 
 fs::path static GetAutostartFilePath()
 {
+<<<<<<< HEAD
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
         return GetAutostartDir() / "litecoin.desktop";
     return GetAutostartDir() / strprintf("litecoin-%s.lnk", chain);
+=======
+    return GetAutostartDir() / "litecoin.desktop";
+>>>>>>> 0.10
 }
 
 bool GetStartOnSystemStartup()
@@ -757,11 +776,16 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
+<<<<<<< HEAD
         if (chain == CBaseChainParams::MAIN)
             optionFile << "Name=Litecoin\n";
         else
             optionFile << strprintf("Name=Litecoin (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", gArgs.GetBoolArg("-testnet", false), gArgs.GetBoolArg("-regtest", false));
+=======
+        optionFile << "Name=Litecoin\n";
+        optionFile << "Exec=" << pszExePath << " -min\n";
+>>>>>>> 0.10
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
         optionFile.close();

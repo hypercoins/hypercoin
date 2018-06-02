@@ -57,11 +57,29 @@ public:
     int GetDefaultPort() const { return nDefaultPort; }
 
     const CBlock& GenesisBlock() const { return genesis; }
+<<<<<<< HEAD
     /** Default value for -checkmempool and -checkblockindex argument */
     bool DefaultConsistencyChecks() const { return fDefaultConsistencyChecks; }
     /** Policy: Filter transactions that do not match well-defined patterns */
     bool RequireStandard() const { return fRequireStandard; }
     uint64_t PruneAfterHeight() const { return nPruneAfterHeight; }
+=======
+    bool RequireRPCPassword() const { return fRequireRPCPassword; }
+    /** Make miner wait to have peers to avoid wasting work */
+    bool MiningRequiresPeers() const { return fMiningRequiresPeers; }
+    /** Default value for -checkmempool and -checkblockindex argument */
+    bool DefaultConsistencyChecks() const { return fDefaultConsistencyChecks; }
+    /** Allow mining of a min-difficulty block */
+    bool AllowMinDifficultyBlocks() const { return fAllowMinDifficultyBlocks; }
+    /** Skip proof-of-work check: allow mining of any difficulty block */
+    bool SkipProofOfWorkCheck() const { return fSkipProofOfWorkCheck; }
+    /** Make standard checks */
+    bool RequireStandard() const { return fRequireStandard; }
+    int64_t TargetTimespan() const { return nTargetTimespan; }
+    int64_t TargetSpacing() const { return nTargetSpacing; }
+    int64_t Interval() const { return nTargetTimespan / nTargetSpacing; }
+    int64_t MaxTipAge() const { return nMaxTipAge; }
+>>>>>>> 0.10
     /** Make miner stop after a block is found. In RPC, don't return until nGenProcLimit blocks are generated */
     bool MineBlocksOnDemand() const { return fMineBlocksOnDemand; }
     /** Return the BIP70 network string (main, test or regtest) */
@@ -69,29 +87,65 @@ public:
     /** Return the list of hostnames to look up for DNS seeds */
     const std::vector<std::string>& DNSSeeds() const { return vSeeds; }
     const std::vector<unsigned char>& Base58Prefix(Base58Type type) const { return base58Prefixes[type]; }
+<<<<<<< HEAD
     const std::string& Bech32HRP() const { return bech32_hrp; }
     const std::vector<SeedSpec6>& FixedSeeds() const { return vFixedSeeds; }
     const CCheckpointData& Checkpoints() const { return checkpointData; }
     const ChainTxData& TxData() const { return chainTxData; }
     void UpdateVersionBitsParameters(Consensus::DeploymentPos d, int64_t nStartTime, int64_t nTimeout);
+=======
+    const std::vector<CAddress>& FixedSeeds() const { return vFixedSeeds; }
+    virtual const Checkpoints::CCheckpointData& Checkpoints() const = 0;
+
+    // Litecoin: Height to enforce v2 block
+    int EnforceV2AfterHeight() const { return nEnforceV2AfterHeight; }
+>>>>>>> 0.10
 protected:
     CChainParams() {}
 
     Consensus::Params consensus;
     CMessageHeader::MessageStartChars pchMessageStart;
     int nDefaultPort;
+<<<<<<< HEAD
     uint64_t nPruneAfterHeight;
     std::vector<std::string> vSeeds;
+=======
+    uint256 bnProofOfWorkLimit;
+    int nSubsidyHalvingInterval;
+    int nEnforceBlockUpgradeMajority;
+    int nRejectBlockOutdatedMajority;
+    int nToCheckBlockUpgradeMajority;
+    int64_t nTargetTimespan;
+    int64_t nTargetSpacing;
+    int nMinerThreads;
+    long nMaxTipAge;
+    std::vector<CDNSSeedData> vSeeds;
+>>>>>>> 0.10
     std::vector<unsigned char> base58Prefixes[MAX_BASE58_TYPES];
     std::string bech32_hrp;
     std::string strNetworkID;
     CBlock genesis;
+<<<<<<< HEAD
     std::vector<SeedSpec6> vFixedSeeds;
     bool fDefaultConsistencyChecks;
     bool fRequireStandard;
     bool fMineBlocksOnDemand;
     CCheckpointData checkpointData;
     ChainTxData chainTxData;
+=======
+    std::vector<CAddress> vFixedSeeds;
+    bool fRequireRPCPassword;
+    bool fMiningRequiresPeers;
+    bool fAllowMinDifficultyBlocks;
+    bool fDefaultConsistencyChecks;
+    bool fRequireStandard;
+    bool fMineBlocksOnDemand;
+    bool fSkipProofOfWorkCheck;
+    bool fTestnetToBeDeprecatedFieldRPC;
+
+    // Litecoin: Height to enforce v2 blocks
+    int nEnforceV2AfterHeight;
+>>>>>>> 0.10
 };
 
 /**
@@ -99,7 +153,23 @@ protected:
  * @returns a CChainParams* of the chosen chain.
  * @throws a std::runtime_error if the chain is not supported.
  */
+<<<<<<< HEAD
 std::unique_ptr<CChainParams> CreateChainParams(const std::string& chain);
+=======
+
+class CModifiableParams {
+public:
+    //! Published setters to allow changing values in unit test cases
+    virtual void setSubsidyHalvingInterval(int anSubsidyHalvingInterval) =0;
+    virtual void setEnforceBlockUpgradeMajority(int anEnforceBlockUpgradeMajority)=0;
+    virtual void setRejectBlockOutdatedMajority(int anRejectBlockOutdatedMajority)=0;
+    virtual void setToCheckBlockUpgradeMajority(int anToCheckBlockUpgradeMajority)=0;
+    virtual void setDefaultConsistencyChecks(bool aDefaultConsistencyChecks)=0;
+    virtual void setAllowMinDifficultyBlocks(bool aAllowMinDifficultyBlocks)=0;
+    virtual void setSkipProofOfWorkCheck(bool aSkipProofOfWorkCheck)=0;
+};
+
+>>>>>>> 0.10
 
 /**
  * Return the currently selected parameters. This won't change after app

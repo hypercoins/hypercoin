@@ -197,7 +197,11 @@ bool static IsDefinedHashtypeSignature(const valtype &vchSig) {
     return true;
 }
 
+<<<<<<< HEAD
 bool CheckSignatureEncoding(const std::vector<unsigned char> &vchSig, unsigned int flags, ScriptError* serror) {
+=======
+bool static CheckSignatureEncoding(const valtype &vchSig, unsigned int flags, ScriptError* serror) {
+>>>>>>> 0.10
     // Empty signature. Not strictly DER encoded, but allowed to provide a
     // compact way to provide an invalid signature for use with CHECK(MULTI)SIG
     if (vchSig.size() == 0) {
@@ -349,6 +353,7 @@ bool EvalScript(std::vector<std::vector<unsigned char> >& stack, const CScript& 
                 //
                 case OP_NOP:
                     break;
+<<<<<<< HEAD
 
                 case OP_CHECKLOCKTIMEVERIFY:
                 {
@@ -418,12 +423,56 @@ bool EvalScript(std::vector<std::vector<unsigned char> >& stack, const CScript& 
 
                     // Compare the specified sequence number with the input.
                     if (!checker.CheckSequence(nSequence))
+=======
+
+                case OP_CHECKLOCKTIMEVERIFY:
+                {
+                    if (!(flags & SCRIPT_VERIFY_CHECKLOCKTIMEVERIFY)) {
+                        // not enabled; treat as a NOP2
+                        if (flags & SCRIPT_VERIFY_DISCOURAGE_UPGRADABLE_NOPS) {
+                            return set_error(serror, SCRIPT_ERR_DISCOURAGE_UPGRADABLE_NOPS);
+                        }
+                        break;
+                    }
+
+                    if (stack.size() < 1)
+                        return set_error(serror, SCRIPT_ERR_INVALID_STACK_OPERATION);
+
+                    // Note that elsewhere numeric opcodes are limited to
+                    // operands in the range -2**31+1 to 2**31-1, however it is
+                    // legal for opcodes to produce results exceeding that
+                    // range. This limitation is implemented by CScriptNum's
+                    // default 4-byte limit.
+                    //
+                    // If we kept to that limit we'd have a year 2038 problem,
+                    // even though the nLockTime field in transactions
+                    // themselves is uint32 which only becomes meaningless
+                    // after the year 2106.
+                    //
+                    // Thus as a special case we tell CScriptNum to accept up
+                    // to 5-byte bignums, which are good until 2**39-1, well
+                    // beyond the 2**32-1 limit of the nLockTime field itself.
+                    const CScriptNum nLockTime(stacktop(-1), fRequireMinimal, 5);
+
+                    // In the rare event that the argument may be < 0 due to
+                    // some arithmetic being done first, you can always use
+                    // 0 MAX CHECKLOCKTIMEVERIFY.
+                    if (nLockTime < 0)
+                        return set_error(serror, SCRIPT_ERR_NEGATIVE_LOCKTIME);
+
+                    // Actually compare the specified lock time with the transaction.
+                    if (!checker.CheckLockTime(nLockTime))
+>>>>>>> 0.10
                         return set_error(serror, SCRIPT_ERR_UNSATISFIED_LOCKTIME);
 
                     break;
                 }
 
+<<<<<<< HEAD
                 case OP_NOP1: case OP_NOP4: case OP_NOP5:
+=======
+                case OP_NOP1: case OP_NOP3: case OP_NOP4: case OP_NOP5:
+>>>>>>> 0.10
                 case OP_NOP6: case OP_NOP7: case OP_NOP8: case OP_NOP9: case OP_NOP10:
                 {
                     if (flags & SCRIPT_VERIFY_DISCOURAGE_UPGRADABLE_NOPS)
@@ -1250,7 +1299,11 @@ bool TransactionSignatureChecker::VerifySignature(const std::vector<unsigned cha
     return pubkey.Verify(sighash, vchSig);
 }
 
+<<<<<<< HEAD
 bool TransactionSignatureChecker::CheckSig(const std::vector<unsigned char>& vchSigIn, const std::vector<unsigned char>& vchPubKey, const CScript& scriptCode, SigVersion sigversion) const
+=======
+bool TransactionSignatureChecker::CheckSig(const vector<unsigned char>& vchSigIn, const vector<unsigned char>& vchPubKey, const CScript& scriptCode) const
+>>>>>>> 0.10
 {
     CPubKey pubkey(vchPubKey);
     if (!pubkey.IsValid())
@@ -1263,7 +1316,11 @@ bool TransactionSignatureChecker::CheckSig(const std::vector<unsigned char>& vch
     int nHashType = vchSig.back();
     vchSig.pop_back();
 
+<<<<<<< HEAD
     uint256 sighash = SignatureHash(scriptCode, *txTo, nIn, nHashType, amount, sigversion, this->txdata);
+=======
+    uint256 sighash = SignatureHash(scriptCode, *txTo, nIn, nHashType);
+>>>>>>> 0.10
 
     if (!VerifySignature(vchSig, pubkey, sighash))
         return false;
@@ -1273,7 +1330,11 @@ bool TransactionSignatureChecker::CheckSig(const std::vector<unsigned char>& vch
 
 bool TransactionSignatureChecker::CheckLockTime(const CScriptNum& nLockTime) const
 {
+<<<<<<< HEAD
     // There are two kinds of nLockTime: lock-by-blockheight
+=======
+    // There are two times of nLockTime: lock-by-blockheight
+>>>>>>> 0.10
     // and lock-by-blocktime, distinguished by whether
     // nLockTime < LOCKTIME_THRESHOLD.
     //
@@ -1301,13 +1362,22 @@ bool TransactionSignatureChecker::CheckLockTime(const CScriptNum& nLockTime) con
     // prevent this condition. Alternatively we could test all
     // inputs, but testing just this input minimizes the data
     // required to prove correct CHECKLOCKTIMEVERIFY execution.
+<<<<<<< HEAD
     if (CTxIn::SEQUENCE_FINAL == txTo->vin[nIn].nSequence)
+=======
+    if (txTo->vin[nIn].IsFinal())
+>>>>>>> 0.10
         return false;
 
     return true;
 }
 
+<<<<<<< HEAD
 bool TransactionSignatureChecker::CheckSequence(const CScriptNum& nSequence) const
+=======
+
+bool VerifyScript(const CScript& scriptSig, const CScript& scriptPubKey, unsigned int flags, const BaseSignatureChecker& checker, ScriptError* serror)
+>>>>>>> 0.10
 {
     // Relative lock times are supported by comparing the passed
     // in operand to the sequence number of the input.
@@ -1472,13 +1542,18 @@ bool VerifyScript(const CScript& scriptSig, const CScript& scriptPubKey, const C
         CScript pubKey2(pubKeySerialized.begin(), pubKeySerialized.end());
         popstack(stack);
 
+<<<<<<< HEAD
         if (!EvalScript(stack, pubKey2, flags, checker, SIGVERSION_BASE, serror))
+=======
+        if (!EvalScript(stack, pubKey2, flags, checker, serror))
+>>>>>>> 0.10
             // serror is set
             return false;
         if (stack.empty())
             return set_error(serror, SCRIPT_ERR_EVAL_FALSE);
         if (!CastToBool(stack.back()))
             return set_error(serror, SCRIPT_ERR_EVAL_FALSE);
+<<<<<<< HEAD
 
         // P2SH witness program
         if (flags & SCRIPT_VERIFY_WITNESS) {
@@ -1497,15 +1572,22 @@ bool VerifyScript(const CScript& scriptSig, const CScript& scriptPubKey, const C
                 stack.resize(1);
             }
         }
+=======
+>>>>>>> 0.10
     }
 
     // The CLEANSTACK check is only performed after potential P2SH evaluation,
     // as the non-P2SH evaluation of a P2SH script will obviously not result in
+<<<<<<< HEAD
     // a clean stack (the P2SH inputs remain). The same holds for witness evaluation.
+=======
+    // a clean stack (the P2SH inputs remain).
+>>>>>>> 0.10
     if ((flags & SCRIPT_VERIFY_CLEANSTACK) != 0) {
         // Disallow CLEANSTACK without P2SH, as otherwise a switch CLEANSTACK->P2SH+CLEANSTACK
         // would be possible, which is not a softfork (and P2SH should be one).
         assert((flags & SCRIPT_VERIFY_P2SH) != 0);
+<<<<<<< HEAD
         assert((flags & SCRIPT_VERIFY_WITNESS) != 0);
         if (stack.size() != 1) {
             return set_error(serror, SCRIPT_ERR_CLEANSTACK);
@@ -1520,6 +1602,11 @@ bool VerifyScript(const CScript& scriptSig, const CScript& scriptPubKey, const C
         if (!hadWitness && !witness->IsNull()) {
             return set_error(serror, SCRIPT_ERR_WITNESS_UNEXPECTED);
         }
+=======
+        if (stack.size() != 1) {
+            return set_error(serror, SCRIPT_ERR_CLEANSTACK);
+        }
+>>>>>>> 0.10
     }
 
     return set_success(serror);

@@ -160,6 +160,18 @@ public:
         return (nValue == -1);
     }
 
+<<<<<<< HEAD
+=======
+    uint256 GetHash() const;
+
+    bool IsDust(CFeeRate minRelayTxFee) const
+    {
+        // IsDust() detection disabled, allows any valid dust to be relayed
+        // The fees imposed on each dust txo is considered sufficient spam deterrant.
+        return false;
+    }
+
+>>>>>>> 0.10
     friend bool operator==(const CTxOut& a, const CTxOut& b)
     {
         return (a.nValue       == b.nValue &&

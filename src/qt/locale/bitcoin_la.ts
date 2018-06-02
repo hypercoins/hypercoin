@@ -25,6 +25,25 @@
         <source>&amp;Delete</source>
         <translation>&amp;Dele</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Copia &amp;Titulum</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;Muta</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma Separata Plica (*.csv)</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -47,10 +66,98 @@
         <source>Repeat new passphrase</source>
         <translation>Itera novam tesseram</translation>
     </message>
+<<<<<<< HEAD
     </context>
 <context>
     <name>BanTableModel</name>
     </context>
+=======
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Cifra cassidile</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Huic operationi necesse est tessera cassidili tuo ut cassidile reseret.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Resera cassidile</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Huic operationi necesse est tessera cassidili tuo ut cassidile decifret.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Decifra cassidile</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Muta tesseram</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Insero veterem novamque tesseram cassidili.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Confirma cifrationem cassidilis</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS LITECOINS&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Certusne es te velle tuum cassidile cifrare?</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>GRAVE: Oportet ulla prioria conservata quae fecisti de plica tui cassidilis reponi a nove generata cifrata plica cassidilis.  Propter securitatem, prioria conservata de plica non cifrata cassidilis inutilia fiet simul atque incipis uti novo cifrato cassidili.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Monitio: Litterae ut capitales seratae sunt!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Cassidile cifratum</translation>
+    </message>
+    <message>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Cassidile cifrare abortum est</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Cassidile cifrare abortum est propter internum errorem.  Tuum cassidile cifratum non est.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Tesserae datae non eaedem sunt.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Cassidile reserare abortum est.</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>Tessera inserta pro cassidilis decifrando prava erat.</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Cassidile decifrare abortum est.</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Tessera cassidilis successa est in mutando.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -116,6 +223,13 @@
     <message>
         <source>Send coins to a Litecoin address</source>
         <translation>Mitte nummos ad inscriptionem Litecoin</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Muta configurationis optiones pro Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -190,8 +304,33 @@
         <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Command-line options</source>
         <translation>Optiones mandati initiantis</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Nucleus</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n activa conexio ad rete Litecoin</numerusform><numerusform>%n activae conexiones ad rete Litecoin</numerusform></translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Nulla fons frustorum absens...</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horae</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dies</numerusform><numerusform>%n dies</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n hebdomas</numerusform><numerusform>%n hebdomades</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>%1 behind</source>
@@ -275,13 +414,56 @@
         <source>&amp;Address</source>
         <translation>&amp;Inscriptio</translation>
     </message>
+<<<<<<< HEAD
     </context>
+=======
+    <message>
+        <source>New receiving address</source>
+        <translation>Nova inscriptio accipiendi</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Nova inscriptio mittendi</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Muta inscriptionem accipiendi</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Muta inscriptionem mittendi</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Inserta inscriptio "%1" iam in libro inscriptionum est.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Litecoin address.</source>
+        <translation>Inscriptio inserta "%1" non valida inscriptio Litecoin est.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Non potuisse cassidile reserare</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Generare novam clavem abortum est.</translation>
+    </message>
+</context>
+>>>>>>> 0.10
 <context>
     <name>FreespaceChecker</name>
     </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Nucleus</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>version</source>
         <translation>versio</translation>
     </message>
@@ -312,8 +494,13 @@
 <context>
     <name>ModalOverlay</name>
     <message>
+<<<<<<< HEAD
         <source>Form</source>
         <translation>Schema</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Nucleus</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Last block time</source>
@@ -334,6 +521,17 @@
         <translation>&amp;Princeps</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Pelle Litecoin per se postquam in systema inire.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>&amp;Pelle Litecoin cum inire systema</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Reset all client options to default.</source>
         <translation>Reconstitue omnes optiones clientis ad praedefinita.</translation>
     </message>
@@ -346,10 +544,13 @@
         <translation>&amp;Rete</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>W&amp;allet</source>
         <translation>Cassidile</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Aperi per se portam clientis Litecoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
@@ -394,6 +595,13 @@
         <translation>&amp;Lingua monstranda utenti:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Litecoin iterum initiatum erit.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Unita qua quantitates monstrare:</translation>
     </message>
@@ -447,6 +655,17 @@
     </context>
 <context>
     <name>PaymentServer</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>URI handling</source>
+        <translation>Tractatio URI</translation>
+    </message>
+    <message>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Litecoin incipere non potest: cliccare-ad-pensandum handler</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>PeerTableModel</name>
@@ -527,9 +746,31 @@
         <translation>Debug catalogi plica</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear console</source>
         <translation>Vacuefac terminale</translation>
     </message>
+=======
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de Litecoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Vacuefac terminale</translation>
+    </message>
+    <message>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Bene ventio in terminale RPC de Litecoin.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Utere sagittis sursum deorsumque ut per historiam naviges, et &lt;b&gt;Ctrl+L&lt;/b&gt; ut scrinium vacuefacias.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Scribe &lt;b&gt;help&lt;/b&gt; pro summario possibilium mandatorum.</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
@@ -695,6 +936,13 @@
         <translation>&amp;Verifica Nuntium</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Insere inscriptionem signantem, nuntium (cura ut copias intermissiones linearum, spatia, tabs, et cetera exacte) et signationem infra ut nuntium verifices.  Cautus esto ne magis legas in signationem quam in nuntio signato ipso est, ut vites falli ab impetu homo-in-medio.</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Litecoin</translation>
     </message>
@@ -710,6 +958,68 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Clicca "Signa Nuntium" ut signatio generetur</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Inscriptio inserta non valida est.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Sodes inscriptionem proba et rursus conare.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Inserta inscriptio clavem non refert.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Cassidilis reserare cancellatum est.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Clavis privata absens est pro inserta inscriptione.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Nuntium signare abortum est.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Nuntius signatus.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Signatio decodificari non potuit.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Sodes signationem proba et rursus conare.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Signatio non convenit digesto nuntii</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Nuntium verificare abortum est.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Nuntius verificatus.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Nucleus</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -772,8 +1082,17 @@
         <translation>Operare infere sicut daemon et mandata accipe</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Nucleus</translation>
+=======
+        <source>Use the test network</source>
+        <translation>Utere rete experimentale</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -880,6 +1199,21 @@
         <translation>Ignotum rete specificatum in -onlynet: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Non posse resolvere -bind inscriptonem: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Non posse resolvere -externalip inscriptionem: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantitas non valida pro -paytxfee=&lt;quantitas&gt;: '%s'</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Insufficient funds</source>
         <translation>Inopia nummorum</translation>
     </message>

@@ -16,6 +16,13 @@
     <message>
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezrga</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -29,12 +36,24 @@
     </context>
 <context>
     <name>HelpMessageDialog</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezrga</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezrga</translation>
+>>>>>>> 0.10
     </message>
     </context>
 <context>
@@ -109,6 +128,13 @@
     </context>
 <context>
     <name>SplashScreen</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Jezrga</translation>
+    </message>
+>>>>>>> 0.10
     </context>
 <context>
     <name>TrafficGraphWidget</name>

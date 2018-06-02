@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>Clic derecho para editar dirección o etiqueta</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>Crear una nueva dirección </translation>
     </message>
@@ -153,6 +156,7 @@
         <source>Tabs toolbar</source>
         <translation>Barra de herramientas</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Error</source>
         <translation>Error</translation>
@@ -164,6 +168,11 @@
     <message>
         <source>Information</source>
         <translation>Información</translation>
+=======
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n conexión activa a la red Litecoin </numerusform><numerusform>%n conexiones activas a la red Litecoin</numerusform></translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Up to date</source>

@@ -767,6 +767,7 @@ void RPCConsole::clear(bool clearHistory)
             ).arg(fixedFontInfo.family(), QString("%1pt").arg(consoleFontSize))
         );
 
+<<<<<<< HEAD
 #ifdef Q_OS_MAC
     QString clsKey = "(⌘)-L";
 #else
@@ -781,6 +782,11 @@ void RPCConsole::clear(bool clearHistory)
                         tr("WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.") +
                         "</span>"),
                         true);
+=======
+    message(CMD_REPLY, (tr("Welcome to the Litecoin RPC console.") + "<br>" +
+                        tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
+                        tr("Type <b>help</b> for an overview of available commands.")), true);
+>>>>>>> 0.10
 }
 
 void RPCConsole::keyPressEvent(QKeyEvent *event)

@@ -27,6 +27,7 @@ public:
     CScriptID(const uint160& in) : uint160(in) {}
 };
 
+<<<<<<< HEAD
 /**
  * Default setting for nMaxDatacarrierBytes. 80 bytes of data, +1 for OP_RETURN,
  * +2 for the pushdata opcodes.
@@ -40,6 +41,9 @@ static const unsigned int MAX_OP_RETURN_RELAY = 83;
 extern bool fAcceptDatacarrier;
 
 /** Maximum size of TX_NULL_DATA scripts that this node considers standard. */
+=======
+static const unsigned int MAX_OP_RETURN_RELAY = 80;      //! bytes
+>>>>>>> 0.10
 extern unsigned nMaxDatacarrierBytes;
 
 /**
@@ -53,6 +57,27 @@ extern unsigned nMaxDatacarrierBytes;
  */
 static const unsigned int MANDATORY_SCRIPT_VERIFY_FLAGS = SCRIPT_VERIFY_P2SH;
 
+<<<<<<< HEAD
+=======
+/**
+ * Standard script verification flags that standard transactions will comply
+ * with. However scripts violating these flags may still be present in valid
+ * blocks and we must accept those blocks.
+ */
+static const unsigned int STANDARD_SCRIPT_VERIFY_FLAGS = MANDATORY_SCRIPT_VERIFY_FLAGS |
+                                                         SCRIPT_VERIFY_DERSIG |
+                                                         SCRIPT_VERIFY_STRICTENC |
+                                                         SCRIPT_VERIFY_MINIMALDATA |
+                                                         SCRIPT_VERIFY_NULLDUMMY |
+                                                         SCRIPT_VERIFY_DISCOURAGE_UPGRADABLE_NOPS |
+                                                         SCRIPT_VERIFY_CLEANSTACK |
+                                                         SCRIPT_VERIFY_CHECKLOCKTIMEVERIFY |
+                                                         SCRIPT_VERIFY_LOW_S;
+
+/** For convenience, standard but not mandatory verify flags. */
+static const unsigned int STANDARD_NOT_MANDATORY_VERIFY_FLAGS = STANDARD_SCRIPT_VERIFY_FLAGS & ~MANDATORY_SCRIPT_VERIFY_FLAGS;
+
+>>>>>>> 0.10
 enum txnouttype
 {
     TX_NONSTANDARD,

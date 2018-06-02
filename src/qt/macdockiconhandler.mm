@@ -18,7 +18,11 @@
 extern void qt_mac_set_dock_menu(QMenu *);
 #endif
 
+<<<<<<< HEAD
 static MacDockIconHandler *s_instance = nullptr;
+=======
+static MacDockIconHandler *s_instance = NULL;
+>>>>>>> 0.10
 
 bool dockClickHandler(id self,SEL _cmd,...) {
     Q_UNUSED(self)
@@ -34,7 +38,11 @@ void setupDockClickHandler() {
     Class cls = objc_getClass("NSApplication");
     id appInst = objc_msgSend((id)cls, sel_registerName("sharedApplication"));
     
+<<<<<<< HEAD
     if (appInst != nullptr) {
+=======
+    if (appInst != NULL) {
+>>>>>>> 0.10
         id delegate = objc_msgSend(appInst, sel_registerName("delegate"));
         Class delClass = (Class)objc_msgSend(delegate,  sel_registerName("class"));
         SEL shouldHandle = sel_registerName("applicationShouldHandleReopen:hasVisibleWindows:");

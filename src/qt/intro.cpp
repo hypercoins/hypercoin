@@ -219,8 +219,13 @@ bool Intro::pickDataDirectory()
                     TryCreateDirectories(GUIUtil::qstringToBoostPath(dataDir) / "wallets");
                 }
                 break;
+<<<<<<< HEAD
             } catch (const fs::filesystem_error&) {
                 QMessageBox::critical(0, tr(PACKAGE_NAME),
+=======
+            } catch(fs::filesystem_error &e) {
+                QMessageBox::critical(0, tr("Litecoin Core"),
+>>>>>>> 0.10
                     tr("Error: Specified data directory \"%1\" cannot be created.").arg(dataDir));
                 /* fall through, back to choosing screen */
             }

@@ -259,7 +259,11 @@ static IntrRecvError InterruptibleRecv(uint8_t* data, size_t len, int timeout, c
             int nErr = WSAGetLastError();
             if (nErr == WSAEINPROGRESS || nErr == WSAEWOULDBLOCK || nErr == WSAEINVAL) {
                 if (!IsSelectableSocket(hSocket)) {
+<<<<<<< HEAD
                     return IntrRecvError::NetworkError;
+=======
+                    return false;
+>>>>>>> 0.10
                 }
                 struct timeval tval = MillisToTimeval(std::min(endTime - curTime, maxWait));
                 fd_set fdset;
@@ -451,14 +455,22 @@ SOCKET CreateSocket(const CService &addrConnect)
         return INVALID_SOCKET;
     }
 
-#ifdef SO_NOSIGPIPE
     int set = 1;
+#ifdef SO_NOSIGPIPE
     // Different way of disabling SIGPIPE on BSD
     setsockopt(hSocket, SOL_SOCKET, SO_NOSIGPIPE, (void*)&set, sizeof(int));
 #endif
 
     //Disable Nagle's algorithm
+<<<<<<< HEAD
     SetSocketNoDelay(hSocket);
+=======
+#ifdef WIN32
+    setsockopt(hSocket, IPPROTO_TCP, TCP_NODELAY, (const char*)&set, sizeof(int));
+#else
+    setsockopt(hSocket, IPPROTO_TCP, TCP_NODELAY, (void*)&set, sizeof(int));
+#endif
+>>>>>>> 0.10
 
     // Set to non-blocking
     if (!SetSocketNonBlocking(hSocket, true)) {
@@ -593,6 +605,217 @@ bool ConnectThroughProxy(const proxyType &proxy, const std::string& strDest, int
         random_auth.username = random_auth.password = strprintf("%i", counter++);
         if (!Socks5(strDest, (unsigned short)port, &random_auth, hSocket)) {
             return false;
+<<<<<<< HEAD
+=======
+    }
+
+    return true;
+}
+
+bool CNetAddr::IsRoutable() const
+{
+    return IsValid() && !(IsRFC1918() || IsRFC2544() || IsRFC3927() || IsRFC4862() || IsRFC6598() || IsRFC5737() || (IsRFC4193() && !IsTor()) || IsRFC4843() || IsLocal());
+}
+
+enum Network CNetAddr::GetNetwork() const
+{
+    if (!IsRoutable())
+        return NET_UNROUTABLE;
+
+    if (IsIPv4())
+        return NET_IPV4;
+
+    if (IsTor())
+        return NET_TOR;
+
+    return NET_IPV6;
+}
+
+std::string CNetAddr::ToStringIP() const
+{
+    if (IsTor())
+        return EncodeBase32(&ip[6], 10) + ".onion";
+    CService serv(*this, 0);
+    struct sockaddr_storage sockaddr;
+    socklen_t socklen = sizeof(sockaddr);
+    if (serv.GetSockAddr((struct sockaddr*)&sockaddr, &socklen)) {
+        char name[1025] = "";
+        if (!getnameinfo((const struct sockaddr*)&sockaddr, socklen, name, sizeof(name), NULL, 0, NI_NUMERICHOST))
+            return std::string(name);
+    }
+    if (IsIPv4())
+        return strprintf("%u.%u.%u.%u", GetByte(3), GetByte(2), GetByte(1), GetByte(0));
+    else
+        return strprintf("%x:%x:%x:%x:%x:%x:%x:%x",
+                         GetByte(15) << 8 | GetByte(14), GetByte(13) << 8 | GetByte(12),
+                         GetByte(11) << 8 | GetByte(10), GetByte(9) << 8 | GetByte(8),
+                         GetByte(7) << 8 | GetByte(6), GetByte(5) << 8 | GetByte(4),
+                         GetByte(3) << 8 | GetByte(2), GetByte(1) << 8 | GetByte(0));
+}
+
+std::string CNetAddr::ToString() const
+{
+    return ToStringIP();
+}
+
+bool operator==(const CNetAddr& a, const CNetAddr& b)
+{
+    return (memcmp(a.ip, b.ip, 16) == 0);
+}
+
+bool operator!=(const CNetAddr& a, const CNetAddr& b)
+{
+    return (memcmp(a.ip, b.ip, 16) != 0);
+}
+
+bool operator<(const CNetAddr& a, const CNetAddr& b)
+{
+    return (memcmp(a.ip, b.ip, 16) < 0);
+}
+
+bool CNetAddr::GetInAddr(struct in_addr* pipv4Addr) const
+{
+    if (!IsIPv4())
+        return false;
+    memcpy(pipv4Addr, ip+12, 4);
+    return true;
+}
+
+bool CNetAddr::GetIn6Addr(struct in6_addr* pipv6Addr) const
+{
+    memcpy(pipv6Addr, ip, 16);
+    return true;
+}
+
+// get canonical identifier of an address' group
+// no two connections will be attempted to addresses with the same group
+std::vector<unsigned char> CNetAddr::GetGroup() const
+{
+    std::vector<unsigned char> vchRet;
+    int nClass = NET_IPV6;
+    int nStartByte = 0;
+    int nBits = 16;
+
+    // all local addresses belong to the same group
+    if (IsLocal())
+    {
+        nClass = 255;
+        nBits = 0;
+    }
+
+    // all unroutable addresses belong to the same group
+    if (!IsRoutable())
+    {
+        nClass = NET_UNROUTABLE;
+        nBits = 0;
+    }
+    // for IPv4 addresses, '1' + the 16 higher-order bits of the IP
+    // includes mapped IPv4, SIIT translated IPv4, and the well-known prefix
+    else if (IsIPv4() || IsRFC6145() || IsRFC6052())
+    {
+        nClass = NET_IPV4;
+        nStartByte = 12;
+    }
+    // for 6to4 tunnelled addresses, use the encapsulated IPv4 address
+    else if (IsRFC3964())
+    {
+        nClass = NET_IPV4;
+        nStartByte = 2;
+    }
+    // for Teredo-tunnelled IPv6 addresses, use the encapsulated IPv4 address
+    else if (IsRFC4380())
+    {
+        vchRet.push_back(NET_IPV4);
+        vchRet.push_back(GetByte(3) ^ 0xFF);
+        vchRet.push_back(GetByte(2) ^ 0xFF);
+        return vchRet;
+    }
+    else if (IsTor())
+    {
+        nClass = NET_TOR;
+        nStartByte = 6;
+        nBits = 4;
+    }
+    // for he.net, use /36 groups
+    else if (GetByte(15) == 0x20 && GetByte(14) == 0x01 && GetByte(13) == 0x04 && GetByte(12) == 0x70)
+        nBits = 36;
+    // for the rest of the IPv6 network, use /32 groups
+    else
+        nBits = 32;
+
+    vchRet.push_back(nClass);
+    while (nBits >= 8)
+    {
+        vchRet.push_back(GetByte(15 - nStartByte));
+        nStartByte++;
+        nBits -= 8;
+    }
+    if (nBits > 0)
+        vchRet.push_back(GetByte(15 - nStartByte) | ((1 << (8 - nBits)) - 1));
+
+    return vchRet;
+}
+
+uint64_t CNetAddr::GetHash() const
+{
+    uint256 hash = Hash(&ip[0], &ip[16]);
+    uint64_t nRet;
+    memcpy(&nRet, &hash, sizeof(nRet));
+    return nRet;
+}
+
+// private extensions to enum Network, only returned by GetExtNetwork,
+// and only used in GetReachabilityFrom
+static const int NET_UNKNOWN = NET_MAX + 0;
+static const int NET_TEREDO  = NET_MAX + 1;
+int static GetExtNetwork(const CNetAddr *addr)
+{
+    if (addr == NULL)
+        return NET_UNKNOWN;
+    if (addr->IsRFC4380())
+        return NET_TEREDO;
+    return addr->GetNetwork();
+}
+
+/** Calculates a metric for how reachable (*this) is from a given partner */
+int CNetAddr::GetReachabilityFrom(const CNetAddr *paddrPartner) const
+{
+    enum Reachability {
+        REACH_UNREACHABLE,
+        REACH_DEFAULT,
+        REACH_TEREDO,
+        REACH_IPV6_WEAK,
+        REACH_IPV4,
+        REACH_IPV6_STRONG,
+        REACH_PRIVATE
+    };
+
+    if (!IsRoutable())
+        return REACH_UNREACHABLE;
+
+    int ourNet = GetExtNetwork(this);
+    int theirNet = GetExtNetwork(paddrPartner);
+    bool fTunnel = IsRFC3964() || IsRFC6052() || IsRFC6145();
+
+    switch(theirNet) {
+    case NET_IPV4:
+        switch(ourNet) {
+        default:       return REACH_DEFAULT;
+        case NET_IPV4: return REACH_IPV4;
+        }
+    case NET_IPV6:
+        switch(ourNet) {
+        default:         return REACH_DEFAULT;
+        case NET_TEREDO: return REACH_TEREDO;
+        case NET_IPV4:   return REACH_IPV4;
+        case NET_IPV6:   return fTunnel ? REACH_IPV6_WEAK : REACH_IPV6_STRONG; // only prefer giving our IPv6 address if it's not tunnelled
+        }
+    case NET_TOR:
+        switch(ourNet) {
+        default:         return REACH_DEFAULT;
+        case NET_IPV4:   return REACH_IPV4; // Tor users can connect to IPv4 as well
+        case NET_TOR:    return REACH_PRIVATE;
+>>>>>>> 0.10
         }
     } else {
         if (!Socks5(strDest, (unsigned short)port, 0, hSocket)) {
@@ -616,6 +839,7 @@ bool LookupSubNet(const char* pszName, CSubNet& ret)
             std::string strNetmask = strSubnet.substr(slash + 1);
             int32_t n;
             // IPv4 addresses start at offset 12, and first 12 bytes must match, so just offset n
+<<<<<<< HEAD
             if (ParseInt32(strNetmask, &n)) { // If valid number, assume /24 syntax
                 ret = CSubNet(network, n);
                 return ret.IsValid();
@@ -626,6 +850,35 @@ bool LookupSubNet(const char* pszName, CSubNet& ret)
                 if (LookupHost(strNetmask.c_str(), vIP, 1, false)) {
                     ret = CSubNet(network, vIP[0]);
                     return ret.IsValid();
+=======
+            const int astartofs = network.IsIPv4() ? 12 : 0;
+            if (ParseInt32(strNetmask, &n)) // If valid number, assume /24 symtex
+            {
+                if(n >= 0 && n <= (128 - astartofs*8)) // Only valid if in range of bits of address
+                {
+                    n += astartofs*8;
+                    // Clear bits [n..127]
+                    for (; n < 128; ++n)
+                        netmask[n>>3] &= ~(1<<(7-(n&7)));
+                }
+                else
+                {
+                    valid = false;
+                }
+            }
+            else // If not a valid number, try full netmask syntax
+            {
+                if (LookupHost(strNetmask.c_str(), vIP, 1, false)) // Never allow lookup for netmask
+                {
+                    // Copy only the *last* four bytes in case of IPv4, the rest of the mask should stay 1's as
+                    // we don't want pchIPv4 to be part of the mask.
+                    for(int x=astartofs; x<16; ++x)
+                        netmask[x] = vIP[0].ip[x];
+                }
+                else
+                {
+                    valid = false;
+>>>>>>> 0.10
                 }
             }
         }
@@ -635,7 +888,57 @@ bool LookupSubNet(const char* pszName, CSubNet& ret)
             return ret.IsValid();
         }
     }
+<<<<<<< HEAD
     return false;
+=======
+    else
+    {
+        valid = false;
+    }
+
+    // Normalize network according to netmask
+    for(int x=0; x<16; ++x)
+        network.ip[x] &= netmask[x];
+}
+
+bool CSubNet::Match(const CNetAddr &addr) const
+{
+    if (!valid || !addr.IsValid())
+        return false;
+    for(int x=0; x<16; ++x)
+        if ((addr.ip[x] & netmask[x]) != network.ip[x])
+            return false;
+    return true;
+}
+
+std::string CSubNet::ToString() const
+{
+    std::string strNetmask;
+    if (network.IsIPv4())
+        strNetmask = strprintf("%u.%u.%u.%u", netmask[12], netmask[13], netmask[14], netmask[15]);
+    else
+        strNetmask = strprintf("%x:%x:%x:%x:%x:%x:%x:%x",
+                         netmask[0] << 8 | netmask[1], netmask[2] << 8 | netmask[3],
+                         netmask[4] << 8 | netmask[5], netmask[6] << 8 | netmask[7],
+                         netmask[8] << 8 | netmask[9], netmask[10] << 8 | netmask[11],
+                         netmask[12] << 8 | netmask[13], netmask[14] << 8 | netmask[15]);
+    return network.ToString() + "/" + strNetmask;
+}
+
+bool CSubNet::IsValid() const
+{
+    return valid;
+}
+
+bool operator==(const CSubNet& a, const CSubNet& b)
+{
+    return a.valid == b.valid && a.network == b.network && !memcmp(a.netmask, b.netmask, 16);
+}
+
+bool operator!=(const CSubNet& a, const CSubNet& b)
+{
+    return !(a==b);
+>>>>>>> 0.10
 }
 
 #ifdef WIN32

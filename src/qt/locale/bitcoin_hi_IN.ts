@@ -2,10 +2,13 @@
 <context>
     <name>AddressBookPage</name>
     <message>
+<<<<<<< HEAD
         <source>Right-click to edit address or label</source>
         <translation>पते या लेबल को संपादित करने के लिए दाहिना-क्लिक करें</translation>
     </message>
     <message>
+=======
+>>>>>>> 0.10
         <source>Create a new address</source>
         <translation>नया पता लिखिए !</translation>
     </message>
@@ -116,7 +119,11 @@
     </message>
     <message>
         <source>Litecoin</source>
+<<<<<<< HEAD
         <translation>बीटकोइन</translation>
+=======
+        <translation>Litecoin</translation>
+>>>>>>> 0.10
     </message>
     <message>
         <source>Wallet</source>
@@ -138,6 +145,25 @@
         <source>Tabs toolbar</source>
         <translation>टैबस टूलबार</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message numerus="yes">
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>%n सक्रिया संपर्क Litecoin नेटवर्क से</numerusform><numerusform>%n सक्रिया संपर्क Litecoin नेटवर्क से</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n घंटा</numerusform><numerusform>%n घंटे</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n दिन</numerusform><numerusform>%n दिनो</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n हफ़्ता</numerusform><numerusform>%n हफ्ते</numerusform></translation>
+    </message>
+>>>>>>> 0.10
     <message>
         <source>%1 behind</source>
         <translation>%1 पीछे</translation>
@@ -483,6 +509,13 @@
         <translation>चेतावनी</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Loading addresses...</source>
+        <translation>पता पुस्तक आ रही है...</translation>
+    </message>
+    <message>
+>>>>>>> 0.10
         <source>Loading block index...</source>
         <translation>ब्लॉक इंडेक्स आ रहा है...</translation>
     </message>

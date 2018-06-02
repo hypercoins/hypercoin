@@ -161,6 +161,15 @@ public:
     {
     }
 
+<<<<<<< HEAD
+=======
+    bool IsIdle()
+    {
+        boost::unique_lock<boost::mutex> lock(mutex);
+        return (nTotal == nIdle && nTodo == 0 && fAllOk == true);
+    }
+
+>>>>>>> 0.10
 };
 
 /** 
@@ -180,9 +189,16 @@ public:
     CCheckQueueControl& operator=(const CCheckQueueControl&) = delete;
     explicit CCheckQueueControl(CCheckQueue<T> * const pqueueIn) : pqueue(pqueueIn), fDone(false)
     {
+<<<<<<< HEAD
         // passed queue is supposed to be unused, or nullptr
         if (pqueue != nullptr) {
             ENTER_CRITICAL_SECTION(pqueue->ControlMutex);
+=======
+        // passed queue is supposed to be unused, or NULL
+        if (pqueue != NULL) {
+            bool isIdle = pqueue->IsIdle();
+            assert(isIdle);
+>>>>>>> 0.10
         }
     }
 

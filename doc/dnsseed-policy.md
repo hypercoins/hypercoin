@@ -42,9 +42,15 @@ details of their operating practices.
 related to the DNS seed operation.
 
 If these expectations cannot be satisfied the operator should
+<<<<<<< HEAD
 discontinue providing services and contact the active Litecoin
 Core development team as well as posting on
 [litecoin-dev](https://groups.google.com/forum/#!forum/litecoin-dev).
+=======
+discontinue providing services and contact the active Bitcoin
+Core development team as well as posting on
+[bitcoin-dev](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev).
+>>>>>>> 0.10
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.

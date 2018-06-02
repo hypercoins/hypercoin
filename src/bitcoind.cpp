@@ -66,9 +66,15 @@ bool AppInit(int argc, char* argv[])
     gArgs.ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
+<<<<<<< HEAD
     if (gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") ||  gArgs.IsArgSet("-help") || gArgs.IsArgSet("-version"))
     {
         std::string strUsage = strprintf(_("%s Daemon"), _(PACKAGE_NAME)) + " " + _("version") + " " + FormatFullVersion() + "\n";
+=======
+    if (mapArgs.count("-?") || mapArgs.count("-h") ||  mapArgs.count("-help") || mapArgs.count("-version"))
+    {
+        std::string strUsage = _("Litecoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+>>>>>>> 0.10
 
         if (gArgs.IsArgSet("-version"))
         {
@@ -77,7 +83,11 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
+<<<<<<< HEAD
                   "  litecoind [options]                     " + strprintf(_("Start %s Daemon"), _(PACKAGE_NAME)) + "\n";
+=======
+                  "  litecoind [options]                     " + _("Start Litecoin Core Daemon") + "\n";
+>>>>>>> 0.10
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -108,6 +118,7 @@ bool AppInit(int argc, char* argv[])
             return false;
         }
 
+<<<<<<< HEAD
         // Error out when loose non-argument tokens are encountered on command line
         for (int i = 1; i < argc; i++) {
             if (!IsSwitchChar(argv[i][0])) {
@@ -115,6 +126,13 @@ bool AppInit(int argc, char* argv[])
                 return false;
             }
         }
+=======
+        // Command-line RPC
+        bool fCommandLine = false;
+        for (int i = 1; i < argc; i++)
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "litecoin:"))
+                fCommandLine = true;
+>>>>>>> 0.10
 
         // -server defaults to true for bitcoind but not for the GUI so do this here
         gArgs.SoftSetBoolArg("-server", true);
@@ -123,11 +141,17 @@ bool AppInit(int argc, char* argv[])
         InitParameterInteraction();
         if (!AppInitBasicSetup())
         {
+<<<<<<< HEAD
             // InitError will have been called with detailed error, which ends up on console
             return false;
+=======
+            fprintf(stderr, "Error: There is no RPC client functionality in litecoind anymore. Use the litecoin-cli utility instead.\n");
+            exit(1);
+>>>>>>> 0.10
         }
         if (!AppInitParameterInteraction())
         {
+<<<<<<< HEAD
             // InitError will have been called with detailed error, which ends up on console
             return false;
         }
@@ -139,6 +163,8 @@ bool AppInit(int argc, char* argv[])
         if (gArgs.GetBoolArg("-daemon", false))
         {
 #if HAVE_DECL_DAEMON
+=======
+>>>>>>> 0.10
             fprintf(stdout, "Litecoin server starting\n");
 
             // Daemonize

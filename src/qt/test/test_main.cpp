@@ -6,11 +6,16 @@
 #include <config/bitcoin-config.h>
 #endif
 
+<<<<<<< HEAD
 #include <chainparams.h>
 #include <qt/test/rpcnestedtests.h>
 #include <util.h>
 #include <qt/test/uritests.h>
 #include <qt/test/compattests.h>
+=======
+#include "util.h"
+#include "uritests.h"
+>>>>>>> 0.10
 
 #ifdef ENABLE_WALLET
 #include <qt/test/paymentservertests.h>
@@ -50,6 +55,7 @@ extern void noui_connect();
 int main(int argc, char *argv[])
 {
     SetupEnvironment();
+<<<<<<< HEAD
     SetupNetworking();
     SelectParams(CBaseChainParams::MAIN);
     noui_connect();
@@ -58,6 +64,8 @@ int main(int argc, char *argv[])
     fs::create_directories(pathTemp);
     gArgs.ForceSetArg("-datadir", pathTemp.string());
 
+=======
+>>>>>>> 0.10
     bool fInvalid = false;
 
     // Prefer the "minimal" platform for the test instead of the normal default
@@ -70,11 +78,17 @@ int main(int argc, char *argv[])
     #endif
 
     // Don't remove this, it's needed to access
+<<<<<<< HEAD
     // QApplication:: and QCoreApplication:: in the tests
     QApplication app(argc, argv);
     app.setApplicationName("Litecoin-Qt-test");
 
     SSL_library_init();
+=======
+    // QCoreApplication:: in the tests
+    QCoreApplication app(argc, argv);
+    app.setApplicationName("Litecoin-Qt-test");
+>>>>>>> 0.10
 
     URITests test1;
     if (QTest::qExec(&test1) != 0) {
