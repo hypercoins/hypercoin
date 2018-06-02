@@ -164,8 +164,8 @@
         <translation>Bekræft tegnebogskryptering</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer din tegnebog og mister din adgangskode, vil du &lt;b&gt;MISTE ALLE DINE LITECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HYPERCOINS&lt;/b&gt;!</source>
+        <translation>Advarsel: Hvis du krypterer din tegnebog og mister din adgangskode, vil du &lt;b&gt;MISTE ALLE DINE HYPERCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -3051,12 +3051,12 @@ Adresse: %4
         <translation>Udfør kommando, når en relevant alarm modtages eller vi ser en virkelig lang udsplitning (%s i cmd erstattes af besked)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (i LTC/Kb) mindre end dette opfattes som nulgebyr for videresendelse (standard: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (i HOT/Kb) mindre end dette opfattes som nulgebyr for videresendelse (standard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (i LTC/Kb) mindre end dette opfattes som nulgebyr for oprettelse af transaktion (standard: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (i HOT/Kb) mindre end dette opfattes som nulgebyr for oprettelse af transaktion (standard: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3167,8 +3167,8 @@ for eksempel: alertnotify=echo %%s | mail -s "Hypercoin Alert" admin@foo.com
         <translation>Fejl: Ikke understøttet argument -tor fundet, brug -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i LTC/kB) som skal føjes til transaktioner, du sender (standard: %s)</translation>
+        <source>Fee (in HOT/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i HOT/kB) som skal føjes til transaktioner, du sender (standard: %s)</translation>
     </message>
     <message>
         <source>Information</source>

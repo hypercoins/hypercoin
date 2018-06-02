@@ -24,7 +24,7 @@ Release Process
 
 ###perform Gitian builds
 
- From a directory containing the hypercoin source, gitian-builder and gitian.sigs.ltc
+ From a directory containing the hypercoin source, gitian-builder and gitian.sigs.hot
   
     export SIGNER=(your Gitian key, ie wtogami, coblee, etc)
 	export VERSION=(new version, e.g. 0.8.0)
@@ -56,13 +56,13 @@ Release Process
 ###Build Hypercoin Core for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit hypercoin=v${VERSION} ../hypercoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../hypercoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.hot/ ../hypercoin/contrib/gitian-descriptors/gitian-linux.yml
 	mv build/out/hypercoin-*.tar.gz build/out/src/hypercoin-*.tar.gz ../
 	./bin/gbuild --commit hypercoin=v${VERSION} ../hypercoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.ltc/ ../hypercoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs.hot/ ../hypercoin/contrib/gitian-descriptors/gitian-win.yml
 	mv build/out/hypercoin-*.zip build/out/hypercoin-*.exe ../
 	./bin/gbuild --commit hypercoin=v${VERSION} ../hypercoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../hypercoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.hot/ ../hypercoin/contrib/gitian-descriptors/gitian-osx.yml
 	mv build/out/hypercoin-*-unsigned.tar.gz inputs/hypercoin-osx-unsigned.tar.gz
 	mv build/out/hypercoin-*.tar.gz build/out/hypercoin-*.dmg ../
 	popd

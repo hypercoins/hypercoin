@@ -164,7 +164,7 @@
         <translation>Підтвердити шифрування гаманця</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HYPERCOINS&lt;/b&gt;!</source>
         <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -3055,12 +3055,12 @@ Address: %4
         <translation>Виконати команду при надходженні важливого сповіщення або при спостереженні тривалого розгалуження ланцюжка (замість %s буде підставлено повідомлення)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Комісії (в LTC/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Комісії (в HOT/КБ), що менші за вказану, вважатимуться нульовими (для ретрансляції) (типово: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Комісії (в LTC/КБ), що менші за вказану, вважатимуться нульовими (для створення транзакції) (типово: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Комісії (в HOT/КБ), що менші за вказану, вважатимуться нульовими (для створення транзакції) (типово: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3171,8 +3171,8 @@ rpcpassword=%s
         <translation>Помилка: Параметр -tor не підтримується, використовуйте -onion</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Комісія (в LTC/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
+        <source>Fee (in HOT/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комісія (в HOT/КБ), що додаватиметься до вихідних транзакцій (типово: %s)</translation>
     </message>
     <message>
         <source>Information</source>

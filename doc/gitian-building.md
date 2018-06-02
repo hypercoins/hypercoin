@@ -394,5 +394,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[hypercoin/gitian.sigs](https://github.com/hypercoins/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[hypercoin/gitian.sigs](https://github.com/hypercoins/gitian.sigs.hot/) repository, or if that's not possible create a pull
 request. 

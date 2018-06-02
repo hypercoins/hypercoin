@@ -62,8 +62,8 @@ Value getinfo(const Array& params, bool fHelp)
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
             "  \"unlocked_until\": ttt,      (numeric) the timestamp in seconds since epoch (midnight Jan 1 1970 GMT) that the wallet is unlocked for transfers, or 0 if the wallet is locked\n"
-            "  \"paytxfee\": x.xxxx,         (numeric) the transaction fee set in ltc/kb\n"
-            "  \"relayfee\": x.xxxx,         (numeric) minimum relay fee for non-free transactions in ltc/kb\n"
+            "  \"paytxfee\": x.xxxx,         (numeric) the transaction fee set in hot/kb\n"
+            "  \"relayfee\": x.xxxx,         (numeric) minimum relay fee for non-free transactions in hot/kb\n"
             "  \"errors\": \"...\"           (string) any error messages\n"
             "}\n"
             "\nExamples:\n"
@@ -169,8 +169,8 @@ Value validateaddress(const Array& params, bool fHelp)
             "  \"account\" : \"account\"         (string) The account associated with the address, \"\" is the default account\n"
             "}\n"
             "\nExamples:\n"
-            + HelpExampleCli("validateaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\"")
-            + HelpExampleRpc("validateaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\"")
+            + HelpExampleCli("validateaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\"")
+            + HelpExampleRpc("validateaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\"")
         );
 
     CBitcoinAddress address(params[0].get_str());
@@ -286,9 +286,9 @@ Value createmultisig(const Array& params, bool fHelp)
 
             "\nExamples:\n"
             "\nCreate a multisig address from 2 addresses\n"
-            + HelpExampleCli("createmultisig", "2 \"[\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"") +
+            + HelpExampleCli("createmultisig", "2 \"[\\\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"") +
             "\nAs a json rpc call\n"
-            + HelpExampleRpc("createmultisig", "2, \"[\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"")
+            + HelpExampleRpc("createmultisig", "2, \"[\\\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"")
         ;
         throw runtime_error(msg);
     }
@@ -321,11 +321,11 @@ Value verifymessage(const Array& params, bool fHelp)
             "\nUnlock the wallet for 30 seconds\n"
             + HelpExampleCli("walletpassphrase", "\"mypassphrase\" 30") +
             "\nCreate the signature\n"
-            + HelpExampleCli("signmessage", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" \"my message\"") +
+            + HelpExampleCli("signmessage", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" \"my message\"") +
             "\nVerify the signature\n"
-            + HelpExampleCli("verifymessage", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" \"signature\" \"my message\"") +
+            + HelpExampleCli("verifymessage", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" \"signature\" \"my message\"") +
             "\nAs json rpc\n"
-            + HelpExampleRpc("verifymessage", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\", \"signature\", \"my message\"")
+            + HelpExampleRpc("verifymessage", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\", \"signature\", \"my message\"")
         );
 
     string strAddress  = params[0].get_str();

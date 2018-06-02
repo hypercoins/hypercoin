@@ -165,7 +165,7 @@ Var vänlig och försök igen.</translation>
         <translation>Bekräfta kryptering av plånbok</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HYPERCOINS&lt;/b&gt;!</source>
         <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TILLGÅNGAR&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -3048,12 +3048,12 @@ Adress: %4
         <translation>Exekvera kommando när ett relevant meddelande är mottagen eller när vi ser en väldigt lång förgrening (%s i cmd är utbytt med ett meddelande)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i LTC/Kb) mindre än detta betraktas som nollavgift för vidarebefodran (förvalt: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i HOT/Kb) mindre än detta betraktas som nollavgift för vidarebefodran (förvalt: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i LTC/Kb) mindre än detta betraktas som nollavgift för transaktionsskapande (förvalt: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i HOT/Kb) mindre än detta betraktas som nollavgift för transaktionsskapande (förvalt: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3161,8 +3161,8 @@ till exempel: alertnotify=echo %%s | mail -s "Hypercoin Alert" admin@foo.com
         <translation>Fel: Argumentet -tor stöds inte, använd -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i LTC/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
+        <source>Fee (in HOT/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i HOT/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
     </message>
     <message>
         <source>Information</source>

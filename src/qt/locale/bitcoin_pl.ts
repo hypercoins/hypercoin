@@ -164,8 +164,8 @@
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE LITECOIN'Y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HYPERCOINS&lt;/b&gt;!</source>
+        <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE HYPERCOIN'Y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -3043,12 +3043,12 @@ Adres: %4
         <translation>Uruchom polecenie przy otrzymaniu odpowiedniego powiadomienia lub gdy zobaczymy naprawdę długie rozgałęzienie (%s w poleceniu jest podstawiane za komunikat)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Opłaty (w LTC/Kb) mniejsze niż ta będą traktowane jako bez opłaty przy propagowaniu (domyślnie: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Opłaty (w HOT/Kb) mniejsze niż ta będą traktowane jako bez opłaty przy propagowaniu (domyślnie: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Opłaty (w LTC/Kb) mniejsze niż ta będą traktowane jako bez opłaty przy tworzeniu transakcji (domyślnie: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Opłaty (w HOT/Kb) mniejsze niż ta będą traktowane jako bez opłaty przy tworzeniu transakcji (domyślnie: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3159,8 +3159,8 @@ na przykład: alertnotify=echo %%s | mail -s "Alarm Hypercoin" admin@foo.com
         <translation>Błąd: Znaleziono nieprawidłowy argument -tor, użyj -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Prowizja (w LTC za kB) dodawana do wysyłanej transakcji (domyślnie: %s)</translation>
+        <source>Fee (in HOT/kB) to add to transactions you send (default: %s)</source>
+        <translation>Prowizja (w HOT za kB) dodawana do wysyłanej transakcji (domyślnie: %s)</translation>
     </message>
     <message>
         <source>Information</source>

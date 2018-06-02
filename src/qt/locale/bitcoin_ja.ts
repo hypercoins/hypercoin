@@ -164,7 +164,7 @@
         <translation>ウォレットの暗号化を確認する</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HYPERCOINS&lt;/b&gt;!</source>
         <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを失ってしまったなら、&lt;b&gt;あなたの Hypercoin はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -3055,12 +3055,12 @@ Address: %4
         <translation>関連のアラートをもらってもすごく長いのフォークを見てもコマンドを実行 (コマンドの中にあるの%sはメッセージから置き換えさせる)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>中継の際、この値未満の手数料 (LTC/Kb単位) はゼロであるとみなす (デフォルト: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>中継の際、この値未満の手数料 (HOT/Kb単位) はゼロであるとみなす (デフォルト: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>トランザクション作成の際、この値未満の手数料 (LTC/Kb単位) はゼロであるとみなす (デフォルト: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>トランザクション作成の際、この値未満の手数料 (HOT/Kb単位) はゼロであるとみなす (デフォルト: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3171,8 +3171,8 @@ rpcpassword=%s
         <translation>エラー: サポートされていない引数 -tor が見つかりました。-onion を使用してください。</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>送信するトランザクションに付加する手数料 (LTC/kB単位) (初期値: %s)</translation>
+        <source>Fee (in HOT/kB) to add to transactions you send (default: %s)</source>
+        <translation>送信するトランザクションに付加する手数料 (HOT/kB単位) (初期値: %s)</translation>
     </message>
     <message>
         <source>Information</source>

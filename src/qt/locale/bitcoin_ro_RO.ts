@@ -164,8 +164,8 @@
         <translation>Confirmaţi criptarea portofelului</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Atenţie: Dacă pierdeţi parola portofelului electronic după criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE LITECOIN ACUMULATĂ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HYPERCOINS&lt;/b&gt;!</source>
+        <translation>Atenţie: Dacă pierdeţi parola portofelului electronic după criptare, &lt;b&gt;VEŢI PIERDE ÎNTREAGA SUMĂ DE HYPERCOIN ACUMULATĂ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -2979,8 +2979,8 @@ Adresa: %4
         <translation>Eroare: Argument nesuportat -tor găsit, folosiţi -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (în LTC/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
+        <source>Fee (in HOT/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (în HOT/kB) de adăugat la tranzacţiile pe care le trimiteţi(implicit: %s)</translation>
     </message>
     <message>
         <source>Information</source>

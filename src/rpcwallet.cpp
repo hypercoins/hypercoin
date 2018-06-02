@@ -219,8 +219,8 @@ Value setaccount(const Array& params, bool fHelp)
             "1. \"hypercoinaddress\"  (string, required) The hypercoin address to be associated with an account.\n"
             "2. \"account\"         (string, required) The account to assign the address to.\n"
             "\nExamples:\n"
-            + HelpExampleCli("setaccount", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" \"tabby\"")
-            + HelpExampleRpc("setaccount", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\", \"tabby\"")
+            + HelpExampleCli("setaccount", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" \"tabby\"")
+            + HelpExampleRpc("setaccount", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\", \"tabby\"")
         );
 
     CBitcoinAddress address(params[0].get_str());
@@ -262,8 +262,8 @@ Value getaccount(const Array& params, bool fHelp)
             "\nResult:\n"
             "\"accountname\"        (string) the account address\n"
             "\nExamples:\n"
-            + HelpExampleCli("getaccount", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\"")
-            + HelpExampleRpc("getaccount", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\"")
+            + HelpExampleCli("getaccount", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\"")
+            + HelpExampleRpc("getaccount", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\"")
         );
 
     CBitcoinAddress address(params[0].get_str());
@@ -362,9 +362,9 @@ Value sendtoaddress(const Array& params, bool fHelp)
             "\nResult:\n"
             "\"transactionid\"  (string) The transaction id.\n"
             "\nExamples:\n"
-            + HelpExampleCli("sendtoaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" 0.1")
-            + HelpExampleCli("sendtoaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" 0.1 \"donation\" \"seans outpost\"")
-            + HelpExampleRpc("sendtoaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\", 0.1, \"donation\", \"seans outpost\"")
+            + HelpExampleCli("sendtoaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" 0.1")
+            + HelpExampleCli("sendtoaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" 0.1 \"donation\" \"seans outpost\"")
+            + HelpExampleRpc("sendtoaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\", 0.1, \"donation\", \"seans outpost\"")
         );
 
     CBitcoinAddress address(params[0].get_str());
@@ -401,7 +401,7 @@ Value listaddressgroupings(const Array& params, bool fHelp)
             "  [\n"
             "    [\n"
             "      \"hypercoinaddress\",     (string) The hypercoin address\n"
-            "      amount,                 (numeric) The amount in ltc\n"
+            "      amount,                 (numeric) The amount in hot\n"
             "      \"account\"             (string, optional) The account\n"
             "    ]\n"
             "    ,...\n"
@@ -451,11 +451,11 @@ Value signmessage(const Array& params, bool fHelp)
             "\nUnlock the wallet for 30 seconds\n"
             + HelpExampleCli("walletpassphrase", "\"mypassphrase\" 30") +
             "\nCreate the signature\n"
-            + HelpExampleCli("signmessage", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" \"my message\"") +
+            + HelpExampleCli("signmessage", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" \"my message\"") +
             "\nVerify the signature\n"
-            + HelpExampleCli("verifymessage", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" \"signature\" \"my message\"") +
+            + HelpExampleCli("verifymessage", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" \"signature\" \"my message\"") +
             "\nAs json rpc\n"
-            + HelpExampleRpc("signmessage", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\", \"my message\"")
+            + HelpExampleRpc("signmessage", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\", \"my message\"")
         );
 
     EnsureWalletIsUnlocked();
@@ -496,16 +496,16 @@ Value getreceivedbyaddress(const Array& params, bool fHelp)
             "1. \"hypercoinaddress\"  (string, required) The hypercoin address for transactions.\n"
             "2. minconf             (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "\nResult:\n"
-            "amount   (numeric) The total amount in ltc received at this address.\n"
+            "amount   (numeric) The total amount in hot received at this address.\n"
             "\nExamples:\n"
             "\nThe amount from transactions with at least 1 confirmation\n"
-            + HelpExampleCli("getreceivedbyaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\"") +
+            + HelpExampleCli("getreceivedbyaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\"") +
             "\nThe amount including unconfirmed transactions, zero confirmations\n"
-            + HelpExampleCli("getreceivedbyaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" 0") +
+            + HelpExampleCli("getreceivedbyaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" 0") +
             "\nThe amount with at least 6 confirmation, very safe\n"
-            + HelpExampleCli("getreceivedbyaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" 6") +
+            + HelpExampleCli("getreceivedbyaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" 6") +
             "\nAs a json rpc call\n"
-            + HelpExampleRpc("getreceivedbyaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\", 6")
+            + HelpExampleRpc("getreceivedbyaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\", 6")
        );
 
     // Bitcoin address
@@ -549,7 +549,7 @@ Value getreceivedbyaccount(const Array& params, bool fHelp)
             "1. \"account\"      (string, required) The selected account, may be the default account using \"\".\n"
             "2. minconf          (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "\nResult:\n"
-            "amount              (numeric) The total amount in ltc received for this account.\n"
+            "amount              (numeric) The total amount in hot received for this account.\n"
             "\nExamples:\n"
             "\nAmount received by the default account with at least 1 confirmation\n"
             + HelpExampleCli("getreceivedbyaccount", "\"\"") +
@@ -637,7 +637,7 @@ Value getbalance(const Array& params, bool fHelp)
             "2. minconf          (numeric, optional, default=1) Only include transactions confirmed at least this many times.\n"
             "3. includeWatchonly (bool, optional, default=false) Also include balance in watchonly addresses (see 'importaddress')\n"
             "\nResult:\n"
-            "amount              (numeric) The total amount in ltc received for this account.\n"
+            "amount              (numeric) The total amount in hot received for this account.\n"
             "\nExamples:\n"
             "\nThe total amount in the server across all accounts\n"
             + HelpExampleCli("getbalance", "") +
@@ -721,9 +721,9 @@ Value movecmd(const Array& params, bool fHelp)
             "\nResult:\n"
             "true|false           (boolean) true if successful.\n"
             "\nExamples:\n"
-            "\nMove 0.01 ltc from the default account to the account named tabby\n"
+            "\nMove 0.01 hot from the default account to the account named tabby\n"
             + HelpExampleCli("move", "\"\" \"tabby\" 0.01") +
-            "\nMove 0.01 ltc timotei to akiko with a comment and funds have 6 confirmations\n"
+            "\nMove 0.01 hot timotei to akiko with a comment and funds have 6 confirmations\n"
             + HelpExampleCli("move", "\"timotei\" \"akiko\" 0.01 6 \"happy birthday!\"") +
             "\nAs a json rpc call\n"
             + HelpExampleRpc("move", "\"timotei\", \"akiko\", 0.01, 6, \"happy birthday!\"")
@@ -783,7 +783,7 @@ Value sendfrom(const Array& params, bool fHelp)
             "\nArguments:\n"
             "1. \"fromaccount\"       (string, required) The name of the account to send funds from. May be the default account using \"\".\n"
             "2. \"tohypercoinaddress\"  (string, required) The hypercoin address to send funds to.\n"
-            "3. amount                (numeric, required) The amount in ltc. (transaction fee is added on top).\n"
+            "3. amount                (numeric, required) The amount in hot. (transaction fee is added on top).\n"
             "4. minconf               (numeric, optional, default=1) Only use funds with at least this many confirmations.\n"
             "5. \"comment\"           (string, optional) A comment used to store what the transaction is for. \n"
             "                                     This is not part of the transaction, just kept in your wallet.\n"
@@ -793,12 +793,12 @@ Value sendfrom(const Array& params, bool fHelp)
             "\nResult:\n"
             "\"transactionid\"        (string) The transaction id.\n"
             "\nExamples:\n"
-            "\nSend 0.01 ltc from the default account to the address, must have at least 1 confirmation\n"
-            + HelpExampleCli("sendfrom", "\"\" \"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" 0.01") +
+            "\nSend 0.01 hot from the default account to the address, must have at least 1 confirmation\n"
+            + HelpExampleCli("sendfrom", "\"\" \"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" 0.01") +
             "\nSend 0.01 from the tabby account to the given address, funds must have at least 6 confirmations\n"
-            + HelpExampleCli("sendfrom", "\"tabby\" \"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" 0.01 6 \"donation\" \"seans outpost\"") +
+            + HelpExampleCli("sendfrom", "\"tabby\" \"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" 0.01 6 \"donation\" \"seans outpost\"") +
             "\nAs a json rpc call\n"
-            + HelpExampleRpc("sendfrom", "\"tabby\", \"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\", 0.01, 6, \"donation\", \"seans outpost\"")
+            + HelpExampleRpc("sendfrom", "\"tabby\", \"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\", 0.01, 6, \"donation\", \"seans outpost\"")
         );
 
     string strAccount = AccountFromValue(params[0]);
@@ -841,7 +841,7 @@ Value sendmany(const Array& params, bool fHelp)
             "1. \"fromaccount\"         (string, required) The account to send the funds from, can be \"\" for the default account\n"
             "2. \"amounts\"             (string, required) A json object with addresses and amounts\n"
             "    {\n"
-            "      \"address\":amount   (numeric) The hypercoin address is the key, the numeric amount in ltc is the value\n"
+            "      \"address\":amount   (numeric) The hypercoin address is the key, the numeric amount in hot is the value\n"
             "      ,...\n"
             "    }\n"
             "3. minconf                 (numeric, optional, default=1) Only use the balance confirmed at least this many times.\n"
@@ -851,11 +851,11 @@ Value sendmany(const Array& params, bool fHelp)
             "                                    the number of addresses.\n"
             "\nExamples:\n"
             "\nSend two amounts to two different addresses:\n"
-            + HelpExampleCli("sendmany", "\"tabby\" \"{\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\":0.01,\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\":0.02}\"") +
+            + HelpExampleCli("sendmany", "\"tabby\" \"{\\\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\\\":0.01,\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\":0.02}\"") +
             "\nSend two amounts to two different addresses setting the confirmation and comment:\n"
-            + HelpExampleCli("sendmany", "\"tabby\" \"{\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\":0.01,\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\":0.02}\" 6 \"testing\"") +
+            + HelpExampleCli("sendmany", "\"tabby\" \"{\\\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\\\":0.01,\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\":0.02}\" 6 \"testing\"") +
             "\nAs a json rpc call\n"
-            + HelpExampleRpc("sendmany", "\"tabby\", \"{\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\":0.01,\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\":0.02}\", 6, \"testing\"")
+            + HelpExampleRpc("sendmany", "\"tabby\", \"{\\\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\\\":0.01,\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\":0.02}\", 6, \"testing\"")
         );
 
     string strAccount = AccountFromValue(params[0]);
@@ -936,9 +936,9 @@ Value addmultisigaddress(const Array& params, bool fHelp)
 
             "\nExamples:\n"
             "\nAdd a multisig address from 2 addresses\n"
-            + HelpExampleCli("addmultisigaddress", "2 \"[\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"") +
+            + HelpExampleCli("addmultisigaddress", "2 \"[\\\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"") +
             "\nAs json rpc call\n"
-            + HelpExampleRpc("addmultisigaddress", "2, \"[\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"")
+            + HelpExampleRpc("addmultisigaddress", "2, \"[\\\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"")
         ;
         throw runtime_error(msg);
     }
@@ -1106,7 +1106,7 @@ Value listreceivedbyaddress(const Array& params, bool fHelp)
             "    \"involvesWatchonly\" : \"true\",    (bool) Only returned if imported addresses were involved in transaction\n"
             "    \"address\" : \"receivingaddress\",  (string) The receiving address\n"
             "    \"account\" : \"accountname\",       (string) The account of the receiving address. The default account is \"\".\n"
-            "    \"amount\" : x.xxx,                  (numeric) The total amount in ltc received by the address\n"
+            "    \"amount\" : x.xxx,                  (numeric) The total amount in hot received by the address\n"
             "    \"confirmations\" : n                (numeric) The number of confirmations of the most recent transaction included\n"
             "  }\n"
             "  ,...\n"
@@ -1269,11 +1269,11 @@ Value listtransactions(const Array& params, bool fHelp)
             "                                                transaction between accounts, and not associated with an address,\n"
             "                                                transaction id or block. 'send' and 'receive' transactions are \n"
             "                                                associated with an address, transaction id and block details\n"
-            "    \"amount\": x.xxx,          (numeric) The amount in ltc. This is negative for the 'send' category, and for the\n"
+            "    \"amount\": x.xxx,          (numeric) The amount in hot. This is negative for the 'send' category, and for the\n"
             "                                         'move' category for moves outbound. It is positive for the 'receive' category,\n"
             "                                         and for the 'move' category for inbound funds.\n"
             "    \"vout\" : n,               (numeric) the vout value\n"
-            "    \"fee\": x.xxx,             (numeric) The amount of the fee in ltc. This is negative and only available for the \n"
+            "    \"fee\": x.xxx,             (numeric) The amount of the fee in hot. This is negative and only available for the \n"
             "                                         'send' category of transactions.\n"
             "    \"confirmations\": n,       (numeric) The number of confirmations for the transaction. Available for 'send' and \n"
             "                                         'receive' category of transactions.\n"
@@ -1449,10 +1449,10 @@ Value listsinceblock(const Array& params, bool fHelp)
             "    \"account\":\"accountname\",       (string) The account name associated with the transaction. Will be \"\" for the default account.\n"
             "    \"address\":\"hypercoinaddress\",    (string) The hypercoin address of the transaction. Not present for move transactions (category = move).\n"
             "    \"category\":\"send|receive\",     (string) The transaction category. 'send' has negative amounts, 'receive' has positive amounts.\n"
-            "    \"amount\": x.xxx,          (numeric) The amount in ltc. This is negative for the 'send' category, and for the 'move' category for moves \n"
+            "    \"amount\": x.xxx,          (numeric) The amount in hot. This is negative for the 'send' category, and for the 'move' category for moves \n"
             "                                          outbound. It is positive for the 'receive' category, and for the 'move' category for inbound funds.\n"
             "    \"vout\" : n,               (numeric) the vout value\n"
-            "    \"fee\": x.xxx,             (numeric) The amount of the fee in ltc. This is negative and only available for the 'send' category of transactions.\n"
+            "    \"fee\": x.xxx,             (numeric) The amount of the fee in hot. This is negative and only available for the 'send' category of transactions.\n"
             "    \"confirmations\": n,       (numeric) The number of confirmations for the transaction. Available for 'send' and 'receive' category of transactions.\n"
             "    \"blockhash\": \"hashvalue\",     (string) The block hash containing the transaction. Available for 'send' and 'receive' category of transactions.\n"
             "    \"blockindex\": n,          (numeric) The block index containing the transaction. Available for 'send' and 'receive' category of transactions.\n"
@@ -1530,7 +1530,7 @@ Value gettransaction(const Array& params, bool fHelp)
             "2. \"includeWatchonly\"    (bool, optional, default=false) Whether to include watchonly addresses in balance calculation and details[]\n"
             "\nResult:\n"
             "{\n"
-            "  \"amount\" : x.xxx,        (numeric) The transaction amount in ltc\n"
+            "  \"amount\" : x.xxx,        (numeric) The transaction amount in hot\n"
             "  \"confirmations\" : n,     (numeric) The number of confirmations\n"
             "  \"blockhash\" : \"hash\",  (string) The block hash\n"
             "  \"blockindex\" : xx,       (numeric) The block index\n"
@@ -1543,7 +1543,7 @@ Value gettransaction(const Array& params, bool fHelp)
             "      \"account\" : \"accountname\",  (string) The account name involved in the transaction, can be \"\" for the default account.\n"
             "      \"address\" : \"hypercoinaddress\",   (string) The hypercoin address involved in the transaction\n"
             "      \"category\" : \"send|receive\",    (string) The category, either 'send' or 'receive'\n"
-            "      \"amount\" : x.xxx                  (numeric) The amount in ltc\n"
+            "      \"amount\" : x.xxx                  (numeric) The amount in hot\n"
             "      \"vout\" : n,                       (numeric) the vout value\n"
             "    }\n"
             "    ,...\n"
@@ -1760,7 +1760,7 @@ Value walletlock(const Array& params, bool fHelp)
             "\nSet the passphrase for 2 minutes to perform a transaction\n"
             + HelpExampleCli("walletpassphrase", "\"my pass phrase\" 120") +
             "\nPerform a send (requires passphrase set)\n"
-            + HelpExampleCli("sendtoaddress", "\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\" 1.0") +
+            + HelpExampleCli("sendtoaddress", "\"HTPcfmSU1CKMC6MrsKT1tmEHw7nEc8DGqG\" 1.0") +
             "\nClear the passphrase since we are done before 2 minutes is up\n"
             + HelpExampleCli("walletlock", "") +
             "\nAs json rpc call\n"
@@ -1964,7 +1964,7 @@ Value settxfee(const Array& params, bool fHelp)
             "settxfee amount\n"
             "\nSet the transaction fee per kB.\n"
             "\nArguments:\n"
-            "1. amount         (numeric, required) The transaction fee in LTC/kB rounded to the nearest 0.00000001\n"
+            "1. amount         (numeric, required) The transaction fee in HOT/kB rounded to the nearest 0.00000001\n"
             "\nResult\n"
             "true|false        (boolean) Returns true if successful\n"
             "\nExamples:\n"

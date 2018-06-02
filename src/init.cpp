@@ -284,7 +284,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += "  -onion=<ip:port>       " + strprintf(_("Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)"), "-proxy") + "\n";
     strUsage += "  -onlynet=<net>         " + _("Only connect to nodes in network <net> (ipv4, ipv6 or onion)") + "\n";
     strUsage += "  -permitbaremultisig    " + strprintf(_("Relay non-P2SH multisig (default: %u)"), 1) + "\n";
-    strUsage += "  -port=<port>           " + strprintf(_("Listen for connections on <port> (default: %u or testnet: %u)"), 9333, 19335) + "\n";
+    strUsage += "  -port=<port>           " + strprintf(_("Listen for connections on <port> (default: %u or testnet: %u)"), 36307, 46307) + "\n";
     strUsage += "  -proxy=<ip:port>       " + _("Connect through SOCKS5 proxy") + "\n";
     strUsage += "  -seednode=<ip>         " + _("Connect to a node to retrieve peer addresses, and disconnect") + "\n";
     strUsage += "  -timeout=<n>           " + strprintf(_("Specify connection timeout in milliseconds (minimum: 1, default: %d)"), DEFAULT_CONNECT_TIMEOUT) + "\n";
@@ -304,8 +304,8 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += "  -disablewallet         " + _("Do not load the wallet and disable wallet RPC calls") + "\n";
     strUsage += "  -keypool=<n>           " + strprintf(_("Set key pool size to <n> (default: %u)"), 100) + "\n";
     if (GetBoolArg("-help-debug", false))
-        strUsage += "  -mintxfee=<amt>        " + strprintf(_("Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)"), FormatMoney(CWallet::minTxFee.GetFeePerK())) + "\n";
-    strUsage += "  -paytxfee=<amt>        " + strprintf(_("Fee (in LTC/kB) to add to transactions you send (default: %s)"), FormatMoney(payTxFee.GetFeePerK())) + "\n";
+        strUsage += "  -mintxfee=<amt>        " + strprintf(_("Fees (in HOT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)"), FormatMoney(CWallet::minTxFee.GetFeePerK())) + "\n";
+    strUsage += "  -paytxfee=<amt>        " + strprintf(_("Fee (in HOT/kB) to add to transactions you send (default: %s)"), FormatMoney(payTxFee.GetFeePerK())) + "\n";
     strUsage += "  -mininput=<amt>        " + _("Wallet ignores inputs with value less than this (default: 0.0001)") + "\n";
     strUsage += "  -rescan                " + _("Rescan the block chain for missing wallet transactions") + " " + _("on startup") + "\n";
     strUsage += "  -salvagewallet         " + _("Attempt to recover private keys from a corrupt wallet.dat") + " " + _("on startup") + "\n";
@@ -352,7 +352,7 @@ std::string HelpMessage(HelpMessageMode mode)
         strUsage += "  -relaypriority         " + strprintf(_("Require high priority for relaying free or low-fee transactions (default:%u)"), 1) + "\n";
         strUsage += "  -maxsigcachesize=<n>   " + strprintf(_("Limit size of signature cache to <n> entries (default: %u)"), 50000) + "\n";
     }
-    strUsage += "  -minrelaytxfee=<amt>   " + strprintf(_("Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)"), FormatMoney(::minRelayTxFee.GetFeePerK())) + "\n";
+    strUsage += "  -minrelaytxfee=<amt>   " + strprintf(_("Fees (in HOT/Kb) smaller than this are considered zero fee for relaying (default: %s)"), FormatMoney(::minRelayTxFee.GetFeePerK())) + "\n";
     strUsage += "  -printtoconsole        " + _("Send trace/debug info to console instead of debug.log file") + "\n";
     if (GetBoolArg("-help-debug", false))
     {

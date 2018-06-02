@@ -160,7 +160,7 @@
         <translation>אישור הצפנת הארנק</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HYPERCOINS&lt;/b&gt;!</source>
         <translation>אזהרה: הצפנת הארנק ואיבוד מילת הצופן עשויה להוביל &lt;b&gt;לאיבוד כל הלייטקוינים שלך&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -2834,8 +2834,8 @@ Address: %4
         <translation>הרץ פקודה כאשר ההתראה הרלוונטית מתקבלת או כשאנחנו עדים לפיצול ארוך מאוד (%s בשורת הפקודה יוחלף ע"י ההודעה)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>העמלות (ב־LTC/ק״ב) הנמוכות מהסכום הזה נחשבות לעמלות אפס ליצירת העברה (בררת מחדל: %s)</translation>
+        <source>Fees (in HOT/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>העמלות (ב־HOT/ק״ב) הנמוכות מהסכום הזה נחשבות לעמלות אפס ליצירת העברה (בררת מחדל: %s)</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Hypercoin Core will not work properly.</source>
@@ -2866,8 +2866,8 @@ Address: %4
         <translation>שגיאה: נמצא ארגומנט בלתי נתמך ‎-tor, יש להשתמש ב־‎-onion.</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>עמלה (ב־LTC/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
+        <source>Fee (in HOT/kB) to add to transactions you send (default: %s)</source>
+        <translation>עמלה (ב־HOT/ק״ב) להוספה להעברות שנשלחות ממך (בררת מחדל: %s)</translation>
     </message>
     <message>
         <source>Information</source>
